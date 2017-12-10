@@ -1,0 +1,52 @@
+body {
+    background-color: #1C1C2D;
+    background-image: url('/static/images/pattern-bg.svg');
+    background-size: 1200px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'bitbloxmonospaced';
+    src: url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff2') format('woff2'),
+         url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}                    
+
+.font-bitblox {
+    font-family: 'bitbloxmonospaced' , sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 1.6px;
+}
+
+h1, h2, h3 {
+    font-family: 'bitbloxmonospaced'
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+input[type=email] {
+    border: 1px solid #092ce3;
+    border-radius: 0;
+    background: transparent;
+    color: #eef9f6;
+}
+
+.btn-primary {
+    background-color: #8f23f5; 
+    color: #eef9f6;   
+
+    font-family: 'bitbloxmonospaced';
+    font-size: 13px;
+
+    border-radius: 0;
+    border: 0;
+    padding: 10px 20px;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="188px" height="188px" viewBox="0 0 188 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-104.7%" y="-84.9%" width="349.0%" height="349.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="19" dy="38" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-535.000000, -351.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Page-1" filter="url(#filter-1)" transform="translate(325.000000, 188.000000)">
+                    <path d="M95.52,47.76 C95.52,74.13696 74.13696,95.52 47.76,95.52 C21.38304,95.52 0,74.13696 0,47.76 C0,21.38304 21.38304,0 47.76,0 C74.13696,0 95.52,21.38304 95.52,47.76" id="Fill-1" fill="#193EFF"></path>
+                    <path d="M95.52,47.76 C95.52,21.38304 74.13696,0 47.76,0 C39.88608,0 32.46432,1.91808 25.91616,5.29248 L90.22752,69.60384 C93.60192,63.05568 95.52,55.63392 95.52,47.76" id="Fill-3" fill="#FFFFFF" opacity="0.1"></path>
+                    <path d="M87.813984,33.094176 C89.489184,37.667616 90.403104,42.606816 90.403104,47.760096 C90.403104,71.310816 71.310624,90.402336 47.759904,90.402336 C37.893984,90.402336 28.810464,87.052896 21.585504,81.427296" id="Stroke-9" stroke="#1C1C1C" stroke-width="0.96"></path>
+                    <text id="of" font-family="Bitblox-Monospaced, Bitblox" font-size="32.64" font-weight="500" letter-spacing="1.10833354" fill="#00EDFF">
+                        <tspan x="29" y="58">of</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

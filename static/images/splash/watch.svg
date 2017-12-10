@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="166px" viewBox="0 0 141 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-218.5%" y="-110.1%" width="619.6%" height="423.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="19" dy="38" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0 74 45.28125 74 45.28125 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-978.000000, -573.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Page-1" filter="url(#filter-1)" transform="translate(770.000000, 410.000000)">
+                    <path d="M37.1354167,15.1794872 L8.38541667,15.1794872 L8.38541667,5.71792308 C8.38541667,2.56058974 10.971,0 14.1612917,0 L31.3595417,0 C34.5498333,0 37.1354167,2.56058974 37.1354167,5.71792308 L37.1354167,15.1794872 Z" id="Fill-1" fill="#1C1CFF"></path>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <polygon id="Fill-3" fill="#1C1CFF" mask="url(#mask-3)" points="0 59.2948718 45.0416667 59.2948718 45.0416667 14.7051282 0 14.7051282"></polygon>
+                    <polygon id="Fill-5" fill="#FFFFFF" opacity="0.1" mask="url(#mask-3)" points="45.28125 14.7051282 8.86458333 14.7051282 45.28125 50.7564103"></polygon>
+                    <path d="M37.1354167,58.8205128 L8.38541667,58.8205128 L8.38541667,68.2820769 C8.38541667,71.4394103 10.971,74 14.1612917,74 L31.3595417,74 C34.5498333,74 37.1354167,71.4394103 37.1354167,68.2820769 L37.1354167,58.8205128 Z" id="Fill-6" fill="#1C1CFF" mask="url(#mask-3)"></path>
+                    <polygon id="Stroke-7" stroke="#1C1C1C" stroke-width="0.96" mask="url(#mask-3)" points="2.63541667 56.4487179 42.40625 56.4487179 42.40625 17.5512821 2.63541667 17.5512821"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

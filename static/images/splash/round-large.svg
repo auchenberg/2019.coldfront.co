@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="277px" height="279px" viewBox="0 0 277 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-54.3%" y="-44.1%" width="229.2%" height="229.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="19" dy="38" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-951.000000, -344.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Page-1-Copy" filter="url(#filter-1)" transform="translate(741.000000, 182.000000)">
+                    <path d="M185,92.5 C185,143.58603 143.58603,185 92.5,185 C41.4139698,185 0,143.58603 0,92.5 C0,41.4139698 41.4139698,0 92.5,0 C143.58603,0 185,41.4139698 185,92.5" id="Fill-1" fill="#193EFF"></path>
+                    <path d="M185,92.0817519 C185,41.2267124 143.773288,0 92.9182481,0 C77.7372526,0 63.428026,3.69807719 50.8031088,10.2039537 L174.796046,134.196891 C181.301923,121.571974 185,107.262747 185,92.0817519" id="Fill-3" fill="#FFFFFF" opacity="0.1"></path>
+                    <path d="M169.479205,64.2227979 C172.69924,73.0963792 174.455959,82.6796234 174.455959,92.6782347 C174.455959,138.372335 137.756781,175.414508 92.4880658,175.414508 C73.5239948,175.414508 56.0638371,168.915783 42.1761658,158.000757" id="Stroke-9" stroke="#1C1C1C" stroke-width="0.96"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

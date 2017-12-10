@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="609px" height="436px" viewBox="0 0 609 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-31.8%" y="-37.5%" width="179.9%" height="231.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="38" dy="77" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="38.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="292.371069 129.61356 292.371069 0.917099315 0.480083857 0.917099315 0.480083857 258.31002 292.371069 258.31002 292.371069 129.61356"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-511.000000, -207.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Group-3" transform="translate(312.000000, 36.000000)">
+                    <g id="Page-1" filter="url(#filter-1)">
+                        <polygon id="Fill-1" fill="#1C1CFF" points="0 258.355442 456.559748 258.355442 456.559748 0.962328767 0 0.962328767"></polygon>
+                        <g id="Group-23" transform="translate(0.000000, 0.045229)">
+                            <g id="Group-4" transform="translate(164.188679, 0.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Clip-3"></g>
+                                <polygon id="Fill-2" fill="#FFFFFF" opacity="0.1" mask="url(#mask-3)" points="292.371069 258.31002 292.371069 0.916906849 0.480083857 0.916906849 257.295182 258.31002"></polygon>
+                            </g>
+                            <path d="M277.008386,279.075342 L179.813488,278.331462" id="Stroke-17" stroke="#1C1CFF" stroke-width="9.6"></path>
+                            <path d="M442.637317,247.754524 C442.637317,248.816935 441.777006,249.679182 440.716981,249.679182 C439.656956,249.679182 438.796646,248.816935 438.796646,247.754524 C438.796646,246.692113 439.656956,245.829867 440.716981,245.829867 C441.777006,245.829867 442.637317,246.692113 442.637317,247.754524" id="Fill-19" fill="#1C1C1C"></path>
+                            <path d="M456.559748,236.732877 L0.262125786,236.732877" id="Stroke-21" stroke="#1C1C1C" stroke-width="0.96"></path>
+                        </g>
+                    </g>
+                    <text id="FUTURE" stroke="#00EDFF" stroke-width="9.6" font-family="Raleway-Italic, Raleway" font-size="68.1599991" font-style="italic" font-weight="normal" letter-spacing="11.3599983" fill="#FFFFFF">
+                        <tspan x="92" y="180">FUTURE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

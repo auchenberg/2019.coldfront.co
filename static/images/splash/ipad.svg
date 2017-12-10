@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="429px" height="321px" viewBox="0 0 429 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-52.2%" y="-62.8%" width="231.8%" height="317.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="38" dy="77" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="38.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0 168 277 168 277 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-283.000000, -229.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Page-1" filter="url(#filter-1)" transform="translate(84.000000, 58.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Clip-12" fill="#092CE3" xlink:href="#path-2"></use>
+                    <g id="Group-2" mask="url(#mask-3)">
+                        <g transform="translate(123.000000, 60.000000)"></g>
+                    </g>
+                    <polygon id="Fill-3" fill="#FFFFFF" opacity="0.1" mask="url(#mask-3)" points="277 0 70.9273356 0 238.6609 168 277 168"></polygon>
+                    <polygon id="Stroke-11" stroke="#1C1C1C" stroke-width="0.96" mask="url(#mask-3)" points="11.5017301 156.48 237.702422 156.48 237.702422 11.52 11.5017301 11.52"></polygon>
+                    <path d="M263.581315,84 C263.581315,87.97632 260.362747,91.2 256.392734,91.2 C252.42272,91.2 249.204152,87.97632 249.204152,84 C249.204152,80.02368 252.42272,76.8 256.392734,76.8 C260.362747,76.8 263.581315,80.02368 263.581315,84" id="Fill-13" fill="#1C1C1C" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

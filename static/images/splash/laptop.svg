@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="423px" height="340px" viewBox="0 0 423 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-54.6%" y="-57.3%" width="237.5%" height="301.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="38" dy="77" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="38.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-version-copy-11" transform="translate(-340.000000, -421.000000)">
+            <g id="splash" transform="translate(237.000000, 171.000000)">
+                <g id="Page-1" filter="url(#filter-1)" transform="translate(141.000000, 250.000000)">
+                    <polygon id="Fill-1" fill="#193EFF" points="0 165.458387 271.28169 165.458387 271.28169 0.000963350786 0 0.000963350786"></polygon>
+                    <polygon id="Fill-2" fill="#FFFFFF" opacity="0.1" points="271.28169 165.457809 271.28169 0.000385340314 81.0847324 0.000385340314 245.579606 165.457809"></polygon>
+                    <g id="Group-18" transform="translate(1.915493, 7.123016)">
+                        <path d="M269.426056,175.329843 L0.299295775,174.771099" id="Stroke-13" stroke="#1C1CFF" stroke-width="9.6"></path>
+                        <polygon id="Stroke-15" stroke="#1C1C1C" stroke-width="0.96" points="8.97887324 144.020942 258.471831 144.020942 258.471831 13.0148691 8.97887324 13.0148691"></polygon>
+                        <path d="M132.827465,2.40837696 C132.827465,3.47191623 131.969324,4.33507853 130.911972,4.33507853 C129.85462,4.33507853 128.996479,3.47191623 128.996479,2.40837696 C128.996479,1.3448377 129.85462,0.481675393 130.911972,0.481675393 C131.969324,0.481675393 132.827465,1.3448377 132.827465,2.40837696" id="Fill-17" fill="#1C1C1C"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
