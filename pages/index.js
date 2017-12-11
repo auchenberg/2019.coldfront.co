@@ -7,7 +7,7 @@ import Organizers from '../components/organizers'
 import Footer from '../components/footer'
 
 export default () => (
-  <div className='home'>
+  <div className="home">
 
     <Header />
     <Splash />
@@ -21,7 +21,7 @@ export default () => (
 
     <Section>
         <a name="theme"></a>
-        <div className="col-md-4 offset-md-1">          
+        <div className="col-md-4 offset-md-1">
           <h2>The future of front-end and interfaces</h2>
           <p>ColdFront is a unique front-end conference that spans across the stacks of technologies and focuses on the craft and challenges of delivering modern interfaces and front-ends that works on any platform. </p>
           <p>Building a great interfaces requires a modern front-end that's present on many different platforms using vastly different technologies, and yet our front-end communities are typically isolated by stacks and not challanges.</p>

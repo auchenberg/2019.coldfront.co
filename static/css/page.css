@@ -1,3 +1,4 @@
+html,
 body {
     background-color: #1C1C2D;
     background-image: url('/static/images/pattern-bg.svg');
@@ -6,6 +7,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -53,4 +55,8 @@ input[type=email] {
 
 .tito-wrapper {
     background: #fff;
+}
+
+.navbar {
+    padding: 0;
 }
