@@ -14,8 +14,8 @@ export default () => (
 
     <Section>
         <div className="col-md-8 offset-md-1">
-          <h3>A two-day international conference for front-end and interface developers in <strong className="location">Copenhagen 🇩🇰</strong></h3>
           <h2 className="date">Nov 13-14 2018</h2>
+          <h3>A two-day international conference for front-end and interface developers in Copenhagen, <strong className="location">Denmark 🇩🇰</strong></h3>
         </div>
     </Section>
 
@@ -23,11 +23,15 @@ export default () => (
         <div className="col-md-4 offset-md-1">
           <a name="theme"></a>
           <h2>The future of front-end and interfaces</h2>
-          <p>ColdFront is a international conference who gathers for two days of front-end talks and lots of fun in Copenhagen. It’s a two day conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with your front-end colleagues. Our focus is on the web and where front-end is headed. So sit tight and get ready to be inspired.</p>
+          <p>ColdFront is a unique front-end conference that spans across the stacks of technologies and focuses on the craft and challenges of delivering modern interfaces and front-ends that works on any platform. </p>
+          <p>Building a great interfaces requires a modern front-end that's present on many different platforms using vastly different technologies, and yet our front-end communities are typically isolated by stacks and not challanges.</p>
+          
+          <p>With ColdFront we are changing that, by throwing a <strong>two day</strong> conference in <strong>Copenhagen</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
+
         </div>
 
         <div className="col-md-3 pt-5">
-          <img src="/static/images/img-audience.jpg" width="100%" />
+          <img className="pt-5" src="/static/images/img-audience.jpg" width="100%" />
         </div>
     </Section>
 
