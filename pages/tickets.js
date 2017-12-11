@@ -11,9 +11,11 @@ export default () => (
     <Header />
 
     <Section>
-        <div className="col-md-3 offset-md-2">
-          <h2>Tickets</h2>
-          TICKET WIDGET HERE
+        <div className="col-md-6 offset-md-2">
+            <h2>Tickets</h2>
+
+            <tito-widget event="coldfront/coldfront-2018"></tito-widget>
+
         </div>
 
     </Section>
