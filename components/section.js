@@ -13,6 +13,13 @@ export default ({ children }) => (
                 width: 100%;
               }
             }
+
+            @media (max-width: 1000px) { 
+                .section {
+                  padding: 40px 0;
+                }
+            }
+            
           `}
           </style>
         </div>

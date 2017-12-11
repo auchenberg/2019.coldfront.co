@@ -6,7 +6,7 @@ export default ({ children }) => (
             <a name="organizers"></a>
 
             <div className="row">
-                <div className="col-md-2 offset-md-3">
+                <div className="col-md-2 offset-md-3 d-none d-lg-block">
                     <img src="/static/images/michael.png" className="avatar" />
                 </div>
 
@@ -17,7 +17,7 @@ export default ({ children }) => (
 
             <div className="row">
 
-                <div className="col-md-2 offset-md-4">
+                <div className="col-md-2 offset-md-4 d-none d-lg-block">
                     <img src="/static/images/kenneth.png" className="avatar" />
                 </div>
 
@@ -40,6 +40,12 @@ export default ({ children }) => (
 
             .avatar {
                 width: 100%;
+            }
+
+            @media (max-width: 1000px) { 
+                .organizers {
+                  padding: 40px 0;
+                }
             }
           `}
           </style>

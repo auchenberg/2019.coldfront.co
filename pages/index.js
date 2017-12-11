@@ -20,8 +20,8 @@ export default () => (
     </Section>
 
     <Section>
-        <div className="col-md-4 offset-md-1">
-          <a name="theme"></a>
+        <a name="theme"></a>
+        <div className="col-md-4 offset-md-1">          
           <h2>The future of front-end and interfaces</h2>
           <p>ColdFront is a unique front-end conference that spans across the stacks of technologies and focuses on the craft and challenges of delivering modern interfaces and front-ends that works on any platform. </p>
           <p>Building a great interfaces requires a modern front-end that's present on many different platforms using vastly different technologies, and yet our front-end communities are typically isolated by stacks and not challanges.</p>
@@ -30,8 +30,11 @@ export default () => (
 
         </div>
 
-        <div className="col-md-3 pt-5">
-          <img className="pt-5" src="/static/images/img-audience.jpg" width="100%" />
+        <div className="col-md-4">
+          <div className="imgWrapper">
+            <img className="pt-5" src="/static/images/img-audience.jpg" width="100%" />
+            <a className="play" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
+          </div>
         </div>
     </Section>
 
@@ -47,15 +50,30 @@ export default () => (
     <Organizers />
 
     <style jsx>{`
-        .location {
-          color: #b00202;
-        }
-        .date {
-          color: #8f23f5;
-        }
-          `}
-    </style>
-    
+      .location {
+        color: #b00202;
+      }
+      .date {
+        color: #8f23f5;
+      }
+
+      .imgWrapper {
+        position: relative;
+      }
+
+      .play {
+        background: url('/static/images/btn-play.svg') no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: -30px;
+      }
+    `}</style>
 
   </div>
 )
