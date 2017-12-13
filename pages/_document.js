@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
                     <meta property="og:description" content="Two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018" />
                     <meta property="og:url" content="https://2018.coldfront.co/" />
                     <meta property="og:site_name" content="ColdFront"/>
-                    <meta property="og:image" content="https://2018.coldfront.co/static/images/splash/splash.png"/>
+                    <meta property="og:image" content="https://2018.coldfront.co/static/images/social.png"/>
                     <meta property="og:type" content="website"/>
 
                     <meta name="twitter:card" content="summary_large_image" />
@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
                     <meta name="twitter:creator" content="@coldfrontconf" />
                     <meta name="twitter:title" content="ColdFront 2018 - the Future of front-end and interfaces" />
                     <meta name="twitter:description" content="Two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018" />
-                    <meta name="twitter:image:src" content="https://2018.coldfront.co/static/images/splash/splash.png" />
+                    <meta name="twitter:image:src" content="https://2018.coldfront.co/static/images/social.png" />
 
                     <meta name="viewport" content="width=device-width,initial-scale=1"/>
                     <meta name="theme-color" content="#673ab7" />
