@@ -23,10 +23,14 @@ export default () => (
         <a name="theme"></a>
         <div className="col-md-4 offset-md-1">
           <h2>The future of front-end and interfaces</h2>
-          <p>ColdFront is a unique front-end conference that spans across the stacks of technologies and focuses on the craft and challenges of delivering modern interfaces and front-ends that works on any platform. </p>
-          <p>Building a great interfaces requires a modern front-end that's present on many different platforms using vastly different technologies, and yet our front-end communities are typically isolated by stacks and not challanges.</p>
+          <p>ColdFront is a two-day international conference for front-end and interface developers in Copenhagen on November 13-14th 2018.</p>
           
-          <p>With ColdFront we are changing that, by throwing a <strong>two day</strong> conference in <strong>Copenhagen</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
+          <p>The front-end role has envolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
+          <p>How do you deliver a modern interface that works on any platform?</p>
+            
+          <p>At Coldfront 2018, we will take a look at the entire stack by throwing a <strong>two day</strong> conference for everyone who are passionate about building front-ends and interfaces.</p>
+          <p>So whether you are a mobile, web, frontender or something in between, ColdFront is the place to be.</p>
+          <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
 
         </div>
 
@@ -73,7 +77,11 @@ export default () => (
         margin-left: -50px;
         margin-top: -30px;
       }
+
+
     `}</style>
+
+
 
   </div>
 )
