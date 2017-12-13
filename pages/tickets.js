@@ -34,6 +34,12 @@ export default () => (
         border: solid 1px #092ce3;
         padding: 50px;
       }
+      
+      @media (max-width: 1000px) { 
+        .box {
+          padding: 20px;
+        }
+      }      
     `}</style>
 
 

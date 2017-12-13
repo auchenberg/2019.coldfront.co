@@ -88,7 +88,7 @@ input[type=email] {
 }
 
 .tito-ticket-vat {
-    color: #333 !important;
+    color: #575757 !important;
 }
 
 /* On sale */
@@ -110,7 +110,7 @@ input[type=email] {
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-name {
-    color: #575757 !important;
+    color: #adadad !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-price-quantity-wrapper {
@@ -174,3 +174,13 @@ input.form-control.tito-discount-code-field.discount-code-field {
     margin-top: 40px;
 }
 
+
+@media (max-width: 1000px) { 
+    .tito-wrapper {
+      margin-top: 0;
+    }
+
+    .tito-ticket-status-upcoming .tito-ticket-price-quantity-wrapper {
+        padding-left: 0;
+    }    
+}   
