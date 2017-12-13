@@ -53,6 +53,8 @@ input[type=email] {
     padding: 10px 20px;
 }
 
+/* Tito  */
+
 .tito-wrapper {
     margin-top: 100px;
     
@@ -88,25 +90,25 @@ input[type=email] {
 }
 
 .tito-ticket-vat {
-    color: #575757 !important;
+    color: #949494 !important;
 }
 
 /* On sale */
 
 .tito-ticket .tito-ticket-name {
-    color: #adadad !important;
+    color: #ffffff !important;
 }
 
 .tito-ticket-upcoming-price,
 .tito-ticket .tito-ticket-price {
-    color: #adadad;
+    color: #ffffff;
     font-size: 16px;
 }
 
 /* Upcoming */
 
 .tito-ticket-status-upcoming  .tito-ticket-description {
-    color: #575757 !important;
+    color: #949494 !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-name {
