@@ -15,8 +15,9 @@
     "react-dom": "16.0.0",
     "styled-jsx-plugin-postcss": "0.1.0"
   },
-  "engines" : { 
-    "node" : ">=8.9" 
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
   },
   "license": "MIT",
   "postcss": {
