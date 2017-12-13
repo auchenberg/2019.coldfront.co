@@ -94,7 +94,7 @@ input[type=email] {
 /* On sale */
 
 .tito-ticket .tito-ticket-name {
-    color: #adadad;
+    color: #adadad !important;
 }
 
 .tito-ticket-upcoming-price,
@@ -106,11 +106,11 @@ input[type=email] {
 /* Upcoming */
 
 .tito-ticket-status-upcoming  .tito-ticket-description {
-    color: inherit !important;
+    color: #575757 !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-name {
-    color: inherit !important;
+    color: #575757 !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-price-quantity-wrapper {
