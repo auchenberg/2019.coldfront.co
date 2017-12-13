@@ -15,7 +15,7 @@ export default () => (
     <Section>
         <div className="col-md-8 offset-md-1">
           <h2 className="date">Nov 13-14 2018</h2>
-          <h3>A two-day international conference for front-end and interface developers in Copenhagen, <strong className="location">Denmark 🇩🇰</strong></h3>
+          <h3>A two-day international conference for front-end, mobile and interface developers in Copenhagen, <strong className="location">Denmark 🇩🇰</strong></h3>
         </div>
     </Section>
 
@@ -23,13 +23,13 @@ export default () => (
         <a name="theme"></a>
         <div className="col-md-4 offset-md-1">
           <h2>The future of front-end and interfaces</h2>
-          <p>ColdFront is a two-day international conference for front-end and interface developers in Copenhagen on November 13-14th 2018.</p>
+          <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018.</p>
           
           <p>The front-end role has envolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
           <p>How do you deliver a modern interface that works on any platform?</p>
             
           <p>At Coldfront 2018, we will take a look at the entire stack by throwing a <strong>two day</strong> conference for everyone who are passionate about building front-ends and interfaces.</p>
-          <p>So whether you are a mobile, web, frontender or something in between, ColdFront is the place to be.</p>
+          <p>So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
           <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
 
         </div>
