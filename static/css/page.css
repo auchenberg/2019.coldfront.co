@@ -54,9 +54,123 @@ input[type=email] {
 }
 
 .tito-wrapper {
-    background: #fff;
+    margin-top: 100px;
+    
+    border: 0;
+
+    font-family: Raleway !important;
+    font-size: 20px !important;
+    line-height: 1.45 !important;
 }
 
+.tito-ticket-upcoming-explanation {
+    display: none !important;
+}
+
+.tito-ticket-upcoming-price {
+    font-style: normal !important;
+}
+
+.tito-ticket-name {
+    font-weight: bold !important;
+}
+
+.tito-badge-link {
+    display: none !important;
+}
+
+.tito-ticket-upcoming-separator {
+    display: none !important;
+}
+
+.tito-discount-code {
+    margin-top: 40px !important;
+}
+
+.tito-ticket-vat {
+    color: #333 !important;
+}
+
+/* On sale */
+
+.tito-ticket .tito-ticket-name {
+    color: #adadad;
+}
+
+.tito-ticket-upcoming-price,
+.tito-ticket .tito-ticket-price {
+    color: #adadad;
+    font-size: 16px;
+}
+
+/* Upcoming */
+
+.tito-ticket-status-upcoming  .tito-ticket-description {
+    color: inherit !important;
+}
+
+.tito-ticket-status-upcoming  .tito-ticket-name {
+    color: inherit !important;
+}
+
+.tito-ticket-status-upcoming  .tito-ticket-price-quantity-wrapper {
+    padding-left: 30px;
+}
+
+.tito-ticket.row {
+    border-bottom: solid 1px #092ce3 !important;
+}
+
+@media screen and (min-width: 520px) {
+    .tito-ticket-price-quantity-wrapper {
+        width: 35%;
+    }
+
+    .tito-ticket-name-wrapper {
+        width: 65%;
+    }
+}
+
+input[type=text].tito-ticket-quantity-field, 
+input[type=text].tito-ticket-donation-field {
+    border: solid 1px #8f23f5 !important;
+    background: transparent !important;
+    color: #ffffff !important;
+    border-radius: 0 !important;
+
+    font-family: 'bitbloxmonospaced' !important;
+    font-size: 13px !important;
+    width: 34px !important;    
+    padding: 6px !important;    
+}
+
+
+input.form-control.tito-discount-code-field.discount-code-field {
+    border: solid 1px #8f23f5 !important;
+    background: transparent !important;
+    color: #ffffff !important;
+    border-radius: 0 !important;
+
+    font-family: 'bitbloxmonospaced' !important;
+    font-size: 13px !important;    
+}
 .navbar {
     padding: 0;
 }
+
+.tito-submit {
+    background-color: #8f23f5 !important;
+    color: #eef9f6 !important;
+
+    font-family: 'bitbloxmonospaced' !important;
+    font-size: 13px !important;
+
+    border-radius: 0 !important;
+    border: 0 !important;
+    padding: 6px 20px !important;
+}
+
+.tito-submit-wrapper {
+    margin-top: 40px;
+}
+

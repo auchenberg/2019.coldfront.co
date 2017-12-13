@@ -1,25 +1,40 @@
 import Header from '../components/header'
-import Splash from '../components/splash'
-import Section from '../components/section'
+
 import WideSection from '../components/wideSection'
-import NewsletterForm from '../components/newsletterForm'
-import Organizers from '../components/organizers'
+
 
 export default () => (
-  <div className='home'>
+  <div className='page-tickets'>
 
     <Header />
 
-    <Section>
-        <div className="col-md-6 offset-md-2">
-            <h2>Tickets</h2>
-
-            <tito-widget event="coldfront/coldfront-2018"></tito-widget>
-
+    
+        <div className="tickets row justify-content-center">
+          <div className="box col-md-10">
+            <div className="row justify-content-center">
+              <div className="col-md-6">
+                  <h2>Tickets</h2>
+                  <tito-widget event="coldfront/coldfront-2018"></tito-widget>
+              </div>
+            </div>
+          </div>
         </div>
 
-    </Section>
 
+
+    <style jsx>{`    
+      .tickets {
+          padding: 40px 40px;
+          background: #0c0c14;
+          
+          min-height: 700px;
+      }
+
+      .box {
+        border: solid 1px #092ce3;
+        padding: 50px;
+      }
+    `}</style>
 
 
   </div>
