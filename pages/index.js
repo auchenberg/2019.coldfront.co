@@ -15,7 +15,7 @@ export default () => (
     <Section>
         <div className="col-md-8 offset-md-1">
           <h2 className="date">Nov 13-14 2018</h2>
-          <h3>A two-day international conference for front-end, mobile and interface developers in Copenhagen, <strong className="location">Denmark 🇩🇰</strong></h3>
+          <h3>A two-day international conference for front-end, mobile and interface developers in Copenhagen <strong className="location">Denmark</strong></h3>
         </div>
     </Section>
 
