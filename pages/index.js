@@ -1,15 +1,15 @@
-import Header from '../components/header'
 import Splash from '../components/splash'
 import Section from '../components/section'
 import WideSection from '../components/wideSection'
 import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
 import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 export default () => (
-  <div className="home">
+  <Layout>
+    <div className="home">
 
-    <Header />
     <Splash />
 
     <Section>
@@ -81,7 +81,11 @@ export default () => (
 
     `}</style>
 
+      <script>
 
 
-  </div>
+      </script>
+
+    </div>  
+  </Layout>  
 )
