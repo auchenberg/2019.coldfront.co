@@ -16,7 +16,7 @@ body {
          url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}                    
+}
 
 .font-bitblox {
     font-family: 'bitbloxmonospaced' , sans-serif;
@@ -42,8 +42,8 @@ input[type=email] {
 }
 
 .btn-primary {
-    background-color: #8f23f5; 
-    color: #eef9f6;   
+    background-color: #8f23f5;
+    color: #eef9f6;
 
     font-family: 'bitbloxmonospaced';
     font-size: 13px;
@@ -56,8 +56,9 @@ input[type=email] {
 /* Tito  */
 
 .tito-wrapper {
-    margin-top: 100px;
-    
+    margin-top: 20px;
+    margin-bottom: 100px;
+
     border: 0;
 
     font-family: Raleway !important;
@@ -66,7 +67,12 @@ input[type=email] {
 }
 
 .tito-ticket-upcoming-explanation {
-    display: none !important;
+    color: #949494 !important;
+    font-size: 12px;
+
+    position: absolute;
+    left: 0;
+    top: 38px;
 }
 
 .tito-ticket-upcoming-price {
@@ -117,10 +123,22 @@ input[type=email] {
 
 .tito-ticket-status-upcoming  .tito-ticket-price-quantity-wrapper {
     padding-left: 30px;
+    padding-right: 12px;
+    text-align: right;
 }
 
 .tito-ticket.row {
     border-bottom: solid 1px #092ce3 !important;
+    position: relative;
+}
+
+.tito-ticket-status-sold-out span {
+    background-color: #8f23f5;
+    color: #eef9f6;
+    font-family: 'bitbloxmonospaced';
+    font-size: 13px;
+    border-radius: 0;
+    border: 0;
 }
 
 @media screen and (min-width: 520px) {
@@ -133,7 +151,7 @@ input[type=email] {
     }
 }
 
-input[type=text].tito-ticket-quantity-field, 
+input[type=text].tito-ticket-quantity-field,
 input[type=text].tito-ticket-donation-field {
     border: solid 1px #8f23f5 !important;
     background: transparent !important;
@@ -142,8 +160,8 @@ input[type=text].tito-ticket-donation-field {
 
     font-family: 'bitbloxmonospaced' !important;
     font-size: 13px !important;
-    width: 34px !important;    
-    padding: 6px !important;    
+    width: 34px !important;
+    padding: 6px !important;
 }
 
 
@@ -154,7 +172,7 @@ input.form-control.tito-discount-code-field.discount-code-field {
     border-radius: 0 !important;
 
     font-family: 'bitbloxmonospaced' !important;
-    font-size: 13px !important;    
+    font-size: 13px !important;
 }
 .navbar {
     padding: 0;
@@ -177,12 +195,12 @@ input.form-control.tito-discount-code-field.discount-code-field {
 }
 
 
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) {
     .tito-wrapper {
       margin-top: 0;
     }
 
     .tito-ticket-status-upcoming .tito-ticket-price-quantity-wrapper {
         padding-left: 0;
-    }    
-}   
+    }
+}
