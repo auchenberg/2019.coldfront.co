@@ -12,7 +12,7 @@ export default ({ children }) => (
                         </div>
 
                         <div className="col">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-primary" />
+                            <input type="submit" value="NOTIFY ME" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-primary" />
                         </div>
                     </div>
 

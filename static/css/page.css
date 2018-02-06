@@ -35,11 +35,27 @@ h2 {
 }
 
 input[type=email] {
-    border: 1px solid #092ce3;
+    border: 1px solid #8f23f5;
     border-radius: 0;
     background: transparent;
     color: #eef9f6;
 }
+
+input[type=email]:focus {
+
+    border: 1px solid #8f23f5;
+    border-radius: 0;
+    background: transparent;
+    color: #eef9f6;
+    box-shadow: none;
+}
+/*
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); }*/
 
 .btn-primary {
     background-color: #8f23f5;
@@ -51,6 +67,11 @@ input[type=email] {
     border-radius: 0;
     border: 0;
     padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #A03FFC !important;
+    cursor: pointer;
 }
 
 /* Tito  */
