@@ -25,10 +25,10 @@ export default () => (
         <div className="col-md-4 offset-md-1">
           <h2>The future of front-end and interfaces</h2>
           <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018.</p>
-          
+
           <p>The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
           <p>How do you deliver a modern interface that works on any platform?</p>
-            
+
           <p>At Coldfront 2018, we will take a look at the entire stack by throwing a <strong>two day</strong> conference for everyone who are passionate about building front-ends and interfaces.</p>
           <p>So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
           <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
@@ -48,12 +48,12 @@ export default () => (
           <h2>Don't miss out!</h2>
           <h2>Get the latest</h2>
           <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
-        
+
           <NewsletterForm />
         </div>
     </WideSection>
 
-    {/*<Organizers />*/}
+    <Organizers />
 
     <Collaborators />
 
@@ -97,6 +97,6 @@ export default () => (
 
       </script>
 
-    </div>  
-  </Layout>  
+    </div>
+  </Layout>
 )
