@@ -53,6 +53,10 @@ export default ({ children }) => (
                     flex-direction: row;
                     justify-content: space-between;
                     width: 100%;
+
+                    div {
+                        margin: 20px;
+                    }
             }
 
             .zendesk-wrapper {
