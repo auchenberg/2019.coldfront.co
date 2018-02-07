@@ -11,11 +11,12 @@ export default () => (
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="navbar-collapse collapse" id="collapsingNavbar">
+          <div className="navbar-collapse collapse" id="collapsingNavbar">
           <ul className="navbar-nav ml-md-auto d-md-flex">
             <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
             <li className="nav-item font-bitblox"><a className="nav-link" href="/#theme">Theme</a></li>
-            <li className="nav-item font-bitblox"><a className="nav-link" href="#organizers">About</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="#collaborators">About</a></li>
+            {/*<li className="nav-item font-bitblox"><a className="nav-link" href="#collaborators">Collaborators</a></li>*/}
           </ul>
           </div>
 

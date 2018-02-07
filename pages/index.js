@@ -3,6 +3,7 @@ import Section from '../components/section'
 import WideSection from '../components/wideSection'
 import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
+import Collaborators from '../components/collaborators'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
@@ -15,7 +16,7 @@ export default () => (
     <Section>
         <div className="col-md-8 offset-md-1">
           <h2 className="date">Nov 13-14 2018</h2>
-          <h3>A two-day international conference for front-end, mobile and interface developers in Copenhagen <strong className="location">Denmark</strong></h3>
+          <h3>A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h3>
         </div>
     </Section>
 
@@ -43,15 +44,20 @@ export default () => (
     </Section>
 
     <WideSection>
-        <div className="col-md-4 offset-md-4">
-          <h2>Don't miss out on any news – join our mailinglist!</h2>
+        <div className="col-md-5 offset-md-2 newsletter-wrapper">
+          <h2>Don't miss out!</h2>
+          <h2>Get the latest</h2>
           <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
         
           <NewsletterForm />
         </div>
     </WideSection>
 
-    <Organizers />
+    {/*<Organizers />*/}
+
+    <Collaborators />
+
+    <Footer />
 
     <style jsx>{`
       .location {
@@ -76,6 +82,11 @@ export default () => (
         left: 50%;
         margin-left: -50px;
         margin-top: -30px;
+      }
+
+      .newsletter-wrapper {
+        h2:first-child {margin-bottom: 0}
+        p {font-size: 1.5em;}
       }
 
 
