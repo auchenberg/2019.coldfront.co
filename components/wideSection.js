@@ -14,7 +14,7 @@ export default ({ children }) => (
 
             @media (max-width: 1000px) {
                 .wide-section {
-                  padding: 40px;
+                  padding: 20px;
                   width: 100%
                 }
             }
