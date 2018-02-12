@@ -46,8 +46,6 @@ export default ({ children }) => (
             .list {
                 margin-bottom: 40px;
             }
-
-          `}
-        </style>
+          `}</style>
     </div>
 )

@@ -86,12 +86,13 @@ export default () => (
       }
 
       .newsletter-wrapper {
-        h2:first-child {margin-bottom: 0}
-        p {font-size: 1.5em;}
-      }
-
-
-    `}</style>
+        h2:first-child {
+            margin-bottom: 0
+        }
+        p {
+            font-size: 1.5em;
+        }
+      }`}</style>
 
       <script>
 
