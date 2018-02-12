@@ -15,7 +15,7 @@ export default () => (
           <ul className="navbar-nav ml-md-auto d-md-flex">
             <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
             <li className="nav-item font-bitblox"><a className="nav-link" href="/#theme">Theme</a></li>
-            <li className="nav-item font-bitblox"><a className="nav-link" href="#collaborators">About</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="#about">About</a></li>
             {/*<li className="nav-item font-bitblox"><a className="nav-link" href="#collaborators">Collaborators</a></li>*/}
           </ul>
           </div>
