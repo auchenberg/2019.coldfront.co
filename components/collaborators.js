@@ -15,15 +15,15 @@ export default ({ children }) => (
         </div>
 
         <div className="row offset-md-3 list">
-            <div className="col-md-4">
+            <div className="col-md-4 col-8">
                 <a href="https://www.zendesk.com/">
                     <img src="/static/images/logos/zendesk.svg" alt="zendesk-logo" className="logos" />
                 </a>
             </div>
 
-            <div className="col-md-3 offset-md-1">
+            <div className="col-md-3 offset-md-1 col-8">
                 <a href="https://www.jayway.com/">
-                    <img src="/static/images/logos/jayway.svg" alt="jayway-logo" className="logos" />
+                    <img src="/static/images/logos/jayway.svg" alt="jayway-logo" className="logos jayway" />
                 </a>
             </div>
         </div>
@@ -35,16 +35,28 @@ export default ({ children }) => (
                 margin-bottom: 200px;
             }
 
+
             .title {
                 font-size: 14px;
             }
 
             .logos {
                 width: 100%;
+                margin-bottom: 40px;
             }
 
             .list {
                 margin-bottom: 40px;
+            }
+
+            @media (max-width: 1000px) {
+                .collaborators {
+                    margin-bottom: 0;
+                }
+
+                .jayway {
+                    width: 80%;
+                }
             }
           `}</style>
     </div>
