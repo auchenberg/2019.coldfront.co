@@ -32,6 +32,7 @@ export default ({ children }) => (
         <style jsx>{`
 
             .collaborators {
+                margin-top: 200px;
                 margin-bottom: 200px;
             }
 
@@ -51,6 +52,7 @@ export default ({ children }) => (
 
             @media (max-width: 1000px) {
                 .collaborators {
+                    margin-top: 0;
                     margin-bottom: 0;
                 }
 
@@ -58,6 +60,7 @@ export default ({ children }) => (
                     width: 80%;
                 }
             }
+
           `}</style>
     </div>
 )
