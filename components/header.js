@@ -14,6 +14,7 @@ export default () => (
           <div className="navbar-collapse collapse" id="collapsingNavbar">
           <ul className="navbar-nav ml-md-auto d-md-flex">
             <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
             <li className="nav-item font-bitblox"><a className="nav-link" href="/about">About</a></li>
           </ul>
           </div>
