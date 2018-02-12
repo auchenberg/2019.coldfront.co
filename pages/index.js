@@ -55,8 +55,6 @@ export default () => (
 
     <Collaborators />
 
-    <Footer />
-
     <style jsx>{`
       .location {
         color: #b00202;
