@@ -9,6 +9,7 @@ export default ({ children }) => (
 
             <div className="col-md-4 offset-md-1">
                 <h2 className="title">Collaborators</h2>
+                <p>ColdFront is organised in collaboration with</p>
                 <br />
                 <br />
             </div>
@@ -32,13 +33,8 @@ export default ({ children }) => (
         <style jsx>{`
 
             .collaborators {
-                margin-top: 200px;
-                margin-bottom: 200px;
-            }
-
-
-            .title {
-                font-size: 14px;
+                margin-top: 100px;
+                margin-bottom: 100px;
             }
 
             .logos {
@@ -52,7 +48,7 @@ export default ({ children }) => (
 
             @media (max-width: 1000px) {
                 .collaborators {
-                    margin-top: 0;
+                    margin-top: 50px;
                     margin-bottom: 0;
                 }
 
