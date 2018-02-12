@@ -2,6 +2,7 @@ import React from 'react'
 import { initGA, logPageView } from '../utils/ga'
 
 import Header from './header'
+import Footer from './footer'
 
 export default class Layout extends React.Component {
   componentDidMount () {
@@ -16,6 +17,7 @@ export default class Layout extends React.Component {
       <div>
         <Header />
         {this.props.children}
+        <Footer />
       </div>
     )
   }
