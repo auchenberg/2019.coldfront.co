@@ -53,6 +53,7 @@ export default () => (
         </div>
     </WideSection>
 
+    <a name="about"></a>
     <Organizers />
 
     <Collaborators />
