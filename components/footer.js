@@ -1,31 +1,18 @@
 export default () => (
-    <div className='footer'>
-
-        <div><img src="../static/images/favicon.png" /> <p>COLDFRONT</p></div>
-        <p>By attending you accept our code of conduct</p>
+    <div className="footer">
+        <img src="/static/images/logos/coldfront_stacked.svg" />
+        <p>By attending you accept <a href="http://confcodeofconduct.com/">our code of conduct</a></p>
       <style jsx>{`
-        .fiiter {
-          width: 150px;
-        }
 
         .footer {
           background-color: #0c0c14;
-          padding: 6% 0;
+          padding: 50px 0;
           text-align: center;
-          height: 20vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
+        }
 
-
-
-          div {
-          margin-bottom: 1%;
-
-            img {
-             width: 2.5%;
-            }
-          }
+        img {
+            max-width: 90px;
+            margin: 0 auto 40px auto;
         }
 
       `}</style>
