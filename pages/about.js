@@ -5,7 +5,7 @@ export default () => (
     <Layout>
 
         <WideSection>
-            <div className="col-md-8 offset-md-2 newsletter-wrapper">
+            <div className="col-md-8 offset-md-2">
                 <div className="page-about">
                     <h2>About ColdFront</h2>
 
@@ -20,7 +20,6 @@ export default () => (
                     <h3>Our format</h3>
 
                     <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
-
 
                     <h3>Our principles and manifest</h3>
 
@@ -44,6 +43,9 @@ export default () => (
                         <li>Human aspects of software development / management / process</li>
                         <li>Music / arts / creative coding / design</li>
                     </ul>
+
+                    <h3>The ColdFront name</h3>
+                    <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
 
                     <h3>Previous ColdFronts</h3>
                     <ul>
@@ -82,7 +84,7 @@ export default () => (
 
         <style jsx>{`
             .organizers {
-                padding: 50px 0 200px 0;;
+                padding: 50px 0 0 0;
 
                 ul {
                     list-style: none;
@@ -99,7 +101,7 @@ export default () => (
                     justify-content: center;
 
                     padding: 20px;
-                    box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+                    // box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
                     position: relative;
                 }
 
