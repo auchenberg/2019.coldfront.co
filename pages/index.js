@@ -15,10 +15,17 @@ export default () => (
 
     <Section>
         <div className="col-md-8 offset-md-1">
-          <h2 className="date">Nov 13-14 2018</h2>
-          <h3>A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h3>
+          <h1 className="text-center">A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h1>
         </div>
     </Section>
+
+    <WideSection>
+        <div className="col-md-6 offset-md-2 newsletter-wrapper">
+          <h2>2 days, 12 talks, 2 panel debates and lots of fun</h2>
+          <p>ColdFront brings frontenders from all over together for two days of front-end talks and lots of fun in Copenhagen. It’s a two day conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with your front-end colleagues. Our focus is on the web and where front-end is headed. So sit tight and get ready to be inspired.</p>
+        </div>
+
+    </WideSection>
 
     <Section>
         <a name="theme"></a>
