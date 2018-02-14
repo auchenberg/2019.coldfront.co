@@ -19,6 +19,13 @@ export default () => (
         </div>
     </Section>
 
+    <div className="container-fluid image-divider crowd">
+      <div className="overlay"></div>      
+      <a className="play" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
+
+
+    </div>
+
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
           <h2>2 days, 12 talks, 2 panel debates and lots of fun</h2>
@@ -28,6 +35,17 @@ export default () => (
     </WideSection>
 
     <Section>
+      <div className="host-desc">
+        <h2>YOUR HOST</h2>
+        <p>This year ColdFront introduces a new concept by having Phil Hawksworth as your host for the conference. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences such a Fronteers in Amsterdam.</p>
+      </div>
+
+      <div className="col-md-5 offset-md-1 host">
+          <div className="overlay"></div>
+      </div>
+    </Section>
+
+    {/* <Section>
         <a name="theme"></a>
         <div className="col-md-4 offset-md-1">
           <h2>The future of front-end and interfaces</h2>
@@ -48,7 +66,7 @@ export default () => (
             <a className="play" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
           </div>
         </div>
-    </Section>
+    </Section> */}
 
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
@@ -65,6 +83,80 @@ export default () => (
 
 
     <style jsx>{`
+
+      .image-divider {
+        height: 500px;
+        width: 95%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        position: relative;
+        margin-bottom: -100px;
+        box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+
+        .overlay {
+          background-image: linear-gradient(to top, #1c1c2d, rgba(28, 28, 45, 0.80) 100%, rgba(108, 28, 45, 0));
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+
+        .play {
+          background: url('/static/images/btn-play.svg') no-repeat;
+          background-size: contain;
+          height: 100px;
+          width: 100px;
+  
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-left: -50px;
+          margin-top: -30px;
+        }
+      }
+
+      .crowd {
+        background-image: url(/static/images/video-full.jpg);
+      }
+
+      .host-desc {
+        flex: 0 0 20%;
+        max-width: 20%;
+        margin-left: 8.333%; 
+        margin-top: 100px;
+
+
+
+        p {
+          font-size: 1.5em;
+          line-height: 34px;
+        }
+      }
+
+      .host {
+        background-image: url(/static/images/phil.jpg);
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: center;
+        height: 500px;
+        box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+
+        .overlay {
+          box-shadow: inset 0 20px 60px 0px rgba(0,0,0,0.35);
+          background-image: linear-gradient(to top, #1c1c2d, rgba(28, 28, 45, 0.80) 100%, rgba(108, 28, 45, 0));
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+
+
+
+
       .location {
         color: #b00202;
       }
