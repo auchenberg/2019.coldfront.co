@@ -16,6 +16,12 @@ export default () => (
                             <p>The price incl. 2 day conference, dinner, party and a major surprise.</p>
                             <tito-widget event="coldfront/coldfront-2018" />
 
+                            <h3>Want to buy via Invoice?</h3>
+                            <p>No problem! Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
+
+                            <br />
+                            <br />
+
                             <h3>Don't miss out! Get the latest</h3>
                             <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
                             <NewsletterForm />
