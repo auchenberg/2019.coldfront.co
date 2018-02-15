@@ -75,6 +75,27 @@ input[type=email]:focus {
     cursor: pointer;
 }
 
+
+/* Shadow Overlay */
+.image-overlay {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-overlay > .overlay-shadow {
+    background-image: linear-gradient(to top, #1c1c2d, rgba(28,28,45,0.80) 100%, rgba(108,28,45,0));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
 /* Tito  */
 
 .tito-wrapper {

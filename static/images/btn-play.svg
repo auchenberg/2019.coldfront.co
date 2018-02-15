@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="107px" height="107px" viewBox="0 0 107 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>play</title>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="dark-version-copy-11" transform="translate(-854.000000, -1170.000000)">
-            <g id="Group-8" transform="translate(719.000000, 945.000000)">
-                <g id="play" transform="translate(135.000000, 225.000000)">
-                    <g id="Group">
-                        <circle id="Oval-2" fill="#8F23F5" cx="53.5" cy="53.5" r="53.5"></circle>
-                        <polygon id="Triangle" fill="#FFFFFF" points="74.2252252 55.4279279 42.4144144 71.3333333 42.4144144 39.5225225"></polygon>
-                    </g>
-                </g>
+    <g id="coldfront-speakers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-686.000000, -1227.000000)">
+        <g id="play-btn-copy" transform="translate(686.000000, 1227.000000)" fill="#8F23F5">
+            <g id="Group">
+                <polygon id="Triangle" points="87.3333333 43.6666667 0 87.3333333 0 0"></polygon>
             </g>
         </g>
     </g>

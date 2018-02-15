@@ -7,10 +7,72 @@ export default () => (
         </div>
       </div>
 
+      <div className="btn-splash font-bitblox">
+        <a className="btn" href="https://2018.coldfront.co/ticets">
+          reserve your ticket <i className="fas fa-arrow-right"></i>
+        </a>
+        <p className="font-bitblox">NOV 13-14 2018</p>
+      </div>
+
       <style jsx>{`
       .splash {
+        position: relative;
         .img {
           width: 100%;
+        }
+
+        .btn-splash {
+          position: absolute;
+          top:40%;
+          left: 57%;
+          font-size: 16.8px;
+
+          a {
+            width: 100%;
+            background-color: #8f23f5;
+            border: none;
+            color: white;
+            border-radius: 0;
+            padding: 6%;
+            width: 100%;
+            .fa-arrow-right {
+              margin-left: 10px;
+            }
+          }
+
+          button {
+            background-color: #8f23f5;
+            border: none;
+            color: white;
+            border-radius: 0;
+            padding: 6%;
+            width: 100%;
+  
+            a {
+              color: white;
+  
+              &:hover {
+                text-decoration: none;
+              }
+            }
+
+            
+          }
+
+          p {
+            text-align: right;
+            color: #8f23f5;
+            font-size: 20px;
+            line-height: 2.6;
+            letter-spacing: 0.7px;
+          }
+
+        }
+      }
+
+      @media (max-width: 1000px) {
+        .btn-splash {
+          position: static !important;
         }
       }
 

@@ -1,7 +1,7 @@
 export default ({ children }) => (
     
-        <div className="section">
-          <div className="row offset-md-2">
+        <div className="section container-fluid">
+          <div className="row">
             { children }
           </div>
     
