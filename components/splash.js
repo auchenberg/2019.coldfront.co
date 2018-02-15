@@ -26,7 +26,6 @@ export default () => (
           top:40%;
           left: 57%;
           font-size: 16.8px;
-          width: 15%;
 
           a {
             width: 100%;
@@ -68,6 +67,12 @@ export default () => (
             letter-spacing: 0.7px;
           }
 
+        }
+      }
+
+      @media (max-width: 1000px) {
+        .btn-splash {
+          position: static !important;
         }
       }
 

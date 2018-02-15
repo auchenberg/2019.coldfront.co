@@ -4,6 +4,10 @@ import Layout from '../components/layout'
 export default () => (
     <Layout>
 
+        <div className="container-fluid image-about image-overlay">
+            <div className="overlay-shadow"></div>
+        </div>
+
         <WideSection>
             <div className="col-md-8 offset-md-2">
                 <div className="page-about">
@@ -83,6 +87,15 @@ export default () => (
         </div>
 
         <style jsx>{`
+            .image-about {
+                background-image:url('/static/images/about.jpg');
+                height: 500px;
+                margin-bottom: -100px;
+                width: 90%;
+            }
+
+
+
             .organizers {
                 padding: 50px 0 0 0;
 
