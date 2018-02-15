@@ -27,7 +27,9 @@ export default () => (
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
           <h2>2 days, 12 talks, 2 panel debates and lots of fun</h2>
-          <p>ColdFront brings frontenders from all over together for two days of front-end talks and lots of fun in Copenhagen. It’s a two day conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with your front-end colleagues. Our focus is on the web and where front-end is headed. So sit tight and get ready to be inspired.</p>
+          <p>ColdFront brings frontenders from all over together for two days of front-end talks and lots of fun in Copenhagen.</p>
+          <p>Our focus is where the future of front-end and interfaces for the web and mobile is headed. So sit tight and get ready to be inspired.</p>
+          <p>It’s a two day conference taking place on <strong>November 13-14th 2018</strong> with 16 talks by internationally renowned speakers, panel debates, amazing food and networking with your friends in the community.</p>
         </div>
     </WideSection>
 
