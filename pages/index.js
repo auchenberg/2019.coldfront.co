@@ -27,9 +27,15 @@ export default () => (
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
           <h2>2 days, 12 talks, 2 panel debates and lots of fun</h2>
-          <p>ColdFront brings frontenders from all over together for two days of front-end talks and lots of fun in Copenhagen.</p>
-          <p>Our focus is where the future of front-end and interfaces for the web and mobile is headed. So sit tight and get ready to be inspired.</p>
-          <p>It’s a two day conference taking place on <strong>November 13-14th 2018</strong> with 16 talks by internationally renowned speakers, panel debates, amazing food and networking with your friends in the community.</p>
+        <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018.</p>
+
+        <p>The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
+        <p>How do you deliver a modern interface that works on any platform?</p>
+
+        <p>At Coldfront 2018, we will take a look at the entire stack by throwing a <strong>two day</strong> conference for everyone who are passionate about building front-ends and interfaces.</p>
+        <p>So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
+        <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
+
         </div>
     </WideSection>
 
