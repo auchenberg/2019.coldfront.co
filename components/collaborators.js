@@ -30,6 +30,14 @@ export default ({ children }) => (
         </div>
 
 
+        <div className="row offset-md-2">
+
+            <div className="col-md-8 offset-md-1">
+                Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a>
+            </div>
+        </div>
+
+
         <style jsx>{`
 
             .collaborators {
