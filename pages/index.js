@@ -20,7 +20,7 @@ export default () => (
     </Section>
 
     <div className="container-fluid image-overlay crowd">
-      <div className="overlay-shadow"></div>      
+      <div className="overlay-shadow"></div>
       <a className="play" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
     </div>
 
@@ -34,7 +34,7 @@ export default () => (
     <Section>
       <div className="host-desc col-md-3 offset-md-2 col-xs-12">
         <h2>YOUR HOST</h2>
-        <p>This year ColdFront introduces a new concept by having Phil Hawksworth as your host for the conference. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences such a Fronteers in Amsterdam.</p>
+        <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!.</p>
       </div>
 
       <div className="col-md-5 offset-md-1 col-xs-12 host image-overlay">
@@ -42,7 +42,7 @@ export default () => (
           <div className="text">
             <div>
               <h3>PHIL HAWKSWORTH</h3>
-              <p>Technology Director at R/GA</p>              
+              <p>Developer Relations at @Netlify</p>
             </div>
             <i className="fas fa-arrow-right fa-2x"></i>
           </div>
@@ -74,7 +74,7 @@ export default () => (
           background-size: contain;
           height: 100px;
           width: 100px;
-  
+
           position: absolute;
           top: 50%;
           left: 50%;
