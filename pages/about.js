@@ -88,13 +88,11 @@ export default () => (
 
         <style jsx>{`
             .image-about {
-                background-image:url('/static/images/about.jpg');
+                background-image:url('/static/images/the-team.jpg');
                 height: 500px;
                 margin-bottom: -100px;
                 width: 90%;
             }
-
-
 
             .organizers {
                 padding: 50px 0 0 0;
