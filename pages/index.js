@@ -14,7 +14,7 @@ export default () => (
     <Splash />
 
     <Section>
-        <div className="col-md-6 offset-md-3">
+        <div className="col-md-8 offset-md-2">
           <h1 className="text-center">A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h1>
         </div>
     </Section>
