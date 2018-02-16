@@ -29,24 +29,27 @@ export default () => (
 
                     <p>To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference.</p>
 
-                    <h4>Why instead of how</h4>
-                    <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
+                    <blockquote>
+                        <h4>Why instead of how</h4>
+                        <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
 
-                    <h4>Perspective over tutorials</h4>
-                    <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
+                        <h4>Perspective over tutorials</h4>
+                        <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
 
-                    <h4>Technologies and trends</h4>
-                    <ul>
-                        <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
-                        <li>React / VueJS / Modern front-end frameworks</li>
-                        <li>React Native / NativeScript / Platforms for native apps using web technology</li>
-                        <li>CSS / Precompilers / Abstractions for UI styling</li>
-                        <li>Animations / ways to bring life to front-end experiences</li>
-                        <li>Tooling / productivity / workflows / production learnings / war stories</li>
-                        <li>Devices / form factors / IoT / emerging markets</li>
-                        <li>Human aspects of software development / management / process</li>
-                        <li>Music / arts / creative coding / design</li>
-                    </ul>
+                        <h4>Technologies and trends</h4>
+                        <ul>
+                            <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
+                            <li>Mobile platforms / trends / runtimes</li>
+                            <li>React / VueJS / Modern front-end frameworks</li>
+                            <li>React Native / NativeScript / Platforms for native apps using web technology</li>
+                            <li>CSS / Precompilers / Abstractions for UI styling</li>
+                            <li>Animations / ways to bring life to front-end experiences</li>
+                            <li>Tooling / productivity / workflows / production learnings / war stories</li>
+                            <li>Devices / form factors / IoT / emerging markets</li>
+                            <li>Human aspects of software development / management / process</li>
+                            <li>Music / arts / creative coding / design</li>
+                        </ul>
+                    </blockquote>
 
                     <h3>The ColdFront name</h3>
                     <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
@@ -87,6 +90,12 @@ export default () => (
         </div>
 
         <style jsx>{`
+
+            blockquote {
+                margin-left: 40px;
+                margin-bottom: 40px;
+            }
+
             .image-about {
                 background-image:url('/static/images/the-team.jpg');
                 height: 500px;
