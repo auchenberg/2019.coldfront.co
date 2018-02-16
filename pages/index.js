@@ -25,8 +25,8 @@ export default () => (
     </div>
 
     <WideSection>
-        <div className="col-md-6 offset-md-2 newsletter-wrapper">
-          <h2>2 days, 12 talks, 2 panel debates and lots of fun</h2>
+        <div className="col-md-8 offset-md-1 conference">
+        <h2>November 13-14th 2018 in Copenhagen!</h2>
         <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018.</p>
 
         <p>The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
@@ -52,6 +52,7 @@ export default () => (
               <h3>PHIL HAWKSWORTH</h3>
               <p>Developer Relations at @Netlify</p>
             </div>
+            <img src="/static/images/arrow-purple.svg"/>
             <i className="fas fa-arrow-right fa-2x"></i>
           </div>
       </div>
@@ -136,12 +137,9 @@ export default () => (
         margin-top: -30px;
       }
 
-      .newsletter-wrapper {
-        h2:first-child {
-            margin-bottom: 0
-        }
+      .conference {
         p {
-            font-size: 1.5em;
+
         }
       }
 

@@ -8,7 +8,7 @@ export default ({ children }) => (
 
           <style jsx>{`
             .wide-section {
-                padding: 150px 40px;
+                padding: 100px 40px;
                 background: #0c0c14;
             }
 
