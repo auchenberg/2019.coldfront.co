@@ -61,6 +61,8 @@ input[type=email]:focus {
 
 .btn-primary {
     background-color: #8f23f5;
+    box-shadow: 15px 30px 50px 10px rgba(0, 0, 0, 0.8);
+
     color: #eef9f6;
 
     font-family: 'bitbloxmonospaced';
@@ -68,7 +70,7 @@ input[type=email]:focus {
 
     border-radius: 0;
     border: 0;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
 .btn-primary:hover {

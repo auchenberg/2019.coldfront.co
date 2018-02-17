@@ -8,8 +8,8 @@ export default () => (
       </div>
 
       <div className="btn-splash font-bitblox">
-        <a className="btn" href="https://2018.coldfront.co/tickets">
-          reserve your ticket <i className="fas fa-arrow-right"></i>
+        <a className="btn btn-primary" href="https://2018.coldfront.co/tickets">
+          Get your ticket <i className="fas fa-arrow-right"></i>
         </a>
         <p className="font-bitblox">NOV 13-14 2018</p>
       </div>
@@ -25,16 +25,8 @@ export default () => (
           position: absolute;
           top:40%;
           left: 57%;
-          font-size: 16.8px;
 
           a {
-            width: 100%;
-            background-color: #8f23f5;
-            border: none;
-            color: white;
-            border-radius: 0;
-            padding: 6%;
-            width: 100%;
             .fa-arrow-right {
               margin-left: 10px;
             }
@@ -47,16 +39,16 @@ export default () => (
             border-radius: 0;
             padding: 6%;
             width: 100%;
-  
+
             a {
               color: white;
-  
+
               &:hover {
                 text-decoration: none;
               }
             }
 
-            
+
           }
 
           p {
