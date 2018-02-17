@@ -1,6 +1,6 @@
 export default () => (
     <div className="footer">
-        <img src="/static/images/logos/coldfront_stacked.svg" />
+        <a href="#"><img src="/static/images/logos/coldfront_stacked.svg" /></a>
         <p>By attending you accept <a href="http://confcodeofconduct.com/">our code of conduct</a></p>
       <style jsx>{`
 
