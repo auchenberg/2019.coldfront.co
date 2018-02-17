@@ -28,7 +28,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'bitbloxmonospaced'
+    font-family: 'bitbloxmonospaced';
+    text-transform: uppercase;
 }
 
 h2 {
