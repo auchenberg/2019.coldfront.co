@@ -26,7 +26,7 @@ export default () => (
     </div>
 
     <WideSection>
-        <div className="col-md-8 offset-md-1 conference">
+        <div className="col-md-10 offset-md-1 conference">
         <h2>November 13-14th 2018 in Copenhagen!</h2>
         <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018.</p>
 
@@ -36,6 +36,10 @@ export default () => (
         <p>At Coldfront 2018, we will take a look at the entire stack by throwing a <strong>two day</strong> conference for everyone who are passionate about building front-ends and interfaces.</p>
         <p>So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
         <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
+
+        <a className="btn btn-primary ticket" href="https://2018.coldfront.co/tickets">
+            Get your ticket <i className="fas fa-arrow-right"></i>
+        </a>
 
         </div>
     </WideSection>
@@ -91,8 +95,10 @@ export default () => (
       }
 
       .conference {
-        p {
-
+        .ticket {
+            position: absolute;
+            right: 0;
+            bottom: -120px;
         }
       }
 

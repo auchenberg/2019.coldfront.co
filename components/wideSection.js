@@ -1,6 +1,6 @@
 export default ({ children }) => (
 
-    <div className="wide-section col-md-10 offset-md-1">
+    <div className="wide-section col-md-8 offset-md-2">
 
         <div className="row">
             { children }
