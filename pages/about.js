@@ -121,7 +121,6 @@ export default () => (
                     justify-content: center;
 
                     padding: 20px;
-                    // box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
                     position: relative;
                 }
 
