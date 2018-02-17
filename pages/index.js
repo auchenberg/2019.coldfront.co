@@ -4,6 +4,7 @@ import WideSection from '../components/wideSection'
 import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
 import Collaborators from '../components/collaborators'
+import Host from '../components/host'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
@@ -39,24 +40,7 @@ export default () => (
         </div>
     </WideSection>
 
-    <Section>
-      <div className="host-desc col-md-3 offset-md-2 col-xs-12">
-        <h2>YOUR HOST</h2>
-        <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!.</p>
-      </div>
-
-      <div className="col-md-5 offset-md-1 col-xs-12 host image-overlay">
-          <div className="overlay-shadow"></div>
-          <div className="text">
-            <div>
-              <h3>PHIL HAWKSWORTH</h3>
-              <p>Developer Relations at @Netlify</p>
-            </div>
-            <img src="/static/images/arrow-purple.svg"/>
-            <i className="fas fa-arrow-right fa-2x"></i>
-          </div>
-      </div>
-    </Section>
+    <Host />
 
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
@@ -92,37 +76,6 @@ export default () => (
         }
       }
 
-      .host-desc {
-        margin-top: 100px;
-        p {
-          font-size: 1.5em;
-          line-height: 34px;
-        }
-      }
-
-      .host {
-        background-image: url(/static/images/phil.jpg);
-        height: 500px;
-
-        .overlay-shadow {
-          box-shadow: inset 0 20px 60px 0px rgba(0,0,0,0.35);
-        }
-
-        .text {
-          position: relative;
-          top: 80%;
-          z-index: 2;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 20px;
-
-          .fas {
-            color: #8f23f5;
-          }
-        }
-      }
 
       .play {
         background: url('/static/images/btn-play.svg') no-repeat;
