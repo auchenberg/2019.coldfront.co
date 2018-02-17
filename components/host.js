@@ -15,7 +15,7 @@ export default ({ children }) => (
                     <h3>PHIL HAWKSWORTH</h3>
                     <p>Developer Relations at @Netlify</p>
                 </div>
-                <img className="arrow" src="/static/images/arrow-purple.svg" />
+                <a href="https://twitter.com/philhawksworth" target="_blank"><img className="arrow" src="/static/images/arrow-purple.svg" /></a>
             </div>
         </div>
 
