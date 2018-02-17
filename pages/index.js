@@ -48,8 +48,7 @@ export default () => (
 
     <WideSection>
         <div className="col-md-6 offset-md-2 newsletter-wrapper">
-          <h2>Don't miss out!</h2>
-          <h2>Get the latest</h2>
+                    <h2>Don't miss out! Get the latest</h2>
           <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
 
           <NewsletterForm />
