@@ -16,6 +16,23 @@ export default () => (
             margin: 0 auto 40px auto;
         }
 
+      @media (max-width: 1000px) {
+
+        .footer {
+            padding: 10px 0;
+        }
+
+        img {
+            max-width: 50px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+      }
+
       `}</style>
     </div>
   )

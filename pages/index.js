@@ -15,7 +15,7 @@ export default () => (
     <Splash />
 
     <Section>
-        <div className="col-md-8 offset-md-2">
+        <div className="col-md-8 offset-md-2 splash-text">
           <h1 className="text-center">A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h1>
         </div>
     </Section>
@@ -74,7 +74,7 @@ export default () => (
           top: 50%;
           left: 50%;
           margin-left: -50px;
-          margin-top: -30px;
+          margin-top: -100px;
         }
       }
 
@@ -101,8 +101,28 @@ export default () => (
       }
 
       @media (max-width: 1000px) {
+
+        .splash-text {
+            h1 {
+                font-size: 22px;
+            }
+        }
+
         .crowd {
-          background-image: url(/static/images/video-small.jpg);
+            height: 300px;
+            background-image: url(/static/images/video-small.jpg);
+
+            .play {
+                height: 50px;
+                width:50px;
+
+                margin-left: -25px;
+                margin-top: -75px;
+            }
+        }
+
+        .conference .ticket {
+            position: static;
         }
       }
       `}</style>

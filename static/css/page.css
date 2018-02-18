@@ -52,6 +52,11 @@ input[type=email]:focus {
     color: #eef9f6;
     box-shadow: none;
 }
+
+.navbar-toggler-icon {
+    width: 18px;
+}
+
 /*
 .form-control:focus {
     color: #495057;
@@ -249,5 +254,17 @@ input.form-control.tito-discount-code-field.discount-code-field {
 
     .tito-ticket-status-upcoming .tito-ticket-price-quantity-wrapper {
         padding-left: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
     }
 }

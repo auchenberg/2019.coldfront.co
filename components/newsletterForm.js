@@ -7,11 +7,11 @@ export default ({ children }) => (
                     <div id="mc_embed_signup_scroll"> </div>
 
                     <div className="mc-field-group form-row">
-                        <div className="col">
+                        <div className="col-sm">
                             <input type="email" name="EMAIL" className="email form-control required email" placeholder="Your email" id="mce-EMAIL" />
                         </div>
 
-                        <div className="col">
+                        <div className="col-sm">
                             <input type="submit" value="NOTIFY ME" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-primary" />
                         </div>
                     </div>
@@ -42,6 +42,16 @@ export default ({ children }) => (
                 font-size: 13px;
                 font-family: 'bitbloxmonospaced';
                 padding: 14px;
+            }
+
+            @media (max-width: 1000px) {
+                .newsletter-form {
+                    padding: 0;
+                }
+
+                .email {
+                    margin-bottom: 10px
+                }
             }
 
           `}

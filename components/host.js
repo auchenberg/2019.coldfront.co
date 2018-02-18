@@ -2,8 +2,7 @@ import Section from './section'
 
 export default ({ children }) => (
 
-    <Section>
-        <div className="row host">
+    <Section className="host">
         <div className="col-md-3 offset-md-3 col-xs-12">
             <h2>YOUR HOST</h2>
             <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!.</p>
@@ -21,10 +20,6 @@ export default ({ children }) => (
         </div>
 
         <style jsx>{`
-
-            .host {
-                padding: 100px 0;
-            }
 
             .host-avatar {
                 background-image: url(/static/images/phil.jpg);
@@ -65,7 +60,5 @@ export default ({ children }) => (
             }
 
           `}</style>
-
-        </div>
     </Section>
 )

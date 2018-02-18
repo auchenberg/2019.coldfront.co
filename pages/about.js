@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 export default () => (
     <Layout>
 
-        <div className="container-fluid image-about image-overlay">
+        <div className="container-fluid image-about image-overlay d-none d-md-block">
             <div className="overlay-shadow"></div>
         </div>
 

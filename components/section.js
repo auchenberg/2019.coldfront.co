@@ -1,12 +1,12 @@
-export default ({ children, sectionName }) => (
-    <div className={`section container-fluid ${sectionName}`}>
+export default ({ children, className }) => (
+    <div className={`section container-fluid ${className}`}>
           <div className="row">
             { children }
           </div>
 
           <style jsx>{`
             .section {
-              padding: 100px 0;
+              padding: 200px 0;
 
               img {
                 width: 100%;

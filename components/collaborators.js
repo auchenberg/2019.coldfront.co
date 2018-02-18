@@ -5,13 +5,10 @@ export default ({ children }) => (
     <div className="collaborators">
         <a name="collaborators"></a>
 
-        <div className="row offset-md-2">
-
-            <div className="col-md-4 offset-md-1">
+        <div className="row">
+            <div className="col-md-8 offset-md-2">
                 <h2 className="title">Collaborators</h2>
                 <p>ColdFront is organised in collaboration with</p>
-                <br />
-                <br />
             </div>
         </div>
 
@@ -29,14 +26,11 @@ export default ({ children }) => (
             </div>
         </div>
 
-
         <div className="row offset-md-2">
-
             <div className="col-md-8 offset-md-1">
-                Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a>
+                <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
             </div>
         </div>
-
 
         <style jsx>{`
 
@@ -52,12 +46,17 @@ export default ({ children }) => (
 
             .list {
                 margin-bottom: 40px;
+                margin-top: 40px;
             }
 
             @media (max-width: 1000px) {
                 .collaborators {
                     margin-top: 50px;
                     margin-bottom: 0;
+                }
+
+                .list {
+                    margin: 0;
                 }
 
                 .jayway {
