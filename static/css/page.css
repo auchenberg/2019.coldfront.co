@@ -74,18 +74,24 @@ input[type=email]:focus {
     background-color: #8f23f5;
     box-shadow: 15px 30px 50px 10px rgba(0, 0, 0, 0.8);
 
-    color: #eef9f6;
+    color: #eef9f6 !important;
 
     font-family: 'bitbloxmonospaced';
     font-size: 13px;
 
     border-radius: 0;
     border: 0;
+
     padding: 15px 30px;
+    outline: 0;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active {
     background-color: #A03FFC !important;
+    box-shadow: 15px 30px 50px 10px rgba(0, 0, 0, 0.8) !important;
+    color: #eef9f6 !important;
+    border: 0;
     cursor: pointer;
 }
 
