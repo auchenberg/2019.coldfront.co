@@ -8,13 +8,14 @@ export default ({ children }) => (
             <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!.</p>
         </div>
 
-        <div className="host-avatar col-md-5 offset-md-1 col-xs-12">
+        <div className="host-avatar fade-glitch col-md-5 offset-md-1 col-xs-12">
             <div className="overlay-shadow"></div>
             <div className="text">
                 <div>
                     <h3>PHIL HAWKSWORTH</h3>
                     <p>Developer Relations at @Netlify</p>
                 </div>
+
                 <a href="https://twitter.com/philhawksworth" target="_blank"><img className="arrow" src="/static/images/arrow-purple.svg" /></a>
             </div>
         </div>
@@ -36,7 +37,7 @@ export default ({ children }) => (
                     bottom: 0;
                     left: 0;
                     right: 0;
-                    background: linear-gradient(to bottom,#1c1c2d 0%,transparent);
+                    background: linear-gradient(to top,#1c1c2d 0%,transparent);
                 }
 
                 .text {

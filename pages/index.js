@@ -22,7 +22,7 @@ export default () => (
 
     <div className="container-fluid image-overlay crowd">
       <div className="overlay-shadow"></div>
-      <a className="play" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
+      <a className="play fade-glitch" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
     </div>
 
     <WideSection>
@@ -37,7 +37,7 @@ export default () => (
         <p>So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
         <p>Join us, in the heart of <strong>Copenhagen, Denmark</strong> with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
 
-        <a className="btn btn-primary ticket" href="https://2018.coldfront.co/tickets">
+        <a className="btn btn-primary ticket glitch" data-text="Get your ticket" href="https://2018.coldfront.co/tickets">
             Get your ticket <i className="fas fa-arrow-right"></i>
         </a>
 

@@ -114,6 +114,115 @@ input[type=email]:focus {
     right: 0;
 }
 
+@keyframes glitch {
+    100% {
+      clip: rect(37px,9999px,42px,0);
+    }
+    95% {
+      clip: rect(15px,9999px,10px,0);
+    }
+    90% {
+      clip: rect(72px,9999px,58px,0);
+    }
+    85% {
+      clip: rect(28px,9999px,45px,0);
+    }
+    80% {
+      clip: rect(67px,9999px,78px,0);
+    }
+    75% {
+      clip: rect(10px,9999px,14px,0);
+    }
+    70% {
+      clip: rect(24px,9999px,30px,0);
+    }
+    65% {
+      clip: rect(3px,9999px,5px,0);
+    }
+    60% {
+      clip: rect(66px,9999px,78px,0);
+    }
+    55% {
+      clip: rect(32px,9999px,47px,0);
+    }
+    50% {
+      clip: rect(18px,9999px,24px,0);
+    }
+    45% {
+      clip: rect(44px,9999px,64px,0);
+    }
+    40% {
+      clip: rect(32px,9999px,21px,0);
+    }
+    35% {
+      clip: rect(87px,9999px,98px,0);
+    }
+    30% {
+      clip: rect(65px,9999px,50px,0);
+    }
+    25% {
+      clip: rect(44px,9999px,33px,0);
+    }
+    20% {
+      clip: rect(88px,9999px,99px,0);
+    }
+    15% {
+      clip: rect(13px,9999px,14px,0);
+    }
+    10% {
+      clip: rect(44px,9999px,88px,0);
+    }
+    5% {
+      clip: rect(32px,9999px,48px,0);
+    }
+  }
+
+
+.glitch {
+    
+    font-family: 'bitbloxmonospaced';
+    padding: 15px 30px 15px 30px;
+    position: relative;
+    color: #fff;
+    background-color: #A03FFC;
+
+}
+
+.glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 32px;
+    text-shadow: -2px 0 green;
+    top: 15px;
+    color: white;
+    background: #A03FFC;
+    overflow: hidden;
+    clip: rect(0,900px,0,0);
+    animation: glitch 2s infinite linear alternate-reverse;
+  }
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 32px;
+    text-shadow: 2px 0 red;
+    top: 15px;
+    color: white;
+    background: #A03FFC;
+    overflow: hidden;
+    clip: rect(0,900px,0,0);
+    animation: glitch 1s infinite linear alternate-reverse;
+  }
+
+  .fade-glitch:hover{
+    animation: noise-glitch 1s linear infinite;
+  }
+  
+  @keyframes noise-glitch {
+    0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleY(1);}
+    4.3% {opacity: 1; transform: scaleY(1.5);}
+    43% {opacity: 1; transform: scaleX(10); transform: scaleY(.1); rotate(60deg);}
+  }
+
 
 
 /* Tito  */

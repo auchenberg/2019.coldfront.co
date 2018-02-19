@@ -8,7 +8,7 @@ export default () => (
       </div>
 
       <div className="btn-splash font-bitblox">
-        <a className="btn btn-primary" href="https://2018.coldfront.co/tickets">
+        <a className="btn btn-primary glitch" data-text="Get your ticket" href="https://2018.coldfront.co/tickets">
           Get your ticket <i className="fas fa-arrow-right"></i>
         </a>
         <p className="font-bitblox">NOV 13-14 2018</p>
