@@ -20,7 +20,7 @@ export default () => (
 
         .footer {
             padding: 10px 0;
-            margin-top: 0;
+            margin-top: 20px;
         }
 
         img {

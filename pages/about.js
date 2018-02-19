@@ -4,12 +4,11 @@ import Layout from '../components/layout'
 export default () => (
     <Layout>
 
-        <div className="container-fluid image-about image-overlay d-none d-md-block">
+        <div className="image-about image-overlay d-none d-md-block">
             <div className="overlay-shadow"></div>
         </div>
 
         <WideSection>
-            <div className="col-md-8 offset-md-2">
                 <div className="page-about">
                     <h2>About ColdFront</h2>
 
@@ -62,12 +61,13 @@ export default () => (
                         <li><a href="https://2014.coldfront.co">ColdFront 2014</a></li>
                     </ul>
                 </div>
-            </div>
         </WideSection>
 
         <div className="organizers">
-            <div className="col-md-8 offset-md-2">
-                <h2>Organizers</h2>
+            <div className="row">
+                <div className="col-md-8 offset-md-3">
+                    <h2>Organizers</h2>
+                </div>
             </div>
 
             <ul className="row">
@@ -87,6 +87,7 @@ export default () => (
                     </div>
                 </li>
             </ul>
+
         </div>
 
         <style jsx>{`
@@ -99,8 +100,7 @@ export default () => (
             .image-about {
                 background-image:url('/static/images/the-team.jpg');
                 height: 500px;
-                margin-bottom: -100px;
-                width: 90%;
+                margin-bottom: -200px;
             }
 
             .organizers {
@@ -136,6 +136,7 @@ export default () => (
                 .text {
                     position: relative;
                     z-index: 2;
+                    padding: 15px;
                 }
 
                 .kenneth {
@@ -144,6 +145,27 @@ export default () => (
 
                 .michael {
                     background-image: url(/static/images/michael.jpg);
+                }
+
+            }
+
+            @media (max-width: 1000px) {
+                .organizers {
+                    padding-top: 20px;;
+
+                    ul {
+                        padding: 0;
+                    }
+                }
+
+                .organizers li {
+                    padding: 0;
+                    height: 300px;
+                }
+
+                blockquote {
+                    margin-left: 20px;
+                    margin-bottom: 20px;
                 }
             }
 
