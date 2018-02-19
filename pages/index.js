@@ -59,7 +59,6 @@ export default () => (
     <style jsx>{`
       .crowd {
         background-image: url(/static/images/video-full.jpg);
-        width: 95%;
         height: 500px;
         margin-bottom: -100px;
         background-position: bottom;
