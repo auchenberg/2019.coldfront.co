@@ -22,9 +22,9 @@ export default ({ children }) => (
         <style jsx>{`
 
             .host-avatar {
-                background-image: url(/static/images/phil.jpg);
+                background-image: url(/static/images/host-phil.jpg);
                 background-size: cover;
-                 box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+                box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
 
                 height: 500px;
 
@@ -36,8 +36,7 @@ export default ({ children }) => (
                     bottom: 0;
                     left: 0;
                     right: 0;
-                    background: linear-gradient(to bottom, #000000 0%, rgba(28, 28, 45, 0.80) 40%, #1c1c2d);
-                    //background-image: linear-gradient(to top, #1c1c2d, rgba(28, 28, 45, 0.80) 100%, rgba(108, 28, 45, 0));
+                    background: linear-gradient(to bottom,#1c1c2d 0%,transparent);
                 }
 
                 .text {
