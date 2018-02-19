@@ -8,7 +8,7 @@ export default () => (
           background-color: #0c0c14;
           padding: 50px 0;
           text-align: center;
-          margin: 0 -15px;
+          margin: 100px -15px 0 -15px;
         }
 
         img {
