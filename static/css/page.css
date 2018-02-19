@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+a:link,
+a:visited {
+    color: #8f23f5;
+}
+
 @font-face {
     font-family: 'bitbloxmonospaced';
     src: url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff2') format('woff2'),
