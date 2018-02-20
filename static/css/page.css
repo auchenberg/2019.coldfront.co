@@ -72,18 +72,22 @@ input[type=email]:focus {
 
 .btn-primary-shadow {
     box-shadow: 15px 30px 60px 20px rgba(0,0,0,0.5);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }    
 
 .btn-primary-shadow:hover {
     box-shadow: 15px 30px 60px 20px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn-secondary-shadow {
     box-shadow: 20px 10px 50px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn-secondary-shadow:hover {
     box-shadow: 20px 10px 50px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn-primary {
