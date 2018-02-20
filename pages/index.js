@@ -20,10 +20,12 @@ export default () => (
         </div>
     </Section>
 
-    <div className="container-fluid image-overlay crowd">
-      <div className="overlay-shadow"></div>
-      <a className="play fade-glitch" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
-    </div>
+    <Section>
+        <div className="image-overlay crowd">
+        <div className="overlay-shadow"></div>
+                <a className="play fade-glitch" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
+        </div>
+    </Section>
 
     <WideSection>
         <div className="col-md-10 offset-md-1 conference">
@@ -35,14 +37,13 @@ export default () => (
         <a className="btn btn-primary btn-secondary-shadow ticket glitch" data-text="Get your ticket" href="https://2018.coldfront.co/tickets">
             Get your ticket <i className="fas fa-arrow-right"></i>
         </a>
-
         </div>
     </WideSection>
 
     <Host />
 
     <WideSection>
-        <div className="col-md-6 offset-md-1 newsletter-wrapper">
+        <div className="newsletter-wrapper">
             <h2>Don't miss out! Get the latest</h2>
             <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
             <NewsletterForm />
@@ -55,7 +56,7 @@ export default () => (
       .crowd {
         background-image: url(/static/images/video-full.jpg);
         height: 500px;
-        margin-bottom: -100px;
+        margin-bottom: -300px;
         background-position: bottom;
 
         .play {
@@ -105,6 +106,7 @@ export default () => (
         .crowd {
             height: 300px;
             background-image: url(/static/images/video-small.jpg);
+            margin-bottom: -150px;
 
             .play {
                 height: 50px;

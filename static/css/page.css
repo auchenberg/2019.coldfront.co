@@ -382,6 +382,9 @@ input.form-control.tito-discount-code-field.discount-code-field {
     margin-top: 40px;
 }
 
+.section-dark {
+    background: #0c0c14;
+}
 
 @media (max-width: 1000px) {
     .tito-wrapper {
@@ -398,6 +401,10 @@ input.form-control.tito-discount-code-field.discount-code-field {
 
     h3 {
         font-size: 18px;
+    }
+
+    h4 {
+        font-size: 16px;
     }
 
     body {
