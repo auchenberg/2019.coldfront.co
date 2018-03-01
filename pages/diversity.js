@@ -9,47 +9,31 @@ export default () => (
         </div>
 
         <WideSection>
-                <div className="page-about">
+                <div className="page-scholarships">
                     <h2>DIVERSITY SCHOLARSHIPS</h2>
-
                     <p>We started ColdFront back in 2014 to flourish the front-end community and to put Copenhagen the global front-end map</p>
-
                     <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
-
                     <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
-
                     <p>ColdFront is a conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies.</p>
 
+                    <div className="btn-diversity font-bitblox">
+                        <a className="btn btn-primary btn-primary-shadow glitch" data-text="Apply Now" href="https://goo.gl/forms/k1Sb06DqHYYlluWF3">
+                        APPLY NOW <i className="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
 
 
                 </div>
         </WideSection>
 
-        <div className="organizers">
-            <div className="row">
-                <div className="col-md-8 offset-md-3">
-                    <h2>Organizers</h2>
+        <div className="row sponsor-wrapper">
+            <div className="col-md-6 offset-md-3">
+                <p className="font-bitblox">Sponsored By</p>
+                <div className="sponsor-icons-wrapper">
+                    <img src="../static/images/Intel-logo.svg" alt="samsung-internet-logo"/>
+                    <img src="../static/images/samsunginternet-logo.svg" alt="samsung-internet-logo"/>
                 </div>
             </div>
-
-            <ul className="row">
-                <li className="col-md-6 kenneth">
-                    <div className="overlay"></div>
-                    <div className="text">
-                        <h3>Kenneth Auchenberg</h3>
-                        <p>Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for Word Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014.</p>
-                    </div>
-                </li>
-
-                <li className="col-md-6 michael">
-                    <div className="overlay"></div>
-                    <div className="text">
-                        <h3>Michael Christiansen</h3>
-                        <p>Joined ColdFront as co-organizer in 2017. Besides Michael is co-founder of Design Matters focusing on digital design, Medlemsorganisation a danish knowledge helping with digital transformation and finally Indie vid & co organizing and searching for independent knowledged.</p>
-                    </div>
-                </li>
-            </ul>
-
         </div>
 
         <style jsx>{`
@@ -60,71 +44,66 @@ export default () => (
             }
 
             .image-diversity {
-                background-image:url('/static/images/diversity.jpg');
+                background-image:url('/static/images/diversity-1.jpg');
                 height: 500px;
                 margin-bottom: -200px;
             }
 
-            .organizers {
-                padding: 50px 0 0 0;
-
-                ul {
-                    list-style: none;
-                    padding-top: 50px;
-                }
-
-                li {
-                    height: 500px;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    display: flex;
-                    align-items: flex-end;
-                    justify-content: center;
-
-                    padding: 20px;
-                    position: relative;
-                }
-
-                .overlay {
-                    background-image: linear-gradient(to top, #1c1c2d, rgba(28, 28, 45, 0.80) 100%, rgba(108, 28, 45, 0));
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                }
-
-                .text {
-                    position: relative;
-                    z-index: 2;
-                    padding: 15px;
-                }
-
-                .kenneth {
-                    background-image: url(/static/images/kenneth.jpg);
-                }
-
-                .michael {
-                    background-image: url(/static/images/michael.jpg);
-                }
-
+            .sponsor-wrapper {
+                padding: 100px 0;
             }
 
-            @media (max-width: 1000px) {
-                .organizers {
-                    padding-top: 20px;;
+            .sponsor-icons-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
 
-                    ul {
-                        padding: 0;
+
+            .btn-diversity {
+                position: absolute;
+                top:95%;
+                left: 70%;
+
+                a {
+                    .fa-arrow-right {
+                        margin-left: 10px;
                     }
                 }
 
-                .organizers li {
-                    padding: 0;
-                    height: 300px;
+                button {
+                    background-color: #8f23f5;
+                    border: none;
+                    color: white;
+                    border-radius: 0;
+                    padding: 6%;
+                    width: 100%;
+
+                    a {
+                        color: white;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
                 }
 
+                p {
+                    text-align: right;
+                    color: #8f23f5;
+                    font-size: 20px;
+                    line-height: 2.6;
+                    letter-spacing: 0.7px;
+                }
+
+            }
+        
+
+
+
+            
+
+            @media (max-width: 1000px) {
                 blockquote {
                     margin-left: 20px;
                     margin-bottom: 20px;
