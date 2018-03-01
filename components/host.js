@@ -10,7 +10,7 @@ export default ({ children }) => (
                 <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!.</p>
             </div>
 
-            <div className="host-avatar fade-glitch col-md-5 offset-md-1 col-xs-12">
+            <div className="host-avatar col-md-6  col-xs-12">
                 <div className="overlay-shadow"></div>
                 <div className="text">
                     <div>
@@ -29,7 +29,7 @@ export default ({ children }) => (
                 background-size: cover;
                 box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
 
-                height: 500px;
+                height: 600px;
 
                 position: relative;
 

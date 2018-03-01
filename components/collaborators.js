@@ -6,14 +6,14 @@ export default ({ children }) => (
         <a name="collaborators"></a>
 
         <div className="row">
-            <div className="col-md-8 offset-md-2">
+            <div className="col-md-8 offset-md-3">
                 <h2 className="title">Collaborators</h2>
                 <p>ColdFront is organised in collaboration with</p>
             </div>
         </div>
 
         <div className="row">
-            <div className="offset-md-3 col-7">
+            <div className="offset-md-3 col-8">
                 <div className="row list">
                     <div className="col-md-4">
                         <a href="https://www.zendesk.com/">
@@ -31,7 +31,7 @@ export default ({ children }) => (
         </div>
 
         <div className="row">
-            <div className="col-md-8 offset-md-2">
+            <div className="col-md-8 offset-md-3 font-bitblox">
                 <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
             </div>
         </div>

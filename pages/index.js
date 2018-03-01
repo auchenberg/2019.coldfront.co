@@ -28,7 +28,7 @@ export default () => (
     </Section>
 
     <WideSection>
-        <div className="col-md-10 offset-md-1 conference">
+        <div className="col-md-10 conference">
         <h2>November 13-14th 2018 in Copenhagen!</h2>
         <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
 
@@ -39,6 +39,37 @@ export default () => (
         </a>
         </div>
     </WideSection>
+
+    <Section>
+        <div className="row">
+
+            <div className="col-md-3 offset-md-3 col-xs-12 host-text">
+                <h2>VENUE: ICONIC VEGA IN HIP VESTERBRO</h2>
+                <p>ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
+                <p><a href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
+            </div>
+            
+
+            <div className="venue-image col-md-6 col-xs-12"></div>
+
+            
+
+        </div>
+    </Section>
+
+    <Section>
+        <div className="row">
+            
+
+            <div className="food-image col-md-6 col-xs-12"></div>
+
+            <div className="col-md-3 offset-md-1 col-xs-12 host-text">
+                <h2>DELICIOUS FOOD FOR THE BRAIN</h2>
+                <p>We want you to have a great experience, and we believe food is big part of that. This year, we are collaborating with a number of truly amazing food trucks, serving everything from fish tacos to delicious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
+            </div>
+
+        </div>
+    </Section>
 
     <Host />
 
@@ -53,6 +84,77 @@ export default () => (
     <Collaborators />
 
     <style jsx>{`
+
+        .food-image {
+            background-image: url(/static/images/food.jpg);
+            background-size: cover;
+            box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+
+            height: 600px;
+
+            position: relative;
+
+            .overlay-shadow {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(to top,#1c1c2d 0%,transparent);
+            }
+
+            .text {
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+                right: 0%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 20px 40px;
+            }
+        } 
+
+        .venue-image {
+            background-image: url(/static/images/vega.jpg);
+            background-size: cover;
+            box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+
+            height: 600px;
+
+            position: relative;
+
+            .overlay-shadow {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(to top,#1c1c2d 0%,transparent);
+            }
+
+            .text {
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+                right: 0%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 20px 40px;
+            }
+        }
+
+
+
+
+
       .crowd {
         background-image: url(/static/images/video-full.jpg);
         height: 500px;
@@ -93,6 +195,10 @@ export default () => (
             right: 0;
             bottom: -120px;
         }
+      }
+
+      .newletter-wrapper {
+          padding: 0 15px;
       }
 
       @media (max-width: 1000px) {

@@ -243,6 +243,10 @@ input[type=email]:focus {
     43% {opacity: 1; transform: scaleX(10); transform: scaleY(.1); rotate(60deg);}
   }
 
+  .row {
+      margin: 0 10px;
+  }
+
 
 
 /* Tito  */
