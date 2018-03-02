@@ -6,9 +6,8 @@ export default ({ children }) => (
         <a name="collaborators"></a>
 
         <div className="row">
-            <div className="col-md-8 offset-md-3">
-                <h2 className="title">Collaborators</h2>
-                <p>ColdFront is organised in collaboration with</p>
+            <div className="col-md-8 offset-md-3 font-bitblox">
+                <p>ColdFront is organised in collaboration with:</p>
             </div>
         </div>
 

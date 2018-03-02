@@ -5,6 +5,7 @@ import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
 import Collaborators from '../components/collaborators'
 import Host from '../components/host'
+import Speaker from '../components/speaker'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
@@ -46,7 +47,7 @@ export default () => (
             <div className="col-md-3 offset-md-3 col-xs-12 host-text">
                 <h2>VENUE: ICONIC VEGA IN HIP VESTERBRO</h2>
                 <p>ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
-                <p><a href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
+                <p><a id="location-link" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
             </div>
             
 
@@ -71,6 +72,32 @@ export default () => (
         </div>
     </Section>
 
+    <Section>
+        <h2 className="offset-md-3" style={{paddingLeft: 15}}>Speakers</h2>
+
+        <div className="speaker-grid">
+            <Speaker 
+                speakerImage="/static/images/speakers/speaker-sara.jpg"
+                speakerName="Sara Soueidan" 
+                speakerPosition="Front-End Web Developer" 
+                speakerTwitterLink="https://twitter.com/SaraSoueidan" 
+            />
+            <Speaker
+                speakerImage="/static/images/speakers/speaker-sara.jpg"
+                speakerName="Sara Soueidan" 
+                speakerPosition="Front-End Web Developer" 
+                speakerTwitterLink="https://twitter.com/SaraSoueidan"
+            />
+            <Speaker
+                speakerImage="/static/images/speakers/speaker-sara.jpg"
+                speakerName="Sara Soueidan" 
+                speakerPosition="Front-End Web Developer" 
+                speakerTwitterLink="https://twitter.com/SaraSoueidan"
+            />
+        </div>
+
+    </Section>
+
     <Host />
 
     <WideSection>
@@ -84,6 +111,12 @@ export default () => (
     <Collaborators />
 
     <style jsx>{`
+
+        .speaker-grid {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
 
         .food-image {
             background-image: url(/static/images/food.jpg);
@@ -149,6 +182,11 @@ export default () => (
 
                 padding: 20px 40px;
             }
+        }
+
+        #location-link {
+            font-weight: bolder;
+            text-decoration: none;
         }
 
 
