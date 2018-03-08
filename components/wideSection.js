@@ -23,6 +23,7 @@ export default ({ children }) => (
                 margin-left: calc(30px + 8%);
                 margin-right: calc(30px + 8%);
                 padding: 0 15px;
+                position: relative;
             }
 
             @media (max-width: 1000px) {

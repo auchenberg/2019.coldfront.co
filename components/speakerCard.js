@@ -1,11 +1,22 @@
 
 import React from 'react';
+import Link from 'next/link'
+
+
+const PageLink = (props) => (
+      <Link href={`/speakers/${props.speakerLink}`}>
+        <img className="arrow cursor-pointer" src="/static/images/arrow-purple.svg" />
+      </Link>
+  )
 
 class Speaker extends React.Component {
   constructor(props) {
     super(props);
   }
   render() {
+
+    let speakerLink = this.props.speakerName.split(" ");
+
     return (
       <div className="speaker-card">
         <div className="speaker-avatar col-md-12 col-xs-12">
@@ -15,7 +26,11 @@ class Speaker extends React.Component {
                         <h3>{this.props.speakerName}</h3>
                         <p>{this.props.speakerPosition}</p>
                     </div>
-                    <a href={this.props.speakerTwitterLink} target="_blank"><img className="arrow" src="/static/images/twitter.svg" /></a>
+                    {/* <a href={this.props.speakerTwitterLink} target="_blank"><img className="arrow" src="/static/images/twitter.svg" /></a> */}
+
+                    <PageLink 
+                        speakerLink={speakerLink[0].toLowerCase()}
+                    />
                 </div>
             </div>
 

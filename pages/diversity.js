@@ -30,7 +30,7 @@ export default () => (
             <div className="col-md-6 offset-md-3">
                 <p className="font-bitblox">Sponsored By</p>
                 <div className="sponsor-icons-wrapper">
-                    <img src="../static/images/Intel-logo.svg" alt="samsung-internet-logo"/>
+                    <img style={{transform: "scale(0.5)"}} src="../static/images/intel-logo.png" alt="samsung-internet-logo"/>
                     <img src="../static/images/samsunginternet-logo.svg" alt="samsung-internet-logo"/>
                 </div>
             </div>

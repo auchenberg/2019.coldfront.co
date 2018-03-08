@@ -5,7 +5,7 @@ import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
 import Collaborators from '../components/collaborators'
 import Host from '../components/host'
-import Speaker from '../components/speaker'
+import SpeakerSection from '../components/speakerSection'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
@@ -72,31 +72,9 @@ export default () => (
         </div>
     </Section>
 
-    <Section>
-        <h2 className="offset-md-3" style={{paddingLeft: 15}}>Speakers</h2>
+    <SpeakerSection />
 
-        <div className="speaker-grid">
-            <Speaker 
-                speakerImage="/static/images/speakers/speaker-sara.jpg"
-                speakerName="Sara Soueidan" 
-                speakerPosition="Front-End Web Developer" 
-                speakerTwitterLink="https://twitter.com/SaraSoueidan" 
-            />
-            <Speaker
-                speakerImage="/static/images/speakers/speaker-sara.jpg"
-                speakerName="Sara Soueidan" 
-                speakerPosition="Front-End Web Developer" 
-                speakerTwitterLink="https://twitter.com/SaraSoueidan"
-            />
-            <Speaker
-                speakerImage="/static/images/speakers/speaker-sara.jpg"
-                speakerName="Sara Soueidan" 
-                speakerPosition="Front-End Web Developer" 
-                speakerTwitterLink="https://twitter.com/SaraSoueidan"
-            />
-        </div>
-
-    </Section>
+    
 
     <Host />
 
@@ -111,12 +89,6 @@ export default () => (
     <Collaborators />
 
     <style jsx>{`
-
-        .speaker-grid {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
 
         .food-image {
             background-image: url(/static/images/food.jpg);
