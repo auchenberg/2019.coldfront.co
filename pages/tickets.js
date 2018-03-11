@@ -13,7 +13,7 @@ export default () => (
                         <div className="col-md-6">
                             <h2>Tickets</h2>
 
-                            <p>The price incl. 2 day conference, dinner, party and a major surprise.</p>
+                            <p>The price incl. 2 day conference, 1 community day, social dinners, party and a major surprise.</p>
                             <tito-widget event="coldfront/coldfront-2018" />
 
                             <h3>Want to buy via Invoice?</h3>
