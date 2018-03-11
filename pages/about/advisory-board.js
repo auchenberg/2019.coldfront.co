@@ -1,32 +1,86 @@
 
 import WideSection from '../../components/wideSection'
 import Layout from '../../components/layout'
+import Intro from '../../components/intro'
+import ListItem from '../../components/listItem'
 
 export default () => (
     <Layout>
 
+        <Intro title="Our Advisory board" img="/static/images/splash-advisory-board.jpg" />
+
         <WideSection>
             <div className="page-advisory-board">
-                <h1>Advisory board</h1>
-                <p>ColdFront is more than your typical conference. We want you to have a great social experience, and we believe socializing and netwokring is is big part of why we go to conferences.</p>
-                <p>We are collaborating with a number of truly amazing people in Copenhagen, that will help you experience many sides of Copenhagen, as we are organzing a bunch of optionl social events that you can choose to participate in to meet new people.All of this in addition to the conference days.</p>
-                <p>We believe conference food should be nutritious, coffee should be great, and parties should be focused about meeting people; not getting hammered.</p>
+                <p>ColdFront has an Advisory Board consisting of world renowned experts and partners from the leading companies in our industry. The role of the board is to advice and help the ColdFront team navigate in a field that's changing faster than ever.</p>
+            </div>
+        </WideSection>
 
-                <br />
-                <img src="/static/images/program.png" width="100%" />
+        <div className="list">
+            <ul className="row">
 
-                <style jsx>{`
+                <ListItem title="Robert Nymann"
+                    body=""
+                    img="/static/images/advisory-board/advisor-robert.jpg"
+                    size="4"
+                />
 
-            blockquote {
-                margin-left: 40px;
-                margin-bottom: 40px;
-            }
+                <ListItem title="Jessica Lord"
+                    body="Jessica is a web developer focusing on open source tools to make the web more approachable; she is active in the Node.js and Electron communities. Her project Git-it is one of the top 10 most contributed-to projects on GitHub."
+                    img="/static/images/advisory-board/advisor-jessica.png"
+                    size="4"
+                />
 
-            .image-about {
-                background-image:url('/static/images/the-team.jpg');
-                height: 500px;
-                margin-bottom: -200px;
-            }
+                <ListItem title="Kenneth Rohde Christiansen"
+                    body="Kenneth is a Web Platform Architect from Denmark working at the Intel Open Source Technology Center. He is a key team member in growing Intel's web involvement."
+                    img="/static/images/advisory-board/advisor-kenneth.png"
+                    size="4"
+                />
+
+                <ListItem title="Rachel Nabours"
+                    body="Rachel Nabors (rachelnabors.com) began telling stories online as a teenager with her award-winning web comics (rachelthegreat.com). Her love of web technologies transformed into a career in front end development, where she has worked with Mozilla, the W3C, and Microsoft to build the web forward."
+                    img="/static/images/advisory-board/advisor-rachel.jpg"
+                    size="4"
+                />
+
+                <ListItem title="Sune Sloth Simonsen"
+                    body="I'm currently a Software Engineer at Zendesk where I do front-end development in React, previously I was at One.com building calendar and webmail for thousands of concurrent users. I'm running a couple of open source projects most notably unexpected.js.org. "
+                    img="/static/images/advisory-board/advisor-sune.jpg"
+                    affiliation="Zendesk"
+                    size="4"
+                />
+
+                <ListItem title="Olga Leus"
+                    body=""
+                    img="/static/images/advisory-board/advisor-olga.jpg"
+                    affiliation="Zendesk"
+                    size="4"
+                />
+
+                <ListItem title="Simon Engelbretch"
+                    body=" "
+                    img="/static/images/advisory-board/advisor-simon.jpg"
+                    affiliation="Sharp"
+                    size="4"
+                />
+
+                <ListItem title="Ulrik Bech Hald"
+                    body=" "
+                    img="/static/images/advisory-board/advisor-ulrik.jpg"
+                    affiliation="Jayway"
+                    size="4"
+                />
+
+                <ListItem title="Mikkel Rasmussen"
+                    body=" "
+                    img="/static/images/advisory-board/advisor-mikkel.jpg"
+                    affiliation="Jayway"
+                    size="4"
+                />
+            </ul>
+        </div>
+
+        <style jsx>{`
+
 
             .list {
                 padding: 50px 0 0 0;
@@ -48,56 +102,10 @@ export default () => (
                     padding: 20px;
                     position: relative;
                 }
-
-                .overlay {
-                    background-image: linear-gradient(to top, #1c1c2d, rgba(28, 28, 45, 0.80) 100%, rgba(108, 28, 45, 0));
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                }
-
-                .text {
-                    position: relative;
-                    z-index: 2;
-                    padding: 15px;
-                }
-
-                .kenneth {
-                    background-image: url(/static/images/kenneth.jpg);
-                }
-
-                .michael {
-                    background-image: url(/static/images/michael.jpg);
-                }
-
-            }
-
-            @media (max-width: 1000px) {
-                .organizers {
-                    padding-top: 20px;;
-
-                    ul {
-                        padding: 0;
-                    }
-                }
-
-                .organizers li {
-                    padding: 0;
-                    height: 300px;
-                }
-
-                blockquote {
-                    margin-left: 20px;
-                    margin-bottom: 20px;
-                }
             }
 
             `}
-                </style>
-            </div>
-        </WideSection>
+        </style>
     </Layout>
 )
 
