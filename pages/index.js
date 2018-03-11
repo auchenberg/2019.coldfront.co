@@ -17,64 +17,92 @@ export default () => (
 
     <Section>
         <div className="col-md-8 offset-md-2 splash-text">
-          <h1 className="text-center">A TWO-DAY INTERNATIONAL CONFERENCE FOR FRONT-END, MOBILE AND INTERFACE DEVELOPERS IN COPENHAGEN DENMARK</h1>
+          <h1 className="text-center">A unique two-day conference for front-end and mobile developers about the future of our industry in Copenhagen, Denmark</h1>
         </div>
     </Section>
 
     <Section>
         <div className="image-overlay crowd">
         <div className="overlay-shadow"></div>
-                <a className="play fade-glitch" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
+            <a className="play fade-glitch" href="https://www.youtube.com/watch?v=zXJuEp8d6gw" target="_blank" />
         </div>
     </Section>
 
     <WideSection>
         <div className="col-md-10 conference">
-        <h2>November 13-14th 2018 in Copenhagen!</h2>
-        <p>ColdFront is a two-day international conference for front-end, mobile and interface developers in Copenhagen on November 13-14th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
+        <h2>The front-end role has evolved!</h2>
+        <p>ColdFront is a unique two-day international conference for front-end and mobile developers in Copenhagen on November 13-14th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
 
-        <p>How do you deliver a modern interface that works on any platform? At Coldfront 2018, we will take a look at the entire stack by throwing a two day conference for everyone who are passionate about building front-ends and interfaces. So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be. Join us, in the heart of Copenhagen, Denmark with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
+        <p>How do you deliver a modern interface that works on any platform?</p>
+        <p>At Coldfront 2018, we will take a look at the entire stack by throwing a two day conference for everyone who are passionate about building front-ends and interfaces. So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
+        <p>Join us, in the heart of Copenhagen, Denmark with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
 
         <a className="btn btn-primary btn-secondary-shadow ticket glitch" data-text="Get your ticket" href="https://2018.coldfront.co/tickets">
             Get your ticket <i className="fas fa-arrow-right"></i>
         </a>
+
         </div>
     </WideSection>
 
-    <Section>
-        <div className="row">
-
-            <div className="col-md-3 offset-md-3 col-xs-12 host-text">
-                <h2>VENUE: ICONIC VEGA IN HIP VESTERBRO</h2>
-                <p>ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
-                <p><a id="location-link" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
+    <Section clean>
+        <div className="splash">
+            <div className="row">
+                <div className="col-md-8 offset-md-2">
+                    <img className='img' src="/static/images/program.png" width="100%" />
+                </div>
             </div>
-            
-
-            <div className="venue-image col-md-6 col-xs-12"></div>
-
-            
-
         </div>
     </Section>
 
     <Section>
         <div className="row">
-            
 
-            <div className="food-image col-md-6 col-xs-12"></div>
+            <div className="community-image col-md-6 col-xs-12"></div>
 
-            <div className="col-md-3 offset-md-1 col-xs-12 host-text">
-                <h2>DELICIOUS FOOD FOR THE BRAIN</h2>
-                <p>We want you to have a great experience, and we believe food is big part of that. This year, we are collaborating with a number of truly amazing food trucks, serving everything from fish tacos to delicious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
+            <div className="col-md-4 offset-md-1 col-xs-12 host-text">
+                <h2>2 conference days + 1 community day!</h2>
+                <p>We want to inspire you, so this year we are taking ColdFront to a new level by having two full conference days in VEGA and introducing a 3rd community day in collaboration with the local community in Copenhagen, where we'll host workshops and meetups.</p>
+                <p>Why?</p>
+                <p>ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives and just have fun! </p>
+
+                <p>By buying a ticket for ColdFront, you'll automaticlly get access to the workshops. And if you are a student you can attend too! The meetups in the evening will be open to everyone.</p>
+
+                <p><a id="location-link" href="/community">Read more about our Community Day here</a></p>
             </div>
-
         </div>
     </Section>
 
     <SpeakerSection />
 
-    
+    <Section>
+        <div className="row">
+            <div className="col-md-5 offset-md-1 col-xs-12 host-text">
+                <h2>Come to Copenhagen!</h2>
+                <p>Copenhagen is the meltingpot for front-end, design, architecture and food. Did you know PHP, C++, Ruby on Rails were invited in Denmark? Ever heard about Arne Jacobsen? Noma? New nordic food? or Bjarke Ingles?</p>
+                <p>Yup, all Danish 🇩🇰.</p>
+                <p>Come to Copenhagen and experience an international city that's the melting point of software and design. ColdFront will be held in VEGA, one of the leading concert stages in Europe, that's showcasing original 50's design gives the building a unique atmosphere. VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
+                <p><a id="location-link" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
+            </div>
+
+
+            <div className="venue-image col-md-6 col-xs-12"></div>
+
+        </div>
+    </Section>
+
+    <Section>
+        <div className="row">
+
+
+            <div className="food-image col-md-6 col-xs-12"></div>
+
+            <div className="col-md-4 offset-md-1 col-xs-12 host-text">
+                <h2>Social dinners, great food and party!</h2>
+                <p>We want you to have a great experience, and we believe food is big part of that. This year, we are collaborating with a number of truly amazing food trucks, serving everything from fish tacos to delicious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
+            </div>
+
+        </div>
+    </Section>
 
     <Host />
 
@@ -121,14 +149,22 @@ export default () => (
 
                 padding: 20px 40px;
             }
-        } 
+        }
 
+        .community-image {
+            background-color: #1C1C1C;
+            background-image: url(/static/images/community-partners.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
+
+        }
         .venue-image {
-            background-image: url(/static/images/vega.jpg);
+            background-image: url(/static/images/copenhagen.jpg);
             background-size: cover;
             box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
 
-            height: 600px;
+            height: 800px;
 
             position: relative;
 
