@@ -13,10 +13,11 @@ export default () => (
 
           <div className="navbar-collapse collapse" id="collapsingNavbar">
           <ul className="navbar-nav ml-md-auto d-md-flex">
-            <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">TICKETS</a></li>
             <li className="nav-item font-bitblox"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
-            <li className="nav-item font-bitblox"><a className="nav-link" href="/about">ABOUT</a></li>
-            <li className="nav-item font-bitblox"><a className="nav-link" href="/diversity">DIVERSITY</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="/community">Community</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="/social">Social</a></li>
+            <li className="nav-item font-bitblox"><a className="nav-link" href="/about">About</a></li>
           </ul>
           </div>
 

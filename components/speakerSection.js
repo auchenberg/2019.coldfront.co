@@ -15,14 +15,14 @@ export default ({ children }) => (
                 <SpeakerCard
                     speakerImage="/static/images/speakers/speaker-sara2.jpg"
                     speakerName="Sara Soueidan"
-                    speakerSubject="Theme: Future of SVG and scalable graphics"
+                    speakerSubject="Future of SVG and scalable graphics"
                     speakerPosition="Front-End Web Developer"
                     speakerTwitterLink="https://twitter.com/SaraSoueidan"
                 />
                 <SpeakerCard
                     speakerImage="/static/images/speakers/speaker-shirley.jpg"
                     speakerName="Shirley Wu"
-                    speakerSubject="Theme: Future of visualizations on the web"
+                    speakerSubject="Future of web visualizations"
                     speakerPosition="Freelance Software Engineer"
                     speakerTwitterLink="https://twitter.com/sxywu"
                 />
@@ -30,7 +30,7 @@ export default ({ children }) => (
                     speakerImage="/static/images/speakers/myles.jpg"
                     speakerName="Myles Bonris"
                     speakerPosition="Developer Advocate at Google"
-                    speakerSubject="Theme: Future of Node.js & full-stack"
+                    speakerSubject="Future of Node.js & full-stack"
                 />
                 <SpeakerCard
                     speakerImage="/static/images/speakers/blank.png"
@@ -46,7 +46,7 @@ export default ({ children }) => (
         <style jsx>{`
 
                 .speaker-grid {
-                    width: 70%;
+                    width: 75%;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;

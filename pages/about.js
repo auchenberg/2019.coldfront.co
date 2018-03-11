@@ -1,79 +1,56 @@
 import WideSection from '../components/wideSection'
 import Layout from '../components/layout'
+import Intro from '../components/intro'
 
 export default () => (
     <Layout>
 
-        <div className="image-about image-overlay d-none d-md-block">
-            <div className="overlay-shadow"></div>
-        </div>
+        <Intro title="About ColdFront" img="/static/images/splash-about.png" />
 
         <WideSection>
-            <div className="page-about">
-                <h2>About ColdFront</h2>
-                <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>                
-                <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>                
-                <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
-                <p>ColdFront is a conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies.</p>
-                <h3>Our format</h3>
-                <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
-            </div>
+            <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>
+            <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
+            <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
+            <p>ColdFront is a unique conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies.</p>
+
+            <h3>Our ColdFront name</h3>
+            <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
+
+            <p>Earlier editions: <a href="https://2017.coldfront.co">ColdFront 2017</a>, <a href="https://2016.coldfront.co">ColdFront 2016</a>, <a href="https://2015.coldfront.co">ColdFront 2015</a>, <a href="https://2014.coldfront.co">ColdFront 2014</a></p>
         </WideSection>
+
+        <Intro title="Our principles and manifest" img="/static/images/splash-manifest.jpg" />
 
         <WideSection>
-            <h3>Our principles and manifest</h3>
+            <p>To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference:</p>
 
-            <p>To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference.</p>
+            <h4>Our format</h4>
+            <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
 
-            <blockquote>
-                <h4>Why instead of how</h4>
-                <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
+            <h4>Why instead of how</h4>
+            <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
 
-                <h4>Perspective over tutorials</h4>
-                <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
+            <h4>Perspective over tutorials</h4>
+            <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
 
-                <h4>Technologies and trends</h4>
-                <ul>
-                    <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
-                    <li>Mobile platforms / trends / runtimes</li>
-                    <li>React / VueJS / Modern front-end frameworks</li>
-                    <li>React Native / NativeScript / Platforms for native apps using web technology</li>
-                    <li>CSS / Precompilers / Abstractions for UI styling</li>
-                    <li>Animations / ways to bring life to front-end experiences</li>
-                    <li>Tooling / productivity / workflows / production learnings / war stories</li>
-                    <li>Devices / form factors / IoT / emerging markets</li>
-                    <li>Human aspects of software development / management / process</li>
-                    <li>Music / arts / creative coding / design</li>
-                </ul>
-            </blockquote>
-
+            <h4>Technologies and trends</h4>
+            <ul>
+                <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
+                <li>Mobile platforms / trends / runtimes</li>
+                <li>React / VueJS / Modern front-end frameworks</li>
+                <li>React Native / NativeScript / Platforms for native apps using web technology</li>
+                <li>CSS / Precompilers / Abstractions for UI styling</li>
+                <li>Animations / ways to bring life to front-end experiences</li>
+                <li>Tooling / productivity / workflows / production learnings / war stories</li>
+                <li>Devices / form factors / IoT / emerging markets</li>
+                <li>Human aspects of software development / management / process</li>
+                <li>Music / arts / creative coding / design</li>
+            </ul>
         </WideSection>
 
-
-
-        <WideSection>
-                <div className="page-about">
-
-                    <h3>The ColdFront name</h3>
-                    <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
-
-                    <h3>Previous ColdFronts</h3>
-                    <ul>
-                        <li><a href="https://2017.coldfront.co">ColdFront 2017</a></li>
-                        <li><a href="https://2016.coldfront.co">ColdFront 2016</a></li>
-                        <li><a href="https://2015.coldfront.co">ColdFront 2015</a></li>
-                        <li><a href="https://2014.coldfront.co">ColdFront 2014</a></li>
-                    </ul>
-                </div>
-        </WideSection>
+        <Intro title="The organizers and team" img="/static/images/splash-team.jpg" />
 
         <div className="organizers">
-            <div className="row">
-                <div className="col-md-8 offset-md-3">
-                    <h2>Organizers</h2>
-                </div>
-            </div>
-
             <ul className="row">
                 <li className="col-md-6 kenneth">
                     <div className="overlay"></div>
@@ -91,21 +68,23 @@ export default () => (
                     </div>
                 </li>
             </ul>
-
         </div>
 
+        <Intro title="Our advisory board" img="/static/images/splash-advisory-board.jpg" />
+
+        <WideSection>
+            <p>ColdFront has an advisisory board consisting of world renowned experts and partners from the leading companies in our industry. The role of the board is to advice and help the ColdFront team navigate in a field that's changing faster than ever.</p>
+
+            <p><a id="location-link" href="/about/advisory-board">Read more about our Advisory Board here</a></p>
+        </WideSection>
+
+        <Intro title="Press and media" img="/static/images/splash-media.jpg" />
+
+        <WideSection>
+            <p>Our story, logo and images at your disposal.</p>
+        </WideSection>
+
         <style jsx>{`
-
-            blockquote {
-                margin-left: 40px;
-                margin-bottom: 40px;
-            }
-
-            .image-about {
-                background-image:url('/static/images/the-team.jpg');
-                height: 500px;
-                margin-bottom: -200px;
-            }
 
             .organizers {
                 padding: 50px 0 0 0;
@@ -165,11 +144,6 @@ export default () => (
                 .organizers li {
                     padding: 0;
                     height: 300px;
-                }
-
-                blockquote {
-                    margin-left: 20px;
-                    margin-bottom: 20px;
                 }
             }
 

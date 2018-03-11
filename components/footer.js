@@ -3,55 +3,31 @@ import NewsletterForm from '../components/newsletterForm'
 export default () => (
     <div className="footer">
       <div className="container">
-        {/* <a href="#"><img src="/static/images/logos/coldfront_stacked.svg" /></a>
-        <p>By attending you accept <a href="http://confcodeofconduct.com/">our code of conduct</a></p> */}
 
         <div className="row">
           <div className="col-md-1 offset-md-1">
-
             <ul className="navbar-nav ml-md-auto d-md-flex">
-              <li className="nav-item font-bitblox"><a className="nav-link" href="/about">ABOUT</a></li>
-              <li className="nav-item font-bitblox"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
-              <li className="nav-item font-bitblox"><a className="nav-link" href="/diversity">DIVERSITY</a></li>
-              <li className="nav-item font-bitblox"><a className="nav-link" href="/speakers">SPEAKERS</a></li>
-              <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">TICKETS</a></li>
+                <li className="nav-item font-bitblox"><a className="nav-link" href="/about">About</a></li>
+                <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
+                <li className="nav-item font-bitblox"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
             </ul>
+        </div>
 
-          </div>
+        <div className="col-md-2 offset-md-1">
+            <ul className="navbar-nav ml-md-auto d-md-flex">
+                <li className="nav-item font-bitblox"><a className="nav-link" href="/community">Community</a></li>
+                <li className="nav-item font-bitblox"><a className="nav-link" href="/social">Social</a></li>
+                <li className="nav-item font-bitblox"><a className="nav-link" href="http://confcodeofconduct.com/">Code of Conduct</a></li>
+            </ul>
+        </div>
 
-          <div className="col-md-5 offset-md-4">
+        <div className="col-md-5 offset-md-2">
             <p className="font-bitblox">Get the latest news.</p>
             <NewsletterForm />
-
           </div>
-
-          <div className="col-md-12">
-            <hr />
-          </div>
-
-          <div className="col-md-12">
-            <div className="d-flex justify-content-center">
-              <div className="wrapper">
-                {/* <i class="fas fa-heart"></i> */}
-                <p><a href="http://confcodeofconduct.com/">Code of conduct</a></p>
-              </div>
-              
-
-              {/* <div className="wrapper">
-                <p>Follow us, because we're awesome:</p>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-twitter"></i>
-              </div> */}
-
-            </div>
-
-          </div>
-
         </div>
 
       </div>
-
-
 
       <style jsx>{`
 
@@ -76,7 +52,7 @@ export default () => (
 
           ul {
             color: white;
-            
+
             a {
               color: white;
             }

@@ -1,12 +1,14 @@
 import WideSection from '../components/wideSection'
 import Layout from '../components/layout'
+import Intro from '../components/intro'
 
 export default () => (
     <Layout>
 
+        <Intro title="Call for Recommendations" img="/static/images/splash-cfr.jpg" />
+
         <WideSection>
             <div className="page-cfr">
-                <h2>Call for Recommendations</h2>
                 <p>ColdFront is a <strong>curated single-track conference</strong>, where the content is carefully curated by the organizers of ColdFront. This makes ColdFront different than most other conferences, as we don't have a regular CFP (Call for Proposals).</p>
 
                 <p>Instead we are inviting the front-end community to submit <strong>recommendations</strong> via our <strong>Call for Recommendations</strong> where you can propose great content, topics for the upcoming ColdFront 2018 (November 13-14th, Copenhagen).</p>

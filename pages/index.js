@@ -61,11 +61,7 @@ export default () => (
 
             <div className="col-md-4 offset-md-1 col-xs-12 host-text">
                 <h2>2 conference days + 1 community day!</h2>
-                <p>We want to inspire you, so this year we are taking ColdFront to a new level by having two full conference days in VEGA and introducing a 3rd community day in collaboration with the local community in Copenhagen, where we'll host workshops and meetups.</p>
-                <p>Why?</p>
-                <p>ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives and just have fun! </p>
-
-                <p>By buying a ticket for ColdFront, you'll automaticlly get access to the workshops. And if you are a student you can attend too! The meetups in the evening will be open to everyone.</p>
+                <p>We want to inspire you, so this year we are taking ColdFront to a new level by having two full conference days in VEGA and introducing a new 3rd optional community day in collaboration with leading educational organizations and communities in Copenhagen, where we'll host workshops and meetups.</p>
 
                 <p><a id="location-link" href="/community">Read more about our Community Day here</a></p>
             </div>
@@ -79,7 +75,7 @@ export default () => (
             <div className="col-md-5 offset-md-1 col-xs-12 host-text">
                 <h2>Come to Copenhagen!</h2>
                 <p>Copenhagen is the meltingpot for front-end, design, architecture and food. Did you know PHP, C++, Ruby on Rails were invited in Denmark? Ever heard about Arne Jacobsen? Noma? New nordic food? or Bjarke Ingles?</p>
-                <p>Yup, all Danish 🇩🇰.</p>
+                <p>Yup, all Danish 🇩🇰</p>
                 <p>Come to Copenhagen and experience an international city that's the melting point of software and design. ColdFront will be held in VEGA, one of the leading concert stages in Europe, that's showcasing original 50's design gives the building a unique atmosphere. VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
                 <p><a id="location-link" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
             </div>
@@ -92,15 +88,16 @@ export default () => (
 
     <Section>
         <div className="row">
-
-
             <div className="food-image col-md-6 col-xs-12"></div>
 
             <div className="col-md-4 offset-md-1 col-xs-12 host-text">
-                <h2>Social dinners, great food and party!</h2>
-                <p>We want you to have a great experience, and we believe food is big part of that. This year, we are collaborating with a number of truly amazing food trucks, serving everything from fish tacos to delicious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
-            </div>
+                <h2>Social events, dinners, great food and party!</h2>
+                <p>ColdFront is more than typical conference. We want you to have a great social experience, and we believe socializing and netwokring is is big part of why we go to conferences.</p>
+                <p>We are collaborating with a number of truly amazing people in Copenhagen, that will help you experience many sides of Copenhagen, as we are organzing a bunch of optionl social events that you can choose to participate in to meet new people. All of this in addition to the conference days. </p>
+                <p>We believe conference food should be nutritious, coffee should be great, and parties should be focused about meeting people; not getting hammered.</p>
 
+                <p><a id="location-link" href="/social">Read more about our Social Events here</a></p>
+            </div>
         </div>
     </Section>
 
@@ -154,7 +151,7 @@ export default () => (
         .community-image {
             background-color: #1C1C1C;
             background-image: url(/static/images/community-partners.png);
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
             box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
 
