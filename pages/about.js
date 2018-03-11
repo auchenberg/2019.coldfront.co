@@ -54,23 +54,27 @@ export default () => (
         <div className="organizers">
             <ul className="row">
                 <ListItem title="Kenneth Auchenberg"
+                    label="Organizer"
                     body="Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for Word Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014."
                     img="/static/images/team/team-kenneth.jpg"
                 />
 
                 <ListItem title="Michael Christiansen"
+                    label="Organizer"
                     body="Joined ColdFront as co-organizer in 2017. Besides he is co-founder of Design Matters focusing on new movements in digital design. Finally he works a lot with membership organizations helping them with the digital transformation."
                     img="/static/images/team/team-michael.jpg"
                 />
 
                 <ListItem title="Christina Hanna"
-                    body="Head of design since 2015."
+                    label="Design"
+                    body=""
                     img="/static/images/team/team-christina.jpg"
                 />
 
                 <ListItem title="Jessica Tremblay"
-                    body="Communication and Community Manager"
-                    img="/static/images/team/team-jessica.jpg"
+                    label="Communication and Community"
+                    body="Jessica Tremblay is a software designer and front end developer for IBM Design and currently lives in Austin, TX.  She is one of the original organizers for FEDucation: a global, internal, front end knowledge sharing program that is part of the ever-growing FED@IBM initiative."
+                    img="/static/images/team/team-jessica.png"
                 />
             </ul>
         </div>
