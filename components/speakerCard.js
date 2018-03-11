@@ -23,14 +23,12 @@ class Speaker extends React.Component {
                 <div className="overlay-shadow"></div>
                 <div className="text">
                     <div>
-                        <h3>{this.props.speakerName}</h3>
-                        <p>{this.props.speakerPosition}</p>
-                    </div>
-                    {/* <a href={this.props.speakerTwitterLink} target="_blank"><img className="arrow" src="/static/images/twitter.svg" /></a> */}
 
-                    <PageLink 
-                        speakerLink={speakerLink[0].toLowerCase()}
-                    />
+                        <h3>{this.props.speakerName}</h3>
+                        <p>{this.props.speakerSubject}</p>
+                        <p className="title">{this.props.speakerPosition}</p>
+                    </div>
+
                 </div>
             </div>
 
@@ -38,6 +36,14 @@ class Speaker extends React.Component {
 
             .speaker-card {
                 width: 30%;
+
+            }
+
+            .title {
+                font-size: 12px;
+                position: absolute;
+                bottom: 0;
+                left: 40px;
             }
 
             .speaker-avatar {
@@ -45,7 +51,6 @@ class Speaker extends React.Component {
                 background-size: cover;
                 box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
                 height: 30vw;
-
 
                 position: relative;
 
@@ -60,9 +65,10 @@ class Speaker extends React.Component {
 
                 .text {
                     position: absolute;
-                    bottom: 0%;
-                    left: 0%;
-                    right: 0%;
+                    bottom: 0;
+                    top: 40%;
+                    left: 0;
+                    right: 0;
 
                     display: flex;
                     flex-direction: row;
