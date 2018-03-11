@@ -13,9 +13,9 @@ export default () => (
                 <a className="btn btn-primary btn-primary-shadow glitch" data-text="Get your ticket" href="https://2018.coldfront.co/tickets">
                 Get your ticket <i className="fas fa-arrow-right"></i>
                 </a>
-                <p className="font-bitblox">NOV 13-14 2018</p>
+                <p className="font-bitblox">NOV 13-14-15 2018</p>
             </div>
-            
+
             <style jsx>{`
             .splash {
                 position: relative;
