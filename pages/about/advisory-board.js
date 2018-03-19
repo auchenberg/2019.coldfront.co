@@ -50,7 +50,7 @@ export default () => (
                 />
 
                 <ListItem title="Olga Leus"
-                    body=""
+                    body="A Software Engineer at Zendesk, passionate about various web technologies including React and GraphQL. Previously at Spotify I helped to rewrite the Desktop client architecture and make it a better place for music."
                     img="/static/images/advisory-board/advisor-olga.jpg"
                     affiliation="Zendesk"
                     size="4"
