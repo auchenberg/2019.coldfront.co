@@ -19,7 +19,7 @@ export default () => (
             <ul className="row">
 
                 <ListItem title="Robert Nymann"
-                    body=""
+                    body="Robert is a strong believer in the Open Web, and has been working since 1999 with Front End development. He is currently the Global Lead for Programs & Initiatives, Web Developer Relations, at Google, and loves to travel and meet people!"
                     img="/static/images/advisory-board/advisor-robert.jpg"
                     size="4"
                 />
