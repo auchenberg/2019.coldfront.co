@@ -71,7 +71,7 @@ export default () => (
                 />
 
                 <ListItem title="Ulrik Bech Hald"
-                    body=" "
+                    body="Android developer and competence lead at Jayway's Copenhagen office. I have a background in embedded and IoT, involved in development of several OEM products. Passionate about reactive programming, open source and tech in general."
                     img="/static/images/advisory-board/advisor-ulrik.jpg"
                     affiliation="Jayway"
                     size="4"
