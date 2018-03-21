@@ -64,7 +64,7 @@ export default () => (
                 />
 
                 <ListItem title="Simon Engelbretch"
-                    body=" "
+                    body="Simon is CEO & Founder of SKARP.DK a digital software consulting agency in Copenhagen. 20+ years experience in building user friendly digital products in Denmark and EastAfrica"
                     img="/static/images/advisory-board/advisor-simon.jpg"
                     affiliation="Sharp"
                     size="4"
