@@ -1,4 +1,5 @@
 import WideSection from '../components/wideSection'
+import Section from '../components/section'
 import Layout from '../components/layout'
 import Intro from '../components/intro'
 import ListItem from '../components/listItem'
@@ -6,128 +7,203 @@ import ListItem from '../components/listItem'
 export default () => (
     <Layout>
 
-        <Intro title="About ColdFront" img="/static/images/splash-about.png" />
+        <Section>
+            <Intro
+                title="About"
+                text="ColdFront is a unique conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies."
+                img="/static/images/splash-panel.jpg"
+            />
 
-        <WideSection>
-            <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>
-            <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
-            <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
-            <p>ColdFront is a unique conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies.</p>
+            <div className="col-md-8 col-xs-12">
+                <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>
+                <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
+                <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
 
-            <h3>Our ColdFront name</h3>
-            <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
+                <h3>The ColdFront name</h3>
+                <p>The name ColdFront expresses the aim to create events that’s on the forefront of the future, and is a mix of the words “cold” as a reference to the cold Scandinavia climate  and “front” referring to the front-end disciplin.</p>
 
-            <p>Earlier editions: <a href="https://2017.coldfront.co">ColdFront 2017</a>, <a href="https://2016.coldfront.co">ColdFront 2016</a>, <a href="https://2015.coldfront.co">ColdFront 2015</a>, <a href="https://2014.coldfront.co">ColdFront 2014</a></p>
-        </WideSection>
+                <p>Earlier editions: <a href="https://2017.coldfront.co">ColdFront 2017</a>, <a href="https://2016.coldfront.co">ColdFront 2016</a>, <a href="https://2015.coldfront.co">ColdFront 2015</a>, <a href="https://2014.coldfront.co">ColdFront 2014</a></p>
+            </div>
+        </Section>
 
-        <Intro title="Our principles and manifest" img="/static/images/splash-manifest.jpg" />
+        <Section bright>
+            <Intro
+                title="Our principles and manifest"
+                text="To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference:"
+            />
 
-        <WideSection>
-            <p>To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference:</p>
+            <div className="col-md-8 col-xs-12">
+                <h4>Our format</h4>
+                <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
 
-            <h4>Our format</h4>
-            <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
+                <h4>Why instead of how</h4>
+                <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
 
-            <h4>Why instead of how</h4>
-            <p>We want to hear talks that focuses on the “why” instead of the practical “how”. By this we mean that we would rather hear a talk that provides the reasons and perspective on a given technology or framework, than the “how to” on how to use the technology or framework. </p>
+                <h4>Perspective over tutorials</h4>
+                <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
 
-            <h4>Perspective over tutorials</h4>
-            <p>We want talks that provides perspective, new ways of thinking, and puts today’s landscape into the perspective of tomorrow. If the content can be read in a tutorial, it’s not a ColdFront talk.</p>
+                <h4>Technologies and trends</h4>
+                <ul>
+                    <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
+                    <li>Mobile platforms / trends / runtimes</li>
+                    <li>React / VueJS / Modern front-end frameworks</li>
+                    <li>React Native / NativeScript / Platforms for native apps using web technology</li>
+                    <li>CSS / Precompilers / Abstractions for UI styling</li>
+                    <li>Animations / ways to bring life to front-end experiences</li>
+                    <li>Tooling / productivity / workflows / production learnings / war stories</li>
+                    <li>Devices / form factors / IoT / emerging markets</li>
+                    <li>Human aspects of software development / management / process</li>
+                    <li>Music / arts / creative coding / design</li>
+                </ul>
+            </div>
+        </Section>
 
-            <h4>Technologies and trends</h4>
-            <ul>
-                <li>Web platform / browsers / W3C / WHATWG / runtimes</li>
-                <li>Mobile platforms / trends / runtimes</li>
-                <li>React / VueJS / Modern front-end frameworks</li>
-                <li>React Native / NativeScript / Platforms for native apps using web technology</li>
-                <li>CSS / Precompilers / Abstractions for UI styling</li>
-                <li>Animations / ways to bring life to front-end experiences</li>
-                <li>Tooling / productivity / workflows / production learnings / war stories</li>
-                <li>Devices / form factors / IoT / emerging markets</li>
-                <li>Human aspects of software development / management / process</li>
-                <li>Music / arts / creative coding / design</li>
-            </ul>
-        </WideSection>
+        <Section>
+            <Intro
+                title="The team"
+                text="ColdFront is organized by a diverse international team located across 3 cities, in 3 timezones, on 2 continents."
 
-        <Intro title="Our team" img="/static/images/splash-team.jpg" />
+            />
 
-        <div className="organizers">
-            <ul className="row">
-                <ListItem title="Kenneth Auchenberg"
-                    label="Organizer"
-                    body="Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for Word Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014."
-                    img="/static/images/team/team-kenneth.jpg"
-                />
+            <div className="organizers">
+                <div className="row col-12">
+                    <ul className="team-list">
+                        <ListItem title="Kenneth Auchenberg"
+                            label="Organizer"
+                            body="Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for Word Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014."
+                            img="/static/images/team/team-kenneth.jpg"
+                        />
 
-                <ListItem title="Michael Christiansen"
-                    label="Organizer"
-                    body="Joined ColdFront as co-organizer in 2017. Besides he is co-founder of Design Matters focusing on new movements in digital design. Finally he works a lot with membership organizations helping them with the digital transformation."
-                    img="/static/images/team/team-michael.jpg"
-                />
+                        <ListItem title="Michael Christiansen"
+                            label="Organizer"
+                            body="Joined ColdFront as co-organizer in 2017. Besides he is co-founder of Design Matters focusing on new movements in digital design. Finally he works a lot with membership organizations helping them with the digital transformation."
+                            img="/static/images/team/team-michael.jpg"
+                        />
 
-                <ListItem title="Christina Hanna"
-                    label="Design"
-                    body=""
-                    img="/static/images/team/team-christina.jpg"
-                />
+                        <ListItem title="Jessica Tremblay"
+                            label="Communication and Community"
+                            body="Jessica Tremblay is a software designer and front end developer for IBM Design and currently lives in Austin, TX.  She is one of the original organizers for FEDucation: a global, internal, front end knowledge sharing program that is part of the ever-growing FED@IBM initiative."
+                            img="/static/images/team/team-jessica.png"
+                        />
 
-                <ListItem title="Jessica Tremblay"
-                    label="Communication and Community"
-                    body="Jessica Tremblay is a software designer and front end developer for IBM Design and currently lives in Austin, TX.  She is one of the original organizers for FEDucation: a global, internal, front end knowledge sharing program that is part of the ever-growing FED@IBM initiative."
-                    img="/static/images/team/team-jessica.png"
-                />
-            </ul>
-        </div>
+                        <ListItem title="Christina Hanna"
+                            label="Design"
+                            body=""
+                            img="/static/images/team/team-christina.jpg"
+                        />
+                    </ul>
+                </div>
+            </div>
+        </Section>
 
-        <Intro title="Our advisory board" img="/static/images/splash-advisory-board.jpg" />
+        <Section bright>
+            <Intro
+                title="Our advisory board"
+                text="ColdFront is adviced by an Advisory Board consisting of world renowned experts and partners from the leading companies in our industry."
+            />
 
-        <WideSection>
-            <p>ColdFront has an Advisory Board consisting of world renowned experts and partners from the leading companies in our industry. The role of the board is to advice and help the ColdFront team navigate in a field that's changing faster than ever.</p>
+            <div className="row col-12">
+                <ul className="advisory-board-list">
+                    <ListItem title="Robert Nymann"
+                        body="Robert is a strong believer in the Open Web, and has been working since 1999 with Front End development. He is currently the Global Lead for Programs & Initiatives, Web Developer Relations, at Google, and loves to travel and meet people!"
+                        img="/static/images/advisory-board/advisor-robert.jpg"
+                        size="4"
+                    />
 
-            <p><a id="location-link" href="/about/advisory-board">Read more about our Advisory Board here</a></p>
-        </WideSection>
+                    <ListItem title="Jessica Lord"
+                        body="Jessica is a web developer focusing on open source tools to make the web more approachable; she is active in the Node.js and Electron communities. Her project Git-it is one of the top 10 most contributed-to projects on GitHub."
+                        img="/static/images/advisory-board/advisor-jessica.png"
+                        size="4"
+                    />
 
-        <Intro title="Press and media" img="/static/images/splash-media.jpg" />
+                    <ListItem title="Kenneth Rohde Christiansen"
+                        body="Kenneth is a Web Platform Architect from Denmark working at the Intel Open Source Technology Center. He is a key team member in growing Intel's web involvement."
+                        img="/static/images/advisory-board/advisor-kenneth.png"
+                        size="4"
+                    />
 
-        <WideSection>
-            <p>Our story, logo and images at your disposal.</p>
-        </WideSection>
+                    <ListItem title="Rachel Nabours"
+                        body="Rachel Nabors (rachelnabors.com) began telling stories online as a teenager with her award-winning web comics (rachelthegreat.com). Her love of web technologies transformed into a career in front end development, where she has worked with Mozilla, the W3C, and Microsoft to build the web forward."
+                        img="/static/images/advisory-board/advisor-rachel.jpg"
+                        size="4"
+                    />
+
+                    <ListItem title="Sune Sloth Simonsen"
+                        body="I'm currently a Software Engineer at Zendesk where I do front-end development in React, previously I was at One.com building calendar and webmail for thousands of concurrent users. I'm running a couple of open source projects most notably unexpected.js.org. "
+                        img="/static/images/advisory-board/advisor-sune.jpg"
+                        affiliation="Zendesk"
+                        size="4"
+                    />
+
+                    <ListItem title="Olga Leus"
+                        body="A Software Engineer at Zendesk, passionate about various web technologies including React and GraphQL. Previously at Spotify I helped to rewrite the Desktop client architecture and make it a better place for music."
+                        img="/static/images/advisory-board/advisor-olga.jpg"
+                        affiliation="Zendesk"
+                        size="4"
+                    />
+
+                    <ListItem title="Mikkel Rasmussen"
+                        body="I am managing our Danish Jayway Studio being responsible for Strategy, advisory, sales, business development and our 35 consultants.  I am passionate about inspiring and understanding other people. "
+                        img="/static/images/advisory-board/advisor-mikkel.jpg"
+                        affiliation="Jayway"
+                        size="4"
+                    />
+
+                    <ListItem title="Simon Engelbretch"
+                        body="Simon is CEO & Founder of SKARP.DK a digital software consulting agency in Copenhagen. 20+ years experience in building user friendly digital products in Denmark and EastAfrica"
+                        img="/static/images/advisory-board/advisor-simon.jpg"
+                        affiliation="Sharp"
+                        size="4"
+                    />
+
+                    <ListItem title="Ulrik Bech Hald"
+                        body="Android developer and competence lead at Jayway's Copenhagen office. I have a background in embedded and IoT, involved in development of several OEM products. Passionate about reactive programming, open source and tech in general."
+                        img="/static/images/advisory-board/advisor-ulrik.jpg"
+                        affiliation="Jayway"
+                        size="4"
+                    />
+                </ul>
+            </div>
+        </Section>
 
         <style jsx>{`
 
-            .organizers {
-                padding: 50px 0 0 0;
+            h4 {
+                margin: 40px 0;
+            }
 
-                ul {
-                    list-style: none;
-                    padding-top: 50px;
-                }
+            .advisory-board-list {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 40px;
 
+                padding: 100px 0;
+            }
 
+            .team-list {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 40px;
 
-                .kenneth {
-                    background-image: url();
-                }
-
-                .michael {
-                    background-image: url(/static/images/team/team-michael.jpg);
-                }
-
+                padding: 100px 0;
             }
 
             @media (max-width: 1000px) {
-                .organizers {
-                    padding-top: 20px;;
+                .team-list {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 40px;
 
-                    ul {
-                        padding: 0;
-                    }
-                }
-
-                .organizers li {
                     padding: 0;
-                    height: 300px;
                 }
+                .advisory-board-list {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 40px;
+
+                    padding: 0;
+                }
+
             }
 
             `}
