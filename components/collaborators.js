@@ -2,17 +2,17 @@ import Section from './section'
 
 export default ({ children }) => (
 
-    <Section compact>
+    <Section bright>
         <a name="collaborators"></a>
 
         <div className="row">
-            <div className="col-md-8 offset-md-3 font-bitblox">
-                <p>ColdFront is organised in collaboration with:</p>
+            <div className="col-md-8">
+                <h3>ColdFront is organised in collaboration with:</h3>
             </div>
         </div>
 
         <div className="row">
-            <div className="offset-md-3 col-8">
+            <div className="col-12">
                 <div className="row list">
                     <div className="list-item col-md-4">
                         <a href="https://www.zendesk.com/">
@@ -20,7 +20,7 @@ export default ({ children }) => (
                         </a>
                     </div>
 
-                    <div className="list-item col-md-3 offset-md-1">
+                    <div className="list-item col-md-4 offset-md-1">
                         <a href="https://www.jayway.com/">
                             <img src="/static/images/logos/jayway.svg" alt="jayway-logo" className="logos jayway" />
                         </a>
@@ -30,7 +30,7 @@ export default ({ children }) => (
         </div>
 
         <div className="row">
-            <div className="col-md-8 offset-md-3 font-bitblox">
+            <div className="col-md-8">
                 <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
             </div>
         </div>
@@ -38,7 +38,6 @@ export default ({ children }) => (
         <style jsx>{`
             .logos {
                 width: 100%;
-                margin-bottom: 40px;
             }
 
             .list {
@@ -49,7 +48,12 @@ export default ({ children }) => (
             }
 
             .list-item {
-                padding: 0;
+                padding: 40px 60px;
+                background: #020824;
+
+                display: flex;
+                align-items: center;
+                margin-bottom: 40px;
             }
 
             @media (max-width: 1000px) {

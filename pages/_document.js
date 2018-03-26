@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
                     <meta name="viewport" content="width=device-width,initial-scale=1"/>
                     <meta name="theme-color" content="#673ab7" />
                     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css?family=Barlow:200,400,700" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,700" rel="stylesheet" />
 
                     <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
                     <link href="/static/css/bootstrap.min.css" rel="stylesheet"  />
@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
                     <link rel="shortcut icon" href="/static/images/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256" />
                 </Head>
                 <body>
-                    <div className="page container-fluid px-sm-4 px-md-0">
+                    <div className="page px-sm-4 px-md-0">
                         <Main />
                     </div>
                     <NextScript />

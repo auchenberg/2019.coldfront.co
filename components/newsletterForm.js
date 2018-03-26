@@ -50,7 +50,12 @@ export default ({ children }) => (
                 }
 
                 .email {
-                    margin-bottom: 10px
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+
+                .btn-primary {
+                    width: 100%;
                 }
             }
 
