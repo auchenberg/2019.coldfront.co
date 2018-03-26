@@ -5,7 +5,7 @@ export default ({ children }) => (
     <Section>
 
         <div className="col-md-10 col-xs-12 teaser">
-            <h2>A unique conference about the future of front-end development in Copenhagen, Denmark.</h2>
+            <h2>A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark.</h2>
             <a href="/why-coldfront">Why we are making this conference?</a>
         </div>
 
