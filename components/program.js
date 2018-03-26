@@ -22,7 +22,7 @@ export default ({ children }) => (
                     </div>
                     <div className="col-md-4 day">
                         <h2>Day 3</h2>
-                        <p><strong>November 14</strong> – Community day with workshops and meetups</p>
+                        <p><strong>November 15</strong> – Community day with workshops and meetups</p>
                     </div>
             </div>
 
