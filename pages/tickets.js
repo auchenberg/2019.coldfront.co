@@ -1,18 +1,22 @@
 import Header from '../components/header'
 
-import WideSection from '../components/wideSection'
+import Section from '../components/section'
 import Layout from '../components/layout'
 import NewsletterForm from '../components/newsletterForm'
 import Intro from '../components/intro'
 
 export default () => (
     <Layout>
+        <Section>
+            <Intro
+                title="Tickets"
+                img="/static/images/splash-tickets.jpg"
+                text="The price incl. 2 day conference, 1 community day, social dinners, party and a major surprise."
+            />
+        </Section>
+        <Section bright>
+            <div className="col-md-8 col-xs-12">
 
-        <Intro title="Tickets" img="/static/images/splash-tickets.jpg" />
-
-        <WideSection>
-            <div className="page-tickets">
-                <p>The price incl. 2 day conference, 1 community day, social dinners, party and a major surprise.</p>
                 <tito-widget event="coldfront/coldfront-2018" />
 
                 <h3>Want to buy via Invoice?</h3>
@@ -25,7 +29,7 @@ export default () => (
                 <p>We are planning another ColdFront storm to arrive in late 2018, so sign up to stay tuned and become a early bird ColdFronter!</p>
                 <NewsletterForm />
             </div>
-        </WideSection>
+        </Section>
 
             <style jsx>{`
 
