@@ -9,7 +9,7 @@ export default () => (
         <Section>
             <Intro
                 title="Why ColdFront?"
-                text="The front-end role has evolved, and yet our conferences are focused around a religious set of technologies, and not the challanges of building a modern front-end and interface that runs across platforms. With ColdFront we are changing that."
+                text="The front-end role has evolved, and yet our conferences are still focused around a religious set of technologies. With ColdFront we are changing that by focusing on the challenges of building a modern interface and a front-end that runs everywhere."
                 img="/static/images/splash-panel2.jpg"
             />
         </Section>
