@@ -1,19 +1,26 @@
 
-import WideSection from '../components/wideSection'
+import Section from '../components/section'
 import Layout from '../components/layout'
 import Intro from '../components/intro'
 
 export default () => (
     <Layout>
 
-        <Intro title="Why ColdFront?" img="/static/images/splash-social.jpg" />
-
-        <WideSection>
-            <div className="page-social">
-                <h2>The front-end role has evolved!</h2>
-                <p>ColdFront is a unique two-day international conference for front-end and mobile developers in Copenhagen on November 13-14th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
+        <Section>
+            <Intro
+                title="Why ColdFront?"
+                text="The front-end role has evolved, and yet our conferences are focused around a religious set of technologies, and not the challanges of building a modern front-end and interface that runs across platforms. With ColdFront we are changing that."
+                img="/static/images/splash-panel2.jpg"
+            />
+        </Section>
+        <Section bright>
+            <div className="col-md-8 col-xs-12">
+                <h2>A holistic front-end conference</h2>
+                <p>ColdFront is a unique two-day international conference for front-end and mobile developers in Copenhagen on November 13-14-15th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
 
                 <p>How do you deliver a modern interface that works on any platform?</p>
+
+                <h3>A look at the entire stack</h3>
                 <p>At Coldfront 2018, we will take a look at the entire stack by throwing a two day conference for everyone who are passionate about building front-ends and interfaces. So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
                 <p>Join us, in the heart of Copenhagen, Denmark with 16 talks by renowned speakers, delicious nordic food and boatloads of social fun and networking.</p>
 
@@ -22,13 +29,9 @@ export default () => (
                 </a>
             </div>
 
-        </WideSection>
+        </Section>
         <style jsx>{`
-            .image-social {
-                background-image:url('/static/images/splash-social.jpg');
-                height: 500px;
-                margin-bottom: -200px;
-            }
+
         `}</style>
     </Layout>
 )
