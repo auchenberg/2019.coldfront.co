@@ -5,12 +5,14 @@ import Intro from '../components/intro'
 export default () => (
     <Layout>
 
-        <Section bright>
+        <Section>
             <Intro
                 title="Call for Recommendations"
                 text="We are inviting the front-end community to submit recommendations for the upcoming ColdFront 2018 in November 13-14-15th Copenhagen."
                 img="/static/images/splash-cfr.jpg"
             />
+        </Section>
+        <Section bright>
 
             <div className="col-md-8 col-xs-12">
                 <p>ColdFront is a <strong>curated single-track conference</strong>, where the content is carefully curated by the organizers of ColdFront. This makes ColdFront different than most other conferences, as we don't have a regular CFP (Call for Proposals).</p>
