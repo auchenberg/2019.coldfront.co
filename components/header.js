@@ -8,7 +8,7 @@ export default () => (
                 <img className="logo" src="/static/images/logo.svg" />
             </a>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" data-animate="false" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
 
@@ -43,7 +43,7 @@ export default () => (
         }
 
         :global(.navbar-collapse) {
-            transition: transform 300ms;
+            transition: transform 300ms !important;
             transform: translate3d(0,-100%,0);
 
             display: block;
@@ -52,6 +52,7 @@ export default () => (
             top: 0;
             left: 0;
             right: 0;
+            bottom: 0;
             z-index: 900;
 
             height: 100vh;
@@ -62,6 +63,10 @@ export default () => (
         }
 
         :global(.collapse.show) {
+            transform: translate3d(0,0,0);
+        }
+
+        :global(.collapsing) {
             transform: translate3d(0,0,0);
         }
         .nav-item {
