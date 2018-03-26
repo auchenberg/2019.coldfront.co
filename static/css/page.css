@@ -315,3 +315,14 @@ input.form-control.tito-discount-code-field.discount-code-field {
         font-size: 14px;
     }
 }
+
+.collapse {
+    display: block !important;
+    height: 100% !important;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
