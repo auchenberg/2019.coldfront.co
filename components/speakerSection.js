@@ -16,24 +16,25 @@ export default ({ children }) => (
                 speakerName="Sara Soueidan"
                 speakerSubject="future of SVG and scalable graphics"
                 speakerPosition="front-End Web Developer"
-                speakerTwitterLink="https://twitter.com/SaraSoueidan"
+                twitter="https://twitter.com/SaraSoueidan"
             />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-shirley.jpg"
                 speakerName="Shirley Wu"
                 speakerSubject="future of web visualizations"
                 speakerPosition="freelance Software Engineer"
-                speakerTwitterLink="https://twitter.com/sxywu"
+                twitter="https://twitter.com/sxywu"
             />
             <SpeakerCard
-                speakerImage="/static/images/speakers/myles.jpg"
-                speakerName="Myles Bonris"
-                speakerPosition="developer Advocate at Google"
-                speakerSubject="future of Node.js & full-stack"
+                speakerImage="/static/images/speakers/speaker-brent.png"
+                speakerName="Brent Vatne"
+                speakerPosition="Developer at Expo, core contributor to React Native."
+                speakerSubject="future of Expo and React Native & full-stack"
+                twitter="https://twitter.com/notbrent"
             />
         </div>
 
-        <p>Many more amazing speakers to be announced soon. Stay tuned!</p>
+        <p>Stay tuned. Many more amazing speakers to be announced soon.</p>
 
         {/* <p><a href="/speakers">See all the speakers here</a></p> */}
 
