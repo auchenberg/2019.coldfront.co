@@ -1,17 +1,21 @@
-import WideSection from '../components/wideSection'
+import Section from '../components/section'
 import Layout from '../components/layout'
 import Intro from '../components/intro'
 
 export default () => (
     <Layout>
 
-        <Intro title="Call for Recommendations" img="/static/images/splash-cfr.jpg" />
+        <Section bright>
+            <Intro
+                title="Call for Recommendations"
+                text="We are inviting the front-end community to submit recommendations for the upcoming ColdFront 2018 in November 13-14-15th Copenhagen."
+                img="/static/images/splash-cfr.jpg"
+            />
 
-        <WideSection>
-            <div className="page-cfr">
+            <div className="col-md-8 col-xs-12">
                 <p>ColdFront is a <strong>curated single-track conference</strong>, where the content is carefully curated by the organizers of ColdFront. This makes ColdFront different than most other conferences, as we don't have a regular CFP (Call for Proposals).</p>
 
-                <p>Instead we are inviting the front-end community to submit <strong>recommendations</strong> via our <strong>Call for Recommendations</strong> where you can propose great content, topics for the upcoming ColdFront 2018 (November 13-14th, Copenhagen).</p>
+                <p>Instead we are inviting the front-end community to submit <strong>recommendations</strong> via our <strong>Call for Recommendations</strong> where you can propose great content, topics for the upcoming ColdFront 2018 (November 13-14-15th, Copenhagen).</p>
 
                 <p>This Call for Recommendations closes on May 1st 2018.</p>
 
@@ -45,6 +49,6 @@ export default () => (
                 }
             `}</style>
             </div>
-        </WideSection>
+        </Section>
     </Layout>
 )
