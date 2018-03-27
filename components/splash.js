@@ -27,7 +27,6 @@ export default () => (
                 background: url('/static/images/splash/splash.png');
                 background-repeat: no-repeat;
                 background-size: contain;
-                background-color: #0C0C14;
 
                 text-align: center;
 

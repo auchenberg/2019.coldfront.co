@@ -23,10 +23,6 @@ export default (props) => (
                 padding-bottom: 0;
             }
 
-            .bright {
-                    background:#151D45;
-            }
-
             .compact {
                 padding-top: 50px;
                 padding-bottom: 50px

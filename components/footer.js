@@ -57,7 +57,6 @@ export default () => (
 
 
         .footer {
-          background-color: #0c0c14;
           padding: 50px 0;
 
           ul {

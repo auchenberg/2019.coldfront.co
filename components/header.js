@@ -25,7 +25,6 @@ export default () => (
       <style jsx>{`
         .header {
           padding: 20px 0;
-          background: #0C0C14;
         }
         .logo {
           width: 200px;
