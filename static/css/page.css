@@ -19,21 +19,6 @@ a:visited {
     color: #00EDFF;
 }
 
-@font-face {
-    font-family: 'bitbloxmonospaced';
-    src: url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff2') format('woff2'),
-         url('/static/fonts/psy-ops_-_bitblox-monospaced-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.font-bitblox {
-    font-family: 'bitbloxmonospaced' , sans-serif;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 1.6px;
-}
-
 h1, h2, h3, h4 {
     font-family: 'Barlow', sans-serif;
 }
@@ -214,7 +199,6 @@ input[type=email]:focus {
 .tito-ticket-status-sold-out span {
     background-color: #8f23f5;
     color: #eef9f6;
-    font-family: 'bitbloxmonospaced';
     font-size: 13px;
     border-radius: 0;
     border: 0;
@@ -237,7 +221,6 @@ input[type=text].tito-ticket-donation-field {
     color: #ffffff !important;
     border-radius: 0 !important;
 
-    font-family: 'bitbloxmonospaced' !important;
     font-size: 13px !important;
     width: 34px !important;
     padding: 6px !important;
@@ -250,7 +233,6 @@ input.form-control.tito-discount-code-field.discount-code-field {
     color: #ffffff !important;
     border-radius: 0 !important;
 
-    font-family: 'bitbloxmonospaced' !important;
     font-size: 13px !important;
 }
 .navbar {
@@ -261,7 +243,6 @@ input.form-control.tito-discount-code-field.discount-code-field {
     background-color: #8f23f5 !important;
     color: #eef9f6 !important;
 
-    font-family: 'bitbloxmonospaced' !important;
     font-size: 13px !important;
 
     border-radius: 0 !important;
