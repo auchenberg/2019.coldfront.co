@@ -6,10 +6,10 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <Head>
-                    <title>ColdFront 2018 - a unique two-day conference for front-end and mobile developers in Copenhagen on November 13-14-15th 2018</title>
+                    <title>ColdFront 2018 - a holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018</title>
 
-                    <meta property="og:title" content="ColdFront 2018 - a unique two-day conference for front-end and mobile developers in Copenhagen on November 13-14-15th 2018" />
-                    <meta property="og:description" content="A unique two-day conference for front-end and mobile developers about the future of our industry in Copenhagen on November 13-14-15th 2018" />
+                    <meta property="og:title" content="ColdFront 2018" />
+                    <meta property="og:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
                     <meta property="og:url" content="https://2018.coldfront.co/" />
                     <meta property="og:site_name" content="ColdFront"/>
                     <meta property="og:image" content="https://2018.coldfront.co/static/images/social.png"/>
@@ -18,8 +18,8 @@ export default class MyDocument extends Document {
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@coldfrontconf" />
                     <meta name="twitter:creator" content="@coldfrontconf" />
-                    <meta name="twitter:title" content="ColdFront 2018 - a unique two-day conference for front-end and mobile developers" />
-                    <meta name="twitter:description" content="A unique two-day conference for front-end and mobile developers about the future of our industry in Copenhagen on November 13-14-15th 2018" />
+                    <meta name="twitter:title" content="ColdFront 2018" />
+                    <meta name="twitter:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
                     <meta name="twitter:image:src" content="https://2018.coldfront.co/static/images/social.png" />
 
                     <meta name="viewport" content="width=device-width,initial-scale=1"/>
