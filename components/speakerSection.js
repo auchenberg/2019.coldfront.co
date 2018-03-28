@@ -28,7 +28,7 @@ export default ({ children }) => (
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-brent.png"
                 speakerName="Brent Vatne"
-                speakerPosition="Developer at Expo, core contributor to React Native."
+                speakerPosition="Developer at Expo, core contributor to React Native"
                 speakerSubject="future of Expo and React Native"
                 twitter="https://twitter.com/notbrent"
             />
