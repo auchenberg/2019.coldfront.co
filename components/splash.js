@@ -3,7 +3,6 @@ import Section from './section'
 export default () => (
     <Section clean wide>
         <div className="splash">
-            <div className="row">
                 <div className="text">
                     <h1 className="title">The future of front-end and interfaces</h1>
                     {/* <h3>A unique two-day conference that blurs the lines between web, mobile, native and design in Copenhagen, Denmark</h3> */}
@@ -15,7 +14,7 @@ export default () => (
 
 
                 </div>
-            </div>
+            
 
             <style jsx>{`
             .splash {
@@ -23,13 +22,19 @@ export default () => (
                 box-sizing: border-box;
                 padding-top: 100px;
 
+                @media (max-width: 1000px){
+                    padding-left: -17px;
+                    padding-right: -17px;
+                }
+
                 background: url('/static/images/splash/splash.png');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-position: center center;
 
                 text-align: center;
 
                 .text {
+                    text-align: center;
                     margin: 0 auto;
                 }
                 .date {
@@ -39,6 +44,13 @@ export default () => (
 
                 .title {
                     width: 520px;
+                    margin-right: auto;
+                    margin-left: auto;
+
+                    @media (max-width: 1000px){
+                        width: auto;
+                        max-width: 350px;
+                    }
                 }
 
                 .ticket {
@@ -82,28 +94,6 @@ export default () => (
                         letter-spacing: 0.7px;
                     }
 
-                }
-            }
-
-            @media (max-width: 1000px) {
-                .splash {
-                    background-position: 0 60px;
-
-                    .title{
-                        width: 350px;
-                    }
-
-                    .btn-splash {
-                        position: static !important;
-                        text-align: center;
-                    }
-
-                    .ticket {
-                        padding: 10px 30px;
-                        font-size: 12px;
-                        width: 100%;
-                        margin-bottom: 0;
-                    }
                 }
             }
 
