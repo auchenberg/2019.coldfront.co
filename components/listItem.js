@@ -17,27 +17,40 @@ export default (props) => (
 
         .list-item {
             list-style: none;
+            transition: transform 1s ease-out;
 
             .subject {
                 font-weight: 800;
             }
 
             .avatarBox {
-                height: 300px;
+                height: 450px;
                 margin-bottom: 30px;
-                overflow: hidden;
             }
 
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
-                object-position: left bottom;
+                object-position: center bottom;
+                box-shadow: 40px 80px 80px rgba(0, 0, 0, 0.5);
             }
 
-            @media (max-width: 1000px) {
+            &:hover{
+                transform: translate(0, -10px);
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .list-item{
+                margin-bottom: 100px;
+                &:hover{
+                    transform: none;
+                }
+                
+
                 .avatarBox {
-                    height: 110px;
+                    height: auto;
                 }
             }
         }

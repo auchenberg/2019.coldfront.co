@@ -44,7 +44,7 @@ export default ({ children }) => (
             .speaker-grid {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                grid-gap: 40px;
+                grid-gap: 60px;
 
                 padding: 100px 0;
             }
@@ -52,8 +52,7 @@ export default ({ children }) => (
             @media (max-width: 1000px) {
 
                 .speaker-grid {
-                    padding: 40px 0;
-                    grid-template-columns: repeat(2, 1fr);
+                    display: block;
                 }
 
             }
