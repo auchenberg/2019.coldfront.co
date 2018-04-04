@@ -14,7 +14,7 @@ export default () => (
                 img="/static/images/splash-panel.jpg"
             />
 
-            <div className="col-md-8 col-xs-12">
+            <div className="narrow">
                 <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>
                 <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
                 <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
@@ -32,7 +32,7 @@ export default () => (
                 text="To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference:"
             />
 
-            <div className="col-md-8 col-xs-12">
+            <div className="narrow">
                 <h4>Our format</h4>
                 <p>ColdFront is a single-track conference, and a ColdFront talk is maximum 45 minutes long. After each 2 session block, a 15 min break will follow to allow attendees to stretch their legs.</p>
 

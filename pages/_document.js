@@ -34,9 +34,7 @@ export default class MyDocument extends Document {
                     <link rel="shortcut icon" href="/static/images/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256" />
                 </Head>
                 <body>
-                    <div className="page px-sm-4 px-md-0">
-                        <Main />
-                    </div>
+                    <Main />
                     <NextScript />
 
                     <script src='https://js.tito.io/v1' async></script>

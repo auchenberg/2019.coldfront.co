@@ -5,67 +5,61 @@ export default ({ children }) => (
     <Section bright>
         <a name="collaborators"></a>
 
-        <div className="row">
-            <div className="col-md-8">
-                <h3>ColdFront is organised in collaboration with:</h3>
-            </div>
+        <div className="narrow">
+            <h3>ColdFront is organised in collaboration with:</h3>
         </div>
 
-        <div className="row">
-            <div className="col-12">
-                <div className="row list">
-                    <div className="list-item col-md-4">
-                        <a href="https://www.zendesk.com/">
-                            <img src="/static/images/logos/zendesk.svg" alt="zendesk-logo" className="logos" />
-                        </a>
-                    </div>
+        <div className="narrow">
+            <div className="list">
+                <div className="list-item">
+                    <a href="https://www.zendesk.com/">
+                        <img src="/static/images/logos/zendesk.svg" alt="zendesk-logo" className="logos" />
+                    </a>
+                </div>
 
-                    <div className="list-item col-md-4 offset-md-1">
-                        <a href="https://www.jayway.com/">
-                            <img src="/static/images/logos/jayway.svg" alt="jayway-logo" className="logos jayway" />
-                        </a>
-                    </div>
+                <div className="list-item">
+                    <a href="https://www.jayway.com/">
+                        <img src="/static/images/logos/jayway.svg" alt="jayway-logo" className="logos jayway" />
+                    </a>
                 </div>
             </div>
+            
         </div>
 
-        <div className="row">
-            <div className="col-md-8">
-                <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
-            </div>
+        <div className="narrow">
+            <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
         </div>
 
         <style jsx>{`
-            .logos {
-                width: 100%;
-            }
-
+            
             .list {
-                margin-bottom: 40px;
-                margin-top: 40px;
-                margin-left: 0;
-                margin-right: 0;
+                display: flex;
+                justify-content: space-between;
+
+                @media (max-width: 1100px) {
+                    flex-direction: column;
+                }
             }
 
             .list-item {
+                width: 415px;
                 padding: 40px 60px;
                 background: #020824;
 
                 display: flex;
+                justify-content: center;
                 align-items: center;
                 margin-bottom: 40px;
-            }
+                margin-right: 70px;
 
-            @media (max-width: 1000px) {
-                .list {
-                    margin: 0;
+                .logos{
+                    height: 60px;
+
+                    &.jayway{
+                        height: 90px;
+                    }
                 }
-
-                .jayway {
-                    width: 80%;
-                }
             }
-
           `}</style>
     </Section>
 )

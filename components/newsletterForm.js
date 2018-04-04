@@ -40,7 +40,6 @@ export default ({ children }) => (
             .email {
                 text-transform: uppercase;
                 font-size: 13px;
-                font-family: 'bitbloxmonospaced';
                 padding: 14px;
             }
 

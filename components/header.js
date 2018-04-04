@@ -1,8 +1,5 @@
 export default () => (
-    <header className='header'>
-
-      <div className="container">
-
+    <header className='header content wide'>
         <nav className="navbar navbar-dark">
             <a className="navbar-brand" href="/">
                 <img className="logo" src="/static/images/logo.svg" />
@@ -21,10 +18,11 @@ export default () => (
                 </ul>
             </div>
         </nav>
-      </div>
+      
       <style jsx>{`
         .header {
-          padding: 20px 0;
+          padding-top: 20px;
+          padding-bottom: 20px;
         }
         .logo {
           width: 200px;
@@ -74,15 +72,6 @@ export default () => (
 
         .nav-link {
             color: #fff
-        }
-
-        @media (max-width: 1000px) {
-
-            .logo {
-                width: 140px;
-            }
-
-
         }
 
       `}</style>

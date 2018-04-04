@@ -2,45 +2,46 @@ import NewsletterForm from '../components/newsletterForm'
 
 export default () => (
     <div className="footer">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-2">
-                    <ul className="navbar-nav ml-md-auto d-md-flex">
-                        <li className="nav-item font-bitblox"><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
-                        <li className="nav-item font-bitblox"><a className="nav-link" href="/tickets">Tickets</a></li>
-                        <li className="nav-item font-bitblox"><a className="nav-link" href="/about">About</a></li>
-                        <li className="nav-item font-bitblox"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
-                    </ul>
-                </div>
-                <div className="col-md-5 offset-md-2">
+            <div className="top-part content narrow">
+                <ul className="navbar-nav left">
+                    <li><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
+                    <li><a className="nav-link" href="/tickets">Tickets</a></li>
+                    <li><a className="nav-link" href="/about">About</a></li>
+                    <li><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
+                </ul>
+                <div className="right">
                     <p className="font-bitblox">Get the latest news.</p>
                     <NewsletterForm />
                 </div>
             </div>
 
-            <div className="row line">
-                <div className="col-md-2">
+            <div className="content narrow line">
+                <div className="left">
                     <img src="/static/images/icon-heart.svg" />
                     <a href="http://confcodeofconduct.com/">Code of Conduct</a>
                 </div>
-                <div className="col-md-7 offset-md-3 text-right">
+                <div className="right">
                     Follow us because we are awesome:
                     <a href="http://facebook.com/coldfrontconf"><img src="/static/images/icon-fb.svg" height="16" style={{ marginLeft: '10px' }} /></a>
                     <a href="http://twitter.com/coldfrontconf"><img src="/static/images/icon-twitter.svg" /></a>
+                </div>
             </div>
-            </div>
-
-        </div>
-
-
 
       <style jsx>{`
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
 
         .line {
+            clear: both;
             border-top: 1px solid #191D27;
             color: #3E495E;
             font-size: 16px;
-            padding: 20px 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
             margin-top: 20px;
 
             a:link,

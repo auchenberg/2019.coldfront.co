@@ -1,11 +1,10 @@
 import Section from './section'
 
 export default () => (
-    <Section clean>
+    <Section clean wide>
         <div className="splash">
-
             <div className="row">
-                <div className="col-md-6 text">
+                <div className="text">
                     <h1 className="title">The future of front-end and interfaces</h1>
                     {/* <h3>A unique two-day conference that blurs the lines between web, mobile, native and design in Copenhagen, Denmark</h3> */}
                     <p className="date">NOV 13-14-15 2018 in Copenhagen</p>
@@ -39,8 +38,7 @@ export default () => (
                 }
 
                 .title {
-                    font-size: 80px;
-                    font-weight: 600;
+                    width: 520px;
                 }
 
                 .ticket {
@@ -89,16 +87,15 @@ export default () => (
 
             @media (max-width: 1000px) {
                 .splash {
-
                     background-position: 0 60px;
+
+                    .title{
+                        width: 350px;
+                    }
 
                     .btn-splash {
                         position: static !important;
                         text-align: center;
-                    }
-
-                    .title {
-                        font-size: 28px;
                     }
 
                     .ticket {

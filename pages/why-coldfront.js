@@ -14,7 +14,7 @@ export default () => (
             />
         </Section>
         <Section bright>
-            <div className="col-md-8 col-xs-12">
+            <div className="narrow">
                 <h2>A holistic front-end conference</h2>
                 <p>ColdFront is a unique two-day international conference for front-end and mobile developers in Copenhagen on November 13-14-15th 2018. The front-end role has evolved, and building modern interfaces requires you to be present on many platforms regardless of the technology.</p>
 

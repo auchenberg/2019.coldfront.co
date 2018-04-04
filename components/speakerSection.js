@@ -4,13 +4,13 @@ import SpeakerCard from '../components/speakerCard'
 export default ({ children }) => (
 
     <Section bright>
+        <div className="narrow">
+            <h2>Themes and speakers</h2>
+            <p>ColdFront is about the future, so we have asked each of our amazing speakers to share their perspective on what the future brings for their area and theme.</p>
 
-        <h2>Themes and speakers</h2>
-        <p>ColdFront is about the future, so we have asked each of our amazing speakers to share their perspective on what the future brings for their area and theme.</p>
-
-        <p>We can't wait. It's gonna be amazing.</p>
-
-        <div className="speaker-grid">
+            <p>We can't wait. It's gonna be amazing.</p>
+        </div>
+        <div className="speaker-grid wide">
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-sara2.jpg"
                 speakerName="Sara Soueidan"
@@ -34,11 +34,11 @@ export default ({ children }) => (
             />
         </div>
 
-        <p>Stay tuned. Many more amazing speakers to be announced soon.</p>
+        <div className="narrow">
+            <p>Stay tuned. Many more amazing speakers to be announced soon.</p>
+        </div>
 
         {/* <p><a href="/speakers">See all the speakers here</a></p> */}
-
-
 
         <style jsx>{`
             .speaker-grid {

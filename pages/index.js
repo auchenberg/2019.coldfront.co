@@ -13,8 +13,6 @@ import Layout from '../components/layout'
 
 export default () => (
   <Layout>
-    <div className="home">
-
         <Splash />
 
         <Teaser />
@@ -26,7 +24,7 @@ export default () => (
         <Program />
 
         <Section>
-            <div className="newsletter-wrapper col-md-6 col-xs-12">
+            <div className="newsletter-wrapper narrow">
                 <h3>Don't miss out! Get the latest</h3>
                 <p>We have a huge ColdFront storm planned to arrive in November, so sign up to stay in the loop and get the announcements before everyone else!</p>
                 <NewsletterForm />
@@ -43,7 +41,5 @@ export default () => (
 
 
       `}</style>
-
-    </div>
   </Layout>
 )

@@ -14,12 +14,47 @@ body {
     background:#151D45;
 }
 
+.section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.clean {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.compact {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.content{
+    max-width: 1186px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 17px;
+}
+
+.narrow{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media (max-width: 1000px) {
+    .narrow{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 a:link,
 a:visited {
     color: #00EDFF;
 }
 
 h1, h2, h3, h4 {
+    font-size: 80px;
+    font-weight: 600;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -31,7 +66,7 @@ h2 {
 
 h3 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
@@ -263,20 +298,8 @@ input.form-control.tito-discount-code-field.discount-code-field {
         padding-left: 0;
     }
 
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-
-    body {
-        font-size: 14px;
+    h1 {
+        font-size: 55px;
     }
 }
 

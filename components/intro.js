@@ -1,25 +1,17 @@
 import NewsletterForm from '../components/newsletterForm'
 import Section from '../components/section'
 
-export default (props) => (
-
-    <Section>
+export default (props) => (    
         <div className="intro">
-            <div className="row text">
-                <div className="col-md-8">
-                    <h2>{props.title}</h2>
-                    <h1>{props.text}</h1>
-                </div>
+            <div className="narrow text">
+                <h2>{props.title}</h2>
+                <h1>{props.text}</h1>
             </div>
 
             {props.img &&
-            <div className="row">
-                <div className="col-md-12">
-                    <img src={props.img} />
-                </div>
-            </div>
+                <img src={props.img} />
             }
-        </div>
+        
 
     <style jsx>{`
 
@@ -41,18 +33,9 @@ export default (props) => (
             width: 100%;
         }
 
-        @media (max-width: 1000px) {
-            .intro {
-                h1 {
-                    font-size: 20px;
-                }
-            }
-        }
-
 
     `}</style>
-    </Section>
-
+    </div>
 )
 
 
