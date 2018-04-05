@@ -9,7 +9,7 @@ export default () => (
                 <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <div class="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
                 <ul class="navbar-nav">
                     <li className="nav-item"><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
                     <li className="nav-item"><a className="nav-link" href="/tickets">Tickets</a></li>
@@ -40,8 +40,8 @@ export default () => (
         }
 
         :global(.navbar-collapse) {
-            transition: transform 300ms !important;
-            transform: translate3d(0,-100%,0);
+            transition: linear 200ms !important;
+            transform: translate(100%,0);
 
             display: block;
 
@@ -51,6 +51,7 @@ export default () => (
             right: 0;
             bottom: 0;
             z-index: 900;
+            opacity: 0;
 
             height: 100vh;
             background-color: rgba(0,0,0,.90);
@@ -60,11 +61,12 @@ export default () => (
         }
 
         :global(.collapse.show) {
-            transform: translate3d(0,0,0);
+            transform: translate(0,0);
+            opacity: 1;
         }
 
         :global(.collapsing) {
-            transform: translate3d(0,0,0);
+            transform: translate(50%,0);
         }
         .nav-item {
             font-size: 30px;
