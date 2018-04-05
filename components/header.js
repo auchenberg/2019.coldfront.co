@@ -40,9 +40,7 @@ export default () => (
         }
 
         :global(.navbar-collapse) {
-            transition: linear 200ms !important;
-            transform: translate(100%,0);
-
+            transition: opacity linear 100ms !important;
             display: block;
 
             position: fixed;
@@ -60,13 +58,25 @@ export default () => (
             padding: 40px;
         }
 
+        :global(.navbar-collapse .navbar-nav){
+            transform: translate(0, 25px);
+            transition: ease-out 100ms;
+        }
+
+        :global(.navbar-collapse.show .navbar-nav){
+            transform: translate(0, 0);
+        }
+
+        :global(.navbar-collapse.collapsing .navbar-nav){
+            transform: translate(0, 12px);
+        }
+
         :global(.collapse.show) {
-            transform: translate(0,0);
             opacity: 1;
         }
 
         :global(.collapsing) {
-            transform: translate(50%,0);
+            opacity: 0.5;
         }
         .nav-item {
             font-size: 30px;
