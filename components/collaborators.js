@@ -36,30 +36,37 @@ export default ({ children }) => (
                 display: flex;
                 justify-content: space-between;
 
-                @media (max-width: 1100px) {
-                    flex-direction: column;
+                .list-item {
+                    max-width: 415px;
+                    padding: 40px 60px;
+                    background: #020824;
+    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 40px;
+                    margin-right: 70px;
+    
+                    .logos{
+                        height: 60px;
+                        max-width: 100%;
+
+                        &.jayway{
+                            height: 90px;
+                        }
+                    }
                 }
-            }
 
-            .list-item {
-                width: 415px;
-                padding: 40px 60px;
-                background: #020824;
+                @media (max-width: 1100px) {
+                    display: block;
 
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-bottom: 40px;
-                margin-right: 70px;
-
-                .logos{
-                    height: 60px;
-
-                    &.jayway{
-                        height: 90px;
+                    .list-item{
+                        margin-right: 0;
                     }
                 }
             }
+
+            
           `}</style>
     </Section>
 )
