@@ -53,6 +53,7 @@ export default () => (
 
             height: 100vh;
             background-color: rgba(0,0,0,.90);
+            visibility: hidden;
 
             text-align: center;
             padding: 40px;
@@ -73,10 +74,12 @@ export default () => (
 
         :global(.collapse.show) {
             opacity: 1;
+            visibility: visible;
         }
 
         :global(.collapsing) {
             opacity: 0.5;
+            visibility: visible;
         }
         .nav-item {
             font-size: 30px;
