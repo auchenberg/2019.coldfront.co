@@ -167,46 +167,9 @@ export default () => (
         </Section>
 
         <style jsx>{`
-
             h4 {
                 margin: 40px 0;
-            }
-
-            .advisory-board-list {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 40px;
-
-                padding: 100px 0;
-            }
-
-            .team-list {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 40px;
-
-                padding: 100px 0;
-            }
-
-            @media (max-width: 1000px) {
-                .team-list {
-                    display: grid;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-gap: 40px;
-
-                    padding: 0;
-                }
-                .advisory-board-list {
-                    display: grid;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-gap: 40px;
-
-                    padding: 0;
-                }
-
-            }
-
-            `}
+            }`}
         </style>
 
     </Layout>

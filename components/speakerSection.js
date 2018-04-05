@@ -40,23 +40,6 @@ export default ({ children }) => (
 
         {/* <p><a href="/speakers">See all the speakers here</a></p> */}
 
-        <style jsx>{`
-            .speaker-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 60px;
-
-                padding: 100px 0;
-            }
-
-            @media (max-width: 1000px) {
-
-                .speaker-grid {
-                    display: block;
-                }
-
-            }
-
-          `}</style>
+        <style jsx>{``}</style>
     </Section>
 )

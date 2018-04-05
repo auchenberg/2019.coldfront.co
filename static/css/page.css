@@ -316,3 +316,86 @@ input.form-control.tito-discount-code-field.discount-code-field {
 strong {
     font-weight: 800;
 }
+
+
+.speaker-grid,
+.advisory-board-list,
+.team-list 
+ {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    padding: 100px 0;
+}
+
+.team-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+@media (max-width: 600px) {
+    .speaker-grid, .team-list, .advisory-board-list {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .speaker-grid, .team-list, .advisory-board-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.list-item {
+    list-style: none;
+}
+.list-item .avatarBox{
+    transition: transform 1s ease-out;
+}
+
+.list-item .subject {
+    font-weight: 800;
+}
+
+.list-item .avatarBox {
+    position: relative;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.list-item .avatar {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    box-shadow: 40px 80px 80px rgba(0, 0, 0, 0.5);
+}
+
+.list-item .text{
+    position: relative;
+}
+
+.list-item:hover .avatarBox{
+    transform: translate(0, -10px);
+}
+
+@media (max-width: 600px) {
+    .list-item{
+        margin-bottom: 100px;
+    }
+
+    .list-item .avatar{
+        position: relative;
+    }
+
+    .list-item:hover{
+        transform: none;
+    }
+
+    .list-item .avatarBox {
+        height: auto;
+    }
+}
