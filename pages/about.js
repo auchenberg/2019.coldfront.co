@@ -104,7 +104,7 @@ export default () => (
 
             <div className="row col-12">
                 <ul className="advisory-board-list">
-                    <ListItem title="Robert Nymann"
+                    <ListItem title="Robert Nyman"
                         body="Robert is a strong believer in the Open Web, and has been working since 1999 with Front End development. He is currently the Global Lead for Programs & Initiatives, Web Developer Relations, at Google, and loves to travel and meet people!"
                         img="/static/images/advisory-board/advisor-robert.jpg"
                         size="4"
