@@ -169,6 +169,7 @@ export default () => (
         <style jsx>{`
             h4 {
                 margin: 40px 0;
+                font-size: 34px;
             }`}
         </style>
 
