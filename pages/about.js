@@ -122,7 +122,7 @@ export default () => (
                         size="4"
                     />
 
-                    <ListItem title="Rachel Nabours"
+                    <ListItem title="Rachel Nabors"
                         body="Rachel Nabors (rachelnabors.com) began telling stories online as a teenager with her award-winning web comics (rachelthegreat.com). Her love of web technologies transformed into a career in front end development, where she has worked with Mozilla, the W3C, and Microsoft to build the web forward."
                         img="/static/images/advisory-board/advisor-rachel.jpg"
                         size="4"
