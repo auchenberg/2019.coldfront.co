@@ -88,7 +88,7 @@ export default () => (
 
                         <ListItem title="Christina Hanna"
                             label="Design"
-                            body=""
+                            body="Christina is a digital product and brand identity designer for Conferize. In her search for bringing people together in meaningful ways, she has also been designing the identity for ColdFront since 2015 and is a part of organising the biggest monthly design meetup in Copenhagen."
                             img="/static/images/team/team-christina.jpg"
                         />
                     </ul>
