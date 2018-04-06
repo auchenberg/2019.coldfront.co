@@ -4,58 +4,63 @@ export default ({ children }) => (
 
     <Section>
 
-        <div className="row">
+        <div className="host">
 
-            <div className="host-avatar col-md-4  col-xs-12">
-                <img className="avatar" src="/static/images/host-phil.jpg" />
-                <div className="text">
-                    <div>
-                        <h3>PHIL HAWKSWORTH</h3>
-                        <p>Developer Relations at @Netlify</p>
-                    </div>
-                    <a href="https://twitter.com/philhawksworth" target="_blank"><img className="arrow" src="/static/images/arrow-purple.svg" /></a>
-                </div>
+            <div className="host-text">
+                <h2>Your Host</h2>
+                <h3>Phil Hawksworth<br />
+                - Developer Relations at @Netlify</h3>
+                <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!</p>
+                <p><a href="https://twitter.com/philhawksworth" target="_blank">Get to know him<img className="arrow" src="/static/images/arrow-white.svg" /></a></p>
             </div>
 
-            <div className="col-md-4 offset-md-1 col-xs-12 host-text">
-                <h2>Your Host</h2>
-                <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!</p>
+            <div className="host-avatar">
+                <img className="avatar" src="/static/images/host-phill-h.jpg" />
             </div>
 
         </div>
 
         <style jsx>{`
 
-            .host-avatar {
-                position: relative;
-
-                .avatar {
-                    height: 300px;
-                }
-                .text {
-                    position: absolute;
-                    bottom: 0%;
-                    left: 20px;
-                    right: 20px;
-
+            .host{
+                @media(min-width: 1000px){
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
 
+                    .host-text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                    .host-avatar{
+                        margin-right: 100px;
+                    }
                 }
+            }
+            h2{
+                font-size: 24px;
+            }
+            h3{
+                font-size: 38px;
+            }
+
+            .host-avatar {
+                .avatar {
+                    width: 389px;
+                    order: 0;
+                }
+            }
+
+            .host-text{
+                order: 1;
             }
 
             .arrow {
-                width: 40px;
+                margin-left: 20px;
+                width: 14px;
             }
 
-            @media (max-width: 1000px) {
-
-                .host-avatar {
-                    height: 222px;
-                }
-            }
+            
 
           `}</style>
     </Section>
