@@ -88,7 +88,7 @@ export default () => (
 
                         <ListItem title="Christina Hanna"
                             label="Design"
-                            body=""
+                            body="Christina is a digital product and brand identity designer for Conferize. In her search for bringing people together in meaningful ways, she has also been designing the identity for ColdFront since 2015 and is a part of organising the biggest monthly design meetup in Copenhagen."
                             img="/static/images/team/team-christina.jpg"
                         />
                     </ul>
@@ -122,7 +122,7 @@ export default () => (
                         size="4"
                     />
 
-                    <ListItem title="Rachel Nabours"
+                    <ListItem title="Rachel Nabors"
                         body="Rachel Nabors (rachelnabors.com) began telling stories online as a teenager with her award-winning web comics (rachelthegreat.com). Her love of web technologies transformed into a career in front end development, where she has worked with Mozilla, the W3C, and Microsoft to build the web forward."
                         img="/static/images/advisory-board/advisor-rachel.jpg"
                         size="4"
@@ -149,7 +149,7 @@ export default () => (
                         size="4"
                     />
 
-                    <ListItem title="Simon Engelbretch"
+                    <ListItem title="Simon Engelbrecht"
                         body="Simon is CEO & Founder of SKARP.DK a digital software consulting agency in Copenhagen. 20+ years experience in building user friendly digital products in Denmark and EastAfrica"
                         img="/static/images/advisory-board/advisor-simon.jpg"
                         affiliation="Sharp"
@@ -169,6 +169,7 @@ export default () => (
         <style jsx>{`
             h4 {
                 margin: 40px 0;
+                font-size: 34px;
             }`}
         </style>
 
