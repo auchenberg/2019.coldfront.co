@@ -28,8 +28,6 @@ export default ({ children }) => (
                         <img src="/static/images/logos/nodes.png" alt="nodes-logo" className="logos" />
                     </a>
                 </div>
-            </div>
-            <div className="list">
                 <div className="list-item">
                     <a href="http://kraftvaerk.com/">
                         <img src="/static/images/logos/kraftwaerk.png" alt="kraftvaerk-logo" className="logos" />
@@ -54,13 +52,14 @@ export default ({ children }) => (
             
             .list {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
 
                 .list-item {
                     width: 260px;
                     height: 103px;
                     padding: 40px 40px;
-                    background: #0E132B;
+                    background: #151D45;
     
                     display: flex;
                     flex-direction: column;
@@ -81,17 +80,7 @@ export default ({ children }) => (
                         }
                     }
                 }
-
-                @media (max-width: 1100px) {
-                    display: block;
-
-                    .list-item{
-                        margin-right: 0;
-                    }
-                }
             }
-
-            
           `}</style>
     </Section>
 )
