@@ -22,12 +22,7 @@ export default ({ children }) => (
                         <img src="/static/images/logos/balsamiq.png" alt="balsamiq-logo" className="logos" />
                     </a>
                 </div>
-
-                <div className="list-item">
-                    <a href="https://www.nodes.dk/">
-                        <img src="/static/images/logos/nodes.png" alt="nodes-logo" className="logos" />
-                    </a>
-                </div>
+    
                 <div className="list-item">
                     <a href="http://kraftvaerk.com/">
                         <img src="/static/images/logos/kraftwaerk.png" alt="kraftvaerk-logo" className="logos" />
