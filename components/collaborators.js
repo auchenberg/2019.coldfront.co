@@ -26,10 +26,6 @@ export default ({ children }) => (
             
         </div>
 
-        <div className="narrow">
-            <p>Want be a part of ColdFront?  Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
-        </div>
-
         <style jsx>{`
             
             .list {

@@ -9,8 +9,8 @@ export default () => (
                 <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
-                <ul class="navbar-nav">
+            <div className="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
+                <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
                     <li className="nav-item"><a className="nav-link" href="/tickets">Tickets</a></li>
                     <li className="nav-item"><a className="nav-link" href="/about">About</a></li>

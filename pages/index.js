@@ -4,6 +4,7 @@ import WideSection from '../components/wideSection'
 import NewsletterForm from '../components/newsletterForm'
 import Organizers from '../components/organizers'
 import Collaborators from '../components/collaborators'
+import Partners from '../components/partners'
 import Host from '../components/host'
 import Program from '../components/program'
 import Teaser from '../components/teaser'
@@ -32,6 +33,8 @@ export default () => (
         </Section>
 
         <Collaborators />
+
+        <Partners />
 
     <style jsx>{`
 
