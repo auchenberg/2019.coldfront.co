@@ -35,6 +35,10 @@ export default () => (
             float: right;
         }
 
+        .top-part{
+            overflow: hidden;
+        }
+
         .line {
             clear: both;
             border-top: 1px solid #191D27;
@@ -42,7 +46,7 @@ export default () => (
             font-size: 16px;
             padding-top: 20px;
             padding-bottom: 20px;
-            margin-top: 20px;
+            margin-top: 60px;
 
             a:link,
             a:visited {
