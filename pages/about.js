@@ -83,7 +83,7 @@ export default () => (
                         <ListItem title="Jessica Tremblay"
                             label="Communication and Community"
                             body="Jessica Tremblay is a software designer and front end developer for IBM Design and currently lives in Austin, TX.  She is one of the original organizers for FEDucation: a global, internal, front end knowledge sharing program that is part of the ever-growing FED@IBM initiative."
-                            img="/static/images/team/team-jessica.png"
+                            img="/static/images/team/team-jessica.jpg"
                         />
 
                         <ListItem title="Christina Hanna"
