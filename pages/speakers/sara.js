@@ -58,7 +58,7 @@ export default () => (
             }
 
             .speaker-avatar {
-                background-image: url(/static/images/speakers/speaker-sara2.jpg);
+                background-image: url(/static/images/speakers/speaker-sara.jpg);
                 background-size: cover;
                 box-shadow: 40px 80px 80px 20px rgba(0, 0, 0, 0.5);
                 height: 30vw;

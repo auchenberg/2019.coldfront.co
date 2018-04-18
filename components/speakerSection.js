@@ -12,7 +12,7 @@ export default ({ children }) => (
         </div>
         <div className="speaker-grid wide">
             <SpeakerCard
-                speakerImage="/static/images/speakers/speaker-sara2.jpg"
+                speakerImage="/static/images/speakers/speaker-sara.jpg"
                 speakerName="Sara Soueidan"
                 speakerSubject="Sara Soueidan is a front-End Web Developer, and will cover future of real-world CSS."
                 twitter="https://twitter.com/SaraSoueidan"
