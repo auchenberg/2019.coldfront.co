@@ -54,19 +54,17 @@ a:visited {
 
 h1, h2, h3, h4 {
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Barlow', sans-serif;
 }
 
 h2 {
     font-size: 38px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
 h3 {
     font-size: 28px;
-    font-weight: 500;
     margin-bottom: 20px;
 }
 
