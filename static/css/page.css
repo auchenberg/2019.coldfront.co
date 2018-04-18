@@ -4,7 +4,7 @@ body {
 
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 20px;
 
     color: #ffffff;
     overflow-x: hidden;
@@ -39,6 +39,9 @@ body {
 .narrow{
     padding-left: 100px;
     padding-right: 100px;
+}
+.narrow p{
+    max-width: 600px;
 }
 @media (max-width: 1000px) {
     .narrow{
