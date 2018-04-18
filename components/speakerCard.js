@@ -10,13 +10,10 @@ class Speaker extends React.Component {
 
   render(props) {
 
-    let speakerLink = this.props.speakerName.split(" ");
-    let speakerBody = `<strong> ${this.props.speakerName}</strong> is a <span class='title'>${this.props.speakerPosition}</span>, and will cover <strong>${this.props.speakerSubject}.</strong>`
-
     return (
         <ListItem
             title={this.props.speakerName}
-            body={speakerBody}
+            body={this.props.speakerSubject}
             img={this.props.speakerImage}
         />
     );

@@ -14,24 +14,27 @@ export default ({ children }) => (
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-sara2.jpg"
                 speakerName="Sara Soueidan"
-                speakerSubject="future of real-world CSS"
-                speakerPosition="front-End Web Developer"
+                speakerSubject="Sara Soueidan is a front-End Web Developer, and will cover future of real-world CSS."
                 twitter="https://twitter.com/SaraSoueidan"
             />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-shirley.jpg"
                 speakerName="Shirley Wu"
-                speakerSubject="future of web visualizations"
-                speakerPosition="freelance Software Engineer"
+                speakerSubject="Shirley Wu is a freelance Software Engineer, and will cover future of web visualizations."
                 twitter="https://twitter.com/sxywu"
             />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-brent.png"
                 speakerName="Brent Vatne"
-                speakerPosition="Developer at Expo, core contributor to React Native"
-                speakerSubject="future of Expo and React Native"
+                speakerSubject="Brent Vatne is a Developer at Expo, core contributor to React Native, and will cover future of Expo and React Native"
                 twitter="https://twitter.com/notbrent"
             />
+
+            <SpeakerCard 
+                speakerImage="/static/images/speakers/speaker-myles.jpg"
+                speakerName="Myles Borins"
+                speakerSubject="Myles Borins is a developer, musician, artist, and maker. They work for Google as a developer advocate serving the Node.js ecosystem. Myles cares about the open web and healthy communities." 
+                twitter="https://twitter.com/mylesborins?lang=en" />
         </div>
 
         <div className="narrow">
