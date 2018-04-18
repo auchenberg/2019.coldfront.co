@@ -35,6 +35,12 @@ export default ({ children }) => (
                 speakerName="Myles Borins"
                 speakerSubject="Myles Borins is a developer, musician, artist, and maker. They work for Google as a developer advocate serving the Node.js ecosystem. Myles cares about the open web and healthy communities." 
                 twitter="https://twitter.com/mylesborins?lang=en" />
+
+            <SpeakerCard
+                speakerImage="/static/images/speakers/speaker-michael.jpg"
+                speakerName="Michael Thomsen"
+                speakerSubject="Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android. He has 20 years experience building tools and frameworks for developers, with a special focus on developer productivity and agility."
+                twitter="https://twitter.com/MiSvTh/" />
         </div>
 
         <div className="narrow">
