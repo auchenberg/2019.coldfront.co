@@ -11,31 +11,31 @@ export default ({ children }) => (
 
         <div className="narrow">
             <div className="list">
-                <div className="list-item">
+                <div className="list-item bright">
                     <a href="https://www.stickermule.com/">
                         <img src="/static/images/logos/stickermule.png" alt="stickermule-logo" className="logos" />
                     </a>
                 </div>
 
-                <div className="list-item">
+                <div className="list-item bright">
                     <a href="https://balsamiq.com/">
                         <img src="/static/images/logos/balsamiq.png" alt="balsamiq-logo" className="logos" />
                     </a>
                 </div>
     
-                <div className="list-item">
+                <div className="list-item bright">
                     <a href="http://kraftvaerk.com/">
                         <img src="/static/images/logos/kraftwaerk.png" alt="kraftvaerk-logo" className="logos" />
                     </a>
                 </div>
 
-                <div className="list-item">
+                <div className="list-item bright">
                     <a href="https://www.shape.dk/">
                         <img src="/static/images/logos/shape.png" alt="shape-logo" className="logos" />
                     </a>
                 </div>
 
-                <div className="list-item your-spot">
+                <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
                     <span>Email: <a href="mailto:michael@coldfront.co">michael@coldfront.co</a></span>
                 </div>
@@ -54,7 +54,6 @@ export default ({ children }) => (
                     width: 260px;
                     height: 103px;
                     padding: 40px 40px;
-                    background: #151D45;
     
                     display: flex;
                     flex-direction: column;
