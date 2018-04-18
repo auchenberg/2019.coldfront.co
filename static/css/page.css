@@ -312,7 +312,7 @@ input.form-control.tito-discount-code-field.discount-code-field {
 }
 
 strong {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 
@@ -350,10 +350,6 @@ strong {
 }
 .list-item .avatarBox{
     transition: transform 1s ease-out;
-}
-
-.list-item .subject {
-    font-weight: 800;
 }
 
 .list-item .avatarBox {

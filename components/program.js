@@ -64,11 +64,6 @@ export default ({ children }) => (
 
                 h2 {
                     font-size: 80px;
-                    font-weight: 500;
-                }
-
-                strong {
-                    font-weight: 800;
                 }
             }
 
