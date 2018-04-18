@@ -349,7 +349,7 @@ strong {
     list-style: none;
 }
 .list-item .avatarBox{
-    transition: transform 1s ease-out;
+    transition: transform 0.7s ease-out;
 }
 
 .list-item .avatarBox {
