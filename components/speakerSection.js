@@ -41,6 +41,11 @@ export default ({ children }) => (
                 speakerName="Michael Thomsen"
                 speakerSubject="Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android. He has 20 years experience building tools and frameworks for developers, with a special focus on developer productivity and agility."
                 twitter="https://twitter.com/MiSvTh/" />
+            <SpeakerCard
+                speakerImage="/static/images/speakers/speaker-sarah.jpg"
+                speakerName="Sarah Drasner"
+                speakerSubject="Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow). "
+                twitter="https://twitter.com/sarah_edo/" />
         </div>
 
         <div className="narrow">
