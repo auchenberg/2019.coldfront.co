@@ -27,7 +27,7 @@ body {
     height: 300%;
     width: 300%;
     animation: noiseAnim 0.5s infinite linear alternate;
-    opacity: 0.05;
+    opacity: 0.06;
 }
 
 @keyframes noiseAnim {
