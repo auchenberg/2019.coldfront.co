@@ -19,6 +19,26 @@ body {
     padding-bottom: 150px;
 }
 
+.section:first-of-type:before{
+    content: "";
+    position: fixed;
+    top: 0;
+    background-image: url(/static/images/noise_2.jpg);
+    height: 300%;
+    width: 300%;
+    animation: noiseAnim 0.5s infinite linear alternate;
+    opacity: 0.05;
+}
+
+@keyframes noiseAnim {
+    0%   { background-position: 10px 200px; }
+    20%  { background-position: -50px 0; }
+    40%  { background-position: 100px -10px; }
+    60%  { background-position: 0 -150px; }
+    80%  { background-position: -100px -30px; }
+    100% { background-position: 160px -60px; }
+  }
+
 .clean {
     padding-top: 0;
     padding-bottom: 0;
@@ -30,6 +50,8 @@ body {
 }
 
 .content{
+    position: relative;
+    z-index: 1;
     max-width: 1186px;
     margin-left: auto;
     margin-right: auto;

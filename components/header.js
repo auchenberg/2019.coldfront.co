@@ -21,6 +21,8 @@ export default () => (
       
       <style jsx>{`
         .header {
+          position: relative;
+          z-index: 10;
           padding-top: 20px;
           padding-bottom: 20px;
         }

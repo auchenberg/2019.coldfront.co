@@ -15,7 +15,7 @@ export default () => (
             />
         </Section>
         <Section bright>
-            <div class="narrow">
+            <div className="narrow">
                 <tito-widget event="coldfront/coldfront-2018" />
 
                 <h3>Want to buy via Invoice?</h3>
