@@ -12,7 +12,7 @@ export default ({ children }) => (
         <div className="narrow">
             <div className="list">
                 <div className="list-item bright">
-                    <a href="https://www.stickermule.com/">
+                    <a href="https://www.stickermule.com/supports/coldfront2018">
                         <img src="/static/images/logos/stickermule.png" alt="stickermule-logo" className="logos" />
                     </a>
                 </div>
