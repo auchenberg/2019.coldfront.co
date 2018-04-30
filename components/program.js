@@ -38,6 +38,9 @@ export default ({ children }) => (
 
             .intro {
                 font-size: 38px;
+                p {
+                    max-width: none;
+                }
             }
 
             .days {
