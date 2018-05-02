@@ -70,7 +70,7 @@ export default () => (
                     <ul className="team-list">
                         <ListItem title="Kenneth Auchenberg"
                             label="Organizer"
-                            body="Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for Word Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014."
+                            body="Kenneth is a Program Manager at Microsoft and lives in Seattle, WA, where works on Visual Studio Code. He's a Global Shaper for World Economic Forum, serves on multiple advisory boards, and co-founded ColdFront in 2014."
                             img="/static/images/team/team-kenneth.jpg"
                         />
 
