@@ -23,7 +23,7 @@ export default () => (
 
                 <p>
                     <br />
-                    <a className="btn btn-primary" href="https://goo.gl/forms/lQwpp5JeMuYdCnlg2" target="_blank">Submit recommendations</a>
+                    <a className="btn btn-primary">Our Call For Recommendations has ended.</a>
                     <br />
                     <br />
                 </p>
