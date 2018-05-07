@@ -13,38 +13,44 @@ export default ({ children }) => (
         <div className="speaker-grid wide">
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-sara.jpg"
+                speakerTheme="future of real-world CSS"
                 speakerName="Sara Soueidan"
-                speakerSubject="Sara Soueidan is a front-End Web Developer, and will cover future of real-world CSS."
+                speakerPosition="Sara Soueidan is a Lebanese freelance front-end web developer working with companies across the globe, building clean, responsive front-ends for Web sites and applications focused on accessibility, progressive enhancement and performance."
                 twitter="https://twitter.com/SaraSoueidan"
             />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-shirley.jpg"
                 speakerName="Shirley Wu"
-                speakerSubject="Shirley Wu is a freelance Software Engineer, and will cover future of web visualizations."
+                speakerTheme="future of web visualizations"
+                speakerPosition="Shirley Wu is a freelance software engineer specializing in data visualization. She combines her love of art, math, and code into colorful, interactive data visualizations. "
                 twitter="https://twitter.com/sxywu"
             />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-brent.png"
                 speakerName="Brent Vatne"
-                speakerSubject="Brent Vatne is a Developer at Expo, core contributor to React Native, and will cover future of Expo and React Native"
+                speakerTheme="future of Expo and React Native"
+                speakerPosition="Brent Vatne is a Developer at Expo and core contributor to React Native"
                 twitter="https://twitter.com/notbrent"
             />
 
             <SpeakerCard 
                 speakerImage="/static/images/speakers/speaker-myles.jpg"
                 speakerName="Myles Borins"
-                speakerSubject="Myles Borins is a developer, musician, artist, and maker. They work for Google as a developer advocate serving the Node.js ecosystem. Myles cares about the open web and healthy communities." 
+                speakerTheme="future of open web standards"
+                speakerPosition="Myles Borins is a developer, musician, artist, and maker. They work for Google as a developer advocate serving the Node.js ecosystem. Myles cares about the open web and healthy communities" 
                 twitter="https://twitter.com/mylesborins?lang=en" />
 
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-michael.jpg"
                 speakerName="Michael Thomsen"
-                speakerSubject="Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android. He has 20 years experience building tools and frameworks for developers, with a special focus on developer productivity and agility."
+                speakerTheme="future of cross-platform native apps"
+                speakerPosition="Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android"
                 twitter="https://twitter.com/MiSvTh/" />
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-sarah.jpg"
                 speakerName="Sarah Drasner"
-                speakerSubject="Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow). "
+                speakerTheme="future of ethics for developers"
+                speakerPosition="Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head"
                 twitter="https://twitter.com/sarah_edo/" />
         </div>
 
