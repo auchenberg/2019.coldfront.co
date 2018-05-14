@@ -1,10 +1,12 @@
 import Section from './section'
 
+var headingText = "The future of front-end and interfaces"
+
 export default () => (
     <Section clean wide>
         <div className="splash">
                 <div className="text">
-                    <h1 className="title">The future of front-end and interfaces</h1>
+                    <h1 className="title" data-text={headingText}>{headingText}</h1>
                     {/* <h3>A unique two-day conference that blurs the lines between web, mobile, native and design in Copenhagen, Denmark</h3> */}
                     <p className="date">NOV 13-14-15 2018 in Copenhagen</p>
 
