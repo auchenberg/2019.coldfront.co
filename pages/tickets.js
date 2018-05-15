@@ -18,8 +18,8 @@ export default () => (
             <div className="narrow">
                 <tito-widget event="coldfront/coldfront-2018" />
 
-                <h3>Want to buy via Invoice?</h3>
-                <p>No problem! Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a></p>
+                <h3>Looking for group pricing? Want to buy via Invoice?</h3>
+                <p>No problem! Contact us at <a href="mailto:hello@coldfront.co">hello@coldfront.co</a>, and let's chat!</p>
 
                 <br />
                 <br />
