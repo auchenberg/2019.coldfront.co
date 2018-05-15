@@ -5,6 +5,7 @@ export default ({ children }) => (
 
     <Section bright>
         <div className="narrow">
+            <a id="speakers"></a> 
             <h2>Themes and speakers</h2>
             <p>ColdFront is about the future, so we have asked each of our amazing speakers to share their perspective on what the future brings for their area and theme.</p>
 
