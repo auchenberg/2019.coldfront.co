@@ -3,8 +3,6 @@
 
 ## How to use
 
-```
-
 Install it and run:
 
 ```bash
