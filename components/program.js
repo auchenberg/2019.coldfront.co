@@ -7,7 +7,7 @@ export default ({ children }) => (
             <div className="narrow">
                 <div className="intro">
                     <h2>The program</h2>
-                    <p>We want to inspire you, so this year we are taking ColdFront to a new level by having two full conference days in VEGA and introducing a new 3rd community day in collaboration the local communities in Copenhagen, where we'll host workshops and meetups.</p>
+                    <p>Two full conference days and a 3rd community day where we'll host free workshops and meetups in collaboration the local communities in Copenhagen.</p>
                 </div>
             </div>
 
