@@ -11,7 +11,7 @@ export default () => (
             <Intro
                 title="Tickets"
                 img="/static/images/splash-tickets.jpg"
-                text="The price incl. 2 day conference, 1 community day, social dinners, party and a major surprise."
+                text="The price includes: 2 conference days with talks, 1 community day with workshops, social dinners and parties!"
             />
         </Section>
         <Section bright>
