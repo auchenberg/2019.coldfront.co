@@ -66,6 +66,14 @@ export default ({ children }) => (
                 twitter="https://twitter.com/csswizardry"
                 slug="harry-roberts" />    
 
+            <SpeakerCard
+                speakerImage="/static/images/speakers/speaker-vitaly.jpg"
+                speakerName="Vitaly Friedman"
+                speakerTheme="TBA"
+                speakerPosition="Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!"
+                twitter="https://twitter.com/smashingmag/"
+                slug="vitaly-friedman" /> 
+
         </div>
 
         <div className="narrow">
