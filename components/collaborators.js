@@ -2,7 +2,7 @@ import Section from './section'
 
 export default ({ children }) => (
 
-    <Section bright>
+    <Section>
         <a name="collaborators"></a>
 
         <div className="narrow">

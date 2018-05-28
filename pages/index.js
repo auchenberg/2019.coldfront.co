@@ -18,11 +18,15 @@ export default () => (
 
         <Teaser />
 
+        <Program />
+
         <SpeakerSection />
 
         <Host />
 
-        <Program />
+        <Collaborators />
+
+        <Partners />
 
         <Section>
             <div className="newsletter-wrapper narrow">
@@ -31,11 +35,7 @@ export default () => (
                 <NewsletterForm />
             </div>
         </Section>
-
-        <Collaborators />
-
-        <Partners />
-
+        
     <style jsx>{`
 
       .newletter-wrapper {
