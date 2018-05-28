@@ -3,7 +3,7 @@ export default ({ children }) => (
         <div className="newsletter-form">
 
             <div id="mc_embed_signup">
-                <form action="https://coldfrontconf.us8.list-manage.com/subscribe/post?u=cc078fd6eb28f04be591da615&amp;id=778ceac4c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                <form action="https://coldfrontconf.us17.list-manage.com/subscribe/post?u=6524c4631d92c359c723739e7&amp;id=c9de0800ab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                     <div id="mc_embed_signup_scroll"> </div>
 
                     <div className="mc-field-group form-row">
