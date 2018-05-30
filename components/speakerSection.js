@@ -61,7 +61,7 @@ export default ({ children }) => (
             <SpeakerCard
                 speakerImage="/static/images/speakers/speaker-harry.jpg"
                 speakerName="Harry Roberts"
-                speakerTheme="TBA"
+                speakerTheme="future of web performance"
                 speakerPosition="Harry Roberts is a consultant Front-end Architect: @@google, @UN, @Etsy, @kickstarter, @BBC, @Unileve, @Deloitte,and more • Speaker • Author: @cssguidelines"
                 twitter="https://twitter.com/csswizardry"
                 slug="harry-roberts" />    
