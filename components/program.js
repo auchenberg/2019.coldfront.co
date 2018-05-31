@@ -6,7 +6,7 @@ export default ({ children }) => (
 
             <div className="narrow">
                 <div className="intro">
-                    <h2>The program</h2>
+                    <h1>The program</h1>
                     <p>Two full conference days and a 3rd community day where we'll host free workshops and meetups in collaboration the local communities in Copenhagen.</p>
                 </div>
             </div>
@@ -31,17 +31,6 @@ export default ({ children }) => (
             </div>
 
         <style jsx>{`
-
-            h2 {
-                font-size: 20px;
-            }
-
-            .intro {
-                font-size: 38px;
-                p {
-                    max-width: none;
-                }
-            }
 
             .days {
                 display: flex;

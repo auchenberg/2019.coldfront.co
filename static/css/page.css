@@ -193,6 +193,15 @@ h3 {
     margin-bottom: 20px;
 }
 
+.intro h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.intro p{
+    font-size: 38px;
+    max-width: none;;
+}
+
 input[type=email] {
     border: 1px solid #8f23f5;
     border-radius: 0;
