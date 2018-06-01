@@ -44,6 +44,10 @@ export default() => (
             #help{
                 display: flex;
                 justify-content: space-around;
+
+                img{
+                    opacity: 0.5;
+                }
             }
             #prosa{
                 height: 45px;
