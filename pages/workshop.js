@@ -26,9 +26,13 @@ export default() => (
                 In the evening we are happy to partner up with the 3 communities in Copenhagen to host meetups that are open for everyone. Please join in!
             </p>
             <p>
-                The day is organized with help from: 
-                
+                The day is organized with help from:
             </p>
+            <div id="help">
+                <img id="prosa" src="/static/images/PROSA.png" />
+                <img id="itu" src="/static/images/ITU.png" />
+                <img id="itb" src="/static/images/itb.png" />
+            </div>
         </Section>
         <style jsx>{`    
             h2, p {
@@ -36,6 +40,19 @@ export default() => (
             }
             h3 {
                 margin-bottom: 10px;
+            }
+            #help{
+                display: flex;
+                justify-content: space-around;
+            }
+            #prosa{
+                height: 45px;
+            }
+            #itu{
+                height: 51px;
+            }
+            #itb{
+                height: 61px;
             }
         `}
         </style>
