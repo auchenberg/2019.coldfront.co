@@ -11,13 +11,13 @@ export default ({ children, props }) => (
 
 
         <style jsx>{`
-        .wideSection {
+        :global(.wideSection) {
             padding-top: 100px;
             padding-bottom: 100px;
         }
 
         @media (max-width: 1000px) {
-            .wideSection {
+            :global(.wideSection) {
                 padding-top: 0;
                 padding-bottom: 0;
             }
