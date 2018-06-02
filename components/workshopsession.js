@@ -15,6 +15,8 @@ class WorkshopSession extends React.Component {
             <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}>
             </div>
 
+            {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
+
             <style jsx>{`
                 :global(.session) {
                     padding: 16px 27px;
@@ -22,8 +24,11 @@ class WorkshopSession extends React.Component {
                 :global(.description) {
 
                 }
-                .session {
-                    
+                :global(a.workshop-signup){
+                    display: block;
+                    margin: 15px 0;
+                    color: white;
+                    text-decoration: underline;
                 }
             `}
             </style>
