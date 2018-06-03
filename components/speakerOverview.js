@@ -7,7 +7,7 @@ export default ({ children }) => (
         <div className="narrow">
             <a id="speakers"></a> 
             <h2>Speakers, talks, workshops, and themes</h2>
-            <p>ColdFront is about the future, so we have asked each of our amazing speakers to share their perspective on what the future brings for their area and theme.</p>
+            <p>ColdFront is about the future, so we have asked each of our amazing speakers and workshop holders to share their perspective on what the future brings for their area and theme.</p>
             <p>We can't wait. It's gonna be amazing.</p>
         </div>
 
