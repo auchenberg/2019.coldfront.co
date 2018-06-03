@@ -19,6 +19,7 @@ export default (props) => (
             speakerName="Brent Vatne"
             speakerTheme="future of Expo and React Native"
             speakerTitle="Developer at Expo and core contributor to React Native"
+            speakerPosition="Developer at [Expo](https://expo.io), core contributor to [React Native](http://github.com/facebook/react-native), and project lead on [React Navigation](https://github.com/react-navigation/react-navigation). Spare time is spent traveling and playing with [#lucythetri](https://www.instagram.com/explore/tags/lucythetri)."
             twitter="https://twitter.com/notbrent"
             compact={props.compact}
         />
