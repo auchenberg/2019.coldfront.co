@@ -7,7 +7,7 @@ export default ({ children }) => (
             <div className="narrow">
                 <div className="intro">
                     <h1>The program</h1>
-                    <p>Two full conference days and a 3rd community day where we'll host free workshops and meetups in collaboration the local communities in Copenhagen.</p>
+                    <p>Two full conference days and a 3rd community day where we'll host <strong>free</strong> workshops and meetups in collaboration our friends and partners.</p>
                 </div>
             </div>
 
@@ -53,6 +53,9 @@ export default ({ children }) => (
                     width: 25%;
                 }
                 
+                a {
+                    color: #fff;
+                }
 
                 h2 {
                     font-size: 80px;
