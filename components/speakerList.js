@@ -85,6 +85,16 @@ export default (props) => (
         />    
 
         <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-mathias.jpg"
+            speakerName="Mathias Buus"
+            speakerTheme="workshop on Madscience with JavaScript"
+            speakerTitle="JavaScript hacker"
+            speakerPosition="Mathias Buus is a self taught JavaScript hacker from Copenhagen that has been working with Node.js since the 0.2 days. Mathias likes to work with P2P and distributed systems and is the author of more than 650 modules on npm, including some of the most popular ones for working with streams. In addition he has spoken about mad science projects at various conferences around the world."
+            twitter="https://twitter.com/mafintosh/"
+            compact={props.compact}
+        />   
+
+        <SpeakerCard
             speakerImage="/static/images/speakers/speaker-vitaly.jpg"
             speakerName="Vitaly Friedman"
             speakerTheme="TBA"
