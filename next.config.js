@@ -7,7 +7,8 @@ module.exports = {
             '/call-for-recommendations': { page: '/call-for-recommendations' },
             '/tickets': { page: '/tickets' },
             '/why-coldfront': { page: '/why-coldfront' },
-            '/workshop': { page: '/workshop' },
+            '/community-workshop-day': { page: '/community-workshop-day' },
+            '/speakers': { page: '/speakers' },
         }
     }
 }
