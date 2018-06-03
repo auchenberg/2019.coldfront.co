@@ -103,5 +103,17 @@ export default (props) => (
             twitter="https://twitter.com/smashingmag/"
             compact={props.compact}
         /> 
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-thomas.jpg"
+            speakerName="Thomas Watson"
+            speakerTheme="workshop on Madscience with JavaScript"
+            speakerTitle="JavaScript hacker at Elastic"
+            speakerPosition="Thomas Watson is a computer programmer, public speaker, and open source hacker. He works on Application Performance Monitoring at Elastic, the company behind Elasticsearch, Kibana, and Logstash. Thomas has published hundreds of Node modules> and mad science projects, he is a Node.js Core member, and a part of the Node.js Diagnostics Working Group at the Node.js Foundation."
+            twitter="https://twitter.com/wa7son"
+            compact={props.compact}
+        />         
+
+      
     </React.Fragment>
 )
