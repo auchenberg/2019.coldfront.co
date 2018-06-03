@@ -1,8 +1,9 @@
 export default (props) => (
 
     <li className="list-item">
+            <a name={props.anchor} />
             <div className="avatarBox">
-                <a href={props.url} target="_blank">
+            <a href={props.url}>
                     <img className="avatar" src={props.img} />
                 </a>
             </div>
@@ -17,19 +18,16 @@ export default (props) => (
             .list-item {
                 list-style: none;
             }
-            .list-item .avatarBox{
-                transition: transform 0.7s ease-out;
-            }
-
             .list-item .avatarBox {
+                display: flex;
+                align-items: flex-end;
+                min-height: 250px;
+                transition: transform 0.7s ease-out;
                 position: relative;
-                height: 200px;
-                margin-bottom: 30px;
+                margin-bottom: 30px;                
             }
 
             .list-item .avatar {
-                position: absolute;
-                bottom: 0;
                 max-width: 100%;
                 max-height: 100%;
                 object-fit: contain;
