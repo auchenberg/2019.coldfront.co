@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link'
 import ListItem from '../components/listItem'
+import slug from 'slug'
 
 class Speaker extends React.Component {
   constructor(props) {
@@ -10,14 +11,23 @@ class Speaker extends React.Component {
 
   render(props) {
 
-    let body = `<span class='title'>${this.props.speakerPosition}</span>. </br></br> ${this.props.speakerPosition.split(' ')[0]} will cover <strong>${this.props.speakerTheme}.</strong>`;
+    let body;
+    let url;
+
+    if(this.props.compact && this.props.compact == 'true') {
+      url = `/speakers#${slug(this.props.speakerName, { lower: true})}`
+      body = `will cover <strong>${this.props.speakerTheme}.</strong>`;
+    } else {
+      url = this.props.twitter
+      body = `<span class='title'>${this.props.speakerPosition}</span>.</br></br> will cover <strong>${this.props.speakerTheme}.</strong>`;
+    }
 
     return (
         <ListItem
             title={this.props.speakerName}
             body={body}
             img={this.props.speakerImage}
-            url={this.props.twitter}
+            url={url}
         />
     );
   }
