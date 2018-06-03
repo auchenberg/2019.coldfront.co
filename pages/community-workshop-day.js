@@ -41,9 +41,9 @@ export default() => (
                     The day is organized with help from:
                 </p>
                 <div id="help">
-                    <img id="prosa" src="/static/images/PROSA.png" />
-                    <img id="itu" src="/static/images/ITU.png" />
-                    <img id="itb" src="/static/images/itb.png" />
+                    <img id="prosa" src="/static/images/logos/PROSA.png" />
+                    <img id="itu" src="/static/images/logos/ITU.png" />
+                    <img id="itb" src="/static/images/logos/itb.png" />
                 </div>
             </div>
         </Section>
