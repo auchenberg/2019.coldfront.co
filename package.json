@@ -17,6 +17,7 @@
     "react-dom": "16.2.0",
     "react-facebook-pixel": "^0.1.1",
     "react-ga": "^2.5.3",
+    "react-markdown-it": "^1.0.2",
     "slug": "^0.9.1",
     "styled-jsx-plugin-postcss": "^0.1.3"
   },

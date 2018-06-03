@@ -1,3 +1,5 @@
+import Markdown from 'react-markdown-it'
+
 export default (props) => (
 
     <li className="list-item">
@@ -11,7 +13,9 @@ export default (props) => (
             <div className="text">
                 <div>
                     <h3>{props.title}</h3>
-                    <p dangerouslySetInnerHTML={{ __html: props.body }}></p>
+                    <Markdown source={props.body } options={{ 
+                        html: true
+                    }}/>
                 </div>
             </div>
         <style jsx>{`
