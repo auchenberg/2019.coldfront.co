@@ -8,7 +8,7 @@ export default() => (
         <Section>
             <Intro
                 title="Community & Workshop Day"
-                text="This year we are taking ColdFront to a new level by hosting  a new 3rd optional community and workshop day in collaboration with leading educational organizations and communities in Copenhagen."/>
+                text="We are taking ColdFront to a new level by hosting a new 3rd optional community and workshop day in collaboration with leading educational organizations and communities in Copenhagen."/>
                 <div className="narrow">
                     <p>ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives or maybe just have fun!</p>
                 </div>
