@@ -30,15 +30,34 @@ export default ({ children }) => (
                 </div>
 
                 <div className="list-item bright">
-                    <a href="https://www.shape.dk/">
+                    <a href="https://shape.dk/">
                         <img src="/static/images/logos/shape.png" alt="shape-logo" className="logos" />
                     </a>
                 </div>
+
+                <div className="list-item bright">
+                    <a href="https://prosa.dk/">
+                        <img src="/static/images/logos/PROSA.png" alt="prosa-logo" className="logos" />
+                    </a>
+                </div>           
+
+                <div className="list-item bright">
+                    <a href="https://itu.dk/">
+                        <img src="/static/images/logos/ITU.png" alt="itu-logo" className="logos" />
+                    </a>
+                </div> 
+
+                <div className="list-item bright">
+                    <a href="http://itb.dk/">
+                        <img src="/static/images/logos/itb.png" alt="itb-logo" className="logos" />
+                    </a>
+                </div>                           
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
                     <span>Email: <a href="mailto:michael@coldfront.co">michael@coldfront.co</a></span>
                 </div>
+
             </div>
             
         </div>
