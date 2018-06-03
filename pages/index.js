@@ -8,7 +8,7 @@ import Partners from '../components/partners'
 import Host from '../components/host'
 import Program from '../components/program'
 import Teaser from '../components/teaser'
-import SpeakerSection from '../components/speakerSection'
+import SpeakerOverview from '../components/speakerOverview'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
@@ -20,7 +20,7 @@ export default () => (
 
         <Program />
 
-        <SpeakerSection />
+        <SpeakerOverview />
 
         <Host />
 
