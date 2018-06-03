@@ -27,8 +27,11 @@ export default ({ children }) => (
                 padding: 100px 0;
             }        
 
-            .speaker-overview .list-item .avatarBox {
-                height: 200px;
+            @media (max-width: 600px) {
+                .speaker-overview {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 20px;
+                }
             }
 
         `}</style>
