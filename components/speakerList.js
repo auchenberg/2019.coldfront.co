@@ -65,6 +65,16 @@ export default (props) => (
          />
 
         <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-mina.jpg"
+            speakerName="Mina Makham"
+            speakerTheme="future of going good as a developer"
+            speakerTitle="Senior Engineer at Slack"
+            speakerPosition="Mina Markham is a Senior Engineer at Slack. She’s a lover of design systems and prolific public speaker, appearing at events worldwide, including CSS Dev Conf, Fluent, and Future of Web Design. Mina also co-organizes Front Porch Conference."
+            twitter="https://twitter.com/MinaMarkham/"
+            compact={props.compact}
+         />         
+
+        <SpeakerCard
             speakerImage="/static/images/speakers/speaker-harry.jpg"
             speakerName="Harry Roberts"
             speakerTheme="future of web performance"
