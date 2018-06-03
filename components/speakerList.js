@@ -61,7 +61,6 @@ export default (props) => (
             speakerTitle="Product manager at Google for Dart and Flutter"
             speakerPosition="Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android"
             twitter="https://twitter.com/MiSvTh/"
-            slug="michael-thomsen"
             compact={props.compact}
          />
 
@@ -72,7 +71,6 @@ export default (props) => (
             speakerTitle="Consultant Front-end Architect:"
             speakerPosition="Harry Roberts is a consultant Front-end Architect: @@google, @UN, @Etsy, @kickstarter, @BBC, @Unileve, @Deloitte,and more • Speaker • Author: @cssguidelines"
             twitter="https://twitter.com/csswizardry"
-            slug="harry-roberts"
             compact={props.compact}
         />    
 
@@ -83,7 +81,6 @@ export default (props) => (
             speakerTitle="Vitaly Friedman is the author, co-author and editor of all Smashing books."
             speakerPosition="Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!"
             twitter="https://twitter.com/smashingmag/"
-            slug="vitaly-friedman"
             compact={props.compact}
         /> 
     </React.Fragment>
