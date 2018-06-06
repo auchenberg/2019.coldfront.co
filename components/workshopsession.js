@@ -20,6 +20,11 @@ class WorkshopSession extends React.Component {
             <style jsx>{`
                 :global(.session) {
                     padding: 16px 27px;
+
+                    @media(max-width: 600px){
+                        font-size: 12px;
+                        padding: 11px 8px;
+                    }
                 }
                 :global(.description) {
 
@@ -30,6 +35,8 @@ class WorkshopSession extends React.Component {
                     color: white;
                     text-decoration: underline;
                 }
+
+
             `}
             </style>
         </div>

@@ -24,7 +24,6 @@ export default ({ children }) => (
                 color="#0629EA"
                 gridRow="2 / span 2"
                 gridColumn="2"
-                signupUrl="http://signup.com"
                 />
                 <WorkshopSession
                 title="Workshop 2"
@@ -115,7 +114,6 @@ export default ({ children }) => (
                 grid-template-columns: 100px auto;
                 grid-template-rows: 1px 234px 1px 234px 1px 234px 1px 234px 1px 234px 1px 234px;
 
-
                 .time-line{
                     background: white;
                     grid-column-start: 2;
@@ -135,6 +133,25 @@ export default ({ children }) => (
                 grid-template-columns: 100px auto auto auto;
                 grid-template-rows: 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px;
                 grid-column-gap: 8px;
+            }
+
+            @media(max-width: 600px){
+                #workshop-grid, #workshop-program{
+                    grid-template-columns: 40px auto;
+
+                    .time-line{
+                        @media(max-width: 600px){
+                            margin-left: 40px;
+                        }
+                    }
+    
+                    .time-label {
+                        @media(max-width: 600px){
+                            font-size: 12px;
+                            top: -11px;
+                        }
+                    }
+                }
             }
         `}
         </style>
