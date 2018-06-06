@@ -195,11 +195,23 @@ h3 {
 
 .intro h1{
     font-size: 24px;
+    line-height: 46px;
     font-weight: 500;
 }
 .intro p{
     font-size: 38px;
+    line-height: 46px;
     max-width: none;;
+}
+
+@media (max-width: 1000px) {
+    .intro h1{
+        font-size: 12px;
+    }
+    .intro p{
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 input[type=email] {
