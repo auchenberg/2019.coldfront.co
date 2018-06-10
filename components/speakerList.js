@@ -97,7 +97,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-vitaly.jpg"
             speakerName="Vitaly Friedman"
-            speakerTheme="TBA"
+            speakerTheme="future of new adventures in front-end"
             speakerTitle="Vitaly Friedman is the author, co-author and editor of all Smashing books."
             speakerPosition="Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!"
             twitter="https://twitter.com/smashingmag/"
