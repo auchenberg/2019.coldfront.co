@@ -24,6 +24,7 @@ export default ({ children }) => (
                 color="#0629EA"
                 gridRow="2 / span 2"
                 gridColumn="2"
+                images={["/static/images/workshopschedule/thomas.jpeg", "/static/images/workshopschedule/mathias.jpeg"]}
                 />
                 <WorkshopSession
                 title="Workshop 2"
@@ -31,6 +32,7 @@ export default ({ children }) => (
                 color="#0550EE"
                 gridRow="2 / span 2"
                 gridColumn="3"
+                images={["/static/images/workshopschedule/myles.jpeg"]}
                 />
                 <WorkshopSession
                 title="Workshop 3"
@@ -135,24 +137,65 @@ export default ({ children }) => (
                 grid-column-gap: 8px;
             }
 
-            @media(max-width: 600px){
+            :global(.session) {
+                position: relative;
+                padding: 16px 27px;
+
+                @media(max-width: 800px){
+                    font-size: 12px;
+                    padding: 11px 8px;
+                }
+            }
+            :global(.description) {
+
+            }
+            :global(a.workshop-signup){
+                display: block;
+                margin: 15px 0;
+                color: white;
+                text-decoration: underline;
+            }
+            :global(.schedule-images){
+                position: absolute;
+                bottom: 27px;
+            }
+            :global(.schedule-image){
+                margin-top: 10px;
+                width: 51px;
+                clip-path: circle(25px at center);
+                margin-right: 20px;
+            }
+
+            @media(max-width: 800px){
                 #workshop-grid, #workshop-program{
                     grid-template-columns: 40px auto;
 
                     .time-line{
-                        @media(max-width: 600px){
+                        @media(max-width: 800px){
                             margin-left: 40px;
                         }
                     }
     
                     .time-label {
-                        @media(max-width: 600px){
+                        @media(max-width: 800px){
                             font-size: 12px;
                             top: -11px;
                         }
                     }
+
+                    :global(.session) {
+                        font-size: 12px;
+                        padding: 11px 8px;
+
+                        :global(.schedule-image){
+                            width: 31px;
+                            margin-right: 10px;
+                            clip-path: circle(15px at center);
+                        }
+                    }
                 }
             }
+
         `}
         </style>
 

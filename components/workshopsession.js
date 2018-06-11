@@ -6,6 +6,16 @@ class WorkshopSession extends React.Component {
     super(props);
   }
 
+   images(images){
+       var elements = [];
+
+       images.forEach(image => {
+           elements.push(<img className="schedule-image" src={image} />)
+       });
+
+       return elements
+   }
+
   render(props) {
     return (
         <div className="session" style={{backgroundColor: this.props.color, gridColumn: this.props.gridColumn, gridRow: this.props.gridRow}}>
@@ -17,26 +27,9 @@ class WorkshopSession extends React.Component {
 
             {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
 
+            {this.props.images ? <div className="schedule-images">{this.images(this.props.images)}</div> : ''}
+
             <style jsx>{`
-                :global(.session) {
-                    padding: 16px 27px;
-
-                    @media(max-width: 600px){
-                        font-size: 12px;
-                        padding: 11px 8px;
-                    }
-                }
-                :global(.description) {
-
-                }
-                :global(a.workshop-signup){
-                    display: block;
-                    margin: 15px 0;
-                    color: white;
-                    text-decoration: underline;
-                }
-
-
             `}
             </style>
         </div>
