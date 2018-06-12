@@ -115,6 +115,7 @@ export default ({ children }) => (
                 color="#7425F3"
                 gridRow="12 / span 6"
                 gridColumn="4"
+                logo="/static/images/workshopschedule/gdg.png"
                 />
         </div>
 
