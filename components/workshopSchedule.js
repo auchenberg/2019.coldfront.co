@@ -168,7 +168,6 @@ export default ({ children }) => (
             }
             :global(.schedule-image){
                 width: 51px;
-                height: 51px;
                 clip-path: circle(25px at center);
             }
 
