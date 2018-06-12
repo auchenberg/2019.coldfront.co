@@ -24,9 +24,9 @@ class WorkshopSession extends React.Component {
     list.forEach((item, index) => {
         let slugLabel = slug(item, { lower: true})
         if(index === list.length -1) {
-            elements.push(<a className="speaker-link" href="/speakers#{slugLabel}" target="_blank">{item}</a>)
+            elements.push(<a className="speaker-link" href={'/speakers#'+ slugLabel}>{item}</a>)
         } else {
-            elements.push(<a className="speaker-link" href="/speakers#{slugLabel}" target="_blank">{item} + </a>)
+            elements.push(<a className="speaker-link" href={'/speakers#'+ slugLabel}>{item} + </a>)
         }
     });
 
