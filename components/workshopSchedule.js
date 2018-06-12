@@ -19,27 +19,34 @@ export default ({ children }) => (
 
         <div id="workshop-program">
             <WorkshopSession 
-                title="Workshop 1"
-                description="Mad science with Javascrpt"
+                title="Workshop 1: Mad science with JavaScript"
+                description=""
+                speakerName="Thomas Watson"
+                signupUrl="https://ti.to/coldfront/coldfront-2018/with/wstjksq87lu"
                 color="#0629EA"
                 gridRow="2 / span 2"
                 gridColumn="2"
                 images={["/static/images/workshopschedule/thomas.jpeg", "/static/images/workshopschedule/mathias.jpeg"]}
                 />
                 <WorkshopSession
-                title="Workshop 2"
-                description="Running Node.js in the Google Cloud"
+                title="Workshop 2: Running Node.js in the Google Cloud with"
+                description=""
+                speakerName="Myles Borins"
+                signupUrl="https://ti.to/coldfront/coldfront-2018/with/xba-wd04a4m"
                 color="#0550EE"
                 gridRow="2 / span 2"
                 gridColumn="3"
                 images={["/static/images/workshopschedule/myles.jpeg"]}
                 />
                 <WorkshopSession
-                title="Workshop 3"
-                description="TBA"
+                title="Workshop 3: Real-world Progressive Web Apps"
+                signupUrl="https://ti.to/coldfront/coldfront-2018/with/stqmvryakdo"
+                description=""
+                speakerName="Maximiliano Firtman"
                 color="#0477F2"
                 gridRow="2 / span 2"
                 gridColumn="4"
+                images={["/static/images/workshopschedule/max.jpg"]}
                 />
             
             <WorkshopSession 
@@ -157,13 +164,12 @@ export default ({ children }) => (
             }
             :global(.schedule-images){
                 position: absolute;
-                bottom: 27px;
+                bottom: 10px;
             }
             :global(.schedule-image){
-                margin-top: 10px;
                 width: 51px;
+                height: 51px;
                 clip-path: circle(25px at center);
-                margin-right: 20px;
             }
 
             @media(max-width: 800px){

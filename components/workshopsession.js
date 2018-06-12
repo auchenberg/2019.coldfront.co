@@ -1,5 +1,7 @@
 
 import React from 'react';
+import slug from 'slug'
+
 
 class WorkshopSession extends React.Component {
   constructor(props) {
@@ -17,6 +19,12 @@ class WorkshopSession extends React.Component {
    }
 
   render(props) {
+    let slugLabel
+
+    if(this.props.speakerName) {
+        slugLabel = slug(this.props.speakerName, { lower: true})
+    }
+
     return (
         <div className="session" style={{backgroundColor: this.props.color, gridColumn: this.props.gridColumn, gridRow: this.props.gridRow}}>
             <div className="title">
@@ -24,6 +32,7 @@ class WorkshopSession extends React.Component {
             </div>
             <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}>
             </div>
+            {this.props.speakerName ? <a className="speaker-link" href={slugLabel} target="_blank">with {this.props.speakerName}</a>  : '' }
 
             {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
 
