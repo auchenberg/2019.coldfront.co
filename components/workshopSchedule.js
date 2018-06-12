@@ -21,7 +21,9 @@ export default ({ children }) => (
             <WorkshopSession 
                 title="Workshop 1: Mad science with JavaScript"
                 description=""
-                speakerName="Thomas Watson"
+                speakers={
+                    ["Thomas Watson", "Mathias Buus"]
+                }
                 signupUrl="https://ti.to/coldfront/coldfront-2018/with/wstjksq87lu"
                 color="#0629EA"
                 gridRow="2 / span 2"
@@ -31,7 +33,9 @@ export default ({ children }) => (
                 <WorkshopSession
                 title="Workshop 2: Running Node.js in the Google Cloud with"
                 description=""
-                speakerName="Myles Borins"
+                speakers={
+                    ["Myles Borins"]
+                }
                 signupUrl="https://ti.to/coldfront/coldfront-2018/with/xba-wd04a4m"
                 color="#0550EE"
                 gridRow="2 / span 2"
@@ -42,7 +46,9 @@ export default ({ children }) => (
                 title="Workshop 3: Real-world Progressive Web Apps"
                 signupUrl="https://ti.to/coldfront/coldfront-2018/with/stqmvryakdo"
                 description=""
-                speakerName="Maximiliano Firtman"
+                speakers={
+                    ["Maximiliano Firtman"]
+                }
                 color="#0477F2"
                 gridRow="2 / span 2"
                 gridColumn="4"

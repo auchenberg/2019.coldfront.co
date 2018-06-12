@@ -18,11 +18,27 @@ class WorkshopSession extends React.Component {
        return elements
    }
 
+   speakers(list){
+    var elements = [<span>with </span>];
+
+    list.forEach((item, index) => {
+        let slugLabel = slug(item, { lower: true})
+        if(index === list.length -1) {
+            elements.push(<a className="speaker-link" href="/speakers#{slugLabel}" target="_blank">{item}</a>)
+        } else {
+            elements.push(<a className="speaker-link" href="/speakers#{slugLabel}" target="_blank">{item} + </a>)
+        }
+    });
+
+    return elements
+}
+
+
   render(props) {
     let slugLabel
 
     if(this.props.speakerName) {
-        slugLabel = slug(this.props.speakerName, { lower: true})
+        
     }
 
     return (
@@ -32,7 +48,8 @@ class WorkshopSession extends React.Component {
             </div>
             <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}>
             </div>
-            {this.props.speakerName ? <a className="speaker-link" href={slugLabel} target="_blank">with {this.props.speakerName}</a>  : '' }
+
+            {this.props.speakers ? <div className="speakerss">{this.speakers(this.props.speakers)}</div> : ''}
 
             {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
 
