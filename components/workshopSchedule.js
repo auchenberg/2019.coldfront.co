@@ -153,11 +153,7 @@ export default ({ children }) => (
             :global(.session) {
                 position: relative;
                 padding: 16px 27px;
-
-                @media(max-width: 800px){
-                    font-size: 12px;
-                    padding: 11px 8px;
-                }
+                font-size: 18px;
             }
             :global(.description) {
 
@@ -178,24 +174,25 @@ export default ({ children }) => (
             }
 
             @media(max-width: 800px){
+                :global(.session) {
+                    font-size: 12px;
+                }
+            }
+
+            @media(max-width: 1000px){
                 #workshop-grid, #workshop-program{
                     grid-template-columns: 40px auto;
 
                     .time-line{
-                        @media(max-width: 800px){
-                            margin-left: 40px;
-                        }
+                        margin-left: 40px;
                     }
     
-                    .time-label {
-                        @media(max-width: 800px){
-                            font-size: 12px;
-                            top: -11px;
-                        }
+                    .time-label {                        
+                        font-size: 12px;
+                        top: -11px;
                     }
 
                     :global(.session) {
-                        font-size: 12px;
                         padding: 11px 8px;
 
                         :global(.schedule-image){
