@@ -99,6 +99,7 @@ export default ({ children }) => (
                 color="#2128EC"
                 gridRow="12 / span 6"
                 gridColumn="2"
+                logo="/static/images/workshopschedule/reactnativecph.png"
                 />
                 <WorkshopSession
                 title="Meetups, beers and snacks"
@@ -106,6 +107,7 @@ export default ({ children }) => (
                 color="#5826F1"
                 gridRow="12 / span 6"
                 gridColumn="3"
+                logo="/static/images/workshopschedule/cphjs.png"
                 />
                 <WorkshopSession
                 title="Meetups, beers and snacks"
@@ -164,7 +166,7 @@ export default ({ children }) => (
                 color: white;
                 text-decoration: underline;
             }
-            :global(.schedule-images){
+            :global(.schedule-images, .schedule-logo){
                 position: absolute;
                 bottom: 10px;
             }
@@ -172,10 +174,19 @@ export default ({ children }) => (
                 width: 51px;
                 clip-path: circle(25px at center);
             }
+            :global(.schedule-logo img){
+                width: 131px;
+                clip-path: circle(65px at center);
+            }
+
 
             @media(max-width: 800px){
                 :global(.session) {
                     font-size: 12px;
+                }
+                :global(.schedule-logo img){
+                    width: 44px;
+                    clip-path: circle(22px at center);
                 }
             }
 

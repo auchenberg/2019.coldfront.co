@@ -55,6 +55,8 @@ class WorkshopSession extends React.Component {
 
             {this.props.images ? <div className="schedule-images">{this.images(this.props.images)}</div> : ''}
 
+            {this.props.logo ? <div className="schedule-logo"><img src={this.props.logo} /></div> : ''}
+
             <style jsx>{`
             `}
             </style>
