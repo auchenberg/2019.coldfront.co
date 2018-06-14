@@ -83,6 +83,16 @@ export default (props) => (
             twitter="https://twitter.com/csswizardry"
             compact={props.compact}
         />    
+    
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-vitaly.jpg"
+            speakerName="Vitaly Friedman"
+            speakerTheme="future adventures in front-end"
+            speakerTitle="Vitaly Friedman is the author, co-author and editor of all Smashing books."
+            speakerPosition="Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!"
+            twitter="https://twitter.com/smashingmag/"
+            compact={props.compact}
+        />     
 
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-mathias.jpg"
@@ -93,16 +103,6 @@ export default (props) => (
             twitter="https://twitter.com/mafintosh/"
             compact={props.compact}
         />   
-
-        <SpeakerCard
-            speakerImage="/static/images/speakers/speaker-vitaly.jpg"
-            speakerName="Vitaly Friedman"
-            speakerTheme="future adventures in front-end"
-            speakerTitle="Vitaly Friedman is the author, co-author and editor of all Smashing books."
-            speakerPosition="Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!"
-            twitter="https://twitter.com/smashingmag/"
-            compact={props.compact}
-        /> 
 
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-thomas.jpg"
