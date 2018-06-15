@@ -42,12 +42,6 @@ export default ({ children }) => (
                 </div>           
 
                 <div className="list-item bright">
-                    <a href="https://itu.dk/">
-                        <img src="/static/images/logos/ITU.png" alt="itu-logo" className="logos" />
-                    </a>
-                </div> 
-
-                <div className="list-item bright">
                     <a href="http://itb.dk/">
                         <img src="/static/images/logos/itb.png" alt="itb-logo" className="logos" />
                     </a>
