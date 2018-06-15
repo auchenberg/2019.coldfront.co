@@ -8,7 +8,7 @@ export default() => (
         <Section>
             <Intro
                 title="Community & Workshop Day"
-                text="We are taking ColdFront to a new level by hosting a new 3rd optional community and workshop day in collaboration with leading educational organizations and communities in Copenhagen."/>
+                text="We are taking ColdFront to a new level by hosting a new 3rd optional community and workshop day in collaboration with partners and front-end communities in Copenhagen."/>
                 <div className="narrow">
                     <p>ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives or maybe just have fun!</p>
                 </div>
@@ -22,15 +22,15 @@ export default() => (
             <div className="narrow">
                 <h2>Program<br />Thursday, November 15th</h2>
                 <p>
-                    The community and community day will take place on November 15 2018, where we’ll be starting with workshops for the ColdFront attendees, followed by mini-conference for the Copenhagen student community with a panel debate and networking. In the afternoon we are excited to host 3 different meetups from the Copenhagen front-end community.
+                    The community and community day will take place on <strong>November 15 2018</strong>, where we’ll be starting with workshops for the ColdFront attendees, followed an evening with 3 different meetups from the Copenhagen front-end community.
                 </p>
                 <h3>The workshops</h3>
                 <p>
-                    As an attendee of ColdFront you can register for FREE to attend the following workshop. Use the links to sign-up.
+                    As an <strong>attendee of ColdFront Conference</strong> you can register for FREE to attend the following workshop. Use the links to sign-up.
                 </p>
                 <h3>The meetups</h3>
                 <p>
-                    In the evening we are happy to partner up with the 3 communities in Copenhagen to host meetups that are open for everyone. Please join in!
+                    In the evening we are happy to partner up with the 3 communities in Copenhagen to host meetups that are <strong>open for everyone</strong>. Please join in!
                 </p>
             </div>
 
@@ -42,7 +42,6 @@ export default() => (
                 </p>
                 <div id="help">
                     <img id="prosa" src="/static/images/logos/PROSA.png" />
-                    <img id="itu" src="/static/images/logos/ITU.png" />
                     <img id="itb" src="/static/images/logos/itb.png" />
                 </div>
             </div>

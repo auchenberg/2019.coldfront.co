@@ -26,7 +26,7 @@ export default ({ children }) => (
                 }
                 signupUrl="https://ti.to/coldfront/coldfront-2018/with/wstjksq87lu"
                 color="#0629EA"
-                gridRow="2 / span 2"
+                gridRow="2 / span 6"
                 gridColumn="2"
                 images={["/static/images/workshopschedule/thomas.jpeg", "/static/images/workshopschedule/mathias.jpeg"]}
                 />
@@ -38,7 +38,7 @@ export default ({ children }) => (
                 }
                 signupUrl="https://ti.to/coldfront/coldfront-2018/with/xba-wd04a4m"
                 color="#0550EE"
-                gridRow="2 / span 2"
+                gridRow="2 / span 6"
                 gridColumn="3"
                 images={["/static/images/workshopschedule/myles.jpeg"]}
                 />
@@ -50,40 +50,13 @@ export default ({ children }) => (
                     ["Maximiliano Firtman"]
                 }
                 color="#0477F2"
-                gridRow="2 / span 2"
+                gridRow="2 / span 6"
                 gridColumn="4"
                 images={["/static/images/workshopschedule/max.jpg"]}
                 />
             
-            <WorkshopSession 
-                title="Workshop 4"
-                description="TBA"
-                color="#029FF7"
-                gridRow="5 / span 2"
-                gridColumn="2"
-                />
-                <WorkshopSession
-                title="Workshop 5"
-                description="TBA"
-                color="#01C6FB"
-                gridRow="5 / span 2"
-                gridColumn="3"
-                />
-                <WorkshopSession
-                title="Workshop 6"
-                description="TBA"
-                color="#63D9F9"
-                gridRow="5 / span 2"
-                gridColumn="4"
-                />
             
-            <WorkshopSession 
-                title="Coldfront Student"
-                description="<p>Panel-debate with Selected Speakers</p><p>Networking with speakers, meet ColdFront partners about jobs and future</p>"
-                color="#C249FB"
-                gridRow="8 / span 4"
-                gridColumn="2"
-                />
+
                 <WorkshopSession 
                     gridRow="8 / span 4"
                     gridColumn="2"/>
