@@ -13,6 +13,7 @@ export default () => (
                 <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
                     <li className="nav-item"><a className="nav-link" href="/speakers">Speakers</a></li>                    
+                    <li className="nav-item"><a className="nav-link" href="/community-workshop-day">Workshops and meetups</a></li>                    
                     <li className="nav-item"><a className="nav-link" href="/tickets">Tickets</a></li>
                     <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
                     <li className="nav-item"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
