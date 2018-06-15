@@ -112,6 +112,16 @@ export default (props) => (
             speakerPosition="Thomas Watson is a computer programmer, public speaker, and open source hacker. He works on Application Performance Monitoring at Elastic, the company behind Elasticsearch, Kibana, and Logstash. Thomas has published hundreds of Node modules> and mad science projects, he is a Node.js Core member, and a part of the Node.js Diagnostics Working Group at the Node.js Foundation."
             twitter="https://twitter.com/wa7son"
             compact={props.compact}
+        />    
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-max.jpg"
+            speakerName="Maximiliano Firtman"
+            speakerTheme="workshop on Progressive Web Apps"
+            speakerTitle="mobile and web developer, trainer, speaker, and author"
+            speakerPosition="Maximiliano Firtman (@firt) is a mobile and web developer, trainer, speaker, and author. Max teaches mobile HTML5, PWAs and performance trainings for top companies around the world. The founder of ITMaster Academy, Max is a well-known professional in the mobile web community with dozens of articles and online courses published. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web, published by O’Reilly Media. He is a frequent speaker at conferences and many other events around the world."
+            twitter="https://twitter.com/firt"
+            compact={props.compact}
         />         
 
       
