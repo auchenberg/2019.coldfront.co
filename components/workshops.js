@@ -60,7 +60,5 @@ export default ({ children }) => (
         </div>
 
         {/* <p><a href="/speakers">See all the speakers here</a></p> */}
-
-        <style jsx>{``}</style>
     </Section>
 )

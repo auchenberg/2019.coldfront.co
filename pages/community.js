@@ -28,9 +28,6 @@ export default () => (
 
             </div>
         </WideSection>
-        <style jsx>{`
-
-        `}</style>
     </Layout>
 )
 

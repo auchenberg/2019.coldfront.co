@@ -26,8 +26,5 @@ export default () => (
             </div>
 
         </Section>
-        <style jsx>{`
-
-        `}</style>
     </Layout>
 )

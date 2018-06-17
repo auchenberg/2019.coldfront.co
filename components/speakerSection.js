@@ -10,7 +10,5 @@ export default ({ children }) => (
         <div className="narrow">
             <p>Stay tuned. Many more amazing speakers to be announced soon.</p>
         </div>
-
-        <style jsx>{``}</style>
     </Section>
 )

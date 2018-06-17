@@ -3,9 +3,6 @@ export default (props) => (
         <div className={('wide' in props ? 'wide ' : '') + ('narrow' in props ? 'narrow' : '') + " content"}>
             { props.children }
         </div>
-        <style jsx>{`    
-        `}
-        </style>
     </div>
 )
 2

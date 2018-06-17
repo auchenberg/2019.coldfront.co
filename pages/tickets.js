@@ -29,11 +29,5 @@ export default () => (
                 <NewsletterForm />
             </div>
         </Section>
-
-            <style jsx>{`
-
-
-            `}</style>
-
     </Layout>
 )
