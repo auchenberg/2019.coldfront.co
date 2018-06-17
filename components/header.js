@@ -13,7 +13,7 @@ export default () => (
 
             <div className="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
                 <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link" href="/program>Program</a></li>        
+                    <li className="nav-item"><a className="nav-link" href="/program">Program</a></li>        
                     <li className="nav-item"><a className="nav-link" href="/speakers">Speakers</a></li>                    
                     <li className="nav-item"><a className="nav-link" href="/community-workshop-day">Workshops and meetups</a></li>                    
                     <li className="nav-item"><a className="nav-link" href="/tickets">Tickets</a></li>                    
