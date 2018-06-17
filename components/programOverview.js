@@ -13,21 +13,27 @@ export default ({ children }) => (
 
             <div className="narrow days">
                     <div className="day">
-                        <h2>Day 1</h2>
-                        <p><strong>November 13</strong> – Talks, amazing food, social dinner and party</p>
-                    </div>
-                    <div className="day ">
-                        <h2>Day 2</h2>
-                        <p><strong>November 14</strong> – Talks, amazing food, and social dinner</p>
+                        <a href="/program/day1">
+                            <h2>Day 1</h2>
+                            <p><strong>November 13</strong> – Talks, amazing food, social dinner and party</p>
+                        </a>
                     </div>
                     <div className="day">
-                        <h2>Day 3</h2>
-                        <p><strong>November 15</strong> – Community day with workshops and meetups</p>
+                        <a href="/program/day2">
+                            <h2>Day 2</h2>
+                            <p><strong>November 14</strong> – Talks, amazing food, and social dinner</p>
+                        </a>
+                    </div>
+                    <div className="day">
+                        <a href="/community-workshop-day">
+                            <h2>Day 3</h2>
+                            <p><strong>November 15</strong> – Community day with workshops and meetups</p>
+                        </a>
                     </div>
             </div>
 
             <div className="narrow">
-                <p>Details about the program will be announced as we get closer to November.</p>
+                <p><a href="/program">Read more details about the program here</a>.</p>
             </div>
 
         <style jsx>{`

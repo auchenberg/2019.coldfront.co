@@ -6,7 +6,7 @@ import Organizers from '../components/organizers'
 import Collaborators from '../components/collaborators'
 import Partners from '../components/partners'
 import Host from '../components/host'
-import Program from '../components/program'
+import ProgramOverview from '../components/programOverview'
 import Teaser from '../components/teaser'
 import SpeakerOverview from '../components/speakerOverview'
 import Footer from '../components/footer'
@@ -18,7 +18,7 @@ export default () => (
 
         <Teaser />
 
-        <Program />
+        <ProgramOverview />
 
         <SpeakerOverview />
 
