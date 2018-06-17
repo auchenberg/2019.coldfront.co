@@ -5,10 +5,9 @@
       {
         "styled-jsx": {
           "plugins": [
-            "styled-jsx/babel", { "optimizeForSpeed": true },
             "styled-jsx-plugin-postcss"
           ]
-        }      
+        }
       }
     ]
   ]
