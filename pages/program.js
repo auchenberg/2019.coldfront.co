@@ -6,13 +6,6 @@ import DaySelector from '../components/daySelector'
 import React from 'react'
 
 export default class extends React.Component {
-  static async getInitialProps({ req, query }) {
-    const selectedDay = query.selectedDay
-    return { 
-        selectedDay: selectedDay || 'day1'
-    }
-  }
-
   constructor(props) {
     super(props)
 
@@ -20,6 +13,13 @@ export default class extends React.Component {
         selectedDay: ''
     }
   }
+
+  static async getInitialProps({ req, query }) {
+    const selectedDay = query.selectedDay
+    return { 
+        selectedDay: selectedDay || 'day1'
+    }
+  }  
 
   componentDidMount() { 
     this.setState({
