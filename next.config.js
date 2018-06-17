@@ -9,6 +9,9 @@ module.exports = {
             '/why-coldfront': { page: '/why-coldfront' },
             '/community-workshop-day': { page: '/community-workshop-day' },
             '/speakers': { page: '/speakers' },
+            '/program': { page: '/program', query: { selectedDay: 'day1' } },
+            '/program/day1': { page: '/program', query: { selectedDay: 'day1' } },
+            '/program/day2': { page: '/program', query: { selectedDay: 'day2' } },
         }
     }
 }
