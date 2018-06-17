@@ -16,7 +16,7 @@ export default() => (
 
                 
                 {/* ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives or maybe just have fun! */}
-                <h2>Program<br />Thursday, November 15th</h2>
+                <h2>Day3: Thursday, November 15th</h2>
     
                 <p>The community and workshop day will take place on November 15 2018, where we’ll be starting with workshops for the ColdFront attendees, followed an evening with 3 different meetups from the Copenhagen front-end community.</p>
         
