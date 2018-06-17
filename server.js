@@ -10,10 +10,6 @@ app.prepare()
 .then(() => {
   const server = express()
 
-  server.get('/tickets', (req, res) => {
-    return app.render(req, res, '/tickets', req.query)
-  })
-
   server.get('*', (req, res) => {
     return handle(req, res)
   })
