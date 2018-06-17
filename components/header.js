@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default () => (
     <header className='header content wide'>
         <nav className="navbar navbar-dark">
@@ -11,12 +13,13 @@ export default () => (
 
             <div className="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
                 <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/speakers">Speakers</a></li>                    
-                    <li className="nav-item"><a className="nav-link" href="/community-workshop-day">Workshops and meetups</a></li>                    
-                    <li className="nav-item"><a className="nav-link" href="/tickets">Tickets</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
+                    <li className="nav-item"><Link href="/why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
+                    <li className="nav-item"><Link href="/speakers"><a className="nav-link">Speakers</a></Link></li>                    
+                    <li className="nav-item"><Link href="/program"><a className="nav-link">Program</a></Link></li>      
+                    <li className="nav-item"><Link href="/community-workshop-day"><a className="nav-link">Workshops and meetups</a></Link></li>                    
+                    <li className="nav-item"><Link href="/tickets"><a className="nav-link">Tickets</a></Link></li>
+                    <li className="nav-item"><Link href="/about"><a className="nav-link">About</a></Link></li>
+                    <li className="nav-item"><Link href="/call-for-recommendations"><a className="nav-link">CFR</a></Link></li>
                 </ul>
             </div>
         </nav>
