@@ -1,4 +1,4 @@
-import WorkshopSession from './workshopsession'
+import WorkshopSession from './programSession'
 
 export default ({ children }) => (
     <div id="workshop-schedule">
@@ -103,7 +103,7 @@ export default ({ children }) => (
                 width: 100%;
                 display: grid;
                 grid-template-columns: 100px auto;
-                grid-template-rows: 1px 234px 1px 234px 1px 234px 1px 234px 1px 234px 1px 234px;
+                grid-template-rows: 1px 180px 1px 180px 1px 180px 1px 180px 1px 180px 1px 180px;
 
                 .time-line{
                     background: white;
@@ -122,7 +122,7 @@ export default ({ children }) => (
                 position: relative;
                 display: grid;
                 grid-template-columns: 100px auto auto auto;
-                grid-template-rows: 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px 1px 117px 117px;
+                grid-template-rows: 1px 90px 90px 1px 90px 90px 1px 90px 90px 1px 90px 90px 1px 90px 90px 1px 90px 90px;
                 grid-column-gap: 8px;
             }
 
