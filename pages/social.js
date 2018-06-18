@@ -10,6 +10,7 @@ export default() => (
                 title="Party, social dinners and social side events"
                 text="Take the opportunity to meet new people you've never met over a scrumptious social dinner, and participate in social events to experience the best of Copenhagen."/>
         </Section>
+
         <Section bright>
             <div className="narrow">
                 <h2>Social Dinners</h2>
@@ -26,11 +27,10 @@ export default() => (
 
         <Section>        
             <div className="narrow">
-
                 <h2>Food and ColdFront Party™</h2>
 
                 <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
-                
+
                 <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
 
                 <div className="images">
@@ -39,13 +39,11 @@ export default() => (
                     <img src="/static/images/practical/food3.jpg" />
                 </div>
 
-
                 <p>More details about the ColdFront Party™ will be announced as we get closer. As ColdFront expect open bar, snacks and food</p>
             </div>        
         </Section>
 
         <Section bright>
-
             <div className="narrow">
                 <h2>Copenhagen experiences</h2>
                 <p>We want you to experience Copenhagen, and we know many of you are travelling to attend ColdFront. Maybe it's your first time here? So we are teaming up with local event organizers that allows you to experience unique sides of Copenhagen while you are here.</p>
@@ -68,12 +66,24 @@ export default() => (
                 <p>Please mind that your group need to pick up the bill yourself. We just faciliate, and it's totally optional to attend.</p>
 
                 <p>More details about the Copenhagen experiences will be announced as we get closer.</p>           
+            </div>
+        </Section>
 
-                <h2>Hotels and transport</h2>
+        <Section>
+            <div className="narrow">
+                <h2>Community day and meetups</h2>
+                <p><Link href="community-workshop-day"><a>Learn more about our Community day where we host several meetups in the evening.</a></Link></p>
+            </div>
+        </Section>
+
+        <Section bright>
+            <div className="narrow">
+                <h2>Hotels and Transport</h2>
                 <p><Link href="/where-to-stay-and-how-to-get-around"><a>Learn more about hotels and transport in Copenhagen.</a></Link></p>
 
+                <h2>Venue and Practicalities</h2>
+                <p><Link href="/venue-and-practical"><a>Learn more about Venue and Practicalities.</a></Link></p>
             </div>
-
         </Section>
 
         <style jsx>{`    
