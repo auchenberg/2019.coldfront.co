@@ -1,67 +1,109 @@
-
-import WideSection from '../components/wideSection'
 import Layout from '../components/layout'
+import Section from '../components/section'
 import Intro from '../components/intro'
+import Link from 'next/link'
 
-export default () => (
+export default() => (
     <Layout>
+        <Section>
+            <Intro
+                title="Party, social dinners and social side events"
+                text="Take the opportunity to meet new people you've never met over a scrumptious social dinner, and participate in social events to experience the best of Copenhagen."/>
+        </Section>
+        <Section bright>
+            <div className="narrow">
+                <h2>Social Dinners</h2>
 
-        <Intro title="ColdFront Social" img="/static/images/splash-social.jpg" />
+                <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Malmö. We’ve reserved tables at a number of our favorite restaurants.</p>
+        
+                <p>Copenhagen is great at a lot of things, but one of the things that sticks out is the amazing food scene made famous by NOMA.</p>
 
-        <WideSection>
-            <div className="page-social">
-                <p>ColdFront is more than your typical conference. We want you to have a great social experience, and we believe socializing and netwokring is is big part of why we go to conferences.</p>
-                <p>We are collaborating with a number of truly amazing people in Copenhagen, that will help you experience many sides of Copenhagen, as we are organzing a bunch of optionl social events that you can choose to participate in to meet new people.All of this in addition to the conference days.</p>
-                <p>We believe conference food should be nutritious, coffee should be great, and parties should be focused about meeting people; not getting hammered.</p>
+                <p>We’ll hook you up with great people and in November we'll tell you which restaurant you should show up at. A bit like Russian roulette, but with only great options. Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
 
-                <h2>Come to Copenhagen!</h2>
-                <p>Copenhagen is the meltingpot for front-end, design, architecture and food. Did you know PHP, C++, Ruby on Rails were invited in Denmark? Ever heard about Arne Jacobsen? Noma? New nordic food? or Bjarke Ingles?</p>
-                <p>Yup, all Danish 🇩🇰</p>
-                <p>Come to Copenhagen and experience an international city that's the melting point of software and design. ColdFront will be held in VEGA, one of the leading concert stages in Europe, that's showcasing original 50's design gives the building a unique atmosphere. VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.</p>
-                <p><a id="location-link" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">VEGA, ENGHAVEVEJ 40, 1674 COPENHAGEN</a></p>
+                <p>A list of the participating restaurants will be announced in the weeks before ColdFront</p>
+            </div>
+        </Section>
 
-                <h2>Social events, dinners, great food and party!</h2>
-                <p>ColdFront is more than typical conference. We want you to have a great social experience, and we believe socializing and netwokring is is big part of why we go to conferences.</p>
-                <p>We are collaborating with a number of truly amazing people in Copenhagen, that will help you experience many sides of Copenhagen, as we are organzing a bunch of optionl social events that you can choose to participate in to meet new people. All of this in addition to the conference days. </p>
-                <p>We believe conference food should be nutritious, coffee should be great, and parties should be focused about meeting people; not getting hammered.</p>
+        <Section>        
+            <div className="narrow">
 
-                <p><a id="location-link" href="/social">Read more about our Social Events here</a></p>
+                <h2>Food and ColdFront Party™</h2>
 
-                <br />
-                <img src="/static/images/program.png" width="100%" />
+                <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
+                
+                <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
 
-                <h2>Social dinners</h2>
-                <p>During the conference days we are planning on organizing social dinners, where you can signup for pre-booked restaurants around Copenhagen, where you'll get paired up with fellow ColdFronters.</p>
+                <div className="images">
+                    <img src="/static/images/practical/party2.jpg" />
+                    <img src="/static/images/practical/food2.jpg" />
+                    <img src="/static/images/practical/food3.jpg" />
+                </div>
 
-                <p>A list of the participating ColdFront restaurants will be announced in the weeks before ColdFront</p>
 
-                <h2>ColdFront Party</h2>
-                <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters in Vega. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
+                <p>More details about the ColdFront Party™ will be announced as we get closer. As ColdFront expect open bar, snacks and food</p>
+            </div>        
+        </Section>
 
-                <h2>Experience Copenhagen</h2>
-                <p>We want you to experience Copenhagen, and we know many of you are travelling to attend ColdFront. Maybe it's your first time here? So we are also organzing events that allows you to experience unique sides of Copenhagen while you are here.</p>
+        <Section bright>
+
+            <div className="narrow">
+                <h2>Copenhagen experiences</h2>
+                <p>We want you to experience Copenhagen, and we know many of you are travelling to attend ColdFront. Maybe it's your first time here? So we are teaming up with local event organizers that allows you to experience unique sides of Copenhagen while you are here.</p>
+                
                 <p>We plan to organize tours like:</p>
                 <ul>
+                    <li>Trip to world famous Louisiana art museum</li>
                     <li>Trip to the free-town Christinia</li>
                     <li>Winter Boat Tours (if not too icy)</li>
-                    <li>Experience hot steam baths in the Copenhagen harbour</li>
+                    <li>Experience hot steam baths in the Copenhagen harbour at <a href="https://copenhot.com/">CopenHot</a></li>
                     <li>... and much more!</li>
-                </ul>
+                </ul>     
+
+                <div className="images">
+                    <img src="/static/images/practical/copenhagen2.jpg" />
+                    <img src="/static/images/practical/copenhagen1.jpg" />
+                    <img src="/static/images/practical/copenhagen3.jpg" />
+                </div>
+
+                <p>Please mind that your group need to pick up the bill yourself. We just faciliate, and it's totally optional to attend.</p>
+
+                <p>More details about the Copenhagen experiences will be announced as we get closer.</p>           
+
+                <h2>Hotels and transport</h2>
+                <p><Link href="/where-to-stay-and-how-to-get-around"><a>Learn more about hotels and transport in Copenhagen.</a></Link></p>
 
             </div>
 
-        </WideSection>
-        <style jsx>{`
-            .image-social {
-                background-image:url('/static/images/splash-social.jpg');
-                height: 500px;
-                margin-bottom: -200px;
+        </Section>
+
+        <style jsx>{`    
+            h2, p {
+                margin-bottom: 34px;
             }
-        `}</style>
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            .images {
+                margin: 40px 0 80px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img:nth-child(1){
+                    max-width: 30%;
+                }
+
+                img:nth-child(2){
+                    max-width: 35%;
+                }
+
+                img:nth-child(3){
+                    max-width: 25%;
+                }            
+            }
+        `}
+        </style>
     </Layout>
 )
-
-
-
-
-

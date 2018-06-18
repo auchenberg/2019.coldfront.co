@@ -32,16 +32,16 @@ export default() => (
     
                 <h3>Where to stay and how to get around?</h3>
 
-                <p><Link href="/where-to-stay-and-how-to-get-around/"><a>Learn more about hotels and transport in Copenhagen.</a></Link></p>
+                <p><Link href="/where-to-stay-and-how-to-get-around"><a>Learn more about hotels and transport in Copenhagen.</a></Link></p>
                 
-                <h3>Lunch, food, dinner and social dinners</h3>
+                <h3>Lunch, food, dinner, party and social dinners</h3>
 
                 <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>
                 <p>For the remaning days food is in your own expense, and to socialize we are organzing <strong>Social Dinners</strong> where you can dine with fellow ColdFronters at cool restaurants around Copenhagen.</p>
 
-                <p><Link href="/social"><a>Learn more about our social dinners and side events</a></Link></p>
+                <p><Link href="/social"><a>Learn more about our ColdFront Party™, social dinners and social side events</a></Link></p>
 
-                <h3>Copenhagen City Guide and Experiences</h3>
+                <h3>Copenhagen City Guide</h3>
                 <p>Copenhagen is an amazing city, and to get you an insiders perspective on the city, we have teamed up with <a href="https://readgradient.com/">Gradient City Guides</a>, who will be providing their Copenhagen City Guide to us, as soon as it's ready.</p>
             </div>
             
