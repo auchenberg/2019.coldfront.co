@@ -13,23 +13,11 @@ export default() => (
 
         <Section bright>
             <div className="narrow">
-                <h2>Social Dinners</h2>
-
-                <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Malmö. We’ve reserved tables at a number of our favorite restaurants.</p>
-        
-                <p>Copenhagen is great at a lot of things, but one of the things that sticks out is the amazing food scene made famous by NOMA.</p>
-
-                <p>We’ll hook you up with great people and in November we'll tell you which restaurant you should show up at. A bit like Russian roulette, but with only great options. Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
-
-                <p>A list of the participating restaurants will be announced in the weeks before ColdFront</p>
-            </div>
-        </Section>
-
-        <Section>        
-            <div className="narrow">
                 <h2>Food and ColdFront Party™</h2>
 
-                <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
+                <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. We believe that conference food should be delicious and nutritious, so we are teaming up with some amazing local food vendor who will put together a great Nordic menu for us.</p>
+
+                <p>Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
 
                 <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
 
@@ -39,7 +27,23 @@ export default() => (
                     <img src="/static/images/practical/food3.jpg" />
                 </div>
 
-                <p>More details about the ColdFront Party™ will be announced as we get closer. As ColdFront expect open bar, snacks and food</p>
+                <p>More details about the ColdFront Party™ will be announced as we get closer.</p>
+            </div>
+        </Section>
+
+        <Section>        
+            <div className="narrow">
+                <h2>Social Dinners</h2>
+
+                <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Malmö. We’ve reserved tables at a number of our favorite restaurants.</p>
+
+                <p>Copenhagen is great at a lot of things, but one of the things that sticks out is the amazing food scene made famous by NOMA.</p>
+
+                <p><img src="/static/images/practical/dinner1.jpg" width="700" /></p>
+
+                <p>We’ll hook you up with great people and in November we'll tell you which restaurant you should show up at. A bit like Russian roulette, but with only great options. Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
+
+                <p>A list of the participating restaurants will be announced in the weeks before ColdFront</p>
             </div>        
         </Section>
 
