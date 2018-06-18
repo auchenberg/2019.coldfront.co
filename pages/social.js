@@ -37,13 +37,13 @@ export default() => (
 
                 <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Malmö. We’ve reserved tables at a number of our favorite restaurants.</p>
 
-                <p>Copenhagen is great at a lot of things, but one of the things that sticks out is the amazing food scene made famous by NOMA.</p>
+                <p>Copenhagen is great at a lot of things, and one of the things that really sticks out is the amazing food scene, made famous by NOMA.</p>
 
                 <p><img src="/static/images/practical/dinner1.jpg" width="700" /></p>
 
                 <p>We’ll hook you up with great people and in November we'll tell you which restaurant you should show up at. A bit like Russian roulette, but with only great options. Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
 
-                <p>A list of the participating restaurants will be announced in the weeks before ColdFront</p>
+                <p>A list of the participating restaurants and signup links will be announced in the weeks before ColdFront</p>
             </div>        
         </Section>
 
