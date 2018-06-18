@@ -14,6 +14,7 @@ module.exports = {
             '/program/day2': { page: '/program', query: { selectedDay: 'day2' } },
             '/where-to-stay-and-how-to-get-around': { page: '/where-to-stay-and-how-to-get-around' },
             '/social': { page: '/social' },
+            '/venue-and-partical': { page: '/venue-and-partical' },
         }
     }
 }
