@@ -45,7 +45,13 @@ export default ({ children }) => (
                     <a href="http://itb.dk/">
                         <img src="/static/images/logos/itb.png" alt="itb-logo" className="logos" />
                     </a>
-                </div>                           
+                </div>    
+
+                <div className="list-item bright">
+                    <a href="https://universe.ida.dk/techtopia/">
+                        <img src="/static/images/partners/techtopia.png" alt="techtopia" className="logos" />
+                    </a>
+                </div>                                           
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
