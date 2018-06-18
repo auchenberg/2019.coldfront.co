@@ -14,7 +14,7 @@ module.exports = {
             '/community-workshop-day': { page: '/community-workshop-day' },            
             '/where-to-stay-and-how-to-get-around': { page: '/where-to-stay-and-how-to-get-around' },
             '/social': { page: '/social' },
-            '/venue-and-partical': { page: '/venue-and-partical' },
+            '/venue-and-practical': { page: '/venue-and-practical' },
         }
     }
 }
