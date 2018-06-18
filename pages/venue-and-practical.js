@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 export default() => (
     <Layout>
+        
         <Section>
             <Intro
                 title="Venue and Practicalities"
@@ -19,13 +20,11 @@ export default() => (
                     <img src="/static/images/venue/lille_vega_bar_2.jpg" />
                     <img src="/static/images/venue/store_vega_floor_1.jpg" />
                     <img src="/static/images/venue/store_vega_floor_3.jpg" />
-                </div>
-                                
+                </div>                        
         </Section>
+
         <Section bright>
-
             <div className="narrow">
-
                 <h2>Experience the best of Copenhagen</h2>
 
                 <p>We are inviting you to participate in the “ColdFront Copenhagen experience” as we want you to experience the best parts of Copenhagen while you are visiting.</p>
@@ -44,8 +43,6 @@ export default() => (
                 <h3>Copenhagen City Guide</h3>
                 <p>Copenhagen is an amazing city, and to get you an insiders perspective on the city, we have teamed up with <a href="https://readgradient.com/">Gradient City Guides</a>, who will be providing their Copenhagen City Guide to us, as soon as it's ready.</p>
             </div>
-            
-
         </Section>
         <style jsx>{`    
             h2, p {

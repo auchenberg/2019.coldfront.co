@@ -5,14 +5,15 @@ import Link from 'next/link'
 
 export default() => (
     <Layout>
+
         <Section>
             <Intro
                 title="Where to stay and how to get around"
                 text="We know that many of you are visiting from abroad, and to make things a bit simpler for you, we have prepared this quick guide on where to stay and how to get around."/>
         </Section>
+
         <Section bright>
             <div className="narrow">
-
                 <h2>Hotels</h2>
 
                 <p>The conference is held in the part of town called “Vesterbro”  not from the meatpacking district so there plenty of hotels real close. We'll recommend you all to stay in either at “Vesterbro” or Downtown.</p>
@@ -47,33 +48,27 @@ export default() => (
                 <p><span>The cheaper one if you book ahead:&nbsp;</span><a rel="noopener noreferrer" href="https://www.wakeupcopenhagen.dk/hotellerne/koebenhavn/borgergade/#/search" target="_blank">Wake up Borgergade</a></p>
                 
                 <p><span>The luxury hostel (10%):&nbsp;<a href="http://www.steelhousecopenhagen.com/api/ahhg/corp/directlogin/53264" title="Steel House">Steel House</a></span></p>        
-
             </div>
         </Section>
 
         <Section>        
             <div className="narrow">
-
                 <h2>Transport</h2>
                 <p>When you arrive in Copenhagen it is easy to find public transport and get around by trains, Metro, busses (and waterbuses). One of the perks when traveling in Denmark is the Danish punctuality, so expect the public transportation to be very reliable and punctual. All means of transport can be accessed with the same ticket, so all you need to know the number of zones you'll pass on your journey, since Copenhagen is divided into different zones.</p>
 
-                    
                 <h3>Get to the city centre</h3>
                 <p>By <a rel="noopener noreferrer" href="http://intl.m.dk/#!/" target="_blank">metro</a>, it only takes 15 minutes from CPH Airport and 10 minutes by <a rel="noopener noreferrer" href="http://www.rejseplanen.dk/bin/query.exe/en" target="_blank">bus</a> to get to Nørreport station, Copenhagen’s traffic nerve center. From here you can easily reach your hotel. You can buy a ticket for public transport in the arrivals hall of CPH Airport.&nbsp;</p>
 
                 <h3>Bike, Bike, Bike!</h3>
                 <p>Join the locals ride a bike around Copenhagen. You can&nbsp;rent a bike a almost every bikeshop around the city or&nbsp;rent a <a rel="noopener noreferrer" href="https://bycyklen.dk/en/" target="_blank">bycykel</a>&nbsp;(The City Bike), the City Bike is after all synonymous with Copenhagen.&nbsp;</p>
-            
             </div>        
         </Section>
 
         <Section bright>
-
             <div className="narrow">
                 <h2>Venue</h2>
                 <p><Link href="/venue-practical"><a>Learn more about the Venue and Practicalities.</a></Link></p>
             </div>
-
         </Section>
         <style jsx>{`    
             h2, p {
