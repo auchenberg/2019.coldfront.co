@@ -16,7 +16,7 @@ export default () => (
                     <li className="nav-item"><Link href="/program"><a className="nav-link">Program</a></Link></li> 
                     <li className="nav-item"><Link href="/speakers"><a className="nav-link">Speakers</a></Link></li>                    
                     <li className="nav-item"><Link href="/community-workshop-day"><a className="nav-link">Workshops</a></Link></li>                    
-                    <li className="nav-item"><Link href="/tickets"><a className="nav-link">Tickets</a></Link></li>
+                    <li className="nav-item"><a className="nav-link" href="https://ti.to/coldfront/coldfront-2018" target="_blank">Tickets</a></li>
                     <li className="nav-item"><Link href="/venue-and-practical"><a className="nav-link">Venue + Practicalities</a></Link></li>
                     <li className="nav-item"><Link href="/social"><a className="nav-link">Social</a></Link></li>
                     <li className="nav-item"><Link href="/why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
