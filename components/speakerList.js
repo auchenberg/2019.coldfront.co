@@ -124,6 +124,16 @@ export default (props) => (
             compact={props.compact}
         />         
 
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-tony.jpg"
+            speakerName="Tony Beltramelli"
+            speakerTheme="interactive session teaching Machines to Understand User Interfaces"
+            speakerTitle="CEO & Co-Founder, Uizard"
+            speakerPosition="Tony Beltramelli the CEO and Co-Founder of [Uizard Technologies](https://uizard.io/), a startup company building AI-powered tools to revolutionize the way people build apps, by enabling you to instantly transform any wireframe or mockup into HTML, Android, iOS, and even Sketch files!"
+            twitter="https://twitter.com/Tbeltramelli"
+            compact={props.compact}
+        />   
+
       
     </React.Fragment>
 )
