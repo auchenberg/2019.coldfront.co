@@ -68,6 +68,9 @@ export default() => (
             <div className="narrow">
                 <h2>Venue</h2>
                 <p><Link href="/venue-practical"><a>Learn more about the Venue and Practicalities.</a></Link></p>
+
+                <h2>Lunch, food, dinner, party and social dinners</h2>
+                <p><Link href="/social"><a>Learn more about our ColdFront Party™, social dinners and social side events</a></Link></p>
             </div>
         </Section>
         <style jsx>{`    
