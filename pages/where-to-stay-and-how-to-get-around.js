@@ -22,7 +22,11 @@ export default() => (
 
                 <p>The Savoy Hotel is housed in the Løvenborg building and is designed by the architect Anton Rosen, who is also known for the Tuborg building in Hellerup and the Palace Hotel at the Town Hall Square (Rådhuspladsen).</p>
                 
-                <p><strong>The deal:</strong> As a ColdFronter you get the following deal if you use the code ‘xxxxx’</p>
+                <p><strong>The deal:</strong> As a ColdFronter you get the following deal</p>
+                    
+                <p>You pay just 825,- DKK for a single-room, and 925,- DKK for a double room, and that's including breakfast!</p>
+
+                <p>You book by sending an email to mail@savoyhotel.dk mentioning that you are an attendee of ColdFront, and have this discount code "F18171", and Savoy Hotel will help you with the booking.</p>
 
                 <p><strong>Random fact:</strong> The building was originally the first in Denmark to have an elevator. And today, more than 100 years later, the elevator is still working and can be used by hotel guest.</p>
 
