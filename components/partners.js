@@ -51,6 +51,12 @@ export default ({ children }) => (
                     <a href="https://universe.ida.dk/techtopia/">
                         <img src="/static/images/partners/techtopia.png" alt="techtopia" className="logos" />
                     </a>
+                </div>      
+
+                <div className="list-item bright">
+                    <a href="https://www.twentythree.net/">
+                        <img src="/static/images/partners/twentythree.png" alt="twentythree" height="60" className="logos" />
+                    </a>
                 </div>                                           
 
                 <div className="list-item your-spot bright">
