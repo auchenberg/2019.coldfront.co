@@ -23,36 +23,38 @@ export default class extends React.Component {
                     </div>         
                 </div>
 
-                <div id="conference-grid">
-                    <div className="time-line" />
-                    <div className="time-label">08:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">09:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">10:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">11:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">12:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">13:00</div>            
-                    <div className="time-line" />
-                    <div className="time-label">14:00</div>            
-                    <div className="time-line" />
-                    <div className="time-label">15:00</div>
-                    <div className="time-line" />            
-                    <div className="time-label">16:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">17:00</div>
-                    <div className="time-line" />            
-                    <div className="time-label">18:00</div>
-                    <div className="time-line" />
-                    <div className="time-label">20:00</div>
-                </div>
+                <div id="conference-container">
+                    <div id="conference-grid">
+                        <div className="time-line" />
+                        <div className="time-label">08:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">09:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">10:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">11:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">12:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">13:00</div>            
+                        <div className="time-line" />
+                        <div className="time-label">14:00</div>            
+                        <div className="time-line" />
+                        <div className="time-label">15:00</div>
+                        <div className="time-line" />            
+                        <div className="time-label">16:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">17:00</div>
+                        <div className="time-line" />            
+                        <div className="time-label">18:00</div>
+                        <div className="time-line" />
+                        <div className="time-label">20:00</div>
+                    </div>
 
-                <div id="conference-program">
-                    {this.props.selectedDay === 'day1' ? <Day1 /> : ''}
-                    {this.props.selectedDay === 'day2' ? <Day2 /> : ''}
+                    <div id="conference-program">
+                        {this.props.selectedDay === 'day1' ? <Day1 /> : ''}
+                        {this.props.selectedDay === 'day2' ? <Day2 /> : ''}
+                    </div>
                 </div>
 
                 <style jsx>{`    
@@ -69,9 +71,11 @@ export default class extends React.Component {
                         }            
                     }
 
+                    #conference-container{
+                        position: relative;
+                    }
                     #conference-grid {
                         position: absolute;
-                        top: 110px;
                         width: 100%;
                         display: grid;
                         grid-template-columns: 80px auto;
@@ -96,8 +100,9 @@ export default class extends React.Component {
 
                         position: relative;
                         display: grid;
-                        grid-template-columns: 80px auto auto 0;
+                        grid-template-columns: 80px auto auto;
                         grid-template-rows: 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px 1px 45px 45px 45px 45px;
+                        grid-column-gap: 8px;
                     }
 
                     @media(max-width: 1000px){
