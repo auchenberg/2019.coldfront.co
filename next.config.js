@@ -15,6 +15,7 @@ module.exports = {
             '/where-to-stay-and-how-to-get-around': { page: '/where-to-stay-and-how-to-get-around' },
             '/social': { page: '/social' },
             '/venue-and-practical': { page: '/venue-and-practical' },
+            '/welcome-coldfronter': { page: '/welcome-coldfronter' },
         }
     }
 }
