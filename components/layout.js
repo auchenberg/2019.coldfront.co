@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
   componentDidMount () {
     if (!window.GA_INITIALIZED) {
       initGA()
-      ReactPixel.init('875681269219535');
+      ReactPixel.init('592531964472978');
       window.GA_INITIALIZED = true
     }
     logPageView()
