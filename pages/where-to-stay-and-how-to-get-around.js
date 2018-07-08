@@ -40,7 +40,20 @@ export default() => (
                         <img src="/static/images/practical/savoy3.jpg" />
                     </div>
                 </div>
-            
+
+                <h3>Brøchner Hotels - beautiful boutique hotels</h3>
+                <p>We are also pleased to have a special deal with <a href="http://www.brochner-hotels.com/">Brøchner Hotels</a> the company behind several beautiful boutique hotels, where ColdFronters are able to get <strong>15% off</strong> the current day rate for the dates: Nov 13-15 2018</p>
+                <p>The deal covers the following hotels: Hotel SP34, Hotel Danmark, Avenue Hotel Copenhagen og Hotel Astoria, and to book simply book in the above interval and use the discount code COLDFRONT (in CAPITAL).</p>
+
+                <div className="images">
+                    <img src="/static/images/practical/hotel3.jpg" />
+                    <img src="/static/images/practical/hotel2.jpg" />
+                    <div>
+                        <img src="/static/images/practical/hotel1.jpg" />
+                        <img src="/static/images/practical/hotel4.jpg" />
+                    </div>
+                </div>
+
                 <h3>Other hotels</h3>
 
                 <p><span>The historical one:&nbsp;</span><a rel="noopener noreferrer" href="https://guldsmedenhotels.com/babette/" target="_blank">Babette Guldsmeden</a></p>
