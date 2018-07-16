@@ -127,9 +127,9 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-tony.jpg"
             speakerName="Tony Beltramelli"
-            speakerTheme="interactive session teaching Machines to Understand User Interfaces"
-            speakerTitle="CEO & Co-Founder, Uizard"
-            speakerPosition="Tony Beltramelli the CEO and Co-Founder of [Uizard Technologies](https://uizard.io/), a startup company building AI-powered tools to revolutionize the way people build apps, by enabling you to instantly transform any wireframe or mockup into HTML, Android, iOS, and even Sketch files!"
+            speakerTheme="interactive session using machine learning to convert design to code"
+            speakerTitle="CEO and Co-Founder, Uizard"
+            speakerPosition="Tony is the CEO and Co-Founder of [Uizard](http://uizard.io). His work on the application of Deep Learning has been recognized globally and featured in international media"
             twitter="https://twitter.com/Tbeltramelli"
             compact={props.compact}
         />   
