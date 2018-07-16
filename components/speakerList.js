@@ -134,6 +134,25 @@ export default (props) => (
             compact={props.compact}
         />   
 
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-charlie.jpg"
+            speakerName="Charlie Gerard"
+            speakerTheme="future of emotive interfaces"
+            speakerTitle="Software developer at ThoughtWorks"
+            speakerPosition="Charlie is a software developer at [ThoughtWorks](http://thoughtworks.com/) in Sydney. She is passionate about creative coding, hardware and spends her free time experimenting with technology to create interactive prototypes. She also spends time giving back to the community by mentoring new developers, contributing to open-source projects and speaking at events."
+            twitter="https://twitter.com/devdevcharlie"
+            compact={props.compact}
+        />   
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-henrik.jpg"
+            speakerName="Henrik Haugbølle"
+            speakerTheme="interactive session using machine learning to convert design to code"
+            speakerTitle="CTO and Co-Founder, Uizard"
+            speakerPosition="Henrik is the CTO and Co-Founder of [Uizard](http://uizard.io). With a passion for startups, frontend, and JavaScript he's often encountered as an active part of the Danish JS community."
+            twitter="https://twitter.com/haugboelle "
+            compact={props.compact}
+        />          
       
     </React.Fragment>
 )
