@@ -152,7 +152,17 @@ export default (props) => (
             speakerPosition="Henrik is the CTO and Co-Founder of [Uizard](http://uizard.io). With a passion for startups, frontend, and JavaScript he's often encountered as an active part of the Danish JS community."
             twitter="https://twitter.com/haugboelle "
             compact={props.compact}
-        />          
+        />     
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-jessica.jpg"
+            speakerName="Jessica Liu"
+            speakerTheme="Future of front-end and design tools"
+            speakerTitle="Engineering Manager at Figma"
+            speakerPosition="Jessica is an engineering manager at Figma. She has spent her career bridging the gap between design, software engineering, and occasionally musical theater."
+            twitter=""
+            compact={props.compact}
+        />                 
       
     </React.Fragment>
 )
