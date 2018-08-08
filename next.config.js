@@ -16,6 +16,7 @@ module.exports = {
             '/social': { page: '/social' },
             '/venue-and-practical': { page: '/venue-and-practical' },
             '/welcome-coldfronter': { page: '/welcome-coldfronter' },
+            '/diversity-scholarships': { page: '/diversity-scholarships' },
         }
     }
 }
