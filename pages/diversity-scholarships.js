@@ -13,10 +13,10 @@ export default () => (
         </Section>
         <Section bright>
             <div className="page-scholarships narrow">
-                <p>We started ColdFront back in 2014 to flourish the front-end community and to put Copenhagen the global front-end map</p>
-                <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
+                <p>We started ColdFront back in 2014 to flourish with the front-end community and to put Copenhagen on the global front-end map.</p>
+                <p>Back in 2014, we had to travel to other major European and North American cities such as Amsterdam, London, Berlin, London, New York, and San Francisco to be a part of the global, front-end community. With ColdFront, we are changing that.</p>
 
-                <p>This year we are proud to be able to provide a handful of <strong>diversity scholarships</strong>, inspired by JSConf.EU. A Diversity Scholarship for ColdFront is a fully sponsored (free) ticket given to someone from an underrepresented group in tech. This includes, but is not limited to: students, women, people of color, LGBTQ people, disabled people, and people facing economic or social hardships. </p>
+                <p>This year we are proud to be able to provide a handful of <strong>diversity scholarships</strong>, inspired by JSConf.EU. A Diversity Scholarship for ColdFront is a fully sponsored (free) ticket given to someone from an underrepresented group in tech. This includes, but is not limited to: students, women, people of color, LGBTQ people, disabled people, and people facing economic or social hardships.</p>
 
                 <div className="btn-diversity font-bitblox">
                     <a className="btn btn-primary btn-primary-shadow glitch" data-text="Apply Now" href="https://goo.gl/forms/wiyIvCkgypdv4gtU2">
