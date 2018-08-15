@@ -9,26 +9,26 @@ export default() => (
         <Section>
             <Intro
                 title="Where to stay and how to get around"
-                text="We know that many of you are visiting from abroad, and to make things a bit simpler for you, we have prepared this quick guide on where to stay and how to get around."/>
+                text="We know that many of you are visiting from abroad. To make things a bit simpler, we have prepared this quick guide on where to stay and how to get around."/>
         </Section>
 
         <Section bright>
             <div className="narrow">
                 <h2>Hotels</h2>
 
-                <p>The conference is held in the part of town called “Vesterbro”  not from the meatpacking district so there plenty of hotels real close. We'll recommend you all to stay in either at “Vesterbro” or Downtown.</p>
+                <p>The conference is held in the part of town called “Vesterbro”, which is not far from the meat packing district.  There plenty of hotels real close! We recommend you to stay in either the “Vesterbro” district or somewhere downtown.</p>
 
                 <h3>Savoy Hotel — The ColdFront Hotel</h3>
 
-                <p>The Savoy Hotel is housed in the Løvenborg building and is designed by the architect Anton Rosen, who is also known for the Tuborg building in Hellerup and the Palace Hotel at the Town Hall Square (Rådhuspladsen).</p>
+                <p>The Savoy Hotel is housed in the Løvenborg building and is designed by architect Anton Rosen, who is also known for the Tuborg building in Hellerup and the Palace Hotel at the Town Hall Square (Rådhuspladsen).</p>
                 
                 <p><strong>The deal:</strong> As a ColdFronter you get the following deal</p>
                     
-                <p>You pay just 825,- DKK for a single-room, and 925,- DKK for a double room, and that's including breakfast!</p>
+                <p>You pay just 825,- DKK for a single-room, and 925,- DKK for a double room, and that includes breakfast!</p>
 
-                <p>You book by sending an email to mail@savoyhotel.dk mentioning that you are an attendee of ColdFront, and have this discount code "F18171", and Savoy Hotel will help you with the booking.</p>
+                <p>You can book your room by sending an email to mail@savoyhotel.dk and be sure mention you are an attendee of ColdFront.  Use the discount code "F18171", and the Savoy Hotel will help you with the booking.</p>
 
-                <p><strong>Random fact:</strong> The building was originally the first in Denmark to have an elevator. And today, more than 100 years later, the elevator is still working and can be used by hotel guest.</p>
+                <p><strong>Random fact:</strong> The building was originally the first in Denmark to have an elevator. And today, more than 100 years later, the elevator is still working and can be used by hotel guests.</p>
 
                 <p>The address of the hotel is: <strong>Vesterbrogade 34 1620 København V Denmark</strong>.</p>
 
@@ -42,8 +42,8 @@ export default() => (
                 </div>
 
                 <h3>Brøchner Hotels - beautiful boutique hotels</h3>
-                <p>We are also pleased to have a special deal with <a href="http://www.brochner-hotels.com/">Brøchner Hotels</a> the company behind several beautiful boutique hotels, where ColdFronters are able to get <strong>15% off</strong> the current day rate for the dates: Nov 13-15 2018</p>
-                <p>The deal covers the following hotels: Hotel SP34, Hotel Danmark, Avenue Hotel Copenhagen og Hotel Astoria, and to book simply book in the above interval and use the discount code COLDFRONT (in CAPITAL).</p>
+                <p>We are also pleased to have a special deal with <a href="http://www.brochner-hotels.com/">Brøchner Hotels</a>, the company behind several beautiful boutique hotels where ColdFronters are able to get <strong>15% off</strong> the current day rate for the dates: Nov 13-15 2018.</p>
+                <p>The deal covers the following hotels: Hotel SP34, Hotel Danmark, Avenue Hotel Copenhagen og Hotel Astoria.  To book, simply reserve in the above interval and use the discount code COLDFRONT (in ALL CAPS).</p>
 
                 <div className="images">
                     <img src="/static/images/practical/hotel3.jpg" />
@@ -71,13 +71,13 @@ export default() => (
         <Section>        
             <div className="narrow">
                 <h2>Transport</h2>
-                <p>When you arrive in Copenhagen it is easy to find public transport and get around by trains, Metro, busses (and waterbuses). One of the perks when traveling in Denmark is the Danish punctuality, so expect the public transportation to be very reliable and punctual. All means of transport can be accessed with the same ticket, so all you need to know the number of zones you'll pass on your journey, since Copenhagen is divided into different zones.</p>
+                <p>When you arrive in Copenhagen, it is easy to find public transportation and get around by trains, Metro, busses (and waterbuses). One of the perks when traveling in Denmark is the Danish punctuality, so expect the public transportation to be very reliable and punctual. All means of transport can be accessed with the same ticket, so all you need to know are the number of zones you'll pass on your journey, since Copenhagen is divided into different zones.</p>
 
                 <h3>Get to the city centre</h3>
                 <p>By <a rel="noopener noreferrer" href="http://intl.m.dk/#!/" target="_blank">metro</a>, it only takes 15 minutes from CPH Airport and 10 minutes by <a rel="noopener noreferrer" href="http://www.rejseplanen.dk/bin/query.exe/en" target="_blank">bus</a> to get to Nørreport station, Copenhagen’s traffic nerve center. From here you can easily reach your hotel. You can buy a ticket for public transport in the arrivals hall of CPH Airport.&nbsp;</p>
 
                 <h3>Bike, Bike, Bike!</h3>
-                <p>Join the locals ride a bike around Copenhagen. You can&nbsp;rent a bike a almost every bikeshop around the city or&nbsp;rent a <a rel="noopener noreferrer" href="https://bycyklen.dk/en/" target="_blank">bycykel</a>&nbsp;(The City Bike), the City Bike is after all synonymous with Copenhagen.&nbsp;</p>
+                <p>Join the locals ride a bike around Copenhagen. You can&nbsp;rent a bike at almost every bikeshop around the city or&nbsp;rent a <a rel="noopener noreferrer" href="https://bycyklen.dk/en/" target="_blank">bycykel</a>&nbsp;(The City Bike), the City Bike is after all synonymous with Copenhagen.&nbsp;</p>
             </div>        
         </Section>
 
