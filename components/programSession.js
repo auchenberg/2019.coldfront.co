@@ -1,6 +1,7 @@
 
 import React from 'react';
 import slug from 'slug'
+import Link from 'next/link'
 
 class WorkshopSession extends React.Component {
     constructor(props) {
@@ -37,49 +38,58 @@ render(props) {
 
     return (
         <div className="session" style={{backgroundColor: this.props.color, gridColumn: this.props.gridColumn, gridRow: this.props.gridRow}}>
-            <div className="title">
-                {this.props.title}
-            </div>
-            <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}>
-            </div>
+            
+            <Link href={this.props.link}>
+                <a className="session-link">
+                    <div className="title">
+                        {this.props.title}
+                    </div>
+                    
+                    <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}>
+                    </div>
 
-            {this.props.speakers ? <div className="speakerss">{this.speakers(this.props.speakers)}</div> : ''}
+                    {this.props.speakers ? <div className="speakerss">{this.speakers(this.props.speakers)}</div> : ''}
 
-            {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
+                    {this.props.signupUrl ? <a className="workshop-signup" href={this.props.signupUrl} target="_blank">Sign up</a> : '' }
 
-            {this.props.images ? <div className="schedule-images">{this.images(this.props.images)}</div> : ''}
+                    {this.props.images ? <div className="schedule-images">{this.images(this.props.images)}</div> : ''}
 
-            {this.props.logo ? <div className="schedule-logo"><img src={this.props.logo} /></div> : ''}
+                    {this.props.logo ? <div className="schedule-logo"><img src={this.props.logo} /></div> : ''}
 
-            <style jsx>{`    
-                .session {
-                    padding: 8px;
-                    border-bottom: 1px solid #000;
-                }
+                    <style jsx>{`    
 
-                @media(max-width: 800px){
-                    .session {
-                        font-size: 12px;
-                    }
-                    .schedule-logo img {
-                        width: 44px;
-                        clip-path: circle(22px at center);
-                    }
-                }   
-                
-                @media(max-width: 1000px){
-                    .session {
-                        padding: 11px 8px;
-
-                        .schedule-image {
-                            width: 31px;
-                            margin-right: 10px;
-                            clip-path: circle(15px at center);
+                        .session-link {
+                            display: block;
+                            height: 100%;
+                            padding: 10px;
+                            border-bottom: 1px solid rgba(255,255,255, 0.6);
                         }
-                    }
-                }
-            `}
-            </style>
+
+                        @media(max-width: 800px){
+                            .session {
+                                font-size: 12px;
+                            }
+                            .schedule-logo img {
+                                width: 44px;
+                                clip-path: circle(22px at center);
+                            }
+                        }   
+                        
+                        @media(max-width: 1000px){
+                            .session {
+                                padding: 11px 8px;
+
+                                .schedule-image {
+                                    width: 31px;
+                                    margin-right: 10px;
+                                    clip-path: circle(15px at center);
+                                }
+                            }
+                        }
+                    `}
+                    </style>
+                </a>
+            </Link>
         </div>
     )}
 }
