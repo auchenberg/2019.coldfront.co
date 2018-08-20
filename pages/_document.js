@@ -6,8 +6,6 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <Head>
-                    <title>ColdFront 2018 - a holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018</title>
-
                     <meta property="og:title" content="ColdFront 2018" />
                     <meta property="og:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
                     <meta property="og:url" content="https://2018.coldfront.co/" />
