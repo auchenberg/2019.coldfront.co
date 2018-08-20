@@ -97,7 +97,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-mathias.jpg"
             speakerName="Mathias Buus"
-            speakerTheme="workshop on Madscience with JavaScript"
+            speakerTheme="Madscience with JavaScript in workshop"
             speakerTitle="JavaScript hacker"
             speakerPosition="Mathias Buus is a self taught JavaScript hacker from Copenhagen that has been working with Node.js since the 0.2 days. Mathias likes to work with P2P and distributed systems and is the author of more than 650 modules on npm, including some of the most popular ones for working with streams. In addition he has spoken about mad science projects at various conferences around the world."
             twitter="https://twitter.com/mafintosh/"
@@ -107,7 +107,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-thomas.jpg"
             speakerName="Thomas Watson"
-            speakerTheme="workshop on Madscience with JavaScript"
+            speakerTheme="Madscience with JavaScript in workshop"
             speakerTitle="JavaScript hacker at Elastic"
             speakerPosition="Thomas Watson is a computer programmer, public speaker, and open source hacker. He works on Application Performance Monitoring at Elastic, the company behind Elasticsearch, Kibana, and Logstash. Thomas has published hundreds of Node modules> and mad science projects, he is a Node.js Core member, and a part of the Node.js Diagnostics Working Group at the Node.js Foundation."
             twitter="https://twitter.com/wa7son"
@@ -117,7 +117,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-max.jpg"
             speakerName="Maximiliano Firtman"
-            speakerTheme="workshop on Progressive Web Apps"
+            speakerTheme="Progressive Web Apps in workshop"
             speakerTitle="mobile and web developer, trainer, speaker, and author"
             speakerPosition="Maximiliano Firtman (@firt) is a mobile and web developer, trainer, speaker, and author. Max teaches mobile HTML5, PWAs and performance trainings for top companies around the world. The founder of ITMaster Academy, Max is a well-known professional in the mobile web community with dozens of articles and online courses published. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web, published by O’Reilly Media. He is a frequent speaker at conferences and many other events around the world."
             twitter="https://twitter.com/firt"
@@ -127,7 +127,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-tony.jpg"
             speakerName="Tony Beltramelli"
-            speakerTheme="interactive session using machine learning to convert design to code"
+            speakerTheme="Machine learning to convert design to code“ in Interactive Session by Uizard"
             speakerTitle="CEO and Co-Founder, Uizard"
             speakerPosition="Tony is the CEO and Co-Founder of [Uizard](http://uizard.io). His work on the application of Deep Learning has been recognized globally and featured in international media"
             twitter="https://twitter.com/Tbeltramelli"
@@ -147,7 +147,7 @@ export default (props) => (
         <SpeakerCard
             speakerImage="/static/images/speakers/speaker-henrik.jpg"
             speakerName="Henrik Haugbølle"
-            speakerTheme="interactive session using machine learning to convert design to code"
+            speakerTheme="“Machine learning to convert design to code“ in Interactive Session by Uizard"
             speakerTitle="CTO and Co-Founder, Uizard"
             speakerPosition="Henrik is the CTO and Co-Founder of [Uizard](http://uizard.io). With a passion for startups, frontend, and JavaScript he's often encountered as an active part of the Danish JS community."
             twitter="https://twitter.com/haugboelle "
@@ -162,7 +162,29 @@ export default (props) => (
             speakerPosition="Jessica is an engineering manager at Figma. She has spent her career bridging the gap between design, software engineering, and occasionally musical theater."
             twitter=""
             compact={props.compact}
-        />                 
+        />     
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-srdan.jpg"
+            speakerName="Srđan Rašić"
+            speakerTheme="“Building AR apps with ARKit on iOS” Interactive session by Shape"
+            speakerTitle="Software developer at Shape"
+            speakerPosition="Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked my career with things from functional-reactive programming to the wonders of augmented reality. "
+            twitter=""
+            compact={props.compact}
+        />       
+
+        <SpeakerCard
+            speakerImage="/static/images/speakers/speaker-sune.jpg"
+            speakerName="Sune Simonsen"
+            speakerTheme="“Architecture for an ever changing environment” in interactive session by Zendesk"
+            speakerTitle="Software Engineer at Zendesk"
+            speakerPosition="Sune is a Software Engineer at Zendesk where I do front-end development in React, previously I was at One.com building calendar and webmail for thousands of concurrent users. I'm running a couple of open source projects most notably unexpected.js.org. "
+            twitter=""
+            compact={props.compact}
+        />     
+
+
       
     </React.Fragment>
 )
