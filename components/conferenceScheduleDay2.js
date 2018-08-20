@@ -7,61 +7,54 @@ export default ({ children }) => (
         description=""
         color="#7425F3"
         gridColumn="2 / 4"
-        gridRow="5 / span 3"
+        gridRow="2 / 7"
     />
-    <Session 
-        title="ColdFront opening"
-        description=""
-        color="#7425F3"
-        gridRow="8 / span 1"
-        gridColumn="2 / 4"
-    />      
 
     <Session 
-        title="Talks"
+        title="Welcome to Day 2"
         description=""
         color="#0629EA"
-        gridRow="9 / span 2"
+        gridRow="7"
         gridColumn="2 / 4"
     />   
 
     <Session 
-        title=""
+        title="Talk 8:"
         description=""
         color="#0629EA"
-        gridRow="11 / span 3"
+        gridRow="8 / span 4"
         gridColumn="2 / 4"
     />   
+
+    <Session 
+        title="Talk 9:"
+        description=""
+        color="#0629EA"
+        gridRow="12 / span 3"
+        gridColumn="2 / 4"
+    />     
 
     <Session 
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="14 / span 2"
+        gridRow="15 / span 3"
         gridColumn="2 / 4"
     />                           
 
     <Session 
-        title="Talks "
+        title="Talk 10:"
         description=""
         color="#0629EA"
-        gridRow="15 / span 3"
+        gridRow="18 / span 3"
         gridColumn="2 / 4"
     />  
 
     <Session 
-        title=""
+        title="Talk 11:"
         description=""
         color="#0629EA"
-        gridRow="18 / span 2"
-        gridColumn="2 / 4"
-    />  
-
-    <Session 
-        title=""
-        description=""
-        color="#0629EA"
-        gridRow="20 / span 3"
+        gridRow="22 / span 3"
         gridColumn="2 / 4"
     />                                      
 
@@ -69,28 +62,28 @@ export default ({ children }) => (
         title="Lunchtime"
         description=""
         color="#7425F3"
-        gridRow="23 / span 6"
+        gridRow="25 / span 4"
         gridColumn="2 / 4"
     />             
 
     <Session 
-        title="Interactive session"
+        title="Interactive breakout session by 23Video"
         description=""
         color="#0477F2"
-        gridRow="29 / span 2"
+        gridRow="29 / span 3"
         gridColumn="2"
     />  
 
     <Session 
-        title="Interactive session"
+        title="“Architecture for an ever changing environment” by Zendesk"
         description=""
         color="#0477F2"
-        gridRow="29 / span 2"
+        gridRow="29 / span 3"
         gridColumn="3"
     />  
 
     <Session 
-        title="Interactive session"
+        title="Interactive breakout session by Umbraco"
         description=""
         color="#0477F2"
         gridRow="32 / span 2"
@@ -98,7 +91,7 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="Interactive session"
+        title="Breakout Interactive session"
         description=""
         color="#0477F2"
         gridRow="32 / span 2"
@@ -109,72 +102,48 @@ export default ({ children }) => (
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="34 / span 2"
+        gridRow="34 / span 3"
         gridColumn="2 / 4"
     />  
 
     <Session 
-        title="Talks"
+        title="Talk 12:"
         description=""
         color="#0629EA"
-        gridRow="36 / span 3"
+        gridRow="37 / span 3"
         gridColumn="2 / 4"
-    />              
+    /> 
 
     <Session 
-        title=""
+        title="Talk 13:"
         description=""
         color="#0629EA"
-        gridRow="39 / span 2"
+        gridRow="40 / span 4"
         gridColumn="2 / 4"
-    />  
+    />                   
 
     <Session 
-        title=""
+        title="Closing keynote"
         description=""
         color="#0629EA"
-        gridRow="39 / span 2"
+        gridRow="44 / span 4"
         gridColumn="2 / 4"
-    />    
+    /> 
 
     <Session 
-        title="Q/A"
-        description=""
-        color="#5826F1"
-        gridRow="42 / span 2"
-        gridColumn="2 / 4"
-    />  
-
-    <Session 
-        title="The end + family photo"
+        title="The end + Family photo"
         description=""
         color="#7425F3"
-        gridRow="44 / span 2"
+        gridRow="48 / span 2"
         gridColumn="2 / 4"
-    />     
+    />       
 
     <Session 
-        title="Meet in the bar"
+        title="Social dinners + Meet in the bar"
         description=""
         color="#7425F3"
-        gridRow="46 / span 4"
+        gridRow="50 / span 11"
         gridColumn="2 / 4"
     />  
-
-    <Session 
-        title="Social dinners"
-        description=""
-        color="#7425F3"
-        gridRow="50 / span 8"
-        gridColumn="2 / 2"
-    />  
-
-    <Session 
-        title="Social dinners"
-        description=""
-        color="#7425F3"
-        gridRow="50 / span 8"
-        gridColumn="4 / 3"
-    />           
     </>
 )

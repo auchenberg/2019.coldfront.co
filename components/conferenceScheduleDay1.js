@@ -7,61 +7,62 @@ export default ({ children }) => (
         description=""
         color="#7425F3"
         gridColumn="2 / 4"
-        gridRow="2 / 6"
+        gridRow="2 / 7"
     />
-    <Session 
-        title="ColdFront opening"
-        description=""
-        color="#7425F3"
-        gridRow="5"
-        gridColumn="2 / 4"
-    />      
 
     <Session 
-        title="Talks"
+        title="Welcome to ColdFront 2018!"
         description=""
         color="#0629EA"
-        gridRow="7 / span 2"
+        gridRow="7"
         gridColumn="2 / 4"
     />   
 
     <Session 
-        title=""
+        title="Talk 1"
         description=""
         color="#0629EA"
-        gridRow="9 / span 2"
+        gridRow="8 / span 3"
         gridColumn="2 / 4"
     />   
+
+    <Session 
+        title="Talk 2"
+        description=""
+        color="#0629EA"
+        gridRow="11 / span 4"
+        gridColumn="2 / 4"
+    />     
 
     <Session 
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="12 / span 2"
+        gridRow="15 / span 3"
         gridColumn="2 / 4"
     />                           
 
-    <Session 
+    {/* <Session 
         title="Talks "
         description=""
         color="#0629EA"
         gridRow="14 / span 2"
         gridColumn="2 / 4"
-    />  
+    />   */}
 
     <Session 
-        title=""
+        title="Talk 3:"
         description=""
         color="#0629EA"
-        gridRow="17 / span 2"
+        gridRow="18 / span 3"
         gridColumn="2 / 4"
     />  
 
     <Session 
-        title=""
+        title="Talk 4:"
         description=""
         color="#0629EA"
-        gridRow="19 / span 2"
+        gridRow="22 / span 3"
         gridColumn="2 / 4"
     />                                      
 
@@ -69,39 +70,39 @@ export default ({ children }) => (
         title="Lunchtime"
         description=""
         color="#7425F3"
-        gridRow="22 / span 6"
+        gridRow="25 / span 4"
         gridColumn="2 / 4"
     />             
 
     <Session 
-        title="Interactive session"
+        title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
         description=""
         color="#0477F2"
-        gridRow="28 / span 2"
+        gridRow="29 / span 3"
         gridColumn="2"
     />  
 
     <Session 
-        title="Interactive session"
+        title="“Machine learning to convert design to code“ interactive breakout session by Uizard"
         description=""
         color="#0477F2"
-        gridRow="28 / span 2"
+        gridRow="29 / span 3"
         gridColumn="3"
     />  
 
     <Session 
-        title="Interactive session"
+        title="Interactive breakout session by Umbraco"
         description=""
         color="#0477F2"
-        gridRow="30 / span 3"
+        gridRow="32 / span 2"
         gridColumn="2"
     />  
 
     <Session 
-        title="Interactive session"
+        title="Breakout Interactive session"
         description=""
         color="#0477F2"
-        gridRow="30 / span 3"
+        gridRow="32 / span 2"
         gridColumn="3"
     />  
 
@@ -109,48 +110,41 @@ export default ({ children }) => (
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="33 / span 2"
+        gridRow="34 / span 3"
         gridColumn="2 / 4"
     />  
 
     <Session 
-        title="Talks"
+        title="Talk 5"
         description=""
         color="#0629EA"
-        gridRow="35 / span 3"
+        gridRow="37 / span 3"
         gridColumn="2 / 4"
-    />              
+    /> 
 
     <Session 
-        title=""
+        title="Talk 6"
         description=""
         color="#0629EA"
-        gridRow="38 / span 2"
+        gridRow="40 / span 4"
+        gridColumn="2 / 4"
+    />                   
+
+    <Session 
+        title="Closing Talk Day 1"
+        description=""
+        color="#0629EA"
+        gridRow="44 / span 4"
         gridColumn="2 / 4"
     />  
 
     <Session 
-        title=""
-        description=""
-        color="#0629EA"
-        gridRow="40 / span 3"
-        gridColumn="2 / 4"
-    />    
-
-    <Session 
-        title="Q/A"
-        description=""
-        color="#5826F1"
-        gridRow="43 / span 2"
-        gridColumn="2 / 4"
-    />  
-
-    <Session 
-        title="Dinner and party"
+        title="Social dinners and party"
         description=""
         color="#7425F3"
-        gridRow="45 / span 10"
+        gridRow="49 / span 11"
         gridColumn="2 / 4"
+        link="/social"
     />  
     </>
 )
