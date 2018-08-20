@@ -5,7 +5,7 @@ import Intro from '../components/intro'
 import ListItem from '../components/listItem'
 
 export default () => (
-    <Layout>
+    <Layout title="About">
 
         <Section>
             <Intro

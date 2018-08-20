@@ -6,7 +6,7 @@ import NewsletterForm from '../components/newsletterForm'
 import Intro from '../components/intro'
 
 export default () => (
-    <Layout>
+    <Layout title="Tickets">
         <Section>
             <Intro
                 title="Tickets"

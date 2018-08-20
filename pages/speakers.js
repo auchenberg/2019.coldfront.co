@@ -7,7 +7,7 @@ import Intro from '../components/intro'
 import SpeakerList from '../components/speakerList'
 
 export default () => (
-    <Layout>
+    <Layout title="Speakers and workshop holders">
         <Section>
             <Intro
                 title="Speakers and workshop holders"

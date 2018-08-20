@@ -4,7 +4,7 @@ import Intro from '../components/intro'
 import WorkshopSchedule from '../components/workshopSchedule'
 
 export default() => (
-    <Layout>
+    <Layout title="Community & Workshop Day">
         <Section>
             <Intro
                 title="Community & Workshop Day"

@@ -35,17 +35,17 @@ export default class extends React.Component {
 
   render() {
     return (
-    <Layout>
-        <Section>
-            <Intro
-                title="ColdFront 2018 Program"
-                text="The preliminary program for ColdFront 2018 with 2 full conference days of inspiring talks, 1 community day with workshops, social dinners and parties!"/>
-        </Section>
-        <Section bright>
-            <DaySelector onDayChanged={this.onDayChanged.bind(this)} selectedDay={this.state.selectedDay} />
-            <ConferenceSchedule selectedDay={this.state.selectedDay} />
-        </Section>
-    </Layout>        
+        <Layout title="Program">
+            <Section>
+                <Intro
+                    title="ColdFront 2018 Program"
+                    text="The preliminary program for ColdFront 2018 with 2 full conference days of inspiring talks, 1 community day with workshops, social dinners and parties!"/>
+            </Section>
+            <Section bright>
+                <DaySelector onDayChanged={this.onDayChanged.bind(this)} selectedDay={this.state.selectedDay} />
+                <ConferenceSchedule selectedDay={this.state.selectedDay} />
+            </Section>
+        </Layout>        
     )
   }
 }

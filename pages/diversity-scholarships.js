@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Intro from '../components/intro'
 
 export default () => (
-    <Layout>
+    <Layout title="Diversity Scholarships">
         <Section>
             <Intro
                 title="Diversity Scholarships"

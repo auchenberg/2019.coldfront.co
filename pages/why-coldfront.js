@@ -4,8 +4,7 @@ import Layout from '../components/layout'
 import Intro from '../components/intro'
 
 export default () => (
-    <Layout>
-
+    <Layout title="Why ColdFront?">
         <Section>
             <Intro
                 title="Why ColdFront?"
@@ -24,7 +23,6 @@ export default () => (
                     Read more on Medium <i className="fas fa-arrow-right"></i>
                 </a>
             </div>
-
         </Section>
     </Layout>
 )

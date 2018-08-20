@@ -4,7 +4,7 @@ import Intro from '../components/intro'
 import Link from 'next/link'
 
 export default() => (
-    <Layout>
+    <Layout title="Party, social dinners and social side events">
         <Section>
             <Intro
                 title="Party, social dinners and social side events"

@@ -4,7 +4,7 @@ import Intro from '../components/intro'
 import Link from 'next/link'
 
 export default() => (
-    <Layout>
+    <Layout title="Where to stay and how to get around">
 
         <Section>
             <Intro
