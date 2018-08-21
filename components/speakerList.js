@@ -169,7 +169,7 @@ export default (props) => (
             speakerName="Srđan Rašić"
             speakerTheme="“Building AR apps with ARKit on iOS” Interactive session by Shape"
             speakerTitle="Software developer at Shape"
-            speakerPosition="Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked my career with things from functional-reactive programming to the wonders of augmented reality. "
+            speakerPosition="Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked his career with things from functional-reactive programming to the wonders of augmented reality. "
             twitter=""
             compact={props.compact}
         />       
@@ -179,8 +179,8 @@ export default (props) => (
             speakerName="Sune Simonsen"
             speakerTheme="“Architecture for an ever changing environment” in interactive session by Zendesk"
             speakerTitle="Software Engineer at Zendesk"
-            speakerPosition="Sune is a Software Engineer at Zendesk where I do front-end development in React, previously I was at One.com building calendar and webmail for thousands of concurrent users. I'm running a couple of open source projects most notably unexpected.js.org. "
-            twitter=""
+            speakerPosition="Sune is a Software Engineer at Zendesk where he does front-end development in React. Previously he was at One.com building calendar and webmail for thousands of concurrent users. Currently, he is running a couple of open source projects most notably unexpected.js.org. "
+            twitter="https://twitter.com/sunesimonsen"
             compact={props.compact}
         />     
 
