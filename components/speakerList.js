@@ -170,7 +170,7 @@ export default (props) => (
             speakerTheme="“Building AR apps with ARKit on iOS” Interactive session by Shape"
             speakerTitle="Software developer at Shape"
             speakerPosition="Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked his career with things from functional-reactive programming to the wonders of augmented reality. "
-            twitter=""
+            twitter="https://twitter.com/srdanrasic"
             compact={props.compact}
         />       
 
