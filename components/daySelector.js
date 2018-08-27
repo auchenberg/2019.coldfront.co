@@ -30,7 +30,7 @@ export default class extends React.Component {
                     </div>
                     <div className="day">
                         <DayLink href="/program/day2" callback={this.props.onDayChanged} val="day2">
-                            <a><h2>Day2</h2></a>
+                            <a><h2>Day 2</h2></a>
                         </DayLink>
                         <p><strong>November 14</strong> – Talks, amazing food, and social dinner</p>
                     </div>
@@ -47,24 +47,21 @@ export default class extends React.Component {
             .days {
                 display: flex;
                 justify-content: space-between;
-                margin: 100px 0;
+                margin-bottom: 100px;
+                
+                @media (max-width:768px){
+                    display: block;
+                    border-bottom: 1px solid #fff;
+                }
 
-                @media (max-width: 768px){
-                    flex-direction: column;
-
-                    .day {
-                        width: 100%;
-                    }
+                @media (min-width: 768px) {
+                    margin: 100px 0;
                 }
             }
 
             .day {
                 width: 30%;
 
-                @media (min-width: 1200px){
-                    width: 25%;
-                }
-                
                 a, a:link, a:hover {
                     color: #fff;
                     cursor: pointer;
@@ -73,9 +70,18 @@ export default class extends React.Component {
                 h2 {
                     font-size: 80px;
                 }
+
+                @media (min-width: 1200px){
+                    width: 25%;
+                }
+                
+                @media (max-width:768px){
+                    h2 {
+                        font-size: 38px;
+                    }
+                }
             }
 
-            
             .arrow {
                 width: 40px;
             }
