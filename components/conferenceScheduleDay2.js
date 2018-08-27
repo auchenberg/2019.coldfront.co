@@ -80,7 +80,7 @@ export default ({ children }) => (
 
     <Session 
         title="“Architecture for an ever changing environment” by Zendesk"
-        description=""
+        description="In a industry where the only constant is change and speed to delivery is essential, we can't just stop the process and rebuild everything. But we still need to stay current with technology and changing product demands. To deal with this problem Zendesk Copenhagen have introduced a micro-frontend architecture shared by multiple teams spanning many different areas of the our product."
         color="#0477F2"
         time="13:30am - 14:00am"
         speakers={

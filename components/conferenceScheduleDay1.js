@@ -131,8 +131,9 @@ export default ({ children }) => (
     />                   
 
     <Session 
-        title=""
-        description=""
+        title="New Adventures In Front-End"
+        description="The beast is alive! How do you feel about ASCII-alike CSS Grid layout with polyfluid sizing and ch unit? Do you feel itchy when it comes to building responsive HTML email layouts? What about the brave new world of dynamic static site generators and JAM stack? Have you ever tried to work around nested CSS Custom Properties, untamed 3rd-party scripts, shady service workers, multi-dimensional variable fonts and painfully outdated pattern libraries? Well, let’s bring it on!
+            <br/ ><br/>Tighten up your seatbelt! Beware: you will not be able to unlearn what you’ll learn in the session! Ah, one more thing, take the techniques with a grain of salt — we do not take responsibility for sleepless nights and nightmares caused by the content of this session."
         color="#0629EA"
         time="16:30 - 17:15"
         speakers={
