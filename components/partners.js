@@ -57,7 +57,13 @@ export default ({ children }) => (
                     <a href="https://www.twentythree.net/">
                         <img src="/static/images/partners/twentythree.png" alt="twentythree" height="60" className="logos" />
                     </a>
-                </div>                                           
+                </div>      
+
+                <div className="list-item bright">
+                    <a href="https://umbraco.com">
+                        <img src="/static/images/partners/umbraco.svg" alt="twentythree" height="60" className="logos" />
+                    </a>
+                </div>                                                        
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
