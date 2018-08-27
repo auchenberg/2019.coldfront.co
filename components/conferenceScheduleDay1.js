@@ -112,8 +112,9 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title=""
-        description=""
+        title="It’s My (Third) Party, and I’ll Cry if I Want To"
+        description="Like it or not, a huge part of modern web development involves the use of third-party providers: fonts, analytics, ads, tracking, and more all have an impact of performance, and can leave us (or, more worryingly, our visitors) susceptible to performance degradation.
+            <br /><br />In this talk, we’ll take a look at unruly or uninvited (third-)party guests: how to detect them, how to audit them, and how to manage them. We’ll also look at the different tools available to help us stress-test and quantify the overhead these third parties bring, and what that means for users and businesses alike."
         color="#0629EA"
         time="15:00 - 15:45"
         speakers={
