@@ -1,0 +1,153 @@
+[
+    {
+        "image": "/static/images/speakers/speaker-sara.jpg",
+        "theme": "future of real-world CSS",
+        "name": "Sara Soueidan",
+        "title": "Freelance front-end web developer",
+        "position": "Sara Soueidan is a Lebanese freelance front-end web developer working with companies across the globe, building clean, responsive front-ends for Web sites and applications focused on accessibility, progressive enhancement and performance.",
+        "twitter": "https://twitter.com/SaraSoueidan"
+    },
+    {
+        "image": "/static/images/speakers/speaker-brent.png",
+        "name": "Brent Vatne",
+        "theme": "future of Expo and React Native",
+        "title": "Developer at Expo and core contributor to React Native",
+        "position": "Developer at [Expo](https://expo.io), core contributor to [React Native](http://github.com/facebook/react-native), and project lead on [React Navigation](https://github.com/react-navigation/react-navigation). Spare time is spent traveling and playing with [#lucythetri](https://www.instagram.com/explore/tags/lucythetri).",
+        "twitter": "https://twitter.com/notbrent"
+    },
+    {
+        "image": "/static/images/speakers/speaker-shirley.jpg",
+        "name": "Shirley Wu",
+        "theme": "future of web visualizations",
+        "title": "freelance software engineer",
+        "position": "Shirley Wu is a freelance software engineer specializing in data visualization. She combines her love of art, math, and code into colorful, interactive data visualizations. ",
+        "twitter": "https://twitter.com/sxywu"
+    },
+    {
+        "image": "/static/images/speakers/speaker-myles.jpg",
+        "name": "Myles Borins",
+        "theme": "future of open web standards",
+        "title": "Google as a developer advocate serving the Node.js ecosystem",
+        "position": "Myles Borins is a developer, musician, artist, and maker. They work for Google as a developer advocate serving the Node.js ecosystem. Myles cares about the open web and healthy communities",
+        "twitter": "https://twitter.com/mylesborins?lang:en"
+    },
+    {
+        "image": "/static/images/speakers/speaker-sarah.jpg",
+        "name": "Sarah Drasner",
+        "theme": "future of ethics for developers",
+        "title": "Award-winning Speaker, Senior Developer Advocate at Microsoft",
+        "position": "Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head",
+        "twitter": "https://twitter.com/sarah_edo/"
+    },
+    {
+        "image": "/static/images/speakers/speaker-michael.jpg",
+        "name": "Michael Thomsen",
+        "theme": "future of cross-platform native apps",
+        "title": "Product manager at Google for Dart and Flutter",
+        "position": "Michael Thomsen is a product manager at Google working on the Dart programming language, and Flutter, Google’s mobile UI framework to craft high-quality interfaces for iOS and Android",
+        "twitter": "https://twitter.com/MiSvTh/"
+    },
+    {
+        "image": "/static/images/speakers/speaker-mina.jpg",
+        "name": "Mina Markham",
+        "theme": "future of doing good as a developer",
+        "title": "Senior Engineer at Slack",
+        "position": "Mina Markham is a Senior Engineer at Slack. She’s a lover of design systems and prolific public speaker, appearing at events worldwide, including CSS Dev Conf, Fluent, and Future of Web Design. Mina also co-organizes Front Porch Conference.",
+        "twitter": "https://twitter.com/MinaMarkham/"
+    },
+    {
+        "image": "/static/images/speakers/speaker-harry.jpg",
+        "name": "Harry Roberts",
+        "theme": "future of web performance",
+        "title": "Consultant Front-end Architect:",
+        "position": "Harry Roberts is a consultant Front-end Architect: @@google, @UN, @Etsy, @kickstarter, @BBC, @Unileve, @Deloitte,and more • Speaker • Author: @cssguidelines",
+        "twitter": "https://twitter.com/csswizardry"
+    },
+    {
+        "image": "/static/images/speakers/speaker-vitaly.jpg",
+        "name": "Vitaly Friedman",
+        "theme": "future adventures in front-end",
+        "title": "Vitaly Friedman is the author, co-author and editor of all Smashing books.",
+        "position": "Vitaly Friedman is the author, co-author and editor of all Smashing books. He currently works developing the new Smashing Memberships around the globe!",
+        "twitter": "https://twitter.com/smashingmag/"
+    },
+    {
+        "image": "/static/images/speakers/speaker-mathias.jpg",
+        "name": "Mathias Buus",
+        "theme": "Madscience with JavaScript in workshop",
+        "title": "JavaScript hacker",
+        "position": "Mathias Buus is a self taught JavaScript hacker from Copenhagen that has been working with Node.js since the 0.2 days. Mathias likes to work with P2P and distributed systems and is the author of more than 650 modules on npm, including some of the most popular ones for working with streams. In addition he has spoken about mad science projects at various conferences around the world.",
+        "twitter": "https://twitter.com/mafintosh/"
+    },
+    {
+        "image": "/static/images/speakers/speaker-thomas.jpg",
+        "name": "Thomas Watson",
+        "theme": "Madscience with JavaScript in workshop",
+        "title": "JavaScript hacker at Elastic",
+        "position": "Thomas Watson is a computer programmer, public speaker, and open source hacker. He works on Application Performance Monitoring at Elastic, the company behind Elasticsearch, Kibana, and Logstash. Thomas has published hundreds of Node modules> and mad science projects, he is a Node.js Core member, and a part of the Node.js Diagnostics Working Group at the Node.js Foundation.",
+        "twitter": "https://twitter.com/wa7son"
+    },
+    {
+        "image": "/static/images/speakers/speaker-max.jpg",
+        "name": "Maximiliano Firtman",
+        "theme": "Progressive Web Apps in workshop",
+        "title": "mobile and web developer, trainer, speaker, and author",
+        "position": "Maximiliano Firtman (@firt) is a mobile and web developer, trainer, speaker, and author. Max teaches mobile HTML5, PWAs and performance trainings for top companies around the world. The founder of ITMaster Academy, Max is a well-known professional in the mobile web community with dozens of articles and online courses published. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web, published by O’Reilly Media. He is a frequent speaker at conferences and many other events around the world.",
+        "twitter": "https://twitter.com/firt"
+    },
+    {
+        "image": "/static/images/speakers/speaker-tony.jpg",
+        "name": "Tony Beltramelli",
+        "theme": "Machine learning to convert design to code“ in Interactive Session by Uizard",
+        "title": "CEO and Co-Founder, Uizard",
+        "position": "Tony is the CEO and Co-Founder of [Uizard](http://uizard.io). His work on the application of Deep Learning has been recognized globally and featured in international media",
+        "twitter": "https://twitter.com/Tbeltramelli"
+    },
+    {
+        "image": "/static/images/speakers/speaker-charlie.jpg",
+        "name": "Charlie Gerard",
+        "theme": "future of emotive interfaces",
+        "title": "Software developer at ThoughtWorks",
+        "position": "Charlie is a software developer at [ThoughtWorks](http://thoughtworks.com/) in Sydney. She is passionate about creative coding, hardware and spends her free time experimenting with technology to create interactive prototypes. She also spends time giving back to the community by mentoring new developers, contributing to open-source projects and speaking at events.",
+        "twitter": "https://twitter.com/devdevcharlie"
+    },
+    {
+        "image": "/static/images/speakers/speaker-henrik.jpg",
+        "name": "Henrik Haugbølle",
+        "theme": "“Machine learning to convert design to code“ in Interactive Session by Uizard",
+        "title": "CTO and Co-Founder, Uizard",
+        "position": "Henrik is the CTO and Co-Founder of [Uizard](http://uizard.io). With a passion for startups, frontend, and JavaScript he's often encountered as an active part of the Danish JS community.",
+        "twitter": "https://twitter.com/haugboelle "
+    },
+    {
+        "image": "/static/images/speakers/speaker-jessica.jpg",
+        "name": "Jessica Liu",
+        "theme": "Future of front-end and design tools",
+        "title": "Engineering Manager at Figma",
+        "position": "Jessica is an engineering manager at Figma. She has spent her career bridging the gap between design, software engineering, and occasionally musical theater.",
+        "twitter": ""
+    },
+    {
+        "image": "/static/images/speakers/speaker-srdan.jpg",
+        "name": "Srđan Rašić",
+        "theme": "“Building AR apps with ARKit on iOS” Interactive session by Shape",
+        "title": "Software developer at Shape",
+        "position": "Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked his career with things from functional-reactive programming to the wonders of augmented reality. ",
+        "twitter": "https://twitter.com/srdanrasic"
+    },
+    {
+        "image": "/static/images/speakers/speaker-sune.jpg",
+        "name": "Sune Simonsen",
+        "theme": "“Architecture for an ever changing environment” in interactive session by Zendesk",
+        "title": "Software Engineer at Zendesk",
+        "position": "Sune is a Software Engineer at Zendesk where he does front-end development in React. Previously he was at One.com building calendar and webmail for thousands of concurrent users. Currently, he is running a couple of open source projects most notably unexpected.js.org. ",
+        "twitter": "https://twitter.com/sunesimonsen"
+    },
+    {
+        "image": "/static/images/host-phill-h.jpg",
+        "name": "Phil Hawksworth",
+        "title": "Developer Relations at @Netlify",
+        "twitter": "https://twitter.com/philhawksworth",
+        "hide": true
+    }
+]
