@@ -73,7 +73,8 @@ export default ({ children }) => (
 
     <Session 
         title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
-        description=""
+        description="It was not until recently that the term AR has been reserved for a small group of developers, researchers and tech enthusiasts. All that changed with a game catching the interest of the general public and the subsequent introduction of Apple's own technology that promises to deliver augmented reality experiences to the masses - ARKit. <br /><br />
+            In this interactive session, we will learn what ARKit is, get a glimpse of what it can do and show you how easy it is to get started with it."
         color="#0477F2"
         time="13:30 - 14:00"
         speakers={
