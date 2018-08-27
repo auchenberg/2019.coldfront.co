@@ -18,12 +18,14 @@ class WorkshopSession extends React.Component {
         let images = this.props.images || []
         let speakers = this.props.speakers || []
         let title = this.props.title || null;
+        let theme = null;
 
         if(this.props.speakers) {
             this.props.speakers.forEach((speaker) => {
                 var speakerInfo = speakerData.find(s => s.name == speaker)   ;            
                 if(speakerInfo) {
                     images.push(speakerInfo.image)
+                    theme = speakerInfo.theme
                 }
 
                 if(!title) {
@@ -35,7 +37,8 @@ class WorkshopSession extends React.Component {
         this.setState({
             images: images,
             speakers: speakers,
-            title: title
+            title: title,
+            theme: theme
         })
     }
 
@@ -66,12 +69,15 @@ class WorkshopSession extends React.Component {
                                 </a>
                             </Link>
                         </div>
+                        
 
                         <div className="speakers">
                             { this.state.speakers.map(function(speaker, idx){
                                 let slugLabel = slug(speaker, { lower: true})
                                     return (<a className="speaker-link" href={'/speakers#'+ slugLabel}>{speaker}</a>)
-                            })}
+                            })} 
+                            
+                            {this.state.theme ? " - on " + this.state.theme : '' }
                         </div>
 
                         <div className="description" dangerouslySetInnerHTML={{__html: this.props.description}}></div>
@@ -103,6 +109,10 @@ class WorkshopSession extends React.Component {
                         display: flex;
                         align-items: flex-start;  
                         padding: 40px 0;                              
+                    }
+
+                    .speakers {
+                        padding-bottom: 20px;
                     }
                         
                     .body {

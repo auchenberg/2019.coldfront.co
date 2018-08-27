@@ -98,7 +98,7 @@
     {
         "image": "/static/images/speakers/speaker-tony.jpg",
         "name": "Tony Beltramelli",
-        "theme": "Machine learning to convert design to code“ in Interactive Session by Uizard",
+        "theme": "future of tools with Machine learning",
         "title": "CEO and Co-Founder, Uizard",
         "position": "Tony is the CEO and Co-Founder of [Uizard](http://uizard.io). His work on the application of Deep Learning has been recognized globally and featured in international media",
         "twitter": "https://twitter.com/Tbeltramelli"
@@ -114,7 +114,7 @@
     {
         "image": "/static/images/speakers/speaker-henrik.jpg",
         "name": "Henrik Haugbølle",
-        "theme": "“Machine learning to convert design to code“ in Interactive Session by Uizard",
+        "theme": "future of tools with Machine learning",
         "title": "CTO and Co-Founder, Uizard",
         "position": "Henrik is the CTO and Co-Founder of [Uizard](http://uizard.io). With a passion for startups, frontend, and JavaScript he's often encountered as an active part of the Danish JS community.",
         "twitter": "https://twitter.com/haugboelle "
@@ -130,7 +130,7 @@
     {
         "image": "/static/images/speakers/speaker-srdan.jpg",
         "name": "Srđan Rašić",
-        "theme": "“Building AR apps with ARKit on iOS” Interactive session by Shape",
+        "theme": "ARKit on iOS",
         "title": "Software developer at Shape",
         "position": "Srđan is a software developer at Shape, an active open-source contributor and an author of the popular frameworks Bond and ReactiveKit. Interest in new and emerging technologies has marked his career with things from functional-reactive programming to the wonders of augmented reality. ",
         "twitter": "https://twitter.com/srdanrasic"
@@ -138,7 +138,7 @@
     {
         "image": "/static/images/speakers/speaker-sune.jpg",
         "name": "Sune Simonsen",
-        "theme": "“Architecture for an ever changing environment” in interactive session by Zendesk",
+        "theme": "front-end architecture",
         "title": "Software Engineer at Zendesk",
         "position": "Sune is a Software Engineer at Zendesk where he does front-end development in React. Previously he was at One.com building calendar and webmail for thousands of concurrent users. Currently, he is running a couple of open source projects most notably unexpected.js.org. ",
         "twitter": "https://twitter.com/sunesimonsen"
