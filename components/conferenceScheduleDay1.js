@@ -1,4 +1,4 @@
-import Session from './programSession'
+import Session from './session'
 
 export default ({ children }) => (
     <>
@@ -6,144 +6,145 @@ export default ({ children }) => (
         title="Registration and breakfast"
         description=""
         color="#7425F3"
-        gridColumn="2 / 4"
-        gridRow="2 / 7"
+        time="8:00 - 9:00"
     />
 
     <Session 
         title="Welcome to ColdFront 2018!"
         description=""
         color="#0629EA"
-        gridRow="7"
-        gridColumn="2 / 4"
+        time="9:00 - 9:15"
+        speakers={
+            ["Phil Hawksworth"]
+        }
     />   
 
     <Session 
-        title="Talk 1"
+        title=""
         description=""
         color="#0629EA"
-        gridRow="8 / span 3"
-        gridColumn="2 / 4"
+        time="9:15 - 10:00"
+        speakers={
+            ["Sarah Drasner"]
+        }        
     />   
 
     <Session 
-        title="Talk 2"
+        title="Session details to be announced"
         description=""
         color="#0629EA"
-        gridRow="11 / span 4"
-        gridColumn="2 / 4"
-    />     
+        time="10:00 - 10:45"
+        speakers={
+            [""]
+        }        
+    />       
 
     <Session 
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="15 / span 3"
-        gridColumn="2 / 4"
-    />                           
-
-    {/* <Session 
-        title="Talks "
-        description=""
-        color="#0629EA"
-        gridRow="14 / span 2"
-        gridColumn="2 / 4"
-    />   */}
+        time="10:45 - 11:15"
+    />           
 
     <Session 
-        title="Talk 3:"
         description=""
         color="#0629EA"
-        gridRow="18 / span 3"
-        gridColumn="2 / 4"
+        time="11:15 - 12:00"
+        speakers={
+            ["Brent Vatne"]
+        }             
     />  
 
     <Session 
-        title="Talk 4:"
         description=""
         color="#0629EA"
-        gridRow="22 / span 3"
-        gridColumn="2 / 4"
-    />                                      
+        time="12:00 - 12:45"
+        speakers={
+            ["Michael Thomsen"]
+        }             
+    />  
 
     <Session 
         title="Lunchtime"
         description=""
         color="#7425F3"
-        gridRow="25 / span 4"
-        gridColumn="2 / 4"
+        time="12:45 - 13:30"
     />             
 
     <Session 
         title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
         description=""
         color="#0477F2"
-        gridRow="29 / span 3"
-        gridColumn="2"
-    />  
-
-    <Session 
-        title="“Machine learning to convert design to code“ interactive breakout session by Uizard"
-        description=""
-        color="#0477F2"
-        gridRow="29 / span 3"
-        gridColumn="3"
+        time="13:30 - 14:00"
+        speakers={
+            ["Srđan Rašić"]
+        }           
     />  
 
     <Session 
         title="Interactive breakout session by Umbraco"
         description=""
         color="#0477F2"
-        gridRow="32 / span 2"
-        gridColumn="2"
+        time="13:30 - 14:00"
+    />
+
+    <Session 
+        title="Breakout Interactive session"
+        description=""
+        color="#0477F2"
+        time="14:00 - 14:30"
     />  
 
     <Session 
         title="Breakout Interactive session"
         description=""
         color="#0477F2"
-        gridRow="32 / span 2"
-        gridColumn="3"
-    />  
+        time="14:00 - 14:30"
+    />          
+      
 
     <Session 
         title="Coffee break"
         description=""
         color="#7425F3"
-        gridRow="34 / span 3"
-        gridColumn="2 / 4"
+        time="14:30 - 15:00"
     />  
 
     <Session 
-        title="Talk 5"
+        title=""
         description=""
         color="#0629EA"
-        gridRow="37 / span 3"
-        gridColumn="2 / 4"
+        time="15:00 - 15:45"
+        speakers={
+            ["Harry Roberts"]
+        }          
     /> 
 
     <Session 
-        title="Talk 6"
+        title=""
         description=""
         color="#0629EA"
-        gridRow="40 / span 4"
-        gridColumn="2 / 4"
+        time="15:45 - 16:30"
+        speakers={
+            ["Shirley Wu"]
+        }        
     />                   
 
     <Session 
-        title="Closing Talk Day 1"
+        title=""
         description=""
         color="#0629EA"
-        gridRow="44 / span 4"
-        gridColumn="2 / 4"
-    />  
+        time="16:30 - 17:15"
+        speakers={
+            ["Vitaly Friedman"]
+        }        
+    />   
 
     <Session 
         title="Social dinners and party"
-        description=""
+        time="17:30 - 24:00"
+        description="To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues."
         color="#7425F3"
-        gridRow="49 / span 11"
-        gridColumn="2 / 4"
         link="/social"
     />  
     </>
