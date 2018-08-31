@@ -58,7 +58,9 @@ export default ({ children }) => (
     />  
 
     <Session 
-        description=""
+        title="Mind control in JavaScript - Experimenting with alternative interactions"
+        description="A typical interaction with a device or interface involves touching it. Either you're pressing buttons on a controller, swiping on a touchscreen or clicking on your laptop's trackpad. But what if you could control things without the use of your hands? What if you could use... your thoughts?
+        <br /><br />For the past couple of years, I have been tinkering with a brain sensor and developed an open-source JavaScript framework to allow me (or anyone else) to control interfaces or robots using facial expressions and mental commands. In this talk, I will be sharing what I learnt, showing how it works and talking about the future possibilities of alternative interactions.         "
         color="#0629EA"
         time="12:00am - 12:45am"
         speakers={
