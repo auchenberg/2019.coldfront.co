@@ -30,8 +30,10 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title=""
-        description=""
+        title="How a design tool changes relationships"
+        description="Designers and developers can often butt heads. We hail from different backgrounds; we bring different perspectives; we speak different lingo. The level of trust and understanding between designers and developers can make or break a frontend team. And the tools we use can have a remarkable impact on the strength of this relationship.
+        <br /><br />This talk will explore how advancements in design tools have brought designers and developers closer together. We’ll take a look at how specific features in a tool can actually influence design methodologies and practices. We’ll also explore the ramifications of letting developers loose in a design tool. For one team in particular, this has had a profound impact on the team’s culture.
+        <br /><br />Finally, we’ll extrapolate these current trends into the future. Could a mere design tool change our concept of what it means to be a designer or a developer?"
         color="#0629EA"
         time="10:00am - 10:45am"
         speakers={
