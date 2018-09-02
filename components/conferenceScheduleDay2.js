@@ -115,12 +115,13 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="Session details to be announced"
-        description=""
+        title="The Future of Product Design"
+        description="Product design can go wrong and affect users negatively. How do your users feel using your product? What’s the impact that you cause? Can we build better products if we follow certain principles?
+        <br /><br />This talk will explain how to truly care about our users and improve their experience by taking a more ethical approach. Most importantly, this talk will hopefully be an inspiration, question the status quo and help us build for a better future web. "
         color="#0629EA"
         time="15:00am - 15:45am"
         speakers={
-            [""]
+            ["Holger Bartel"]
         }          
     /> 
 
