@@ -47,7 +47,10 @@ export default ({ children }) => (
     />           
 
     <Session 
-        description=""
+        title="What's next for React Native and Expo"
+        description="Fabric is a re-implementation of much of the internals of React Native that draws inspiration from the experiences of over three years of production use and turns initial design decisions upside down. In particular, it moves away from a mainly asynchronous bridge between the JavaScript and native runtimes by leveraging the React Fiber architecture. We’ll look at Fabric with a focus on what problems it aims to solve and which will problems will remain.
+        <br /><br />We’ll also discuss the company that I work on, Expo. Expo is an important part of the React Native ecosystem because it builds tools, services, and libraries around React Native core that are increasingly depended on by the community. It removes the native build step required to get started and provides a “Create React App”-style experience. Expo also provides a CodeSandbox style web playground called Snack. A key piece of Expo is the extensive native API wrapper modules that are available out of the box. Up until recently, this package has been monolithic and developers have had to buy into the entire Expo toolchain in order to take advantage of the native modules. We recently re-architected them so React Native users can use as few or as many as they like, and Flutter, Cordova, or even normal native apps can take advantage of them to have a cleaner cross-platform interface for interacting with native APIs. 
+        <br /><br />We’ll talk about these “universal modules” and other exciting projects underway."
         color="#0629EA"
         time="11:15 - 12:00"
         speakers={
