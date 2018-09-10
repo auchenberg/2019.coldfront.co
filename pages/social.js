@@ -17,6 +17,25 @@ export default() => (
 
                 <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. We believe that conference food should be delicious and nutritious, so we are teaming up with some amazing local food vendor who will put together a great Nordic menu for us.</p>
 
+                <p>This year we are teaming up with world world renowned chef Claus <a href="http://meyers.dk">Meyer</a></p>
+
+                <h3>MEYERS</h3>
+                <p>We make fresh, wholesome food available for more.</p>
+                <p>The idea that food matters beyond pleasure are the guiding principles of everything we do.</p>
+                <p>Group Meyers, operates at all levels from farm to table. Our many activities unfold in canteens, catering, fruit farming, production and processing activities, own shops, commerce, team building, research, education and consulting.</p>
+
+                <div className="images">
+                    <img src="/static/images/practical/meyers1.jpg" />
+                    <img src="/static/images/practical/meyers3.png" />
+                    <img src="/static/images/practical/meyers2.jpg" />
+                </div>
+
+                <h3>Chef Claus Meyer</h3>
+                <p>Claus Meyers has been instrumental in unlocking the potential of Danish food culture in the past 30 years through several research, consulting, community and entrepreneurial initiatives. Claus has challenged conventional thinking in agriculture, food production and cooking. He has inspired a generation to rediscover local Nordic produce through cookbooks, TV shows, cookery schools, lectures, public food debates and produce from his own orchard.</p>
+                <p>He is the inventor and initiator of the New Nordic Cuisine movement, and co-founder of noma, Copenhagen’s famed New Nordic restaurant. From 2014 and on, Claus has been involved and established the US projects Great Northern Food Hall and Agern Restaurant located in New York's Grand Central Terminal.</p>
+
+                <h3>Party</h3>
+
                 <p>Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
 
                 <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
