@@ -77,12 +77,17 @@ export default ({ children }) => (
                     </a>
                 </div>    
 
-
                 <div className="list-item bright">
                     <a href="https://www.itu.dk">
                         <img src="/static/images/logos/itu.png" alt="itu" width="220" className="logos" />
                     </a>
                 </div>    
+
+                <div className="list-item bright">
+                    <a href="https://www.offscreenmag.com/">
+                        <img src="/static/images/partners/offscreen.png" alt="offscreen" width="150" className="logos" />
+                    </a>
+                </div>   
 
 
                 <div className="list-item your-spot bright">
