@@ -69,7 +69,13 @@ export default ({ children }) => (
                     <a href="https://www.timeshifter.com">
                         <img src="/static/images/partners/timeshifter.png" alt="timeshifter" height="60" className="logos" />
                     </a>
-                </div>                                                                       
+                </div>            
+
+                <div className="list-item bright">
+                    <a href="https://www.prodata.dk">
+                        <img src="/static/images/partners/prodata.png" alt="prodata" height="60" className="logos" />
+                    </a>
+                </div>    
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
