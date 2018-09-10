@@ -77,6 +77,14 @@ export default ({ children }) => (
                     </a>
                 </div>    
 
+
+                <div className="list-item bright">
+                    <a href="https://www.itu.dk">
+                        <img src="/static/images/logos/itu.png" alt="itu" width="220" className="logos" />
+                    </a>
+                </div>    
+
+
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
                     <span>Email: <a href="mailto:michael@coldfront.co">michael@coldfront.co</a></span>
