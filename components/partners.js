@@ -89,6 +89,11 @@ export default ({ children }) => (
                     </a>
                 </div>   
 
+                <div className="list-item bright">
+                    <a href="https://www.meyers.dk/">
+                        <img src="/static/images/partners/meyers.png" alt="meyers" width="150" className="logos" />
+                    </a>
+                </div>   
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
