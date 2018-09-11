@@ -75,8 +75,8 @@ class student extends React.Component {
                         <p>ColdFront Student will take place on <strong>November 15th 15:00-17:00</strong> at ITU, <a href="https://goo.gl/maps/WoScNoZSUNo">Rued Langgaards Vej 7 2300 København S</a></p>
                         
                         <div className="btn-action font-bitblox">
-                            <a className="btn btn-primary btn-primary-shadow glitch" data-text="Sign for ColdFront Student" href="https://ti.to/coldfront/coldfront-2018/with/hvm92aogvzk">
-                            APPLY NOW <i className="fas fa-arrow-right"></i>
+                            <a className="btn btn-primary btn-primary-shadow glitch" data-text="REGISTER" href="https://ti.to/coldfront/coldfront-2018/with/hvm92aogvzk">
+                           REGISTER <i className="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
