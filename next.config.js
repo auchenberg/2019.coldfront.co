@@ -17,6 +17,7 @@ module.exports = {
             '/venue-and-practical': { page: '/venue-and-practical' },
             '/welcome-coldfronter': { page: '/welcome-coldfronter' },
             '/diversity-scholarships': { page: '/diversity-scholarships' },
+            '/student': { page: '/student' },
         }
     }
 }

@@ -23,6 +23,10 @@ class Speaker extends React.Component {
       body = `${description}`
     }
 
+    if(this.props.hideTheme && this.props.hideTheme == 'true') {
+      body = this.props.speakerPosition
+    }
+
     return (
         <ListItem
             title={this.props.speakerName}
