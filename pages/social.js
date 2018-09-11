@@ -17,7 +17,7 @@ export default() => (
 
                 <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. We believe that conference food should be delicious and nutritious, so we are teaming up with some amazing local food vendor who will put together a great Nordic menu for us.</p>
 
-                <p>This year we are teaming up with world world renowned chef Claus <a href="http://meyers.dk">Meyer</a></p>
+                <p>This year we are teaming up with world world renowned chef Claus <a href="https://www.meyersmad.dk/english/">Meyer</a></p>
 
                 <h3>MEYERS</h3>
                 <p>We make fresh, wholesome food available for more.</p>
