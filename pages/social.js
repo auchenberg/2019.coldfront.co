@@ -15,14 +15,14 @@ export default() => (
             <div className="narrow">
                 <h2>Food and ColdFront Party™</h2>
 
-                <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. We believe that conference food should be delicious and nutritious, so we are teaming up with some amazing local food vendor who will put together a great Nordic menu for us.</p>
+                <p>As a part of ColdFront we are providing breakfast and lunch during the conference days. We believe that conference food should be delicious and nutritious, so we are teaming up with an amazing local food vendor who will put together a great Nordic menu for us.</p>
 
-                <p>This year we are teaming up with world world renowned chef Claus <a href="https://www.meyersmad.dk/english/">Meyer</a></p>
+                <p>This year we are teaming up with world world renowned chef <a href="https://www.meyersmad.dk/english/">Claus Meyer</a>!</p>
 
-                <h3>MEYERS</h3>
+                <h3>Meyers Group</h3>
                 <p>We make fresh, wholesome food available for more.</p>
                 <p>The idea that food matters beyond pleasure are the guiding principles of everything we do.</p>
-                <p>Group Meyers, operates at all levels from farm to table. Our many activities unfold in canteens, catering, fruit farming, production and processing activities, own shops, commerce, team building, research, education and consulting.</p>
+                <p>The Meyers Group operates at all levels from farm to table. Our many activities unfold in canteens, catering, fruit farming, production and processing activities, own shops, commerce, team building, research, education and consulting.</p>
 
                 <div className="images">
                     <img src="/static/images/practical/meyers1.jpg" />
