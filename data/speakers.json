@@ -152,6 +152,14 @@
         "twitter": "https://twitter.com/foobartel"
     },    
     {
+        "image": "/static/images/speakers/speaker-flarup.jpg",
+        "name": "Michael Flarup",
+        "theme": "designing for Augmented Reality",
+        "title": "Danish designer & entrepreneur",
+        "position": "Michael is a Danish designer & entrepreneur. He runs entertainment studio Northplay, Pixelresort and design resource platform Apply Pixels. He’s got a treasure-trove of experience creating his own companies, leading teams of developers and designers and working on countless of succesful products, games and services.",
+        "twitter": "https://twitter.com/flarup"
+    },    
+    {
         "image": "/static/images/host-phill-h.jpg",
         "name": "Phil Hawksworth",
         "title": "Developer Relations at @Netlify",

@@ -94,6 +94,20 @@ export default ({ children }) => (
     />
 
     <Session 
+        title="Designing for Augmented Reality"
+        description="We thought we could port our existing game to an AR experience. We couldn't. Here's what happened and everything we learned.
+        <br /><br />
+        In this talk I'll take the audience through the journey we went on creating our first AR-only experience. Our game Conduct AR! I'll talk about how many of the assumptions we had going in turned out to be wrong and how we worked to change them in a race to launch alongside iOS 11.
+        <br /><br />
+        It'll be an explosive, entertaining and visual journey into one of the most exciting frontiers in technology today."
+        color="#0477F2"
+        time="14:00 - 14:30"
+        speakers={
+            ["Michael Flarup"]
+        }           
+    />  
+
+    <Session 
         title="Will the future of front-end be AI-assisted?"
         description="Artificial Intelligence, Machine Learning, Deep Learning: three buzzwords that made headlines in the tech press all year long. What does it mean for the future of front-end development and UI/UX design?
         <br /><br />
