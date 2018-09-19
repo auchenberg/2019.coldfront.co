@@ -94,10 +94,15 @@ export default ({ children }) => (
     />
 
     <Session 
-        title="Breakout Interactive session"
-        description=""
+        title="Will the future of front-end be AI-assisted?"
+        description="Artificial Intelligence, Machine Learning, Deep Learning: three buzzwords that made headlines in the tech press all year long. What does it mean for the future of front-end development and UI/UX design?
+        <br /><br />
+        In this session, we will share our vision of the future and why we believe that AI has the potential to turn all of us into super-developers. We will also do a live demo of the latest technology we are developing at Uizard."
         color="#0477F2"
         time="14:00 - 14:30"
+        speakers={
+            ["Tony Beltramelli", "Henrik Haugbølle"]
+        }              
     />  
 
     <Session 
