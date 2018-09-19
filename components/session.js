@@ -58,7 +58,7 @@ class WorkshopSession extends React.Component {
                 <div className="content">
                     <div className="images">
                         { this.state.images.map(function(image, idx){
-                            return (<img className="scheduleImage" src={image} />)
+                            return (<p><img className="scheduleImage" src={image} /></p>)
                         })}
                     </div>
                     <div className="body">
@@ -72,9 +72,9 @@ class WorkshopSession extends React.Component {
                         
 
                         <div className="speakers">
-                            { this.state.speakers.map(function(speaker, idx){
+                            { this.state.speakers.map(function(speaker, idx, speakers){
                                 let slugLabel = slug(speaker, { lower: true})
-                                    return (<a className="speaker-link" href={'/speakers#'+ slugLabel}>{speaker}</a>)
+                                    return (<a className="speaker-link" href={'/speakers#'+ slugLabel}>{speaker} {speakers.length > 1 && idx < speakers.length -1 ? ' + ': ''}</a>)
                             })} 
                             
                             {this.state.theme ? " - on " + this.state.theme : '' }
