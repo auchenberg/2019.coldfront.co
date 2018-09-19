@@ -59,7 +59,8 @@ export default ({ children }) => (
     />  
 
     <Session 
-        description=""
+        title="A fresh perspective on multi-platform UI"
+        description="Flutter is a Google-sponsored open-source SDK for creating multi-platform user interfaces. We will talk about how Flutter is very different from similar frameworks, any why we have made the technical choices we have."
         color="#0629EA"
         time="12:00 - 12:45"
         speakers={
