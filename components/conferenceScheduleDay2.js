@@ -20,8 +20,9 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title=""
-        description=""
+        title="Inclusively Responsive UIs with CSS and SVG"
+        description="CSS has advanced so much in the last few years and new features were added to it that make our lives as developers easier. But on the other hand some features have been added that are there to provide a better experience for our users as well, as long as we utilize them to do so.
+        <br /><br />In this talk, Sara is going to cover some of the most useful CSS and SVG features, and how they can be used to make more usable products that respond to user's needs and preferences, to create overall more inclusive interfaces. "
         color="#0629EA"
         time="9:15am - 10:00am"
         speakers={
