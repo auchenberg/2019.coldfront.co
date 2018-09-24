@@ -20,9 +20,8 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title="Live and Machine Learn"
-        description="The life we live online increasingly informs the way we live offline as well. Businesses live and die through algorithms like SEO, humans are sorted in government systems, and we make large, life-governing decisions through what is shown to us on the web: home buying, where to live, what to eat, and who we're in contact with regularly. The first shift we as web developers saw was people living and learning on the web more and more, which excited us. But as we start to automate those tasks through machine learning algorithms, a lot of us have trepidation. We know systems have flaws, what are the political and social consequences?
-        <br /><br />In this talk we'll explore this paradigm shift and some of it's dangers, but we'll also talk about the good impacts technology can bring. Helping people who need it, automating tasks for humans with disabilities, communication for emergency services: the possibilities for positive influence are endless. We'll explore just some of the tools that are out there, how with a little creativity, we can use these technologies for good. We as developers have a voice and chance to make a difference.        "
+        title="The future of web animation"
+        description="We talk a lot about how to animate on the web, and what's possible in browsers today, but where is animation heading? In this talk, we'll start with some bleeing edge techniques such as native-like page transitions with client side rendering, but then we'll push it further. The intersection of health and animation with biofeedback sensors, the future of 3d in the browser complete with interviews with people who are writing these specs... this talk will show that in terms of animation on the web, we're just getting started."
         color="#0629EA"
         time="9:15 - 10:00"
         speakers={
