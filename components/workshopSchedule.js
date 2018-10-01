@@ -55,16 +55,13 @@ export default ({ children }) => (
                 images={["/static/images/workshopschedule/max.jpg"]}
                 />
             
-            
-
+        
                 <WorkshopSession 
-                    gridRow="8 / span 4"
+                    title="ColdFront Student. Mini-student event for students in Copenhagen"
+                    color="#7425F3"
+                    gridRow="9 / span 4"
                     gridColumn="2"/>
-                <WorkshopSession 
-                    gridRow="8 / span 4"
-                    gridColumn="2"
-                />
-                
+
             
             <WorkshopSession 
                 title="Meetups, beers and snacks"
