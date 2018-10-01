@@ -1,5 +1,13 @@
 [
     {
+        "image": "/static/images/host-phill-h.jpg",
+        "name": "Phil Hawksworth",
+        "title": "Developer Relations at @Netlify",
+        "position": "Developer Relations at @Netlify",
+        "twitter": "https://twitter.com/philhawksworth",
+        "hide": true
+    },    
+    {
         "image": "/static/images/speakers/speaker-sara.jpg",
         "theme": "future of real-world CSS",
         "name": "Sara Soueidan",
@@ -92,7 +100,7 @@
         "name": "Maximiliano Firtman",
         "theme": "Progressive Web Apps in workshop",
         "title": "mobile and web developer, trainer, speaker, and author",
-        "position": "Maximiliano Firtman (@firt) is a mobile and web developer, trainer, speaker, and author. Max teaches mobile HTML5, PWAs and performance trainings for top companies around the world. The founder of ITMaster Academy, Max is a well-known professional in the mobile web community with dozens of articles and online courses published. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web, published by O’Reilly Media. He is a frequent speaker at conferences and many other events around the world.",
+        "position": "Maximiliano Firtman (@firt) is a mobile and web developer, trainer, speaker, and author. Max teaches mobile HTML5, PWAs and performance trainings for top companies around the world. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web, published by O’Reilly Media.",
         "twitter": "https://twitter.com/firt"
     },
     {
@@ -158,13 +166,5 @@
         "title": "Danish designer & entrepreneur",
         "position": "Michael is a Danish designer & entrepreneur. He runs entertainment studio Northplay, Pixelresort and design resource platform Apply Pixels. He’s got a treasure-trove of experience creating his own companies, leading teams of developers and designers and working on countless of succesful products, games and services.",
         "twitter": "https://twitter.com/flarup"
-    },    
-    {
-        "image": "/static/images/host-phill-h.jpg",
-        "name": "Phil Hawksworth",
-        "title": "Developer Relations at @Netlify",
-        "position": "Developer Relations at @Netlify",
-        "twitter": "https://twitter.com/philhawksworth",
-        "hide": true
     }
 ]
