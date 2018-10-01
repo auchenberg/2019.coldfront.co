@@ -16,7 +16,7 @@ class student extends React.Component {
     
     async loadSpeakers() {
         const s = await import('../data/speakers.json')
-        var lineUp = ['Phil Hawksworth', 'Sarah Drasner']
+        var lineUp = ['Phil Hawksworth', 'Charlie Gerard', 'Sarah Drasner', 'Vitaly Friedman', 'Shirley Wu','Maximiliano Firtman' ]
         
         this.setState({
             speakers: s.filter(s => lineUp.includes(s.name))
@@ -50,7 +50,15 @@ class student extends React.Component {
                             <img src="/static/images/practical/itu.jpg" />
                          </div>
 
-                        <h3>Line-up</h3>
+                        <h3>Program</h3> 
+                        <ul>
+                            <li>15:00 : 15:15 - Opening talk by <a href="https://twitter.com/firt">Maximiliano Firtman</a></li>
+                            <li>15:15 : 16:00 - Panel debate on career choice</li>
+                            <li>16:00 : 16:30 - Q/A</li>
+                            <li>16:30 : 17:00 - Networking</li>
+                        </ul>
+
+                        <h3>Panel debate with</h3>
 
                         <div className="lineup">
                             { this.state.speakers.map((speaker, idx) => {
@@ -143,10 +151,6 @@ class student extends React.Component {
                         display: flex;
                         flex-direction: row;
                         justify-content: space-around;
-                    }
-
-                    li {
-                        width: 200px;
                     }
 
                     #help{
