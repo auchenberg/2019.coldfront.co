@@ -166,5 +166,13 @@
         "title": "Danish designer & entrepreneur",
         "position": "Michael is a Danish designer & entrepreneur. He runs entertainment studio Northplay, Pixelresort and design resource platform Apply Pixels. He’s got a treasure-trove of experience creating his own companies, leading teams of developers and designers and working on countless of succesful products, games and services.",
         "twitter": "https://twitter.com/flarup"
+    },
+    {
+        "image": "/static/images/speakers/speaker-jacob.jpg",
+        "name": "Jacob Rossi",
+        "theme": "future of WebXR",
+        "title": "Product manager for Oculus working on Oculus Browser, WebXR, and React 360",
+        "position": "Jacob Rossi is a product manager for Oculus working on Oculus Browser, WebXR, and React 360. He's been building web standards, browsers, and developer tools for a decade and is excited about what the next decade has to offer.",
+        "twitter": "https://twitter.com/jacobrossi"
     }
 ]
