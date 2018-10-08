@@ -95,6 +95,12 @@ export default ({ children }) => (
                     </a>
                 </div>   
 
+                <div className="list-item bright">
+                    <a href="https://www.manning.com/">
+                        <img src="/static/images/partners/manning.svg" alt="manning" width="240" className="logos" />
+                    </a>
+                </div>   
+
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
                     <span>Email: <a href="mailto:michael@coldfront.co">michael@coldfront.co</a></span>
