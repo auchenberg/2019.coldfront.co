@@ -39,6 +39,12 @@ class student extends React.Component {
                 </Section>
                 <Section bright>
                     <div className="page-scholarships narrow">
+                        <div className="btn-action font-bitblox">
+                            <a className="btn btn-primary btn-primary-shadow glitch" data-text="REGISTER" href="https://ti.to/coldfront/coldfront-2018/with/hvm92aogvzk">
+                           REGISTER <i className="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                            
                         <p>In collaboration with IT University of Copenhagen, ITB and Prosa, we are inviting the best danish frontend students to join us for <strong>ColdFront Student</strong>, a mini-event taking place on November 15th, as a part of our <a href="/community-workshop-day">Community and Workshop day</a>.</p>
                         <p>The event will be theme around <strong>career choice</strong>, where leading frontend developers will share their experiences with creating digital products and working with develop processes, and share career advice in a panel debate moderated by this year Coldfront host Phil Hawksworth.</p>
 
@@ -74,9 +80,6 @@ class student extends React.Component {
                                 )
                             })}
                         </div>
-
-                        <p>More details around the line-up to be announced.</p>
-
 
                         <h3>Practical details</h3>
 
