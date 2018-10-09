@@ -79,37 +79,36 @@ export default ({ children }) => (
     />             
 
     <Session 
-        title="Interactive breakout session by 23Video"
+        title="Interactive breakout session"
         description=""
         color="#0477F2"
         time="13:30am - 14:00am"      
     />  
 
     <Session 
+        title="Interactive breakout session"
+        description=""
+        color="#0477F2"
+        time="13:30am - 14:00am"
+    />  
+
+    <Session 
         title="“Architecture for an ever changing environment” by Zendesk"
         description="In a industry where the only constant is change and speed to delivery is essential, we can't just stop the process and rebuild everything. But we still need to stay current with technology and changing product demands. To deal with this problem Zendesk Copenhagen have introduced a micro-frontend architecture shared by multiple teams spanning many different areas of the our product."
         color="#0477F2"
-        time="13:30am - 14:00am"
+        time="14:00am - 14:30am"
         speakers={
             ["Sune Simonsen"]
         }       
     />  
     
     <Session 
-        title="Breakout Interactive session"
-        description=""
-        color="#0477F2"
-        time="14:00am - 14:30am"
-    />  
-
-    <Session 
-        title="Breakout Interactive session"
+        title="Breakout Interactive session by 23Video"
         description=""
         color="#0477F2"
         time="14:00am - 14:30am"
     />          
       
-
     <Session 
         title="Coffee break"
         description=""
@@ -129,12 +128,12 @@ export default ({ children }) => (
     /> 
 
     <Session 
-        title="Session details to be announced"
+        title="Uniting the Web and XR"
         description=""
         color="#0629EA"
         time="15:45am - 16:30am"
         speakers={
-            [""]
+            ["Jacob Rossi"]
         }        
     />                   
 

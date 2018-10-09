@@ -30,14 +30,18 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title="Session details to be announced"
-        description=""
+        title="Designing for Augmented Reality"
+        description="We thought we could port our existing game to an AR experience. We couldn't. Here's what happened and everything we learned.
+        <br /><br />
+        In this talk I'll take the audience through the journey we went on creating our first AR-only experience. Our game Conduct AR! I'll talk about how many of the assumptions we had going in turned out to be wrong and how we worked to change them in a race to launch alongside iOS 11.
+        <br /><br />
+        It'll be an explosive, entertaining and visual journey into one of the most exciting frontiers in technology today."
         color="#0629EA"
         time="10:00 - 10:45"
         speakers={
-            [""]
-        }        
-    />       
+            ["Michael Flarup"]
+        }           
+    />  
 
     <Session 
         title="Coffee break"
@@ -76,17 +80,6 @@ export default ({ children }) => (
     />             
 
     <Session 
-        title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
-        description="It was not until recently that the term AR has been reserved for a small group of developers, researchers and tech enthusiasts. All that changed with a game catching the interest of the general public and the subsequent introduction of Apple's own technology that promises to deliver augmented reality experiences to the masses - ARKit. <br /><br />
-            In this interactive session, we will learn what ARKit is, get a glimpse of what it can do and show you how easy it is to get started with it."
-        color="#0477F2"
-        time="13:30 - 14:00"
-        speakers={
-            ["Srđan Rašić"]
-        }           
-    />  
-
-    <Session 
         title="Interactive breakout session by Umbraco"
         description=""
         color="#0477F2"
@@ -94,16 +87,20 @@ export default ({ children }) => (
     />
 
     <Session 
-        title="Designing for Augmented Reality"
-        description="We thought we could port our existing game to an AR experience. We couldn't. Here's what happened and everything we learned.
-        <br /><br />
-        In this talk I'll take the audience through the journey we went on creating our first AR-only experience. Our game Conduct AR! I'll talk about how many of the assumptions we had going in turned out to be wrong and how we worked to change them in a race to launch alongside iOS 11.
-        <br /><br />
-        It'll be an explosive, entertaining and visual journey into one of the most exciting frontiers in technology today."
+        title="Interactive breakout session by Jayway"
+        description=""
+        color="#0477F2"
+        time="13:30 - 14:00"
+    />    
+
+    <Session 
+        title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
+        description="It was not until recently that the term AR has been reserved for a small group of developers, researchers and tech enthusiasts. All that changed with a game catching the interest of the general public and the subsequent introduction of Apple's own technology that promises to deliver augmented reality experiences to the masses - ARKit. <br /><br />
+            In this interactive session, we will learn what ARKit is, get a glimpse of what it can do and show you how easy it is to get started with it."
         color="#0477F2"
         time="14:00 - 14:30"
         speakers={
-            ["Michael Flarup"]
+            ["Srđan Rašić"]
         }           
     />  
 
@@ -118,14 +115,6 @@ export default ({ children }) => (
             ["Tony Beltramelli", "Henrik Haugbølle"]
         }              
     />  
-
-    <Session 
-        title="Breakout Interactive session"
-        description=""
-        color="#0477F2"
-        time="14:00 - 14:30"
-    />          
-      
 
     <Session 
         title="Coffee break"
