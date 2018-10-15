@@ -95,7 +95,7 @@ export default() => (
         <Section>
             <div className="narrow">
                 <h2>Community day and meetups</h2>
-                <p><Link href="community-workshop-day"><a>Learn more about our Community day where we host several meetups in the evening.</a></Link></p>
+                <p><Link href="/community-workshop-day"><a>Learn more about our Community day where we host several meetups in the evening.</a></Link></p>
             </div>
         </Section>
 
