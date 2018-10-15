@@ -24,27 +24,38 @@ export default ({ children }) => (
                 speakers={
                     ["Thomas Watson", "Mathias Buus"]
                 }
-                signupUrl="https://ti.to/coldfront/coldfront-2018/with/wstjksq87lu"
                 color="#0629EA"
                 gridRow="2 / span 6"
                 gridColumn="2"
                 images={["/static/images/workshopschedule/thomas.jpeg", "/static/images/workshopschedule/mathias.jpeg"]}
                 />
+                
                 <WorkshopSession
                 title="Workshop 2: Running Node.js in the Google Cloud with"
                 description=""
                 speakers={
                     ["Myles Borins"]
                 }
-                signupUrl="https://ti.to/coldfront/coldfront-2018/with/xba-wd04a4m"
                 color="#0550EE"
-                gridRow="2 / span 6"
+                gridRow="2 / span 3"
                 gridColumn="3"
                 images={["/static/images/workshopschedule/myles.jpeg"]}
                 />
+
+                <WorkshopSession
+                title="Workshop 4: TBA"
+                description=""
+                speakers={
+                    [""]
+                }
+                color="#0550EE"
+                gridRow="5 / span 2"
+                gridColumn="3"
+                />
+
+
                 <WorkshopSession
                 title="Workshop 3: Real-world Progressive Web Apps"
-                signupUrl="https://ti.to/coldfront/coldfront-2018/with/stqmvryakdo"
                 description=""
                 speakers={
                     ["Maximiliano Firtman"]
@@ -55,7 +66,6 @@ export default ({ children }) => (
                 images={["/static/images/workshopschedule/max.jpg"]}
                 />
             
-        
                 <WorkshopSession 
                     title="ColdFront Student. Mini-student event for students in Copenhagen"
                     color="#7425F3"
