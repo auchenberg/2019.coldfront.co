@@ -182,5 +182,13 @@
         "title": "Technical Fellow, Microsoft",
         "position": "Anders is a Microsoft Technical Fellow and the lead architect of the TypeScript open-source project. Anders has worked on development tools for over 30 years and is the original designer of C#, Delphi, and Turbo Pascal.",
         "twitter": "https://twitter.com/ahejlsberg"
+    },
+    {
+        "image": "/static/images/speakers/speaker-peter.jpg",
+        "name": "Peter Müller",
+        "theme": "career choice",
+        "title": "frontend engineer Siteimprove",
+        "position": "Peter Müller is a long-time frontend engineer employed by Siteimprove. He loves workflow tooling and web performance optimization, which is where most of his open source time is spent. He has previously organized the CopenhagenJS community and currently speaks at events",
+        "twitter": "https://twitter.com/_munter_"
     }
 ]
