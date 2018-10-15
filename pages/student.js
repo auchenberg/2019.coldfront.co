@@ -16,7 +16,7 @@ class student extends React.Component {
     
     async loadSpeakers() {
         const s = await import('../data/speakers.json')
-        var lineUp = ['Phil Hawksworth', 'Charlie Gerard', 'Sarah Drasner', 'Vitaly Friedman', 'Shirley Wu','Maximiliano Firtman', 'Holger Bartel']
+        var lineUp = ['Phil Hawksworth', 'Charlie Gerard', 'Sarah Drasner', 'Vitaly Friedman', 'Shirley Wu','Maximiliano Firtman', 'Holger Bartel', 'Peter Müller']
         
         this.setState({
             speakers: s.filter(s => lineUp.includes(s.name))
