@@ -12,6 +12,12 @@ export default ({ children }) => (
             </div>
 
             <div className="narrow days">
+            <div className="day">
+                        <a href="/prefront">
+                            <h2>Day 0</h2>
+                            <p><strong>November 12</strong> – Prefront! Special TypeScript talk + networking</p>
+                        </a>
+                    </div>            
                     <div className="day">
                         <a href="/program/day1">
                             <h2>Day 1</h2>
@@ -53,10 +59,10 @@ export default ({ children }) => (
             }
 
             .day {
-                width: 30%;
+                width: 25%;
 
                 @media (min-width: 1200px){
-                    width: 25%;
+                    width: 20%;
                 }
                 
                 a {
