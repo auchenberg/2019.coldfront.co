@@ -69,7 +69,7 @@ class student extends React.Component {
                         </div>
                         <h3>Program</h3> 
                         <ul>
-                            <li>16:00 : 17:00 - TypeScript event at Ideal Bar.</li>
+                            <li>17:00 : 17:15 - Welcome at Ideal Bar.</li>
                             <li>17:15 : 17:45 - Talk by Anders Heilsberg.</li>
                             <li>18:00 : 24:00 - Networking at Mikkeller Bar in the meat packing district. </li>
                             <li>18:00 : 24:00 - (ColdFront crew + speakers will join after speakers dinner)</li>
