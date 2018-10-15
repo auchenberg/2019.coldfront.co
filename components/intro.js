@@ -7,9 +7,9 @@ export default (props) => (
         <div className="intro">
             <Head>
                 <meta property="og:title" content={ (props.title ? props.title + ` - ` : ``) + `ColdFront 2018`} />
-                <meta property="og:image" content={props.img}/>
+                <meta property="og:image" content={`https://2018.coldfront.co` + props.img}/>
                 <meta name="twitter:title" content={ (props.title ? props.title + ` - ` : ``) + `ColdFront 2018`} />
-                <meta name="twitter:image:src" content={props.img} />
+                <meta name="twitter:image:src" content={`https://2018.coldfront.co` + props.img} />
             </Head>
 
             <div className="narrow text">
