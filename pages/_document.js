@@ -6,20 +6,6 @@ export default class MyDocument extends Document {
         return (
             <html>
                 <Head>
-                    <meta property="og:title" content="ColdFront 2018" />
-                    <meta property="og:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
-                    <meta property="og:url" content="https://2018.coldfront.co/" />
-                    <meta property="og:site_name" content="ColdFront"/>
-                    <meta property="og:image" content="https://2018.coldfront.co/static/images/social.png"/>
-                    <meta property="og:type" content="website"/>
-
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:site" content="@coldfrontconf" />
-                    <meta name="twitter:creator" content="@coldfrontconf" />
-                    <meta name="twitter:title" content="ColdFront 2018" />
-                    <meta name="twitter:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
-                    <meta name="twitter:image:src" content="https://2018.coldfront.co/static/images/social.png" />
-
                     <meta name="viewport" content="width=device-width,initial-scale=1"/>
                     <meta name="theme-color" content="#673ab7" />
                     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet" />

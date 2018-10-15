@@ -1,8 +1,17 @@
 import NewsletterForm from '../components/newsletterForm'
 import Section from '../components/section'
+import Head from 'next/head'
 
 export default (props) => (    
+
         <div className="intro">
+            <Head>
+                <meta property="og:title" content={ (props.title ? props.title + ` - ` : ``) + `ColdFront 2018`} />
+                <meta property="og:image" content={props.img}/>
+                <meta name="twitter:title" content={ (props.title ? props.title + ` - ` : ``) + `ColdFront 2018`} />
+                <meta name="twitter:image:src" content={props.img} />
+            </Head>
+
             <div className="narrow text">
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
