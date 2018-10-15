@@ -18,6 +18,7 @@ module.exports = {
             '/welcome-coldfronter': { page: '/welcome-coldfronter' },
             '/diversity-scholarships': { page: '/diversity-scholarships' },
             '/student': { page: '/student' },
+            '/prefront': { page: '/prefront' },
         }
     }
 }
