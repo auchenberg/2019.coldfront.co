@@ -81,7 +81,7 @@ class student extends React.Component {
 
                         <h3>Practical details</h3>
 
-                        <p>PreFront will take place on <strong>November 15th 16:00-18:00</strong> at <a href="https://goo.gl/maps/LMosBszDEdN2">Ideal Bar, Enghavevej 40, 1674 København V</a>. Networking will continue at <a href="http://mikkeller.dk/location/warpigs/">Mikkeller Warpigs Brewpub</a> in the meat packing district of Copenhagen.</p>
+                        <p>PreFront will take place on <strong>November 12th 16:00-18:00</strong> at <a href="https://goo.gl/maps/LMosBszDEdN2">Ideal Bar, Enghavevej 40, 1674 København V</a>. Networking will continue at <a href="http://mikkeller.dk/location/warpigs/">Mikkeller Warpigs Brewpub</a> in the meat packing district of Copenhagen.</p>
                         
                         <div className="btn-action font-bitblox">
                             <a className="btn btn-primary btn-primary-shadow glitch" data-text="REGISTER" href="https://ti.to/coldfront/coldfront-2018/with/rqxsxje1syw">
