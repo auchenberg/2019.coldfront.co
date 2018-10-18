@@ -190,5 +190,21 @@
         "title": "frontend engineer Siteimprove",
         "position": "Peter Müller is a long-time frontend engineer employed by Siteimprove. He loves workflow tooling and web performance optimization, which is where most of his open source time is spent. He has previously organized the CopenhagenJS community and currently speaks at events",
         "twitter": "https://twitter.com/_munter_"
+    },
+    {
+        "image": "/static/images/speakers/speaker-daniel.jpg",
+        "name": "Daniel Smilkov",
+        "theme": "future of ML with Tensorflow",
+        "title": "lead engineer on TensorFlow.js, Google Brain",
+        "position": "Daniel Smilkov is a lead engineer on TensorFlow.js at Google. Previously, he worked at the intersection of visualization and machine learning, with projects like the TensorFlow Graph Visualizer and the Embedding Projector, which are part of TensorBoard, as well as new saliency techniques for neural networks. He holds a master’s degree from the MIT Media Lab.",
+        "twitter": "https://twitter.com/dsmilkov"
+    },
+    {
+        "image": "/static/images/speakers/speaker-nikhil.jpg",
+        "name": "Nikhil Thorat",
+        "theme": "future of ML with Tensorflow",
+        "title": "lead engineer for TensorFlow.js, Google Brain",
+        "position": "Nikhil Thorat is a lead engineer for TensorFlow.js—a hardware accelerated machine learning library for JavaScript—at Google. His projects include the Graph Visualizer and the Embedding Projector, which are part of TensorBoard, as well as new saliency techniques for neural networks and visualizations of machine translation models. Previously, he worked on interpretability and visualization of machine learning and Google image search infrastructure.",
+        "twitter": "https://twitter.com/dsmilkov"
     }
 ]
