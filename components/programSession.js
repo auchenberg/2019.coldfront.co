@@ -62,7 +62,7 @@ render(props) {
                             display: block;
                             height: 100%;
                             padding: 10px;
-                            border-bottom: 1px solid rgba(255,255,255, 0.6);
+
                         }
 
                         @media(max-width: 800px){

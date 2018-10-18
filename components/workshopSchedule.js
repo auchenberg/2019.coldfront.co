@@ -19,7 +19,7 @@ export default ({ children }) => (
 
         <div id="workshop-program">
             <WorkshopSession 
-                title="Workshop 1: Mad science with JavaScript"
+                title="Workshop 1: Centralization is so 1999 - decentralized web in Node.js"
                 description=""
                 speakers={
                     ["Thomas Watson", "Mathias Buus"]
@@ -27,7 +27,10 @@ export default ({ children }) => (
                 color="#0629EA"
                 gridRow="2 / span 6"
                 gridColumn="2"
-                images={["/static/images/workshopschedule/thomas.jpeg", "/static/images/workshopschedule/mathias.jpeg"]}
+                images={[
+                    "/static/images/speakers/speaker-thomas.jpg", 
+                    "/static/images/speakers/speaker-mathias.jpg"
+                ]}
                 />
                 
                 <WorkshopSession
@@ -37,20 +40,25 @@ export default ({ children }) => (
                     ["Myles Borins"]
                 }
                 color="#0550EE"
-                gridRow="2 / span 3"
+                gridRow="2 / span 2"
                 gridColumn="3"
-                images={["/static/images/workshopschedule/myles.jpeg"]}
+                images={["/static/images/speakers/speaker-myles.jpg"]}
                 />
 
                 <WorkshopSession
-                title="Workshop 4: TBA"
+                title="Workshop 4: Getting started with Tensorflow.js"
                 description=""
-                speakers={
-                    [""]
-                }
+                speakers={[
+                    "Daniel Smilkov",
+                    "Nikhil Thorat"
+                ]}
                 color="#0550EE"
-                gridRow="5 / span 2"
+                gridRow="5 / span 3"
                 gridColumn="3"
+                images={[
+                    "/static/images/speakers/speaker-nikhil.jpg",
+                    "/static/images/speakers/speaker-daniel.jpg"
+                ]} 
                 />
 
 
@@ -63,7 +71,7 @@ export default ({ children }) => (
                 color="#0477F2"
                 gridRow="2 / span 6"
                 gridColumn="4"
-                images={["/static/images/workshopschedule/max.jpg"]}
+                images={["/static/images/speakers/speaker-max.jpg"]}
                 />
             
                 <WorkshopSession 
@@ -83,19 +91,14 @@ export default ({ children }) => (
                 />
                 <WorkshopSession
                 title="Meetups, beers and snacks"
-                description="Copenhagen JS"
-                color="#5826F1"
-                gridRow="12 / span 6"
-                gridColumn="3"
-                logo="/static/images/workshopschedule/cphjs.png"
-                />
-                <WorkshopSession
-                title="Meetups, beers and snacks"
-                description="GDG CPH"
+                description="Special GDG CPH + CopenhagenJS meetup"
                 color="#7425F3"
                 gridRow="12 / span 6"
-                gridColumn="4"
-                logo="/static/images/workshopschedule/gdg.png"
+                gridColumn="3"
+                images={[
+                    "/static/images/workshopschedule/gdg.png", 
+                    "/static/images/workshopschedule/cphjs.png"
+                ]}
                 />
         </div>
 
