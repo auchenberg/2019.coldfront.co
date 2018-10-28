@@ -101,6 +101,18 @@ export default ({ children }) => (
                     </a>
                 </div>   
 
+                <div className="list-item bright">
+                    <a href="https://bobles.com">
+                        <img src="/static/images/partners/bobles.png" alt="manning" width="130" className="logos" />
+                    </a>
+                </div>   
+
+                <div className="list-item bright">
+                    <a href="http://mikkeller.dk/">
+                        <img src="/static/images/partners/mikkeller.jpg" alt="manning" width="100" className="logos" />
+                    </a>
+                </div>   
+
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
                     <span>Email: <a href="mailto:michael@coldfront.co">michael@coldfront.co</a></span>
