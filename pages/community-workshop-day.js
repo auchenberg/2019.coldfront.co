@@ -29,7 +29,7 @@ export default() => (
 
                 <h3>The workshops</h3>
                 <p>
-                    As an <strong>attendee of ColdFront Conference</strong> you can register for FREE to attend the following workshop. Use the links to sign-up below.
+                    As an <strong>attendee of ColdFront Conference</strong> you can register for FREE to attend the following workshop. After you have purchased your ColdFront ticket you'll get an email with the signup links for the workshops.
                 </p>
                 <h3>The meetups</h3>
                 <p>
