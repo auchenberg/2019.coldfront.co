@@ -83,18 +83,20 @@ export default ({ children }) => (
             
             <WorkshopSession 
                 title="Meetups, beers and snacks"
-                description="React Native CPH"
+                description="React Native CPH: ColdFront edition"
                 color="#2128EC"
                 gridRow="12 / span 6"
                 gridColumn="2"
                 logo="/static/images/workshopschedule/reactnativecph.png"
+                link="https://www.meetup.com/React-Native-CPH/events/255775917/"
                 />
                 <WorkshopSession
                 title="Meetups, beers and snacks"
-                description="Special GDG CPH + CopenhagenJS meetup"
+                description="Special GDG CPH + CopenhagenJS meetup: ML extravaganza"
                 color="#7425F3"
                 gridRow="12 / span 6"
                 gridColumn="3"
+                link="https://www.meetup.com/GDG-Copenhagen/events/255724292/"
                 images={[
                     "/static/images/workshopschedule/gdg.png", 
                     "/static/images/workshopschedule/cphjs.png"
