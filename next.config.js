@@ -19,6 +19,7 @@ module.exports = {
             '/diversity-scholarships': { page: '/diversity-scholarships' },
             '/student': { page: '/student' },
             '/prefront': { page: '/prefront' },
+            '/roadbook': { page: '/roadbook' },
         }
     }
 }
