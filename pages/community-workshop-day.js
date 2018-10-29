@@ -18,7 +18,7 @@ export default() => (
                 {/* ColdFront is all about the future, but we know some of the talks can be hard to apply to your daily job, so we want to combine an outlooking perspective with tangible hands-on workshops where you can learn about new things, and meet like-minded people to share ideas, perspectives or maybe just have fun! */}
                 <h2>Day3: Thursday, November 15th</h2>
     
-                <p>The community and workshop day will take place on November 15 2018, where we’ll be starting with workshops for the ColdFront attendees, followed an evening with 3 different meetups from the Copenhagen front-end community.</p>
+                <p>The community and workshop day will take place on <strong>November 15th 09:30-21:00</strong> at ITU, <a href="https://goo.gl/maps/WoScNoZSUNo">Rued Langgaards Vej 7 2300 København S</a>. Doors will open 9:30, where we’ll be starting with workshops at 10:00 for the ColdFront attendees, followed by <a href="/student">ColdFront Student</a>, and in evening with 3 different meetups from the Copenhagen front-end community.</p>
         
                 <div className="past-year">
                     <img src="/static/images/vega_coffee.jpeg" />
@@ -26,7 +26,6 @@ export default() => (
                     <img src="/static/images/vega_lars.jpeg" />
                 </div>
                 
-
                 <h3>The workshops</h3>
                 <p>
                     As an <strong>attendee of ColdFront Conference</strong> you can register for FREE to attend the following workshop. After you have purchased your ColdFront ticket you'll get an email with the signup links for the workshops.
@@ -38,6 +37,7 @@ export default() => (
             </div>
 
             <WorkshopSchedule />
+            
             
             <div className="narrow">
                 <p>
