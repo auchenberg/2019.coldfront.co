@@ -78,7 +78,9 @@ export default ({ children }) => (
                     title="ColdFront Student. Mini-student event for students in Copenhagen"
                     color="#7425F3"
                     gridRow="9 / span 4"
-                    gridColumn="2"/>
+                    gridColumn="2"
+                    link="/student"
+                />
 
             
             <WorkshopSession 
