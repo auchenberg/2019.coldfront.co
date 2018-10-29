@@ -117,7 +117,7 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="Coffee break"
+        title="Coffee and sweets break"
         description=""
         color="#7425F3"
         time="14:30 - 15:00"
@@ -156,9 +156,9 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title="Social dinners and party"
+        title="ColdFront Party!"
         time="17:30 - 24:00"
-        description="To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues."
+        description="To finish ColdFront with a blast, we are throwing a party for all ColdFronters. The party will take place in Ideal Bar which is one of Copenhagen's most historic venues."
         color="#7425F3"
         link="/social"
     />  
