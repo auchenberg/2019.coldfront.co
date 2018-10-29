@@ -110,7 +110,7 @@ export default ({ children }) => (
     />          
       
     <Session 
-        title="Coffee break"
+        title="Coffee break and sweets"
         description=""
         color="#7425F3"
         time="14:30am - 15:00am"
@@ -155,10 +155,17 @@ export default ({ children }) => (
     />       
 
     <Session 
-        title="Social dinners + Meet in the bar"
+        title="Social dinners: Remember to pick topic and check your inbox"
         description=""
         color="#7425F3"
-        time="17:30am - 23:00am"
+        time="18:30am - 23:00am"
     />  
+
+    <Session 
+        title="Afterparty at Mikkeller/Warpigs"
+        description=""
+        color="#7425F3"
+        time="21:00am - 23:00am"
+    />      
     </>
 )
