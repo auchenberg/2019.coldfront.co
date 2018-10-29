@@ -89,6 +89,9 @@ export default () => (
                 <br />
 
                 <p>The address of the hotel is: <strong>Vesterbrogade 34 1620 København V Denmark</strong> and the phone number of the hotel is: +45 33 26 75 00.</p>
+                
+                <p>You should know your check-in and check-out dates. If you don't. Contact Kenneth</p>
+
                 <p>Your room is booked in your name and already paid for. Breakfast and WIFI is included.</p>
 
                 <h3>Speaker dinner</h3>
@@ -152,7 +155,7 @@ export default () => (
                 
 
                 <h3>Filming and streaming</h3>
-                <p>Your talk at the main track will be professionally filmed and published on our <a href="https://www.youtube.com/channel/UCZHbZVjG2wXaLCuHK3LZ5lw">YouTube channel</a> as fast as possible after the conference. All videos published will be published under a CC BY-NC-SA 3.0 licence.</p>
+                <p>Your talk at the main track Addwill be professionally filmed and published on our <a href="https://www.youtube.com/channel/UCZHbZVjG2wXaLCuHK3LZ5lw">YouTube channel</a> as fast as possible after the conference. All videos published will be published under a CC BY-NC-SA 3.0 licence.</p>
 
                 <p>If you do not want your talk to be filmed and  published, please let us know up front.</p>
 
