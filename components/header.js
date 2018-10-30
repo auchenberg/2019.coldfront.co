@@ -76,10 +76,13 @@ export default () => (
         :global(.navbar-collapse .navbar-nav){
             transform: translate(0, 25px);
             transition: ease-out 100ms;
+            
             @media(max-width: 600px){
                 position: relative;
-                top: 3rem;
+                top: 0rem;
             }
+
+         
         }
 
         :global(.navbar-collapse.show .navbar-nav){
@@ -103,6 +106,13 @@ export default () => (
             font-size: 30px;
             text-align: right;
         }
+
+        @media(max-width: 800px){
+            .nav-item {
+                font-size: 20px;
+                text-align: right;
+            }    
+        }        
 
         .nav-link {
             color: #fff
