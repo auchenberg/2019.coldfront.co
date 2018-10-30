@@ -6,6 +6,12 @@
         "position": "Developer Relations at @Netlify",
         "twitter": "https://twitter.com/philhawksworth",
         "hide": true
+    },
+    {
+        "image": "/static/images/host-hans.jpg",
+        "name": "Hans Ravnkjær Larsen",
+        "title": "Konferencechef, Dansk IT",
+        "hide": true
     },    
     {
         "image": "/static/images/speakers/speaker-sara.jpg",
