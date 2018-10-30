@@ -135,8 +135,9 @@ export default ({ children }) => (
     /> 
 
     <Session 
-        title=""
-        description=""
+        title="Data visualizations on the web"
+        description="Data visualizations are becoming more common on the web, from visual essays to internal business analytics to features within products.  But visualizations and D3.js - the library most commonly used for developing these visualizations - are still considered niche in the front-end ecosystem.  The lack of adoption may come from the initial friction developers face when learning D3.js, but with frameworks like React and Vue, that friction can be greatly reduced.
+            <br /><br />In this talk, I'll speak about how React and Vue can make working with D3.js easier, and how to use D3.js with either of the frameworks.  Then, I'll show how we can write more complex interactions with less code using D3.js and React.js.  I hope this talk will show how fun it is to create data visualizations for the web, and I hope it'll lead to more visualizations on the web"
         color="#0629EA"
         time="15:45 - 16:30"
         speakers={
