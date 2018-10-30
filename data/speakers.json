@@ -177,7 +177,7 @@
     },
     {
         "image": "/static/images/speakers/speaker-anders.jpg",
-        "name": "Anders Heilsberg",
+        "name": "Anders Hejlsberg",
         "theme": "TypeScript",
         "title": "Technical Fellow, Microsoft",
         "position": "Anders is a Microsoft Technical Fellow and the lead architect of the TypeScript open-source project. Anders has worked on development tools for over 30 years and is the original designer of C#, Delphi, and Turbo Pascal.",

@@ -16,7 +16,7 @@ class student extends React.Component {
     
     async loadSpeakers() {
         const s = await import('../data/speakers.json')
-        var lineUp = ['Anders Heilsberg']
+        var lineUp = ['Anders Hejlsberg']
         
         this.setState({
             speakers: s.filter(s => lineUp.includes(s.name))
@@ -34,7 +34,7 @@ class student extends React.Component {
                 <Section>
                     <Intro
                         title="Prefront: Special TypeScript event on the night before ColdFront"
-                        text="A special TypeScript event on the night before ColdFront with Anders Heilsberg,  architect on TypeScript and Technical Fellow at Microsoft"
+                        text="A special TypeScript event on the night before ColdFront with Anders Hejlsberg, architect on TypeScript and Technical Fellow at Microsoft"
                         img="/static/images/splash-prefront.png"
                     />
                 </Section>
@@ -46,7 +46,7 @@ class student extends React.Component {
                             </a>
                         </div>
                                             
-                        <p>We are happy to be able to invite you to a special ColdFront event which we call <strong>PreFront</strong> on the night before ColdFront with our very own danish <a href="https://twitter.com/ahejlsberg?">Anders Heilsberg</a> from Microsoft.</p>
+                        <p>We are happy to be able to invite you to a special ColdFront event which we call <strong>PreFront</strong> on the night before ColdFront with our very own danish <a href="https://twitter.com/ahejlsberg?">Anders Hejlsberg</a> from Microsoft.</p>
                         <p>The event will take place on <strong>November 12th</strong> where Anders will give a talk about TypeScript. The event will be hosted at the ColdFront venue, VEGA, where we will be opening up Ideal Bar for the evening.</p>
                            
                         <p>This is a unique opportunity to meet one of the words most renowned programming langauge designers. Anders has worked on development tools for over 30 years and is the original designer of C#, Delphi, and Turbo Pascal. Today he's the lead archiect on TypeScript.</p>
@@ -70,7 +70,7 @@ class student extends React.Component {
                         <h3>Program</h3> 
                         <ul>
                             <li>17:00 : 17:15 - Welcome at Ideal Bar.</li>
-                            <li>17:15 : 17:45 - Talk by Anders Heilsberg.</li>
+                            <li>17:15 : 17:45 - Talk by Anders Hejlsberg.</li>
                             <li>18:00 : 24:00 - Networking at Mikkeller Bar in the meat packing district. </li>
                             <li>18:00 : 24:00 - (ColdFront crew + speakers will join after speakers dinner)</li>
                         </ul>
