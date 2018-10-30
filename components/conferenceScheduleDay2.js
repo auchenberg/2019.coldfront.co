@@ -79,36 +79,40 @@ export default ({ children }) => (
     />             
 
     <Session 
-        title="Interactive breakout session"
+        title="WebRTC streaming to large audiences using mobile devices as additional camera angles by 23Video (Ideal Bar)"
+        description="WebRTC has been around for several years allowing native audio and video streaming from a browser without using external plugins. P2P streaming has natural limits on the number of participants and broadcasting to large audiences presents an architectural challenge. 
+                <br /><br />In this session we will give a brief introduction to how WebRTC works and what it takes to scale it. Furthermore we will give a demo on how mobile devices can be used as additional audio and video sources. "
+        color="#a203f1"
+        time="13:30am - 14:00am"
+    />          
+      
+    <Session 
+        title="Debate hosted by Hans (Ideal Bar)"
         description=""
-        color="#0477F2"
-        time="13:30am - 14:00am"      
+        color="#a203f1"
+        time="14:00am - 14:30am"
+        speakers={
+            ["Hans Ravnkjær Larsen"]
+        }
     />  
 
     <Session 
-        title="Interactive breakout session"
+        title="“Architecture for an ever changing environment” by Zendesk (Main Stage)"
+        description="In a industry where the only constant is change and speed to delivery is essential, we can't just stop the process and rebuild everything. But we still need to stay current with technology and changing product demands. To deal with this problem Zendesk Copenhagen have introduced a micro-frontend architecture shared by multiple teams spanning many different areas of the our product."
+        color="#0477F2"
+        time="13:30am - 14:00am"
+        speakers={
+            ["Sune Simonsen"]
+        }       
+    />  
+
+    <Session 
+        title="Interactive breakout session by Umbraco (Main Stage)"
         description=""
         color="#0477F2"
         time="13:30am - 14:00am"
     />  
 
-    <Session 
-        title="“Architecture for an ever changing environment” by Zendesk"
-        description="In a industry where the only constant is change and speed to delivery is essential, we can't just stop the process and rebuild everything. But we still need to stay current with technology and changing product demands. To deal with this problem Zendesk Copenhagen have introduced a micro-frontend architecture shared by multiple teams spanning many different areas of the our product."
-        color="#0477F2"
-        time="14:00am - 14:30am"
-        speakers={
-            ["Sune Simonsen"]
-        }       
-    />  
-    
-    <Session 
-        title="Breakout Interactive session by 23Video"
-        description=""
-        color="#0477F2"
-        time="14:00am - 14:30am"
-    />          
-      
     <Session 
         title="Coffee break and sweets"
         description=""

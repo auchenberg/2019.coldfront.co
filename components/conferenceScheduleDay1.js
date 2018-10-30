@@ -80,21 +80,36 @@ export default ({ children }) => (
     />             
 
     <Session 
-        title="Interactive breakout session by Umbraco"
-        description=""
-        color="#0477F2"
+        title="Will the future of front-end be AI-assisted? (Ideal Bar)"
+        description="Artificial Intelligence, Machine Learning, Deep Learning: three buzzwords that made headlines in the tech press all year long. What does it mean for the future of front-end development and UI/UX design?
+        <br /><br />
+        In this session, we will share our vision of the future and why we believe that AI has the potential to turn all of us into super-developers. We will also do a live demo of the latest technology we are developing at Uizard."
+        color="#a203f1"
         time="13:30 - 14:00"
+        speakers={
+            ["Tony Beltramelli", "Henrik Haugbølle"]
+        }              
+    />  
+
+    <Session 
+        title="Debate: What will AI and ML mean for software developers? (Ideal Bar)"
+        description=""
+        color="#a203f1"
+        time="14:00 - 14:30"
+        speakers={
+            ["Hans Ravnkjær Larsen"]
+        }           
     />
 
     <Session 
-        title="Interactive breakout session by Jayway"
+        title="Interactive breakout session by Jayway (Main Stage)"
         description=""
         color="#0477F2"
         time="13:30 - 14:00"
     />    
 
     <Session 
-        title="“Building AR apps with ARKit on iOS” interactive breakout session by Shape"
+        title="Building AR apps with ARKit on iOS by Shape (Main Stage)"
         description="It was not until recently that the term AR has been reserved for a small group of developers, researchers and tech enthusiasts. All that changed with a game catching the interest of the general public and the subsequent introduction of Apple's own technology that promises to deliver augmented reality experiences to the masses - ARKit. <br /><br />
             In this interactive session, we will learn what ARKit is, get a glimpse of what it can do and show you how easy it is to get started with it."
         color="#0477F2"
@@ -102,18 +117,6 @@ export default ({ children }) => (
         speakers={
             ["Srđan Rašić"]
         }           
-    />  
-
-    <Session 
-        title="Will the future of front-end be AI-assisted?"
-        description="Artificial Intelligence, Machine Learning, Deep Learning: three buzzwords that made headlines in the tech press all year long. What does it mean for the future of front-end development and UI/UX design?
-        <br /><br />
-        In this session, we will share our vision of the future and why we believe that AI has the potential to turn all of us into super-developers. We will also do a live demo of the latest technology we are developing at Uizard."
-        color="#0477F2"
-        time="14:00 - 14:30"
-        speakers={
-            ["Tony Beltramelli", "Henrik Haugbølle"]
-        }              
     />  
 
     <Session 
