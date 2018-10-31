@@ -212,5 +212,19 @@
         "title": "lead engineer for TensorFlow.js, Google Brain",
         "position": "Nikhil Thorat is a lead engineer for TensorFlow.js—a hardware accelerated machine learning library for JavaScript—at Google. His projects include the Graph Visualizer and the Embedding Projector, which are part of TensorBoard, as well as new saliency techniques for neural networks and visualizations of machine translation models. Previously, he worked on interpretability and visualization of machine learning and Google image search infrastructure.",
         "twitter": "https://twitter.com/nsthorat"
-    }
+    },
+    {
+        "image": "/static/images/speakers/speaker-johan-n.jpg",
+        "name": "Johan Niwhede",
+        "theme": "working with VR",
+        "title": "software developer at Jayway ",
+        "position": "Johan Niwhede is a software developer at Jayway who did his master thesis on VR From a Learning Perspective at Lund University. This experience has come in handy as he has helmed the two recent VR-projects with Johan Månsson."
+    } ,
+    {
+        "image": "/static/images/speakers/speaker-johan-m.jpg",
+        "name": "Johan Månsson",
+        "theme": "working with VR",
+        "title": "software developer at Jayway ",
+        "position": "Johan Månsson is a software developer at Jayway who did his master thesis on Using A Virtual Fire Extinguisher as a Tool For Safety Training at Lunds Tekniska Högskola. Not only is he a skilled developer, but he is pretty handy with his self-invented VR-hockey staff as well!"
+    }          
 ]

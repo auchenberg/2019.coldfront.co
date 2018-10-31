@@ -102,10 +102,14 @@ export default ({ children }) => (
     />
 
     <Session 
-        title="Interactive breakout session by Jayway (Main Stage)"
-        description=""
+        title="Working with VR by Jayway (Main Stage)"
+        description="A presentation of two recent VR-projects by Jayway for Gyldendal and Malmö Redhawks, including a live demo of how to get started in a matter of minutes using Unity and HTC Vive."
         color="#0477F2"
         time="13:30 - 14:00"
+        speakers={
+            ["Johan Niwhede",
+            "Johan Månsson"]
+        }     
     />    
 
     <Session 
