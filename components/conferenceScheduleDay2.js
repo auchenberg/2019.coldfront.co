@@ -91,8 +91,8 @@ export default ({ children }) => (
     />          
       
     <Session 
-        title="Debate hosted by Hans (Ideal Bar)"
-        description=""
+        title="Debate: How to foster collaboration between Designers and Engineering?"
+        description="Inspired by Jeff Gothelf and Josh Seiden's book `Sense and Respond`, our interactive session host Hans will host a debate on collaboration between Design and Engineering"
         color="#a203f1"
         time="14:00am - 14:30am"
         speakers={

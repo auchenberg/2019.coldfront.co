@@ -93,7 +93,7 @@ export default ({ children }) => (
 
     <Session 
         title="Debate: What will AI and ML mean for software developers? (Ideal Bar)"
-        description=""
+        description="Our interactive session host Hans will host a debate the role of ML and AI for software engineering as a field."
         color="#a203f1"
         time="14:00 - 14:30"
         speakers={
