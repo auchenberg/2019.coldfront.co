@@ -226,5 +226,14 @@
         "theme": "working with VR",
         "title": "software developer at Jayway ",
         "position": "Johan Månsson is a software developer at Jayway who did his master thesis on Using A Virtual Fire Extinguisher as a Tool For Safety Training at Lunds Tekniska Högskola. Not only is he a skilled developer, but he is pretty handy with his self-invented VR-hockey staff as well!"
-    }          
+    },
+    {
+        "image": "/static/images/speakers/speaker-daniel.jpeg",
+        "name": "Daniel Pouzemski",
+        "theme": "working with WebRTC",
+        "title": "Head of Engineering at TwentyThree",
+        "position": "Daniel is Head of Engineering at TwentyThree"
+    }       
+    
+    
 ]
