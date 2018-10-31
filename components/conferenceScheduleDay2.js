@@ -79,7 +79,7 @@ export default ({ children }) => (
     />             
 
     <Session 
-        title="WebRTC streaming to large audiences using mobile devices as additional camera angles by TwentyThree (Ideal Bar)"
+        title="WebRTC streaming to large audiences using mobile devices by TwentyThree (Ideal Bar)"
         description="WebRTC has been around for several years allowing native audio and video streaming from a browser without using external plugins. P2P streaming has natural limits on the number of participants and broadcasting to large audiences presents an architectural challenge. 
                 <br /><br />In this session we will give a brief introduction to how WebRTC works and what it takes to scale it. Furthermore we will give a demo on how mobile devices can be used as additional audio and video sources. "
         color="#a203f1"
