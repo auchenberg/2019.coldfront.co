@@ -20,6 +20,22 @@ export default ({ children }) => (
 
         </div>
 
+        <div className="host small">
+
+            <div className="host-text">
+                <h2>Your interactive breakout session Host</h2>
+                <h3>Hans Ravnkjær Larsen<br />
+                - Head of Conference, Dansk IT</h3>
+                <p>Hans Ravnkjær Larsen from Dansk IT will be your interactive session host, and will faciliate the debates in our interactive breakout sessions during the conference.</p>
+                <p><a href="https://twitter.com/hrlarsen_dk" target="_blank">Get to know Hans<img className="arrow" src="/static/images/arrow-white.svg" /></a></p>
+            </div>
+
+            <div className="host-avatar">
+                <img className="avatar" src="/static/images/host-hans.jpg" />
+            </div>
+
+            </div>        
+
         <style jsx>{`
 
             .host{
@@ -58,6 +74,15 @@ export default ({ children }) => (
             .arrow {
                 margin-left: 20px;
                 width: 14px;
+            }
+
+            .small {
+                margin-top: 50px;
+            }
+
+            .small .avatar {
+                margin-left: 188px;
+                width: 200px;
             }
 
             
