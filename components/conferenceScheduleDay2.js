@@ -114,7 +114,7 @@ export default ({ children }) => (
         title="Interactive breakout session by Umbraco (Main Stage)"
         description=""
         color="#0477F2"
-        time="13:30am - 14:00am"
+        time="14:00am - 14:30am"
     />  
 
     <Session 
