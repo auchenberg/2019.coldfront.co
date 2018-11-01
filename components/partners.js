@@ -109,9 +109,15 @@ export default ({ children }) => (
 
                 <div className="list-item bright">
                     <a href="http://mikkeller.dk/">
-                        <img src="/static/images/partners/mikkeller.jpg" alt="manning" width="100" className="logos" />
+                        <img src="/static/images/partners/mikkeller.jpg" alt="mikkeller" width="100" className="logos" />
                     </a>
                 </div>   
+
+                <div className="list-item bright">
+                    <a href="https://muuto.com/">
+                        <img src="/static/images/partners/muuto.png" alt="muutu" width="140" className="logos" />
+                    </a>
+                </div>                   
 
                 <div className="list-item your-spot bright">
                     <span className="this-can-be">This can be your spot!</span>
