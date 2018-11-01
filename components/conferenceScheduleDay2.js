@@ -136,8 +136,8 @@ export default ({ children }) => (
     /> 
 
     <Session 
-        title="Uniting the Web and XR"
-        description=""
+        title="Uniting the real world with the virtual"
+        description="Today’s VR headsets are powerful, untethered, lighter, and more immersive, and yet it’s still early days for the technology. Choosing to target VR users can be a big bet, but what if the same immersive content could run on your phone that does in VR? In this talk, Jacob will explore what we’re learning about the web in VR, how to reach more users by uniting 2D and VR, and advances coming down the pipe to WebXR that will take those experiences to the next level."
         color="#0629EA"
         time="15:45am - 16:30am"
         speakers={
