@@ -20,6 +20,7 @@ module.exports = {
             '/student': { page: '/student' },
             '/prefront': { page: '/prefront' },
             '/roadbook': { page: '/roadbook' },
+            '/social-dinners': { page: '/social-dinners' },
         }
     }
 }
