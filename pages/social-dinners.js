@@ -28,9 +28,9 @@ export default () => (
                 <p>Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
 
                 <h3>When are the Social Dinners?</h3>
-
                 <p>Our social dinners will take place on <strong>November 13 (Day 2) at 19:00 </strong> after the closing of ColdFront. Some of you will probably grab beers down at Mikeller after the conference, others will head home, and then there's you who are joining us for a Social Dinner!</p>
 
+                <h3>What's after the dinners??</h3>
                 <p>After the dinners we meet at <a href="http://warpigs.dk/news/">Warpigs</a> at 9pm for the post ColdFront social.</p>
 
                 <h3>Pick 1 out of 5 themes</h3>
