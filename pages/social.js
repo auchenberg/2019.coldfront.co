@@ -54,7 +54,7 @@ export default() => (
             <div className="narrow">
                 <h2>Social Dinners</h2>
 
-                <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants.</p>
+                <p>Take the opportunity to meet people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants.</p>
 
                 <p>Copenhagen is great at a lot of things, and one of the things that really sticks out is the amazing food scene, made famous by NOMA.</p>
 

@@ -8,7 +8,7 @@ export default () => (
         <Section>
             <Intro
                 title="ColdFront Social Dinners"
-                text="Take the opportunity to meet seven people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants."
+                text="Take the opportunity to meet people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants."
 
                 img="/static/images/splash-social-dinners.jpg"
             />
