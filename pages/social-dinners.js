@@ -7,8 +7,9 @@ export default () => (
 
         <Section>
             <Intro
-                title="ColdFront Social Dinners!"
-                text="It's time to sign-up for the ColdFront Social Dinners!"
+                title="ColdFront Social Dinners"
+                text="Take the opportunity to meet seven people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants."
+
                 img="/static/images/splash-social-dinners.jpg"
             />
         </Section>
@@ -18,7 +19,7 @@ export default () => (
 
                 <h3>Social Dinners, huh?</h3>
 
-                <p>Take the opportunity to meet seven people you've never met over a scrumptious dinner in Copenhagen. We’ve reserved tables at a number of our favorite restaurants.</p>
+                <p></p>
 
                 <p>Copenhagen is great at a lot of things, and one of the things that really sticks out is the amazing food scene, made famous by NOMA.</p>
 
