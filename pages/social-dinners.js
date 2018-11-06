@@ -21,21 +21,22 @@ export default () => (
 
                 <p></p>
 
-                <p>Copenhagen is great at a lot of things, and one of the things that really sticks out is the amazing food scene, made famous by NOMA.</p>
+                <p>One of the highlights of Copenhagen is its vibrant food scene. Brought into focus in recent years by NOMA, the New Nordic movement has inspired many new restaurant openings covering everything from smørrebrød to ramen.</p>
 
-                <p>We’ll hook you up with great people and in November we'll tell you which restaurant you should show up at. A bit like Russian roulette, but with only great options.</p>
+                <p>At these Social Dinners, we will connect you with a group of ColdFront attendees with similar interests across a number of these restaurants. Think of it like a game of Russian Roulette, with good options only.</p>
                 
-                <p>Please mind that your group need to pick up the bill yourself. We just faciliate.</p>
+                <p>Please keep in mind that ColdFront is the facilitator and each group will be responsible for covering their own expenses.</p>
 
                 <h3>When are the Social Dinners?</h3>
-                <p>Our social dinners will take place on <strong>November 13 (Day 2) at 19:00 </strong> after the closing of ColdFront. Some of you will probably grab beers down at Mikeller after the conference, others will head home, and then there's you who are joining us for a Social Dinner!</p>
+                <p>Our social dinners will take place on <strong>November 14 (Day 2) at 19:00</strong> after the closing of ColdFront. Some of you will probably grab beers down at <a href="http://warpigs.dk/news/">Warpigs</a> after the conference, others will head home, and some of you will be joining us at a Social Dinner!</p>
 
                 <h3>What's after the dinners??</h3>
                 <p>After the dinners we meet at <a href="http://warpigs.dk/news/">Warpigs</a> at 9pm for the post ColdFront social.</p>
 
                 <h3>Pick 1 out of 5 themes</h3>
-                <p>We have created 5 dinners for you which are organized by theme. Each dinner has a maximum capacity of 20 people, and will be hosted on several of Mikkeller's locations around town. </p>
-                <p>We want to bring like-minded people together, so pick your theme, and enjoy a meal with great dicussions in mind!</p>
+                <p>We are hosting 5 themed dinners for you across Mikeller’s partner locations across Copenhagen. Each dinner has a maximum capacity of 20 people and will be reserved on a first come, first serve basis.</p>
+                
+                <p>We want to bring like-minded people together, so pick your theme, and enjoy a meal amongst lively conversation!</p>
 
                 <div className="dinner">
                     <h4>Theme #1: Future of native apps</h4>
@@ -65,6 +66,12 @@ export default () => (
 
                     <p>This dinner will be themed around <strong>ethics/privacy</strong> and is for everyone interested in how we as developers should reflect and handle issues like privacy and ethics.</p>
 
+                    <p>This dinner will take place at: <a href="http://ologbrod.com/">ØL & BRØD</a>, a restaurant serving danish Smørrebrød, the traditional danish topped rye bread, paired together with beers from our fiends at <a href="http://mikkeller.dk">Mikkeller.</a></p>
+
+                    <img src="/static/images/social-dinners/ol-og-brod.jpg" />
+                    <img src="/static/images/social-dinners/ol_brod.jpg" />
+
+
                     <a href="https://ti.to/coldfront/coldfront-2018/with/hb0klkj5ori" className="btn btn-primary">Sign up for #3 Future of ethics/privacy for developers</a>
                 </div>
 
@@ -86,10 +93,10 @@ export default () => (
 
                     <p>This dinner will be themed around <strong>web and standards</strong> and is for everyone interested in future of design and interfaces. What's next? How will AR go mainstream? What about IOT?</p>
 
-                    <p>This dinner will take place at: <a href="http://restaurantgorilla.dk/forside/?lang=en">Gorilla</a>, a  beast of a restaurant residing in old industrial premises in the Meatpacking District of Vesterbro. The kitchen is undogmatic, with roots in the Mediterranean cuisine. The menu consists of shareable snacks and a la carte dishes, big and small.</p>
-                    
-                    <img src="/static/images/social-dinners/gorilla1.jpg" />
-                    <img src="/static/images/social-dinners/gorilla2.jpg" />
+                    <p>This dinner will take place at: <a href="http://warpigs.dk/news/">Warpigs</a>, a brewpub serving informal american food, paired together with beers from our fiends at <a href="http://mikkeller.dk">Mikkeller.</a></p>
+
+                    <img src="/static/images/social-dinners/warpigs2.jpg" />
+                    <img src="/static/images/social-dinners/warpigs1.jpg" />
                     
 
                     <a href="https://ti.to/coldfront/coldfront-2018/with/8tindktt6ae" className="btn btn-primary">Sign up for #5 Future of design and interfaces</a>                
