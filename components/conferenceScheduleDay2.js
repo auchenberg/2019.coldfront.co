@@ -84,9 +84,10 @@ export default ({ children }) => (
                 <br /><br />In this session we will give a brief introduction to how WebRTC works and what it takes to scale it. Furthermore we will give a demo on how mobile devices can be used as additional audio and video sources. "
         color="#a203f1"
         time="13:30am - 14:00am"
-        speakers={
-            ["Daniel Pouzemski"]
-        }        
+        speakers={[
+            "Daniel Pouzemski",
+            "Vasil Dimitrov"
+        ]}        
 
     />          
       
