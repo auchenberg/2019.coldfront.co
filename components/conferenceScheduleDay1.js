@@ -153,9 +153,10 @@ export default ({ children }) => (
     />                   
 
     <Session 
-        title="New Adventures In Front-End"
-        description="The beast is alive! How do you feel about ASCII-alike CSS Grid layout with polyfluid sizing and ch unit? Do you feel itchy when it comes to building responsive HTML email layouts? What about the brave new world of dynamic static site generators and JAM stack? Have you ever tried to work around nested CSS Custom Properties, untamed 3rd-party scripts, shady service workers, multi-dimensional variable fonts and painfully outdated pattern libraries? Well, let’s bring it on!
-            <br/ ><br/>Tighten up your seatbelt! Beware: you will not be able to unlearn what you’ll learn in the session! Ah, one more thing, take the techniques with a grain of salt — we do not take responsibility for sleepless nights and nightmares caused by the content of this session."
+        title="New Adventures In Responsive Web Design"
+        description="You’re a smart cookie. If someone asks you to build a responsive accordion, you’ll figure it out. The same goes for a table. Or a calendar. Or, God forbid, a multi-level-mega-drop-down. But how would you go around slightly more complicated components?
+            <br/ ><br/>What if you had to build a sophisticated car configurator with a real-time updated 3D view? What about an advanced feature comparison table, a music festival schedule, an election map, an airfare booking and check-in, a live world football championship leaderboard and a theatre map seat selection? In this session, we’ll take a microscopic examination of common interface components and problems appearing in responsive user interfaces.
+            <br/ ><br/>We’ll cover them all: both from the design and from the development perspective — with a dash of unusual solutions along the way. Keep in mind: you won’t be able to unsee the things you’ll see in this session. Yes, it’s going to be dirty, tricky and horribly annoying at times. You’ll leave with a toolbox of practical techniques that you’ll be able to apply to your work right away. And potentially some tips for saving money on airfare, too!"
         color="#0629EA"
         time="16:30 - 17:15"
         speakers={
