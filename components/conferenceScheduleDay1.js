@@ -102,7 +102,7 @@ export default ({ children }) => (
     />
 
     <Session 
-        title="Working with VR by Jayway (Main Stage)"
+        title="Working with AR by Jayway (Main Stage)"
         description="With AR capabilities on millions of phones, the users can experience a whole new level of interaction with physical objects. During this presentation we will delve into the key cases Jayway believes will propel AR, i.e. where we see most interest from our customers. We will announce a new AR application, and show in a live coding session how this app takes advantage of image and object recognition of ARKit 2."
         color="#0477F2"
         time="13:30 - 14:00"
