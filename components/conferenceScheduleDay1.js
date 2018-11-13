@@ -165,11 +165,19 @@ export default ({ children }) => (
     />   
 
     <Session 
-        title="ColdFront Party!"
-        time="17:30 - 24:00"
+        title="ColdFront Party at VEGA"
+        time="17:30 - 22:00"
         description="To finish ColdFront with a blast, we are throwing a party for all ColdFronters. The party will take place in Ideal Bar which is one of Copenhagen's most historic venues."
         color="#7425F3"
         link="/social"
     />  
+
+    <Session 
+        title="Afterparty at Warpigs"
+        time="22:30 - 24:00+"
+        description="For those of you who wants to continue, we are hostig the after party down at Mikkeller Warpigs Brewpub in the Meat Packing District"
+        color="#7425F3"
+        link="http://mikkeller.dk/location/warpigs/"
+    />      
     </>
 )

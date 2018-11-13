@@ -36,9 +36,13 @@ export default() => (
 
                 <h3>Party</h3>
 
-                <p>Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>                
+                <p>Dinner will be provided at our mighty ColdFront Party™ which will take place on <Link href="/program/day1">Day 1</Link>.</p>  
 
-                <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you a special experience in one of Copenhagen's most historic venues.</p>
+    
+                <p>To finish ColdFront with a blast, we are throwing a party for all ColdFronters. We are planning on opening the bar, while bringing you unique experience in one of Copenhagen's most historic venues.</p>
+
+                <p>The party is being held at <a href="venue-and-practical">our venue</a> from 17:30-22:00, and will include food, open bar and lots of fun!</p>       
+
 
                 <div className="images">
                     <img src="/static/images/practical/party2.jpg" />
