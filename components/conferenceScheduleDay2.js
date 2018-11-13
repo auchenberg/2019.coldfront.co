@@ -112,10 +112,13 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="Main Stage break"
-        description=""
+        title="On the fly WebP decoding with Web Assembly and Service Workers"
+        description="Showcase of what's possible with Web Assembly and Service Workers today"
         color="#7425F3"
         time="14:00 - 14:30"
+        speakers={
+            ["Kenneth Christiansen"]
+        }           
     />  
 
     <Session 

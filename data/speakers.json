@@ -240,7 +240,13 @@
         "theme": "working with WebRTC",
         "title": "Frontend Engineer at TwentyThree",
         "position": "Frontend Engineer at video marketing automation platform TwentyThree, Vasil is a big fan of React and his favourite spare time activity is creating cool stuff with JavaScript and CSS."
-    }       
-    
-    
+    },      
+    {
+        "image": "/static/images/speakers/speaker-kenneth.jpg",
+        "name": "Kenneth Christiansen",
+        "theme": "future of service workers",
+        "title": "Web Platform architect @Intel",
+        "position": "Web Platform architect @Intel, @W3CTAG member, Google Dev Expert; Works on Chrome and W3C specs like Manifest (PWA), NFC, Sensors etc. Speaker. Loves hardware!",
+        "twitter": "https://twitter.com/kennethrohde"
+    }          
 ]
