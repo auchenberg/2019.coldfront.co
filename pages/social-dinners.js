@@ -61,8 +61,8 @@ export default () => (
                     <a href="https://ti.to/coldfront/coldfront-2018/with/9bygwwthlx8" className="btn btn-primary">Sign up for #2 Future of tools and machine learning</a>
                 </div>
 
-                <div className="dinner">
-                    <h4>Theme #3: Future of ethics/privacy for developers</h4>
+                <div className="dinner cancel">
+                    <h4>Theme #3: Future of ethics/privacy for developers (CANCELLED)</h4>
 
                     <p>This dinner will be themed around <strong>ethics/privacy</strong> and is for everyone interested in how we as developers should reflect and handle issues like privacy and ethics.</p>
 
@@ -76,7 +76,7 @@ export default () => (
                 </div>
 
                 <div className="dinner">
-                    <h4>Theme #4: Future of the web and standards</h4>
+                    <h4>Theme #4: Future of the web and standards (SOLD OUT)</h4>
 
                     <p>This dinner will be themed around <strong>web and standards</strong> and is for everyone interested in the web platform and how the open web standards emerge.</p>
 
@@ -89,7 +89,7 @@ export default () => (
                 </div>
 
                 <div className="dinner">
-                    <h4>Theme #5: Future of design and interfaces</h4>
+                    <h4>Theme #5: Future of design and interfaces (SOLD OUT)</h4>
 
                     <p>This dinner will be themed around <strong>web and standards</strong> and is for everyone interested in future of design and interfaces. What's next? How will AR go mainstream? What about IOT?</p>
 
@@ -106,6 +106,10 @@ export default () => (
                 h4 {
                     font-size: 20px;
                     font-weight: bold;
+                }
+
+                .cancel {
+                    text-decoration: line-through;
                 }
 
                 .dinner {
