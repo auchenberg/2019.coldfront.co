@@ -17,7 +17,7 @@ export default class extends React.Component {
   static async getInitialProps({ req, query }) {
     const selectedDay = query.selectedDay
     return { 
-        selectedDay: selectedDay || 'day1'
+        selectedDay: selectedDay || 'day2'
     }
   }  
 
