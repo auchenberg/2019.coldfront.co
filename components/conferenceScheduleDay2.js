@@ -112,7 +112,7 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="On the fly WebP decoding with Web Assembly and Service Workers"
+        title="On the fly WebP decoding with Web Assembly and Service Workers (Main Stage)"
         description="Showcase of what's possible with Web Assembly and Service Workers today"
         color="#7425F3"
         time="14:00 - 14:30"
