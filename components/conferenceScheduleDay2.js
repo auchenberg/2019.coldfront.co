@@ -175,9 +175,9 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="Afterparty at Warpigs"
+        title="PostFront at Warpigs"
         time="21:00 - 24:00+"
-        description="For those of you who wants to continue, we are hostig the after party down at Mikkeller Warpigs Brewpub in the Meat Packing District"
+        description="For those of you who wants to continue, you can join PostFront down at Mikkeller Warpigs Brewpub in the Meat Packing District"
         color="#7425F3"
         link="http://mikkeller.dk/location/warpigs/"
     /> 
