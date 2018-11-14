@@ -150,8 +150,9 @@ export default ({ children }) => (
     />                   
 
     <Session 
-        title="Closing session: Future of doing good as a developer"
-        description=""
+        title="Closing session: Do the Most Good"
+        description="Technology can be a huge driving force for good, but unfortunately, sometimes it misses the mark. What do we do when our work causes harm? And what do can we do when technology is not the solution?
+            <br /><br />In this talk, Mina shares reflections from her work in social good space, and explores strategies to take your activism from behind the keyboard and echo chambers out into the real world."
         color="#0629EA"
         time="16:30 - 17:15"
         speakers={
