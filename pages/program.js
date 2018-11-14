@@ -39,7 +39,7 @@ export default class extends React.Component {
             <Section>
                 <Intro
                     title="ColdFront 2018 Program"
-                    text="The preliminary program for ColdFront 2018 with 2 full conference days of inspiring talks, 1 community day with workshops, social dinners and parties!"/>
+                    text="The program for ColdFront 2018 with 2 full conference days of inspiring talks, 1 community day with workshops, social dinners and parties!"/>
             </Section>
             <Section bright>
                 <DaySelector onDayChanged={this.onDayChanged.bind(this)} selectedDay={this.state.selectedDay} />
