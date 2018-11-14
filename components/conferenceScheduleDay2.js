@@ -167,17 +167,20 @@ export default ({ children }) => (
     />       
 
     <Session 
-        title="Social dinners: Remember to pick topic and check your inbox"
+        title="Social dinners at Mikkeller Warpigs Brewpub in the Meat Packing District"
         description=""
         color="#7425F3"
         time="18:30 - 21:00"
+        link="/social-dinners"
     />  
 
     <Session 
-        title="Afterparty at Mikkeller/Warpigs"
-        description=""
+        title="Afterparty at Warpigs"
+        time="21:00 - 24:00+"
+        description="For those of you who wants to continue, we are hostig the after party down at Mikkeller Warpigs Brewpub in the Meat Packing District"
         color="#7425F3"
-        time="21:00 - 24:00"
-    />      
+        link="http://mikkeller.dk/location/warpigs/"
+    /> 
+   
     </>
 )

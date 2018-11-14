@@ -38,19 +38,19 @@ export default () => (
                 
                 <p>We want to bring like-minded people together, so pick your theme, and enjoy a meal amongst lively conversation!</p>
 
-                <div className="dinner">
-                    <h4>Theme #1: Future of native apps</h4>
+                <div className="dinner cancel">
+                    <h4>Theme #1: Future of native apps (CANCELLED)</h4>
                     <p>This dinner will be themed around native apps, so if you are into Swift, React Native, Flutter, Android or anything remotely related to native apps, you should join this dinner with like-minded people.</p>
 
                     <img src="/static/images/social-dinners/ramen.jpg" />
 
                     <p>This dinner will take place at: <a href="http://ramentobiiru.dk/vesterbro/">Ramen To Biiru</a>, a Japanese ramen joint by our fiends at <a href="http://mikkeller.dk">Mikkeller</a></p>
                     
-                    <a href="https://ti.to/coldfront/coldfront-2018/with/z0ukudcxlq4" className="btn btn-primary">Sign up for #1 Future of native apps</a>
+                    {/* <a href="https://ti.to/coldfront/coldfront-2018/with/z0ukudcxlq4" className="btn btn-primary">Sign up for #1 Future of native apps</a> */}
                 </div>
 
-                <div className="dinner">
-                    <h4>Theme #2: Future of tools and machine learning</h4>
+                <div className="dinner cancel">
+                    <h4>Theme #2: Future of tools and machine learning (CANCELLED)</h4>
                     <p>This dinner will be themed around <strong>tools and machine learning</strong> and is for everyone interested in editors, tools, machine learning.</p>
                     <p>This dinner will take place at: <a href="http://ologbrod.com/">ØL & BRØD</a>, a restaurant serving danish Smørrebrød, the traditional danish topped rye bread, paired together with beers from our fiends at <a href="http://mikkeller.dk">Mikkeller.</a></p>
 
@@ -58,7 +58,7 @@ export default () => (
                     <img src="/static/images/social-dinners/ol_brod.jpg" />
                 
 
-                    <a href="https://ti.to/coldfront/coldfront-2018/with/9bygwwthlx8" className="btn btn-primary">Sign up for #2 Future of tools and machine learning</a>
+                    {/* <a href="https://ti.to/coldfront/coldfront-2018/with/9bygwwthlx8" className="btn btn-primary">Sign up for #2 Future of tools and machine learning</a> */}
                 </div>
 
                 <div className="dinner cancel">
@@ -72,7 +72,7 @@ export default () => (
                     <img src="/static/images/social-dinners/ol_brod.jpg" />
 
 
-                    <a href="https://ti.to/coldfront/coldfront-2018/with/hb0klkj5ori" className="btn btn-primary">Sign up for #3 Future of ethics/privacy for developers</a>
+                    {/* <a href="https://ti.to/coldfront/coldfront-2018/with/hb0klkj5ori" className="btn btn-primary">Sign up for #3 Future of ethics/privacy for developers</a> */}
                 </div>
 
                 <div className="dinner">
