@@ -8,7 +8,7 @@ module.exports = {
             '/tickets': { page: '/tickets' },
             '/why-coldfront': { page: '/why-coldfront' },
             '/speakers': { page: '/speakers' },
-            '/program': { page: '/program', query: { selectedDay: 'day1' } },
+            '/program': { page: '/program', query: { selectedDay: 'day2' } },
             '/program/day1': { page: '/program', query: { selectedDay: 'day1' } },
             '/program/day2': { page: '/program', query: { selectedDay: 'day2' } },
             '/community-workshop-day': { page: '/community-workshop-day' },            
