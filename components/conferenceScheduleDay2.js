@@ -129,9 +129,8 @@ export default ({ children }) => (
     />  
 
     <Session 
-        title="The Future of Product Design"
-        description="Product design can go wrong and affect users negatively. How do your users feel using your product? What’s the impact that you cause? Can we build better products if we follow certain principles?
-        <br /><br />This talk will explain how to truly care about our users and improve their experience by taking a more ethical approach. Most importantly, this talk will hopefully be an inspiration, question the status quo and help us build for a better future web. "
+        title="The Untold Benefits of Ethical Design"
+        description="Ethics need to be at the core of everything we build. We have to consider our impact and rethink how to build digital products. This way we will not only create more responsible products, but gain additional benefits in the areas of performance, security, privacy and user happiness. This talk will show how to truly care about our users and improve the user experience at the same time. Most importantly, this talk is a guide, a technical inspiration, will question the status quo and help us build for a better web."
         color="#0629EA"
         time="15:00 - 15:45"
         speakers={
