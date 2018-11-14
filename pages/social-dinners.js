@@ -28,7 +28,7 @@ export default () => (
                 <p>Please keep in mind that ColdFront is the facilitator and each group will be responsible for covering their own expenses.</p>
 
                 <h3>When are the Social Dinners?</h3>
-                <p>Our social dinners will take place on <strong>November 14 (Day 2) at 18:30</strong> after the closing of ColdFront. Some of you will probably grab beers down at <a href="http://warpigs.dk/news/">Warpigs</a> after the conference, others will head home, and some of you will be joining us at a Social Dinner!</p>
+                <p>Our social dinners will take place on <strong>November 14 (Day 2) at 18:15</strong> after the closing of ColdFront. Some of you will probably grab beers down at <a href="http://warpigs.dk/news/">Warpigs</a> after the conference, others will head home, and some of you will be joining us at a Social Dinner!</p>
 
                 <h3>What's after the dinners??</h3>
                 <p>After the dinners we meet at <a href="http://warpigs.dk/news/">Warpigs</a> at 9pm for the post ColdFront social.</p>

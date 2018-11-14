@@ -170,7 +170,7 @@ export default ({ children }) => (
         title="Social dinners at Mikkeller Warpigs Brewpub in the Meat Packing District"
         description=""
         color="#7425F3"
-        time="18:30 - 21:00"
+        time="18:15 - 21:00"
         link="/social-dinners"
     />  
 
