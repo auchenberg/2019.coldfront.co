@@ -21,6 +21,7 @@ module.exports = {
             '/prefront': { page: '/prefront' },
             '/roadbook': { page: '/roadbook' },
             '/social-dinners': { page: '/social-dinners' },
+            '/talks-slides-videos-photos': { page: '/talks-slides-videos-photos' },
         }
     }
 }

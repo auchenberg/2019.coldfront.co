@@ -8,10 +8,10 @@ export default () => (
                 <div className="text">
                     <h1 className="title" data-text={headingText}>{headingText}</h1>
                     {/* <h3>A unique two-day conference that blurs the lines between web, mobile, native and design in Copenhagen, Denmark</h3> */}
-                    <p className="date">NOV 13-14-15 2018 in Copenhagen</p>
+                    <p className="date">ColdFront 2018 is OVER!</p>
 
-                    <a className="btn btn-primary btn-primary-shadow ticket" data-text="Get your ticket" href="https://ti.to/coldfront/coldfront-2018" target="_blank">
-                        Secure your ticket <i className="fas fa-arrow-right"></i>
+                    <a className="btn btn-primary btn-primary-shadow ticket" data-text="Get your ticket" href="/talks-slides-videos-photos">
+                        See the talks, slides, videos and photos <i className="fas fa-arrow-right"></i>
                     </a>
 
 
