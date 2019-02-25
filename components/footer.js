@@ -4,10 +4,10 @@ export default () => (
     <div className="footer">
             <div className="top-part content narrow">
                 <ul className="navbar-nav left">
-                    <li><a className="nav-link" href="/why-coldfront">Why ColdFront?</a></li>
-                    <li><a className="nav-link" href="/tickets">Tickets</a></li>
-                    <li><a className="nav-link" href="/about">About</a></li>
-                    <li><a className="nav-link" href="/call-for-recommendations">CFR</a></li>
+                <li><a className="nav-link" href="https://coldfront.co//about">About</a></li>
+                    <li><a className="nav-link" href="https://coldfront.co/why-coldfront">Why ColdFront?</a></li>
+                    {/* <li><a className="nav-link" href="/tickets">Tickets</a></li> */}
+                    {/* <li><a className="nav-link" href="/call-for-recommendations">CFR</a></li> */}
                 </ul>
                 <div className="right">
                     <p className="font-bitblox">Get the latest news.</p>

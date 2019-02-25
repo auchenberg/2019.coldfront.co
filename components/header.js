@@ -22,8 +22,8 @@ export default () => (
                     <li className="nav-item"><Link href="/diversity-scholarships"><a className="nav-link">Diversity</a></Link></li>
                     <li className="nav-item"><Link href="/student"><a className="nav-link">Student</a></Link></li>
                     <li className="nav-item"><Link href="/social"><a className="nav-link">Social</a></Link></li> */}
-                    <li className="nav-item"><Link href="https://coldfront.co//why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
                     <li className="nav-item"><Link href="https://coldfront.co/about"><a className="nav-link">About</a></Link></li>
+                    <li className="nav-item"><Link href="https://coldfront.co//why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
                 </ul>
             </div>
         </nav>
