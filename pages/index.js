@@ -28,13 +28,13 @@ export default () => (
 
         <ProgramOverview />
 
-        <SpeakerOverview />
+        {/* <SpeakerOverview /> */}
 
-        <Host />
+        {/* <Host /> */}
 
-        <Collaborators />
+        {/* <Collaborators />
 
-        <Partners />
+        <Partners /> */}
         
     <style jsx>{`
 

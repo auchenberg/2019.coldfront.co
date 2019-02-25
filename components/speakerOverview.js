@@ -7,17 +7,16 @@ export default ({ children }) => (
         <div className="narrow">
             <a id="speakers"></a> 
             <h2>Speakers, talks, workshops, and themes</h2>
-            <p>ColdFront is about the future, so we have asked each of our amazing speakers and workshop holders to share their perspective on what the future brings for their area and theme.</p>
-            <p>We can't wait. It's gonna be amazing.</p>
+            <p>Our lineup for 2019 is yet to be announced.</p>
         </div>
 
         <div className="speaker-overview">
-            <SpeakerList compact="true" />
+            {/* <SpeakerList compact="true" /> */}
         </div>
 
-        <div className="narrow">
+        {/* <div className="narrow">
             <p><a href="/speakers">Read more all the details about our speakers here</a></p>
-        </div>
+        </div> */}
 
         <style jsx>{`
             .speaker-overview {

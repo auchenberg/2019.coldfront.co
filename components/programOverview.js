@@ -12,35 +12,35 @@ export default ({ children }) => (
             </div>
 
             <div className="narrow days">
-            <div className="day">
+            {/* <div className="day">
                         <a href="/prefront">
                             <h2>Day 0</h2>
                             <p><strong>November 12</strong> – Prefront! Special TypeScript talk + networking</p>
                         </a>
-                    </div>            
+                    </div>             */}
                     <div className="day">
                         <a href="/program/day1">
                             <h2>Day 1</h2>
-                            <p><strong>November 13</strong> – Talks, amazing food, social dinner and party</p>
+                            <p><strong>November 25</strong> – Talks, amazing food, social dinner and party</p>
                         </a>
                     </div>
                     <div className="day">
                         <a href="/program/day2">
                             <h2>Day 2</h2>
-                            <p><strong>November 14</strong> – Talks, amazing food, and social dinner</p>
+                            <p><strong>November 26</strong> – Talks, amazing food, and social dinner</p>
                         </a>
                     </div>
                     <div className="day">
                         <a href="/community-workshop-day">
                             <h2>Day 3</h2>
-                            <p><strong>November 15</strong> – Community day with workshops and meetups</p>
+                            <p><strong>November 27</strong> – Community day with workshops and meetups</p>
                         </a>
                     </div>
             </div>
 
-            <div className="narrow">
+            {/* <div className="narrow">
                 <p><a href="/program">Read more details about the program here</a>.</p>
-            </div>
+            </div> */}
 
         <style jsx>{`
 

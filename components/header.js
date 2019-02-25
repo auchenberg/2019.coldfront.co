@@ -13,7 +13,7 @@ export default () => (
 
             <div className="navbar-collapse collapse" id="collapsingNavbar" data-toggle="collapse" data-target="#collapsingNavbar" >
                 <ul className="navbar-nav">
-                    <li className="nav-item"><Link href="/talks-slides-videos-photos"><a className="nav-link">Talks, Slides, Videos, Photos</a></Link></li> 
+                    {/* <li className="nav-item"><Link href="/talks-slides-videos-photos"><a className="nav-link">Talks, Slides, Videos, Photos</a></Link></li> 
                     <li className="nav-item"><Link href="/program"><a className="nav-link">Program</a></Link></li> 
                     <li className="nav-item"><Link href="/speakers"><a className="nav-link">Speakers</a></Link></li>                    
                     <li className="nav-item"><Link href="/community-workshop-day"><a className="nav-link">Workshops</a></Link></li>                    
@@ -21,9 +21,9 @@ export default () => (
                     <li className="nav-item"><Link href="/prefront"><a className="nav-link">Prefront</a></Link></li>
                     <li className="nav-item"><Link href="/diversity-scholarships"><a className="nav-link">Diversity</a></Link></li>
                     <li className="nav-item"><Link href="/student"><a className="nav-link">Student</a></Link></li>
-                    <li className="nav-item"><Link href="/social"><a className="nav-link">Social</a></Link></li>
-                    <li className="nav-item"><Link href="/why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
-                    <li className="nav-item"><Link href="/about"><a className="nav-link">About</a></Link></li>
+                    <li className="nav-item"><Link href="/social"><a className="nav-link">Social</a></Link></li> */}
+                    <li className="nav-item"><Link href="https://coldfront.co//why-coldfront"><a className="nav-link">Why ColdFront?</a></Link></li>
+                    <li className="nav-item"><Link href="https://coldfront.co/about"><a className="nav-link">About</a></Link></li>
                 </ul>
             </div>
         </nav>
@@ -48,7 +48,7 @@ export default () => (
         }
         .navbar-dark .navbar-toggler-icon {
             width: 30px;
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#193EFF' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");            
             position: relative;
             cursor: pointer;
         }

@@ -6,7 +6,7 @@ export default ({ children }) => (
 
         <div className="narrow teaser">
             <h2>A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark.</h2>
-            <a href="/why-coldfront">Why we are making this conference?</a>
+            <a href="https://coldfront.co/why-coldfront">Why are we making ColdFront?</a>
         </div>
 
         <style jsx>{`
