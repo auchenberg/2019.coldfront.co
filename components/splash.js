@@ -8,7 +8,7 @@ export default () => (
                 <div className="text">
                     <h1 className="title" data-text={headingText}>{headingText}</h1>
                     {/* <h3>A unique two-day conference that blurs the lines between web, mobile, native and design in Copenhagen, Denmark</h3> */}
-                    <p className="date">November 25-26-27 2019 in Copenhagen, Denmark</p>
+                    <p className="date">November 26-27-28 2019 in Copenhagen, Denmark</p>
 
                     <a className="btn btn-primary btn-primary-shadow ticket" data-text="Read more" href="/talks-slides-videos-photos">
                     Read more <i className="fas fa-arrow-right"></i>

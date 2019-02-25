@@ -21,19 +21,19 @@ export default ({ children }) => (
                     <div className="day">
                         <a href="/program/day1">
                             <h2>Day 1</h2>
-                            <p><strong>November 25</strong> – Talks, amazing food, social dinner and party</p>
+                            <p><strong>November 26</strong> – Talks, amazing food, social dinner and party</p>
                         </a>
                     </div>
                     <div className="day">
                         <a href="/program/day2">
                             <h2>Day 2</h2>
-                            <p><strong>November 26</strong> – Talks, amazing food, and social dinner</p>
+                            <p><strong>November 27</strong> – Talks, amazing food, and social dinner</p>
                         </a>
                     </div>
                     <div className="day">
                         <a href="/community-workshop-day">
                             <h2>Day 3</h2>
-                            <p><strong>November 27</strong> – Community day with workshops and meetups</p>
+                            <p><strong>November 28</strong> – Community day with workshops and meetups</p>
                         </a>
                     </div>
             </div>
