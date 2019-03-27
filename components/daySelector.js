@@ -83,7 +83,7 @@ export default class extends React.Component {
             a,
             a:link,
             a:hover {
-              color: #fff;
+              color: #000;
               cursor: pointer;
             }
 

@@ -43,7 +43,7 @@ export default ({ children }) => (
         }
 
         a {
-          color: #fff;
+          color: inherit;
         }
 
         h2 {

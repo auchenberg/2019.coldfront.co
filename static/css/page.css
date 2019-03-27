@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #020721;
+    background-color: #2A4252;
 
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
@@ -18,7 +18,8 @@ body {
 }
 
 .bright {
-    background:#0B102B;
+    background:#F4EDEB;
+    color: #000;
 }
 
 .section {
@@ -30,10 +31,10 @@ body {
     content: "";
     position: fixed;
     top: 0;
-    background-image: url(/static/images/noise_2.jpg);
+    /* background-image: url(/static/images/noise_2.jpg); */
     height: 300%;
     width: 300%;
-    animation: noiseAnim 0.5s infinite linear alternate;
+    /* animation: noiseAnim 0.5s infinite linear alternate; */
     opacity: 0.06;
 }
 
@@ -181,7 +182,7 @@ body {
 
 a:link,
 a:visited {
-    color: #00EDFF;
+    color: ;
 }
 
 h1, h2, h3, h4 {
@@ -222,7 +223,7 @@ h3 {
 }
 
 input[type=email] {
-    border: 1px solid #8f23f5;
+    border: 1px solid #FCB7A0;
     border-radius: 0;
     background: transparent;
     color: #eef9f6;
@@ -230,7 +231,7 @@ input[type=email] {
 
 input[type=email]:focus {
 
-    border: 1px solid #8f23f5;
+    border: 1px solid #FCB7A0;
     border-radius: 0;
     background: transparent;
     color: #eef9f6;

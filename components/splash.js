@@ -26,14 +26,14 @@ export default () => (
           .splash {
             position: relative;
             box-sizing: border-box;
-            padding-top: 100px;
+            padding-top: 30px;
 
             @media (max-width: 1000px) {
               padding-left: -17px;
               padding-right: -17px;
             }
 
-            background: url("/static/images/splash/splash.png");
+            background: url("/static/images/splash/devices.png");
             background-repeat: no-repeat;
             background-position: center center;
 
