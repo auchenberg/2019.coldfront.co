@@ -23,9 +23,9 @@ export default () => (
 
     <ProgramOverview />
 
-    <SpeakerOverview />
+    <Host />
 
-    {/* <Host /> */}
+    <SpeakerOverview />
 
     {/* <Collaborators /> */}
 
