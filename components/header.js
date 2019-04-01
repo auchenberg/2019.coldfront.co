@@ -40,7 +40,7 @@ export default () => (
           </li>
 
           <li className="nav-item">
-            <Link href="https://ti.to/coldfront/coldfront-2019">
+            <Link href="/tickets">
               <a className="nav-link">Tickets</a>
             </Link>
           </li>
