@@ -15,7 +15,7 @@ export default () => (
         <a
           className="btn btn-primary btn-primary-shadow ticket"
           data-text="Read more"
-          href="https://ti.to/coldfront/coldfront-2019"
+          href="/tickets"
         >
           Register now! <i className="fas fa-arrow-right" />
         </a>
