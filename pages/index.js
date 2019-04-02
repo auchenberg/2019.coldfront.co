@@ -12,12 +12,25 @@ import Photos from "../components/photos";
 import SpeakerOverview from "../components/speakerOverview";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
+import NewsletterForm from "../components/newsletterForm";
 
 export default () => (
   <Layout>
     <Splash />
 
     <Teaser />
+
+    <Section bright>
+      <div className="newsletter-wrapper narrow">
+        <div className="intro">
+          <h1>Newsletter</h1>
+          <p>
+            We have a huge ColdFront storm planned to arrive in November, so sign up to stay in the loop.
+          </p>
+        </div>
+        <NewsletterForm />
+      </div>    
+    </Section>
 
     <Photos />
 

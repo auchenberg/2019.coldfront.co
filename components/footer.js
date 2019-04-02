@@ -2,20 +2,21 @@ import NewsletterForm from '../components/newsletterForm'
 
 export default () => (
     <div className="footer">
-            <div className="top-part content narrow">
-                <ul className="navbar-nav left">
-                <li><a className="nav-link" href="https://coldfront.co//about">About</a></li>
-                    <li><a className="nav-link" href="https://coldfront.co/why-coldfront">Why ColdFront?</a></li>
-                    {/* <li><a className="nav-link" href="/tickets">Tickets</a></li> */}
-                    {/* <li><a className="nav-link" href="/call-for-recommendations">CFR</a></li> */}
-                </ul>
-                <div className="right">
-                    <p className="font-bitblox">Get the latest news.</p>
-                    <NewsletterForm />
-                </div>
+        <div className="top-part content narrow">
+            <ul className="navbar-nav left">
+            <li><a className="nav-link" href="/about">About</a></li>
+                <li><a className="nav-link" href="/call-for-recommendations/">CFR</a></li>
+                <li><a className="nav-link" href="/diversity">Diversity</a></li>
+                <li><a className="nav-link" href="/tickets">Tickets</a></li>
+            </ul>
+            <div className="right">
+                <p className="font-bitblox">Get the latest news.</p>
+                <NewsletterForm dark/>
             </div>
+        </div>
 
-            <div className="content narrow line">
+        <div className="narrow line bright">
+            <div className="narrow">
                 <div className="left">
                     <img src="/static/images/icon-heart.svg" />
                     <a href="http://confcodeofconduct.com/">Code of Conduct</a>
@@ -26,6 +27,7 @@ export default () => (
                     <a href="http://twitter.com/coldfrontconf"><img src="/static/images/icon-twitter.svg" /></a>
                 </div>
             </div>
+        </div>
 
       <style jsx>{`
         .left{
@@ -41,12 +43,12 @@ export default () => (
 
         .line {
             clear: both;
-            border-top: 1px solid #191D27;
             color: #3E495E;
             font-size: 16px;
-            padding-top: 20px;
-            padding-bottom: 20px;
             margin-top: 60px;
+
+            height: 80px;
+            line-height: 80px;
 
             a:link,
             a:visited {
@@ -62,7 +64,7 @@ export default () => (
 
 
         .footer {
-          padding: 50px 0;
+          padding: 50px 0 0 0;
 
           ul {
             color: white;

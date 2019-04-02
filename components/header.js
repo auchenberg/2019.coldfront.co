@@ -27,27 +27,16 @@ export default () => (
         data-target="#collapsingNavbar"
       >
         <ul className="navbar-nav">
-          {/* <li className="nav-item">
-            <Link href="/talks-slides-videos-photos">
-              <a className="nav-link">Talks, Slides, Videos, Photos</a>
-            </Link>
-          </li> */}
 
           <li className="nav-item">
-            <Link href="https://coldfront.co/about">
-              <a className="nav-link">About</a>
+            <Link href="/why-coldfront">
+              <a className="nav-link">Why?</a>
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link href="https://ti.to/coldfront/coldfront-2019">
-              <a className="nav-link">Tickets</a>
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link href="/venue-and-practical">
-              <a className="nav-link">Venue</a>
+            <Link href="/call-for-recommendations/">
+              <a className="nav-link">CFR</a>
             </Link>
           </li>
 
@@ -58,16 +47,29 @@ export default () => (
           </li>
 
           <li className="nav-item">
+            <Link href="/venue-and-practical">
+              <a className="nav-link">Venue</a>
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link href="/speakers">
               <a className="nav-link">Speakers</a>
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link href="https://coldfront.co//why-coldfront">
-              <a className="nav-link">Why ColdFront?</a>
+            <Link href="/about">
+              <a className="nav-link">About</a>
             </Link>
           </li>
+
+          <li className="nav-item tickets">
+            <Link href="/tickets">
+              <a className="btn btn-primary">Tickets</a>
+            </Link>
+          </li>
+
 
           {/* <li className="nav-item">
             <Link href="/community-workshop-day">
@@ -107,6 +109,7 @@ export default () => (
         padding-top: 20px;
         padding-bottom: 20px;
       }
+
       .logo {
         width: 200px;
       }
@@ -134,15 +137,15 @@ export default () => (
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 900;
+        z-index: 1100;
         opacity: 0;
 
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: #2A4252;
         visibility: hidden;
 
         text-align: center;
-        padding: 40px;
+        padding: 100px;
       }
 
       :global(.navbar-collapse .navbar-nav) {
@@ -172,21 +175,25 @@ export default () => (
         opacity: 0.5;
         visibility: visible;
       }
+
       .nav-item {
         font-size: 30px;
-        text-align: right;
       }
 
-      @media (max-width: 800px) {
-        .nav-item {
-          font-size: 20px;
-          text-align: right;
-        }
+      .nav-item a {
+        color: #FCB7A0;
       }
+
+      .tickets {
+        margin-top: 20px;
+      }
+
 
       .nav-link {
         color: #fff;
       }
+
+
     `}</style>
   </header>
 );

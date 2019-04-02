@@ -13,9 +13,15 @@ export default () => (
                 text="ColdFront is a unique conference that aims to be at the forefront of technology curve by providing inspirational content about tomorrow's challenges and technologies."
                 img="/static/images/splash-panel.jpg"
             />
+        </Section>
+
+        <Section bright>
+            <Intro
+                title="Our story"
+                text="We started ColdFront back in 2014 to flourish the front-end community and to put Copenhagen the global front-end map. "
+            />
 
             <div className="narrow">
-                <p>We started <a href="https://kenneth.io/blog/2014/04/09/introducing-coldfront-conference/">ColdFront back in 2014</a> to flourish the front-end community and to put Copenhagen the global front-end map. </p>
                 <p>Back in 2014 we had travel to other major european cities such as Amsterdam, London, Berlin, London, New York and San Francisco to be a part of our global front-end community, but with ColdFront we changed that.</p>
                 <p>ColdFront is a conference for front-end developers who are passionate about building user experiences with the latest and most relevant technologies. Over the past years the term “front-end” has transitioned from meaning building experiences for the web, to be covering a broad span of platforms, devices and runtimes.</p>
 
@@ -26,7 +32,7 @@ export default () => (
             </div>
         </Section>
 
-        <Section bright>
+        <Section dark>
             <Intro
                 title="Our principles and manifest"
                 text="To guide the content for ColdFront we have outlined the following principles that helps us decide what content that is relevant for the conference:"
@@ -84,12 +90,6 @@ export default () => (
                             label="Communication and Community"
                             body="Jessica Tremblay is a software designer and front end developer for IBM Design and currently lives in Austin, TX.  She is one of the original organizers for FEDucation: a global, internal, front end knowledge sharing program that is part of the ever-growing FED@IBM initiative."
                             img="/static/images/team/team-jessica.jpg"
-                        />
-
-                        <ListItem title="Christina Hanna"
-                            label="Design"
-                            body="Christina is a digital product and brand identity designer for Conferize. In her search for bringing people together in meaningful ways, she has also been designing the identity for ColdFront since 2015 and is a part of organising the biggest monthly design meetup in Copenhagen."
-                            img="/static/images/team/team-christina.jpg"
                         />
                     </ul>
                 </div>

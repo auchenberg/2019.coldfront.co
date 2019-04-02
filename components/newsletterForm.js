@@ -1,6 +1,6 @@
-export default ({ children }) => (
+export default (props) => (
 
-        <div className="newsletter-form">
+        <div className={('dark' in props ? 'dark ' : '') + "newsletter-form "}>
 
             <div id="mc_embed_signup">
                 <form action="https://coldfrontconf.us17.list-manage.com/subscribe/post?u=6524c4631d92c359c723739e7&amp;id=c9de0800ab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
@@ -12,7 +12,7 @@ export default ({ children }) => (
                         </div>
 
                         <div className="col-sm">
-                            <input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-secondary-shadow fade-glitch" data-text="Go" />
+                            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" className={('dark' in props ? 'btn-primary ' : 'btn-primary-inversed') + ' btn'} data-text="Sign" />
                         </div>
                     </div>
 
@@ -31,6 +31,15 @@ export default ({ children }) => (
           <style jsx>{`
             .newsletter-form {
                 padding: 20px 0;
+                background: inherit;
+            }
+
+            .dark {
+                input[type=email] {
+                    border: 2px solid #FCB7A0;
+                    border-radius: 0;
+                    background: transparent;
+                }                
             }
 
             .info {
@@ -40,7 +49,8 @@ export default ({ children }) => (
             .email {
                 text-transform: uppercase;
                 font-size: 13px;
-                padding: 14px;
+                padding: 15px;
+                min-width: 300px;
             }
 
             @media (max-width: 1000px) {

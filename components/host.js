@@ -12,7 +12,7 @@ export default ({ children }) => (
                 - Principal Developer Advocate at <a href="https://www.netlify.com/">Netlify</a></h3>
                 
                 <p>Phil Hawksworth will be your host and take you through the ColdFront experience. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences around the world. We are luckiy to have him!</p>
-                <p><a href="https://twitter.com/philhawksworth" target="_blank">Get to know him<img className="arrow" src="/static/images/arrow-white.svg" /></a></p>
+                <p><a className="btn btn-primary-inversed" href="https://twitter.com/philhawksworth" target="_blank">Get to know him</a></p>
             </div>
 
             <div className="host-avatar">

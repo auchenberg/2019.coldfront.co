@@ -19,7 +19,7 @@ export default () => (
 
                 <p>At Coldfront 2018, we will take a look at the entire stack by throwing a two day conference for everyone who are passionate about building front-ends and interfaces. So whether you are a iOS, Android, mobile, web, frontender or something in between, ColdFront is the place to be.</p>
              
-                <a className="btn btn-primary btn-secondary-shadow ticket glitch" data-text="Read more on Medium" href="https://medium.com/@auchenberg/coldfront-and-the-need-for-a-holistic-front-end-conference-that-spans-across-communities-and-866831649a8f">
+                <a className="btn btn-primary-inversed ticket glitch" data-text="Read more on Medium" href="https://medium.com/@auchenberg/coldfront-and-the-need-for-a-holistic-front-end-conference-that-spans-across-communities-and-866831649a8f">
                     Read more on Medium <i className="fas fa-arrow-right"></i>
                 </a>
             </div>

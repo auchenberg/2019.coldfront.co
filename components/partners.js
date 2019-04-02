@@ -1,16 +1,19 @@
 import Section from "./section";
 
 export default ({ children }) => (
-  <Section bright>
+  <Section dark>
     <a name="partners" />
 
     <div className="narrow">
-      <h3>Our partners</h3>
 
-      <p>
-        <a href="mailto:michael@coldfront.co">Contact us</a> if you want to be a
-        part of ColdFront!
-      </p>
+      <div className="intro">
+          <h1>Partners</h1>
+          <p>Each year we partner up with amazing companies who wants to support the community.</p>
+          <h2>Want to be a part of ColdFront?</h2>
+          <p>
+            <a className="btn btn-nude" href="mailto:michael@coldfront.co">Contact us</a> 
+          </p>
+      </div>
     </div>
 
     <div className="narrow">

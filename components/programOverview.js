@@ -2,7 +2,7 @@ import Section from "./section";
 import DaySelector from "../components/daySelector";
 
 export default ({ children }) => (
-  <Section bright>
+  <Section white>
     <div className="narrow">
       <div className="intro">
         <h1>The program</h1>
@@ -21,6 +21,11 @@ export default ({ children }) => (
             </div> */}
 
     <style jsx>{`
+
+      .program-overview {
+        background: #fff;
+      }
+
       .days {
         display: flex;
         justify-content: space-between;

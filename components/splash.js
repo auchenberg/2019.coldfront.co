@@ -13,11 +13,11 @@ export default () => (
         <p className="date">November 26-27-28 2019 in Copenhagen, Denmark</p>
 
         <a
-          className="btn btn-primary btn-primary-shadow ticket"
-          data-text="Read more"
+          className="btn btn-primary ticket"
+          data-text="Get a ticket!"
           href="https://ti.to/coldfront/coldfront-2019"
         >
-          Register now! <i className="fas fa-arrow-right" />
+          Get tickets <i className="fas fa-arrow-right" />
         </a>
       </div>
 
@@ -26,7 +26,9 @@ export default () => (
           .splash {
             position: relative;
             box-sizing: border-box;
-            padding-top: 30px;
+            display: flex;
+            height: 650px;
+            padding-top: 140px;
 
             @media (max-width: 1000px) {
               padding-left: -17px;
@@ -35,13 +37,14 @@ export default () => (
 
             background: url("/static/images/splash/devices.png");
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: center top;
 
             text-align: center;
 
             .text {
               text-align: center;
               margin: 0 auto;
+              padding-top: 00px;
             }
             .date {
               font-size: 20px;
@@ -59,9 +62,6 @@ export default () => (
               }
             }
 
-            .ticket {
-              margin-bottom: 100px;
-            }
             .img {
               width: 100%;
             }

@@ -88,7 +88,7 @@ export default class extends React.Component {
             }
 
             h2 {
-              font-size: 80px;
+              font-size: 50px;
             }
 
             @media (min-width: 1200px) {

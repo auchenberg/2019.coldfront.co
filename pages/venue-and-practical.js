@@ -10,7 +10,9 @@ export default () => (
         title="Venue and Practicalities"
         text="ColdFront 2019 will play out at the Bremen Teater, one of oldest theaters in Copenhagen, with comfy seating and atmosphere."
       />
-
+    </Section>
+    
+    <Section bright>
       <div className="narrow">
         <p>
           <a href="http://brementeater.dk">Bremen</a> is located Vesterbro,
@@ -27,7 +29,7 @@ export default () => (
 
       <div className="images">
         <img src="http://brementeater.dk/content/uploads/2016/04/Bremen-Teater-sal-2.jpg" />
-        <img src="/static/images/venue/bremen1.jpg" />
+        <img src="/static/images/venue/coldfront_bremen.png" />
         <img src="/static/images/venue/bremen2.jpg" />
       </div>
     </Section>
