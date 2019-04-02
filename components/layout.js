@@ -21,20 +21,20 @@ export default class Layout extends React.Component {
     return (
       <div>
         <Head>
-            <title>{this.props.title ? this.props.title + ` - ` : ''}ColdFront 2018 - a holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018</title>
-            <meta property="og:title" content={ (this.props.title ? this.props.title + ` - ` : ``) + `ColdFront 2018`} />
-            <meta property="og:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
-            <meta property="og:url" content="https://2018.coldfront.co/" />
+            <title>{this.props.title ? this.props.title + ` - ` : ''}ColdFront 2019 - a holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 26-27-28th 2019</title>
+            <meta property="og:title" content={ (this.props.title ? this.props.title + ` - ` : ``) + `ColdFront 2019`} />
+            <meta property="og:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 26-27-28th 2019" />
+            <meta property="og:url" content="https://2019.coldfront.co/" />
             <meta property="og:site_name" content="ColdFront"/>
-            <meta property="og:image" content="https://2018.coldfront.co/static/images/social.png"/>
+            <meta property="og:image" content="https://2019.coldfront.co/static/images/social.png"/>
             <meta property="og:type" content="website"/>
 
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@coldfrontconf" />
             <meta name="twitter:creator" content="@coldfrontconf" />
-            <meta name="twitter:title" content={ (this.props.title ? this.props.title + ` - ` : ``) + `ColdFront 2018`} />
-            <meta name="twitter:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 13-14-15th 2018" />
-            <meta name="twitter:image:src" content="https://2018.coldfront.co/static/images/social.png" />
+            <meta name="twitter:title" content={ (this.props.title ? this.props.title + ` - ` : ``) + `ColdFront 2019`} />
+            <meta name="twitter:description" content="A holistic conference about the future outlook for front-end and interfaces in Copenhagen, Denmark on November 26-27-28th 2019" />
+            <meta name="twitter:image:src" content="https://2019.coldfront.co/static/images/social.png" />
         </Head>
         <Header />
         {this.props.children}

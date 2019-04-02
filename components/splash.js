@@ -13,9 +13,9 @@ export default () => (
         <p className="date">November 26-27-28 2019 in Copenhagen, Denmark</p>
 
         <a
-          className="btn btn-primary ticket"
-          data-text="Get a ticket!"
-          href="https://ti.to/coldfront/coldfront-2019"
+          className="btn btn-primary btn-primary-shadow ticket"
+          data-text="Read more"
+          href="/tickets"
         >
           Get tickets <i className="fas fa-arrow-right" />
         </a>
