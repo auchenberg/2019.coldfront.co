@@ -352,7 +352,6 @@ input[type=email]:focus {
     margin-top: 20px;
     margin-bottom: 100px;
 
-    border: 0;
 
     font-family: Raleway !important;
     font-size: 20px !important;
@@ -360,7 +359,7 @@ input[type=email]:focus {
 }
 
 .tito-ticket-upcoming-explanation {
-    color: #949494 !important;
+    color: #000 !important;
     font-size: 12px;
 
     position: absolute;
@@ -389,7 +388,7 @@ input[type=email]:focus {
 }
 
 .tito-ticket-vat {
-    color: #949494 !important;
+    color: #000 !important;
 }
 
 /* On sale */
@@ -400,18 +399,18 @@ input[type=email]:focus {
 
 .tito-ticket-upcoming-price,
 .tito-ticket .tito-ticket-price {
-    color: #ffffff;
+    color: #000;
     font-size: 16px;
 }
 
 /* Upcoming */
 
 .tito-ticket-status-upcoming  .tito-ticket-description {
-    color: #949494 !important;
+    color: #000 !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-name {
-    color: #adadad !important;
+    color: #000 !important;
 }
 
 .tito-ticket-status-upcoming  .tito-ticket-price-quantity-wrapper {
