@@ -6,7 +6,7 @@ export default () => (
             <ul className="navbar-nav left">
             <li><a className="nav-link" href="/about">About</a></li>
                 <li><a className="nav-link" href="/call-for-recommendations/">CFR</a></li>
-                <li><a className="nav-link" href="/diversity">Diversity</a></li>
+                {/* <li><a className="nav-link" href="/diversity">Diversity</a></li> */}
                 <li><a className="nav-link" href="/tickets">Tickets</a></li>
             </ul>
             <div className="right">
