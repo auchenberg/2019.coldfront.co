@@ -66,7 +66,7 @@ export default () => (
 
           <li className="nav-item tickets">
             <Link href="/tickets">
-              <a className="btn btn-primary">Tickets</a>
+              <a className="btn btn-primary">Get Tickets <i className="fas fa-arrow-right" /></a>
             </Link>
           </li>
 
