@@ -142,13 +142,6 @@ export default () => (
                         size="4"
                     />
 
-                    <ListItem title="Mikkel Rasmussen"
-                        body="I am managing our Danish Jayway Studio being responsible for Strategy, advisory, sales, business development and our 35 consultants.  I am passionate about inspiring and understanding other people. "
-                        img="/static/images/advisory-board/advisor-mikkel.jpg"
-                        affiliation="Jayway"
-                        size="4"
-                    />
-
                     <ListItem title="Simon Engelbrecht"
                         body="Simon is CEO & Founder of SKARP.DK a digital software consulting agency in Copenhagen. 20+ years experience in building user friendly digital products in Denmark and EastAfrica"
                         img="/static/images/advisory-board/advisor-simon.jpg"
