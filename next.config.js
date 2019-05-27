@@ -22,6 +22,7 @@ module.exports = {
             '/roadbook': { page: '/roadbook' },
             '/social-dinners': { page: '/social-dinners' },
             '/talks-slides-videos-photos': { page: '/talks-slides-videos-photos' },
+            '/cancellation': { page: '/cancellation' },
         }
     }
 }

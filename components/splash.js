@@ -14,10 +14,10 @@ export default () => (
 
         <a
           className="btn btn-primary btn-primary-shadow ticket"
-          data-text="Read more"
-          href="/tickets"
+          data-text="Cancellation of ColdFront 2019"
+          href="/cancellation"
         >
-          Get tickets <i className="fas fa-arrow-right" />
+         Cancellation of ColdFront 2019 <i className="fas fa-arrow-right" />
         </a>
       </div>
 
