@@ -15,7 +15,7 @@ export default () => (
     
     <Section bright>
       <div className="narrow">
-        <p>After weeks of deliberate conversations, we have made the decision to cancel ColdFront 2019 which was scheduled to take place on 26-29th November 2019 in Copenhagen.We have come to this conclusion as we won’t be able to deliver a ColdFront in the same quality as our previous years, due to unavoidable circumstances for the organizing team.</p>
+        <p>After weeks of deliberate conversations, we have made the decision to cancel ColdFront 2019 which was scheduled to take place on 26-29th November 2019 in Copenhagen.</p>
 
         <p>We have come to this conclusion as we won’t be able to deliver a ColdFront in the same quality as our previous years, due to unavoidable circumstances for the organizing team.</p>
         
